@@ -1,0 +1,15 @@
+
+material setparticle
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 1 1
+		}
+
+	}
+
+}
+
+

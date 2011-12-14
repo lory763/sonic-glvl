@@ -1,0 +1,51 @@
+
+material zaxis
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0.917647 0 1
+			diffuse 1 0.917647 0 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material yaxis
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0.0470588 1 1
+			diffuse 0 0.0470588 1 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material xaxis
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0 0 1
+			diffuse 1 0 0 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<SetRigidBody>
+    <DefaultON>bool:true</DefaultON>
+    <GroundOffset>double:0</GroundOffset>
+    <Height>double:4</Height>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsEffect>bool:false</IsEffect>
+    <IsPlayerTerrain>bool:false</IsPlayerTerrain>
+    <Length>double:5.89999</Length>
+    <Position>
+        <x>double:582.201</x>
+        <y>double:47.0878</y>
+        <z>double:-541.31</z>
+    </Position>
+    <Range>double:10030</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Width>double:5</Width>
+    <m_IsSearchInsulateOnly>bool:false</m_IsSearchInsulateOnly>
+    <Mesh>unknown.mesh</Mesh>
+</SetRigidBody>

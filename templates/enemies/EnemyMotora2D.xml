@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<EnemyMotora2D>
+        <ActionRange>double</ActionRange>
+        <AttackRange>double</AttackRange>
+        <ChargeTime>double</ChargeTime>
+        <CliffHeight>double</CliffHeight>
+        <DashSpeed>double</DashSpeed>
+        <DashSpeedType>double</DashSpeedType>
+        <GroundOffset>double</GroundOffset>
+        <IsAimTarget>bool</IsAimTarget>
+        <IsArrivalEffect>bool</IsArrivalEffect>
+        <IsCastShadow>bool</IsCastShadow>
+        <IsDamageFromOnlyPlayer>bool</IsDamageFromOnlyPlayer>
+        <IsEnableAttack>bool</IsEnableAttack>
+        <IsPathMove>bool</IsPathMove>
+        <IsPlayFindMotion>bool</IsPlayFindMotion>
+        <LookAroundTime>double</LookAroundTime>
+        <MoveSpeed>double</MoveSpeed>
+        <MoveSpeedType>integer</MoveSpeedType>
+        <Position>
+            <x>double</x>
+            <y>double</y>
+            <z>double</z>
+        </Position>
+        <Range>double</Range>
+        <ReboundSpeed>double</ReboundSpeed>
+        <Rotation>
+            <w>double</w>
+            <x>double</x>
+            <y>double</y>
+            <z>double</z>
+        </Rotation>
+        <SearchType>integer</SearchType>
+        <SetObjectID>integer</SetObjectID>
+        <Target>
+            <x>double</x>
+            <y>double</y>
+            <z>double</z>
+        </Target>
+        <TargetLostTime>double</TargetLostTime>
+        <TerrainCheckHeight>double</TerrainCheckHeight>
+        <Mesh>enm_motora_body.mesh</Mesh>
+        <Mesh>enm_motora_eye.mesh</Mesh>
+        <Mesh>enm_motora_lamp.mesh</Mesh>
+        <Mesh>enm_motora_metal.mesh</Mesh>
+        <Mesh>enm_motora_tyre.mesh</Mesh>
+</EnemyMotora2D>

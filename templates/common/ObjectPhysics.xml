@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<ObjectPhysics>
+    <AddRange>double:0</AddRange>
+    <CullingRange>double:15</CullingRange>
+    <DebrisTarget>
+        <x>double:389.654</x>
+        <y>double:13.5666</y>
+        <z>double:-265.855</z>
+    </DebrisTarget>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDynamic>bool:false</IsDynamic>
+    <IsReset>bool:false</IsReset>
+    <Position>
+        <x>double:389.654</x>
+        <y>double:13.5666</y>
+        <z>double:-265.855</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:-4.37114e-008</w>
+        <x>double:0</x>
+        <y>double:1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>double:ghz_obj_tn1_purplerockmini</Type>
+    <WrappedObjectID>
+        <SetObjectID>integer</SetObjectID>
+    </WrappedObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</ObjectPhysics>

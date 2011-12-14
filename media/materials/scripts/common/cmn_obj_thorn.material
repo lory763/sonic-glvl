@@ -1,0 +1,23 @@
+
+material cmn_obj_thorn_HD
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cmn_metal_ms_thornparts_dif.dds
+			}
+		}
+
+	}
+
+}
+
+

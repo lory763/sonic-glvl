@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<JumpPole>
+     <AddMaxVelocity>double</AddMaxVelocity>
+     <AddMinVelocity>double</AddMinVelocity>
+     <GroundOffset>double</GroundOffset>
+     <IsCastShadow>bool</IsCastShadow>
+     <Position>
+         <x>double</x>
+         <y>double</y>
+         <z>double</z>
+     </Position>
+     <Range>double</Range>
+     <Rotation>
+         <w>double</w>
+         <x>double</x>
+         <y>double</y>
+         <z>double</z>
+     </Rotation>
+     <SetObjectID>integer</SetObjectID>
+     <Mesh>cmn_obj_springpole_HD_body.mesh</Mesh>
+</JumpPole>

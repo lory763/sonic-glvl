@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Ring>
+    <GroundOffset>integer</GroundOffset>
+    <InitDisp>bool</InitDisp>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsLightSpeedDashTarget>bool</IsLightSpeedDashTarget>
+    <IsReset>bool</IsReset>
+    <Position>
+      <x>double</x>
+      <y>double</y>
+      <z>double</z>
+    </Position>
+    <Range>double</Range>
+    <ResetTime>double</ResetTime>
+    <Rotation>
+      <w>double</w>
+      <x>double</x>
+      <y>double</y>
+      <z>double</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TreasureSearchHideType>integer</TreasureSearchHideType>
+    <Mesh>ring.mesh</Mesh>
+</Ring>

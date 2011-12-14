@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<TerrainGroupSubsetLoadCollisionVolume>
+    <Collision_Height>double:10</Collision_Height>
+    <Collision_Length>double:10</Collision_Length>
+    <Collision_Width>double:10</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <LoadTypeIn>double:2</LoadTypeIn>
+    <LoadTypeOut>double:2</LoadTypeOut>
+    <Position>
+        <x>double:14.0105</x>
+        <y>double:0.261276</y>
+        <z>double:0.0312463</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <SubsetID>double:44</SubsetID>
+    <SubsetID_1>double:50</SubsetID_1>
+    <SubsetID_2>double:0</SubsetID_2>
+    <SubsetID_3>double:0</SubsetID_3>
+    <SubsetID_4>double:0</SubsetID_4>
+    <Mesh>unknown.mesh</Mesh>
+</TerrainGroupSubsetLoadCollisionVolume>

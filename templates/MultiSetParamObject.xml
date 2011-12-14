@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<MultiSetParamObject>
+    <Position>
+      <x>double</x>
+      <y>double</y>
+      <z>double</z>
+    </Position>
+    <Rotation>
+      <w>double</w>
+      <x>double</x>
+      <y>double</y>
+      <z>double</z>
+    </Rotation>
+</MultiSetParamObject>
