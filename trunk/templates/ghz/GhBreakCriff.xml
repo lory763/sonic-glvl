@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<GhBreakCriff>
+    <FloorStType>double:0</FloorStType>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsNormalBreak>bool:true</IsNormalBreak>
+    <NumWood>double:4</NumWood>
+    <Position>
+        <x>double:389.631</x>
+        <y>double:13.9497</y>
+        <z>double:-215.552</z>
+    </Position>
+    <Range>double:30</Range>
+    <ResetTime>double:0</ResetTime>
+    <Rotation>
+        <w>double:-0.707283</w>
+        <x>double:0</x>
+        <y>double:-0.706931</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SignTime>double:2</SignTime>
+    <Size>double:0</Size>
+    <ToSignTime>double:0</ToSignTime>
+    <Mesh>unknown.mesh</Mesh>
+</GhBreakCriff>

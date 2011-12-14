@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<LaunchSpinCollision>
+    <Depth>double:1</Depth>
+    <GroundOffset>double:0</GroundOffset>
+    <Height>double:1.56</Height>
+    <IgnoreInputSecond>double:2</IgnoreInputSecond>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <LaunchType>double:1</LaunchType>
+    <Position>
+        <x>double:248.801</x>
+        <y>double:9.99824</y>
+        <z>double:0.0312465</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Velocity>double:55</Velocity>
+    <Width>double:1</Width>
+    <Mesh>unknown.mesh</Mesh>
+</LaunchSpinCollision>

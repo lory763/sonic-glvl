@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<OnewayFloor>
+    <Depth>double:1</Depth>
+    <GroundOffset>double:0</GroundOffset>
+    <Height>double:0.1</Height>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:84.6087</x>
+        <y>double:1.49526</y>
+        <z>double:0.031245</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:-3.07822e-008</w>
+        <x>double:0</x>
+        <y>double:0.999999</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TerrainAttribute>double:1</TerrainAttribute>
+    <Width>double:4.34001</Width>
+    <ZOffsetEnable>bool:true</ZOffsetEnable>
+
+    <MeshScaleX multiplier="2.0">Width</MeshScaleX>
+    <MeshScaleY multiplier="2.0">Depth</MeshScaleY>
+    <MeshScaleZ multiplier="2.0">Height</MeshScaleZ>
+
+    <Mesh>onewayfloor.mesh</Mesh>
+</OnewayFloor>

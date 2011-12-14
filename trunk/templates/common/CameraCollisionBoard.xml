@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<CameraCollisionBoard>
+    <ACameraID>
+        <SetObjectID>integer</SetObjectID>
+    </ACameraID>
+    <ACameraPriority>double:0</ACameraPriority>
+    <ALinkObjID>
+        <SetObjectID>integer</SetObjectID>
+    </ALinkObjID>
+    <ALinkSide>double:0</ALinkSide>
+    <AObjType>double:0</AObjType>
+    <BCameraID>
+        <SetObjectID>integer</SetObjectID>
+    </BCameraID>
+    <BCameraPriority>double:0</BCameraPriority>
+    <BLinkObjID>
+        <SetObjectID>integer</SetObjectID>
+    </BLinkObjID>
+    <BLinkSide>double:0</BLinkSide>
+    <BObjType>double:0</BObjType>
+    <Collision_Height>double:10</Collision_Height>
+    <Collision_Width>double:10</Collision_Width>
+    <EaseTime_AtoB>double:0.5</EaseTime_AtoB>
+    <EaseTime_BtoA>double:0.5</EaseTime_BtoA>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:390.194</x>
+        <y>double:-8.09264</y>
+        <z>double:-374.875</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:6.03253e-008</w>
+        <x>double:-4.90238e-017</x>
+        <y>double:0.999998</y>
+        <z>double:-4.11144e-010</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <m_ValidFlag>double:0</m_ValidFlag>
+    <Mesh>camera.mesh</Mesh>
+</CameraCollisionBoard>

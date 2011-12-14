@@ -1,0 +1,40 @@
+
+material stinger_wing
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1 1
+
+			texture_unit
+			{
+				texture enm_stinger_wing_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material stinger_body
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1 1
+
+			texture_unit
+			{
+				texture enm_stinger_body_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+

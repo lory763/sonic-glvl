@@ -1,0 +1,19 @@
+
+material onewayfloor
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1 1
+			texture_unit
+			{
+				texture cmn_metal_ms_ring_spc.dds
+			}
+		}
+
+	}
+
+}
+
+
