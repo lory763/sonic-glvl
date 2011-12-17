@@ -26,5 +26,5 @@
         <z>double:-401.876</z>
     </TargetDirection>
     <Type>double:2</Type>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>collision.mesh</Mesh>
 </ChangePathCollision>

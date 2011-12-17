@@ -23,5 +23,5 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>collision.mesh</Mesh>
 </ChangeSkyCollision>

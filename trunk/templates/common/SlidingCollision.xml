@@ -19,5 +19,5 @@
     <SetObjectID>integer</SetObjectID>
     <Velocity>double:10</Velocity>
     <Width>double:4.1</Width>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>collision.mesh</Mesh>
 </SlidingCollision>

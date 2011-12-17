@@ -20,5 +20,5 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <UpSpeedMax>double:50</UpSpeedMax>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>upreel_01.mesh</Mesh>
 </UpReel>

@@ -22,5 +22,5 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <Shape_Type>double:0</Shape_Type>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>collision.mesh</Mesh>
 </StumbleCollision>

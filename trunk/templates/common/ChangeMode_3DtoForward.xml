@@ -33,5 +33,5 @@
     <m_IsLimitEdge>bool:false</m_IsLimitEdge>
     <m_IsReverseCameraEnable>bool:false</m_IsReverseCameraEnable>
     <m_PathCorrectionForce>double:1</m_PathCorrectionForce>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>changemode.mesh</Mesh>
 </ChangeMode_3DtoForward>

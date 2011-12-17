@@ -27,5 +27,5 @@
     <SubsetID_2>double:0</SubsetID_2>
     <SubsetID_3>double:0</SubsetID_3>
     <SubsetID_4>double:0</SubsetID_4>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>collision.mesh</Mesh>
 </TerrainGroupSubsetLoadCollisionVolume>
