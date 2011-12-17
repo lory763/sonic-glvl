@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<ChangeMode_3DtoForward>
+    <Collision_Height>double:35</Collision_Height>
+    <Collision_Width>double:10</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:2115.1</x>
+        <y>double:20.4185</y>
+        <z>double:-4116.16</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.000386</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TargetDirection>
+        <x>double:2114.09</x>
+        <y>double:4.38473</y>
+        <z>double:-4118.46</z>
+    </TargetDirection>
+    <Template>double:3</Template>
+    <m_CurveCorrectionForce>double:1</m_CurveCorrectionForce>
+    <m_DashPathSideMoveRate>double:0.6</m_DashPathSideMoveRate>
+    <m_IsChangeCamera>bool:true</m_IsChangeCamera>
+    <m_IsEnableAirBoost>bool:false</m_IsEnableAirBoost>
+    <m_IsEnableFromBack>bool:true</m_IsEnableFromBack>
+    <m_IsEnableFromFront>bool:true</m_IsEnableFromFront>
+    <m_IsGravityControl>bool:false</m_IsGravityControl>
+    <m_IsLimitEdge>bool:false</m_IsLimitEdge>
+    <m_IsReverseCameraEnable>bool:false</m_IsReverseCameraEnable>
+    <m_PathCorrectionForce>double:1</m_PathCorrectionForce>
+    <Mesh>unknown.mesh</Mesh>
+</ChangeMode_3DtoForward>

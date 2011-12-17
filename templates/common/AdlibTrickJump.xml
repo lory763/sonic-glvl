@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<AdlibTrickJump>
+    <GroundOffset>double:0</GroundOffset>
+    <ImpulseSpeedOnBoost>double:41</ImpulseSpeedOnBoost>
+    <ImpulseSpeedOnNormal>double:41</ImpulseSpeedOnNormal>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsTo3D>bool:true</IsTo3D>
+    <OutOfControl>double:3.5</OutOfControl>
+    <Position>
+        <x>double:2048.32</x>
+        <y>double:-96.7939</y>
+        <z>double:-378.93</z>
+    </Position>
+    <Range>double:200</Range>
+    <Rotation>
+        <w>double:0.992697</w>
+        <x>double:0.120636</x>
+        <y>double:4.21468e-008</y>
+        <z>double:5.26836e-009</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SizeType>double:1</SizeType>
+    <Mesh>unknown.mesh</Mesh>
+</AdlibTrickJump>

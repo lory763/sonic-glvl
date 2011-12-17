@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<EnemyMotora2D>
+    <ActionRange>double:100</ActionRange>
+    <AttackRange>double:10</AttackRange>
+    <ChargeTime>double:1</ChargeTime>
+    <CliffHeight>double:0.3</CliffHeight>
+    <DashSpeed>double:6</DashSpeed>
+    <DashSpeedType>double:3</DashSpeedType>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:false</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:false</IsDamageFromOnlyPlayer>
+    <IsEnableAttack>bool:true</IsEnableAttack>
+    <IsPathMove>bool:false</IsPathMove>
+    <IsPlayFindMotion>bool:true</IsPlayFindMotion>
+    <LookAroundTime>double:1.6</LookAroundTime>
+    <MoveSpeed>double:2</MoveSpeed>
+    <MoveSpeedType>double:3</MoveSpeedType>
+    <Position>
+        <x>double:2047.52</x>
+        <y>double:24.013</y>
+        <z>double:-2151.2</z>
+    </Position>
+    <Range>double:30</Range>
+    <ReboundSpeed>double:12</ReboundSpeed>
+    <Rotation>
+        <w>double:-4.37114e-008</w>
+        <x>double:0</x>
+        <y>double:1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SearchType>double:0</SearchType>
+    <SetObjectID>integer</SetObjectID>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
+    <TargetLostTime>double:1.5</TargetLostTime>
+    <TerrainCheckHeight>double:1</TerrainCheckHeight>
+    <Mesh>unknown.mesh</Mesh>
+</EnemyMotora2D>

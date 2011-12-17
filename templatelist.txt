@@ -3,14 +3,30 @@
 #  This way you can sort templates on folders or whatever you want.
 
 templates\common\Ring.xml
+templates\common\SuperRing.xml
 templates\common\DirectionalThorn.xml
+templates\common\GrindThorn.xml
 templates\common\RedMedal.xml
 templates\common\JumpPole.xml
 templates\common\GoalSignboard.xml
+templates\common\GoalRing.xml
 templates\common\ClassicItemBox.xml
 
 templates\common\SpringClassic.xml
 templates\common\SpringClassicYellow.xml
+templates\common\Spring.xml
+templates\common\WideSpring.xml
+templates\common\AirSpring.xml
+
+templates\common\WallJumpBlock.xml
+
+templates\common\JumpBoard.xml
+templates\common\AdlibTrickJump.xml
+
+templates\common\Pulley.xml
+templates\common\UpReel.xml
+
+templates\common\RainbowRing.xml
 
 templates\common\EventCollision.xml
 templates\common\JumpCollision.xml
@@ -18,9 +34,12 @@ templates\common\LaunchSpinCollision.xml
 templates\common\AutorunStartCollision.xml
 templates\common\AutorunFinishCollision.xml
 templates\common\NavigationCollision.xml
-
 templates\common\ChangePathCollision.xml
 templates\common\ChangeSkyCollision.xml
+templates\common\StumbleCollision.xml
+templates\common\FallDeadCollision.xml
+templates\common\SlidingCollision.xml
+
 templates\common\ChangeToneMapVolume.xml
 templates\common\ChangeSkyProxy.xml
 
@@ -28,6 +47,14 @@ templates\common\CameraCollisionBoard.xml
 templates\common\ChangeVolumeCamera.xml
 templates\common\ObjCameraParallel.xml
 templates\common\ObjCameraPan.xml
+templates\common\ObjCameraPoint.xml
+templates\common\ObjCameraObjectLook.xml
+templates\common\ObjCameraPathParallel.xml
+templates\common\ObjCameraVertical.xml
+templates\common\ObjCameraTube.xml
+templates\common\CameraOffsetBoard.xml
+templates\common\CameraOffsetReset.xml
+templates\common\CameraOffsetBox.xml
 
 templates\common\PointMarker.xml
 templates\common\ObjectPhysics.xml
@@ -35,6 +62,11 @@ templates\common\ObjectPhysics.xml
 
 templates\common\GeneralFloor.xml
 templates\common\GeneralFloorCustom.xml
+
+templates\common\DashPanel.xml
+templates\common\GrindDashPanel.xml
+templates\common\DashRing.xml
+
 
 templates\common\OnewayFloor.xml
 templates\common\SetRigidBody.xml
@@ -51,9 +83,16 @@ templates\common\SoundLine.xml
 templates\common\SoundPoint.xml
 
 
+templates\common\ChangeMode_3Dto2D.xml
+templates\common\ChangeMode_3DtoForward.xml
+templates\common\ChangeMode_3DtoDash.xml
+
+
 templates\ghz\GhWoodBridge.xml
 templates\ghz\GhBreakCriff.xml
 templates\ghz\GhSwingFloor.xml
+templates\ghz\GhzGiantBatabata_Collision.xml
+templates\ghz\GhzGiantBatabata_First.xml
 
 
 templates\enemies\EnemyBeeton2D.xml
@@ -61,3 +100,5 @@ templates\enemies\EnemyBeeton3D.xml
 templates\enemies\EnemyBatabata2D.xml
 templates\enemies\EnemyGanigani2D.xml
 templates\enemies\EnemyMotora2D.xml
+templates\enemies\EnemyMotora3D.xml
+templates\enemies\EnemyGanigani3D.xml
