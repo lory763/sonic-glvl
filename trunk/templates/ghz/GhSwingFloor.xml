@@ -30,5 +30,5 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <SizeIndex>double:0</SizeIndex>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>ghswing_01.mesh</Mesh>
 </GhSwingFloor>

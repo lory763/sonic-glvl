@@ -19,5 +19,7 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <Speed>double:60</Speed>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>grindbooster_01.mesh</Mesh>
+    <Mesh>grindbooster_02.mesh</Mesh>
+    <Mesh>grindbooster_03.mesh</Mesh>
 </GrindDashPanel>
