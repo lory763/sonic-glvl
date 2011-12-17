@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<WallJumpBlock>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:2047.52</x>
+        <y>double:77.36</y>
+        <z>double:-2114.52</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:-4.37114e-008</w>
+        <x>double:0</x>
+        <y>double:1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SizeX>double:2</SizeX>
+    <SizeY>double:5</SizeY>
+    <SizeZ>double:0.1</SizeZ>
+    <Mesh>unknown.mesh</Mesh>
+</WallJumpBlock>

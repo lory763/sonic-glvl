@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<Spring>
+    <AimDirection>double:0</AimDirection>
+    <BaseRotation>double:0</BaseRotation>
+    <DebugShotTimeLength>double:2</DebugShotTimeLength>
+    <FirstSpeed>double:30</FirstSpeed>
+    <GroundOffset>double:0</GroundOffset>
+    <IsBreak>bool:false</IsBreak>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsChangeCameraWhenPathChange>bool:true</IsChangeCameraWhenPathChange>
+    <IsHomingAttackEnable>bool:false</IsHomingAttackEnable>
+    <IsLongBase>bool:false</IsLongBase>
+    <IsPathChange>bool:false</IsPathChange>
+    <IsSideSet>bool:false</IsSideSet>
+    <IsStartVelocityConstant>bool:true</IsStartVelocityConstant>
+    <IsWallWalk>bool:false</IsWallWalk>
+    <IsWithBase>bool:false</IsWithBase>
+    <IsYawUpdate>bool:false</IsYawUpdate>
+    <KeepVelocityDistance>double:5</KeepVelocityDistance>
+    <MotionType>double:0</MotionType>
+    <OutOfControl>double:0.4</OutOfControl>
+    <Position>
+        <x>double:1578.14</x>
+        <y>double:-42.2845</y>
+        <z>double:-446.206</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.35348</w>
+        <x>double:0.612245</x>
+        <y>double:0.353626</y>
+        <z>double:-0.612498</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <m_IsConstantFrame>bool:false</m_IsConstantFrame>
+    <m_IsConstantPosition>bool:true</m_IsConstantPosition>
+    <m_IsMonkeyHunting>bool:false</m_IsMonkeyHunting>
+    <m_IsStopBoost>bool:false</m_IsStopBoost>
+    <m_IsTo3D>bool:false</m_IsTo3D>
+    <m_MonkeyTarget>
+        <x>double:1580.64</x>
+        <y>double:-39.732</y>
+        <z>double:-446.222</z>
+    </m_MonkeyTarget>
+    <Mesh>springred_01.mesh</Mesh>
+    <Mesh>springred_02.mesh</Mesh>
+</Spring>

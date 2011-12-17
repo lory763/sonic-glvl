@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<StumbleCollision>
+    <Collision_Height>double:1.7</Collision_Height>
+    <Collision_Length>double:4.5</Collision_Length>
+    <Collision_Width>double:3</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <LaunchVelocity>double:13</LaunchVelocity>
+    <NoControlTime>double:0.45</NoControlTime>
+    <Position>
+        <x>double:665.479</x>
+        <y>double:-23.2211</y>
+        <z>double:-404.673</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Mesh>unknown.mesh</Mesh>
+</StumbleCollision>

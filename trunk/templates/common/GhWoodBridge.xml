@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<GhWoodBridge>
+    <FallSpeed>double:20</FallSpeed>
+    <Flexure>double:0</Flexure>
+    <FloorStType>double:0</FloorStType>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsNormalBreak>bool:true</IsNormalBreak>
+    <NumWood>double:30</NumWood>
+    <Position>
+        <x>double:2047.82</x>
+        <y>double:91.1371</y>
+        <z>double:-3292.38</z>
+    </Position>
+    <Range>double:100</Range>
+    <ResetTime>double:0</ResetTime>
+    <Rotation>
+        <w>double:0.5</w>
+        <x>double:0</x>
+        <y>double:0.5</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SignTime>double:1</SignTime>
+    <ToSignTime>double:0</ToSignTime>
+    <WoodType>double:1</WoodType>
+    <Mesh>unknown.mesh</Mesh>
+</GhWoodBridge>
