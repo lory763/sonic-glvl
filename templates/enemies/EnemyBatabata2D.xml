@@ -32,5 +32,6 @@
     </Target>
     <WaitTime>double:0</WaitTime>
     <ZBackOffset>double:10</ZBackOffset>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>enm_batabata_HD_body.mesh</Mesh>
+    <Mesh>enm_batabata_HD_eye.mesh</Mesh>
 </EnemyBatabata2D>

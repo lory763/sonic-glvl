@@ -21,5 +21,5 @@
     <SetObjectID>integer</SetObjectID>
     <Velocity>double:55</Velocity>
     <Width>double:1</Width>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>collision.mesh</Mesh>
 </LaunchSpinCollision>

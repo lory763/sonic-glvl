@@ -23,5 +23,7 @@
     </Rotation>
     <SENumber>double:6</SENumber>
     <SetObjectID>integer</SetObjectID>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>goalring_01.mesh</Mesh>
+    <Mesh>goalring_02.mesh</Mesh>
+    <Mesh>goalring_03.mesh</Mesh>
 </GoalRing>

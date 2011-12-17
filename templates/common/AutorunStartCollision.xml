@@ -23,5 +23,5 @@
     <Speed>double:50</Speed>
     <ToPathEaseTime>double:1</ToPathEaseTime>
     <Type>double:0</Type>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>collision.mesh</Mesh>
 </AutorunStartCollision>

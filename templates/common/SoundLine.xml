@@ -33,5 +33,5 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>sound.mesh</Mesh>
 </SoundLine>

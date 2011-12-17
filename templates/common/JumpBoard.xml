@@ -23,4 +23,14 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>AngleType==0</Condition>
+       <Mesh>jumppanel_15_s_01.mesh</Mesh>
+       <Mesh>jumppanel_15_s_02.mesh</Mesh>
+       <Mesh>jumppanel_15_s_03.mesh</Mesh>
+       <Mesh>jumppanel_15_s_04.mesh</Mesh>
+       <Mesh>jumppanel_15_s_05.mesh</Mesh>
+    </AltMesh>
+
 </JumpBoard>

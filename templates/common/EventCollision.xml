@@ -39,5 +39,5 @@
         <SetObjectID>integer</SetObjectID>
     </Trigger>
     <TriggerType>double:0</TriggerType>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>collision.mesh</Mesh>
 </EventCollision>

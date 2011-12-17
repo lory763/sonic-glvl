@@ -38,5 +38,5 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <m_ValidFlag>double:0</m_ValidFlag>
-    <Mesh>camera.mesh</Mesh>
+    <Mesh>collision.mesh</Mesh>
 </CameraCollisionBoard>

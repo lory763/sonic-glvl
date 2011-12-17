@@ -26,5 +26,5 @@
     <TerrainIgnoreTime>double:0.25</TerrainIgnoreTime>
     <m_ClassicSpinThreshold>double:25</m_ClassicSpinThreshold>
     <m_IsGroundOnly>bool:false</m_IsGroundOnly>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>collision.mesh</Mesh>
 </JumpCollision>

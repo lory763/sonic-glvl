@@ -38,5 +38,5 @@
     <TargetObject_RelationSetObject>
         <SetObjectID>integer</SetObjectID>
     </TargetObject_RelationSetObject>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>collision.mesh</Mesh>
 </NavigationCollision>

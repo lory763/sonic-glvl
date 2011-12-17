@@ -19,6 +19,24 @@
         <z>double:5.26836e-009</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <SizeType>double:1</SizeType>
+    <SizeType>integer:1</SizeType>
     <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>SizeType==0</Condition>
+       <Mesh>trickpanel_30_m_01.mesh</Mesh>
+       <Mesh>trickpanel_30_m_02.mesh</Mesh>
+       <Mesh>trickpanel_30_m_03.mesh</Mesh>
+       <Mesh>trickpanel_30_m_04.mesh</Mesh>
+       <Mesh>trickpanel_30_m_05.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>SizeType==1</Condition>
+       <Mesh>trickpanel_30_l_01.mesh</Mesh>
+       <Mesh>trickpanel_30_l_02.mesh</Mesh>
+       <Mesh>trickpanel_30_l_03.mesh</Mesh>
+       <Mesh>trickpanel_30_l_04.mesh</Mesh>
+       <Mesh>trickpanel_30_l_05.mesh</Mesh>
+    </AltMesh>
 </AdlibTrickJump>
