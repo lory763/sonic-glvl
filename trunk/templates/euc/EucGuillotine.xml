@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<EucGuillotine>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:110.07</x>
+        <y>double:23.3556</y>
+        <z>double:-80.199</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <m_Amplitude>double:0.5</m_Amplitude>
+    <m_Cycle>double:1.7</m_Cycle>
+    <m_Phase>double:0</m_Phase>
+    <m_UsePropeller>bool:false</m_UsePropeller>
+    <Mesh>gullotine_01.mesh</Mesh>
+    <Mesh>gullotine_02.mesh</Mesh>
+    <Mesh>gullotine_03.mesh</Mesh>
+    <Mesh>gullotine_04.mesh</Mesh>
+    <Mesh>gullotine_05.mesh</Mesh>
+</EucGuillotine>
