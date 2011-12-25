@@ -94,6 +94,8 @@ templates\ghz\GhSwingFloor.xml
 templates\ghz\GhzGiantBatabata_Collision.xml
 templates\ghz\GhzGiantBatabata_First.xml
 
+templates\cte\CteTrickJumpSkateBoard.xml
+
 templates\euc\EucGuillotine.xml
 
 
