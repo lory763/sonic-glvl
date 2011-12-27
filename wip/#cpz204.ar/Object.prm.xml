@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Object.prm.xml>
+
+  <CPZ>
+    <Category>
+      <PipeCap>
+        <Param>
+          <CloseVelocity>4.7</CloseVelocity>
+          <OpenAngle>160</OpenAngle>
+          <OpenVelocity>8.3</OpenVelocity>
+        </Param>
+      </PipeCap>
+      <RotateBlocks>
+        <Param>
+          <BoundRatio>0.8</BoundRatio>
+        </Param>
+      </RotateBlocks>
+      <WaterRenderable>
+        <Param>
+          <DistortionScale>0.03</DistortionScale>
+          <FogColorB>60</FogColorB>
+          <FogColorG>30</FogColorG>
+          <FogColorR>80</FogColorR>
+          <FogDensity>1</FogDensity>
+          <FogStartDistance>15</FogStartDistance>
+          <OverlayMiddium>0.5</OverlayMiddium>
+          <TileSize>20</TileSize>
+          <UVSpeed>0.2</UVSpeed>
+          <VertexAlpha>255</VertexAlpha>
+        </Param>
+      </WaterRenderable>
+    </Category>
+  </CPZ>
+
+  <DashPanel>
+    <Category>
+      <DashPanel2D>
+        <Param>
+          <DelayEaseInTime2D>0.2</DelayEaseInTime2D>
+          <DelayEaseOutTime2D>1.2</DelayEaseOutTime2D>
+          <DelayExecTime2D>0.4</DelayExecTime2D>
+          <DelayRatioCamera2D>0.83</DelayRatioCamera2D>
+          <DelayRatioTarget2D>0.83</DelayRatioTarget2D>
+          <IsUseDelayCamera2D>true</IsUseDelayCamera2D>
+        </Param>
+      </DashPanel2D>
+      <DashPanel3D>
+        <Param>
+          <DelayEaseInTime3D>0.5</DelayEaseInTime3D>
+          <DelayEaseOutTime3D>0.7</DelayEaseOutTime3D>
+          <DelayExecTime3D>0.1</DelayExecTime3D>
+          <DelayRatioCamera3D>0.9</DelayRatioCamera3D>
+          <DelayRatioTarget3D>0.9</DelayRatioTarget3D>
+          <IsUseDelayCamera3D>true</IsUseDelayCamera3D>
+        </Param>
+      </DashPanel3D>
+    </Category>
+  </DashPanel>
+
+</Object.prm.xml>

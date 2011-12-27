@@ -1,0 +1,180 @@
+material Standardmaterial
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_wall_st1_light01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material Standardmaterial
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_slop_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material Standardmaterial
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_wall02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material Standardmaterial
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_wall_st1_column01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material Standardmaterial
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture ommon_dpn.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material Standardmaterial
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_circle_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material Standardmaterial
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_wall01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material Standardmaterial
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_yelow02_dif.dds
+			}
+		}
+
+	}
+
+}

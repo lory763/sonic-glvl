@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StageObject>
+  <cpz_obj_pipelinecapA />
+  <cpz_obj_pipelinecapAbrk />
+  <CpzPipeEnterCollision />
+  <CpzPipeCap />
+  <cpz_obj_breakboxtall />
+  <cpz_obj_breakboxtallbrk />
+
+</StageObject>

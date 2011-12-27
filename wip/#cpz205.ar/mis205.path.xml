@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<SonicPath>
+
+  <library type="GEOMETRY">
+    <geometry id="mis205_path[1]@SV-geometry" name="mis205_path[1]@SV-geometry">
+      <spline count="2" width="0">
+        <spline3d count="4">
+          <knot type="corner">
+            <invec>7.11235 0 -22.0275</invec>
+            <outvec>7.20442 0 -18.2159</outvec>
+            <point>7.11235 0 -22.0275</point>
+          </knot>
+          <knot type="corner">
+            <invec>7.29649 0 -14.4042</invec>
+            <outvec>2.50889 0 -4.16611</outvec>
+            <point>7.38856 0 -10.5925</point>
+          </knot>
+          <knot type="corner">
+            <invec>-2.37078 0 2.2603</invec>
+            <outvec>-7.25045 0 13.7689</outvec>
+            <point>-7.25045 0 8.68672</point>
+          </knot>
+          <knot type="corner">
+            <invec>-7.25045 0 18.8512</invec>
+            <outvec>-7.25045 0 23.9334</outvec>
+            <point>-7.25045 0 23.9334</point>
+          </knot>
+        </spline3d>
+        <spline3d count="4">
+          <knot type="corner">
+            <invec>7.11235 5.11416 -22.0275</invec>
+            <outvec>7.20442 5.11416 -18.2159</outvec>
+            <point>7.11235 5.11416 -22.0275</point>
+          </knot>
+          <knot type="corner">
+            <invec>7.29649 5.11416 -14.4042</invec>
+            <outvec>2.50889 5.11416 -4.16611</outvec>
+            <point>7.38856 5.11416 -10.5925</point>
+          </knot>
+          <knot type="corner">
+            <invec>-2.37078 5.11416 2.2603</invec>
+            <outvec>-7.25045 5.11416 13.7689</outvec>
+            <point>-7.25045 5.11416 8.68672</point>
+          </knot>
+          <knot type="corner">
+            <invec>-7.25045 5.11416 18.8512</invec>
+            <outvec>-7.25045 5.11416 23.9334</outvec>
+            <point>-7.25045 5.11416 23.9334</point>
+          </knot>
+        </spline3d>
+      </spline>
+    </geometry>
+  </library>
+
+  <scene id="DefaultScene">
+    <node id="mis205_path[1]@SV" name="mis205_path[1]@SV">
+      <translate>87.5056 -420.12 784.342</translate>
+      <scale>1 1 1</scale>
+      <rotate>0.707107 0 0 0.707107</rotate>
+      <instance url="#mis205_path[1]@SV-geometry"/>
+    </node>
+  </scene>
+
+</SonicPath>

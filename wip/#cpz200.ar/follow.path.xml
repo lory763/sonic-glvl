@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<SonicPath>
+
+  <library type="GEOMETRY">
+    <geometry id="followpath001@SV-geometry" name="followpath001@SV-geometry">
+      <spline count="2" width="0">
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-33.3473 0 -0</invec>
+            <outvec>-11.1158 0 -0</outvec>
+            <point>-33.3473 0 -0</point>
+          </knot>
+          <knot type="corner">
+            <invec>11.1158 0 -0</invec>
+            <outvec>33.3473 0 -0</outvec>
+            <point>33.3473 0 -0</point>
+          </knot>
+        </spline3d>
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-33.3473 -3.53662 1.54591e-007</invec>
+            <outvec>-11.1158 -3.53662 1.54591e-007</outvec>
+            <point>-33.3473 -3.53662 1.54591e-007</point>
+          </knot>
+          <knot type="corner">
+            <invec>11.1158 -3.53662 1.54591e-007</invec>
+            <outvec>33.3473 -3.53662 1.54591e-007</outvec>
+            <point>33.3473 -3.53662 1.54591e-007</point>
+          </knot>
+        </spline3d>
+      </spline>
+    </geometry>
+    <geometry id="followpath002@SV-geometry" name="followpath002@SV-geometry">
+      <spline count="2" width="0">
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-33.3473 0 -0</invec>
+            <outvec>-4.61022 0 -0</outvec>
+            <point>-33.3473 0 -0</point>
+          </knot>
+          <knot type="corner">
+            <invec>24.1268 0 -0</invec>
+            <outvec>52.8639 0 -0</outvec>
+            <point>52.8639 0 -0</point>
+          </knot>
+        </spline3d>
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-33.3473 -3.53662 1.54591e-007</invec>
+            <outvec>-4.61022 -3.53662 1.54591e-007</outvec>
+            <point>-33.3473 -3.53662 1.54591e-007</point>
+          </knot>
+          <knot type="corner">
+            <invec>24.1268 -3.53662 1.54591e-007</invec>
+            <outvec>52.8639 -3.53662 1.54591e-007</outvec>
+            <point>52.8639 -3.53662 1.54591e-007</point>
+          </knot>
+        </spline3d>
+      </spline>
+    </geometry>
+    <geometry id="followpath003@SV-geometry" name="followpath003@SV-geometry">
+      <spline count="2" width="0">
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-48.0226 0 0.0759277</invec>
+            <outvec>-20.5495 0 0.0253092</outvec>
+            <point>-48.0226 0 0.0759277</point>
+          </knot>
+          <knot type="corner">
+            <invec>6.92361 0 -0.0253092</invec>
+            <outvec>34.3967 0 -0.0759277</outvec>
+            <point>34.3967 0 -0.0759277</point>
+          </knot>
+        </spline3d>
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-48.0226 -3.57295 0.0759279</invec>
+            <outvec>-20.5495 -3.57295 0.0253094</outvec>
+            <point>-48.0226 -3.57295 0.0759279</point>
+          </knot>
+          <knot type="corner">
+            <invec>6.92361 -3.57295 -0.0253091</invec>
+            <outvec>34.3967 -3.57295 -0.0759276</outvec>
+            <point>34.3967 -3.57295 -0.0759276</point>
+          </knot>
+        </spline3d>
+      </spline>
+    </geometry>
+    <geometry id="followpath004@SV-geometry" name="followpath004@SV-geometry">
+      <spline count="2" width="0">
+        <spline3d count="7">
+          <knot type="corner">
+            <invec>18.9113 25.7945 -75.4352</invec>
+            <outvec>9.04489 25.7977 -75.2584</outvec>
+            <point>18.9113 25.7945 -75.4352</point>
+          </knot>
+          <knot type="corner">
+            <invec>-0.821501 25.8009 -75.0816</invec>
+            <outvec>-29.9296 23.6575 -70.6161</outvec>
+            <point>-10.6879 25.804 -74.9049</point>
+          </knot>
+          <knot type="auto">
+            <invec>-43.8012 21.2506 -62.802</invec>
+            <outvec>-60.8043 15.9161 -40.1236</outvec>
+            <point>-52.3028 18.5833 -51.4628</point>
+          </knot>
+          <knot type="auto">
+            <invec>-65.7091 12.1444 -19.7309</invec>
+            <outvec>-57.6853 7.45654 5.99186</outvec>
+            <point>-61.6972 9.80045 -6.86953</point>
+          </knot>
+          <knot type="auto">
+            <invec>-43.1154 6.06181 18.1543</invec>
+            <outvec>-13.3473 2.97787 33.2569</outvec>
+            <point>-28.2313 4.51984 25.7056</point>
+          </knot>
+          <knot type="corner">
+            <invec>5.26563 1.65414 37.5011</invec>
+            <outvec>38.9924 -0.52539 38.5368</outvec>
+            <point>27.6073 0.548641 38.4383</point>
+          </knot>
+          <knot type="corner">
+            <invec>50.3774 -1.59942 38.6352</invec>
+            <outvec>61.7625 -2.67345 38.7337</outvec>
+            <point>61.7625 -2.67345 38.7337</point>
+          </knot>
+        </spline3d>
+        <spline3d count="7">
+          <knot type="corner">
+            <invec>19.0122 25.7945 -76.9737</invec>
+            <outvec>9.20399 25.7977 -76.7433</outvec>
+            <point>19.0122 25.7945 -76.9737</point>
+          </knot>
+          <knot type="corner">
+            <invec>-0.604232 25.8009 -76.5129</invec>
+            <outvec>-30.7504 23.6575 -71.8804</outvec>
+            <point>-10.4125 25.804 -76.2824</point>
+          </knot>
+          <knot type="auto">
+            <invec>-45.4524 21.2506 -63.895</invec>
+            <outvec>-63.5848 15.9161 -40.7574</outvec>
+            <point>-54.5186 18.5833 -52.3262</point>
+          </knot>
+          <knot type="auto">
+            <invec>-68.9928 12.1444 -20.1389</invec>
+            <outvec>-60.6262 7.45654 6.39984</outvec>
+            <point>-64.8095 9.80045 -6.86953</point>
+          </knot>
+          <knot type="auto">
+            <invec>-44.8068 6.06181 19.4299</invec>
+            <outvec>-14.0306 2.97787 35.1501</outvec>
+            <point>-29.4187 4.51984 27.29</point>
+          </knot>
+          <knot type="corner">
+            <invec>4.94873 1.65414 39.4838</invec>
+            <outvec>38.939 -0.52539 40.183</outvec>
+            <point>27.5192 0.548641 40.2911</point>
+          </knot>
+          <knot type="corner">
+            <invec>50.3588 -1.59942 40.0749</invec>
+            <outvec>61.7786 -2.67345 39.9668</outvec>
+            <point>61.7786 -2.67345 39.9668</point>
+          </knot>
+        </spline3d>
+      </spline>
+    </geometry>
+  </library>
+
+  <scene id="DefaultScene">
+    <node id="followpath001@SV" name="followpath001@SV">
+      <translate>451.986 -370.915 774.274</translate>
+      <scale>1 1 1</scale>
+      <rotate>0.707107 0 0 0.707107</rotate>
+      <instance url="#followpath001@SV-geometry"/>
+    </node>
+    <node id="followpath002@SV" name="followpath002@SV">
+      <translate>451.986 -339.65 774.274</translate>
+      <scale>1 1 1</scale>
+      <rotate>0.707107 0 0 0.707107</rotate>
+      <instance url="#followpath002@SV-geometry"/>
+    </node>
+    <node id="followpath003@SV" name="followpath003@SV">
+      <translate>115.028 -393.398 788.652</translate>
+      <scale>1 1 1</scale>
+      <rotate>0.707107 0 0 0.707107</rotate>
+      <instance url="#followpath003@SV-geometry"/>
+    </node>
+    <node id="followpath004@SV" name="followpath004@SV">
+      <translate>557.119 -342.027 1047.45</translate>
+      <scale>1 1 1</scale>
+      <rotate>0 0 0 1</rotate>
+      <instance url="#followpath004@SV-geometry"/>
+    </node>
+  </scene>
+
+</SonicPath>

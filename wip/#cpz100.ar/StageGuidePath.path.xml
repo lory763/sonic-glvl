@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<SonicPath>
+
+  <library type="GEOMETRY">
+    <geometry id="StageGuidePath-geometry" name="StageGuidePath-geometry">
+      <spline count="1" width="0">
+        <spline3d count="27">
+          <knot type="corner">
+            <invec>-420.185 0 -57.3103</invec>
+            <outvec>-384.118 0 -57.3103</outvec>
+            <point>-420.185 0 -57.3103</point>
+          </knot>
+          <knot type="corner">
+            <invec>-348.052 0 -57.3103</invec>
+            <outvec>-299.69 0 -52.5971</outvec>
+            <point>-311.985 0 -57.3103</point>
+          </knot>
+          <knot type="corner">
+            <invec>-287.394 0 -47.8838</invec>
+            <outvec>-274.689 0 -37.4327</outvec>
+            <point>-275.099 0 -43.1706</point>
+          </knot>
+          <knot type="corner">
+            <invec>-274.279 0 -31.6949</invec>
+            <outvec>-253.582 0 -25.957</outvec>
+            <point>-273.869 0 -25.957</point>
+          </knot>
+          <knot type="corner">
+            <invec>-233.294 0 -25.957</invec>
+            <outvec>-212.597 0 -31.285</outvec>
+            <point>-213.007 0 -25.957</point>
+          </knot>
+          <knot type="corner">
+            <invec>-212.187 0 -36.613</invec>
+            <outvec>-206.654 0 -42.3509</outvec>
+            <point>-211.777 0 -41.9411</point>
+          </knot>
+          <knot type="corner">
+            <invec>-201.531 0 -42.7607</invec>
+            <outvec>-190.465 0 -41.5312</outvec>
+            <point>-196.408 0 -43.1706</point>
+          </knot>
+          <knot type="corner">
+            <invec>-184.522 0 -39.8918</invec>
+            <outvec>-163.825 0 -37.8426</outvec>
+            <point>-178.58 0 -38.2524</point>
+          </knot>
+          <knot type="corner">
+            <invec>-149.071 0 -37.4327</invec>
+            <outvec>-116.283 0 -36.613</outvec>
+            <point>-134.316 0 -37.0229</point>
+          </knot>
+          <knot type="corner">
+            <invec>-98.2495 0 -36.2032</invec>
+            <outvec>-74.8882 0 -37.4327</outvec>
+            <point>-80.2162 0 -35.7933</point>
+          </knot>
+          <knot type="corner">
+            <invec>-69.5602 0 -39.0721</invec>
+            <outvec>-61.1583 0 -39.8918</outvec>
+            <point>-64.2322 0 -40.7115</point>
+          </knot>
+          <knot type="corner">
+            <invec>-58.0845 0 -39.0721</invec>
+            <outvec>-37.797 0 -18.9896</outvec>
+            <point>-55.0106 0 -38.2524</point>
+          </knot>
+          <knot type="corner">
+            <invec>-20.5834 0 0.273227</invec>
+            <outvec>-2.96001 0 26.2985</outvec>
+            <point>-3.36985 0 19.5361</point>
+          </knot>
+          <knot type="corner">
+            <invec>-2.55017 0 33.061</invec>
+            <outvec>10.5649 0 39.4137</outvec>
+            <point>-2.14033 0 39.8235</point>
+          </knot>
+          <knot type="corner">
+            <invec>23.2702 0 39.0038</invec>
+            <outvec>36.7952 0 34.7004</outvec>
+            <point>35.9755 0 38.594</point>
+          </knot>
+          <knot type="corner">
+            <invec>37.6149 0 30.8069</invec>
+            <outvec>57.9023 0 28.5527</outvec>
+            <point>38.4346 0 26.9133</point>
+          </knot>
+          <knot type="corner">
+            <invec>77.3701 0 30.1921</invec>
+            <outvec>100.322 0 31.8315</outvec>
+            <point>96.8378 0 31.8315</point>
+          </knot>
+          <knot type="corner">
+            <invec>103.805 0 31.8315</invec>
+            <outvec>107.494 0 15.4376</outvec>
+            <point>107.289 0 31.8315</point>
+          </knot>
+          <knot type="corner">
+            <invec>107.699 0 -0.956313</invec>
+            <outvec>116.511 0 -17.3502</outvec>
+            <point>107.904 0 -17.3502</point>
+          </knot>
+          <knot type="corner">
+            <invec>125.117 0 -17.3502</invec>
+            <outvec>141.921 0 -11.2025</outvec>
+            <point>133.724 0 -17.3502</point>
+          </knot>
+          <knot type="corner">
+            <invec>150.118 0 -5.05479</invec>
+            <outvec>171.02 0 13.3883</outvec>
+            <point>158.315 0 1.09292</point>
+          </knot>
+          <knot type="corner">
+            <invec>183.725 0 25.6838</invec>
+            <outvec>196.431 0 51.2992</outvec>
+            <point>196.431 0 37.9792</point>
+          </knot>
+          <knot type="corner">
+            <invec>196.431 0 64.6193</invec>
+            <outvec>223.788 0 77.9393</outvec>
+            <point>196.431 0 77.9393</point>
+          </knot>
+          <knot type="bezier">
+            <invec>251.145 0 77.9393</invec>
+            <outvec>251.145 0 77.9393</outvec>
+            <point>251.145 0 77.9393</point>
+          </knot>
+          <knot type="corner">
+            <invec>259.445 0 67.7956</invec>
+            <outvec>275.121 0 54.9102</outvec>
+            <point>267.744 0 57.6519</point>
+          </knot>
+          <knot type="corner">
+            <invec>282.499 0 52.1686</invec>
+            <outvec>345.133 0 52.8783</outvec>
+            <point>289.876 0 49.4269</point>
+          </knot>
+          <knot type="corner">
+            <invec>400.391 0 56.3297</invec>
+            <outvec>455.648 0 59.7811</outvec>
+            <point>455.648 0 59.7811</point>
+          </knot>
+        </spline3d>
+      </spline>
+    </geometry>
+  </library>
+
+  <scene id="DefaultScene">
+    <node id="StageGuidePath" name="StageGuidePath">
+      <translate>411.95 -54.6984 -2.39094e-006</translate>
+      <scale>1 1 1</scale>
+      <rotate>0.707107 0 0 0.707107</rotate>
+      <instance url="#StageGuidePath-geometry"/>
+    </node>
+  </scene>
+
+</SonicPath>
