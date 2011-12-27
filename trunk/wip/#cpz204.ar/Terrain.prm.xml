@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Terrain.prm.xml>
+
+  <Common>
+    <Category>
+      <Basic>
+        <Param>
+          <g_FixView>false</g_FixView>
+        </Param>
+      </Basic>
+    </Category>
+  </Common>
+
+  <Culling>
+    <Category>
+      <Basic>
+        <Param>
+          <g_ExecuteFrustumCulling>true</g_ExecuteFrustumCulling>
+          <g_ExecuteOcclusionCulling>true</g_ExecuteOcclusionCulling>
+        </Param>
+      </Basic>
+    </Category>
+  </Culling>
+
+  <DynamicLoad>
+    <Category>
+      <Common>
+        <Param>
+          <g_GuidePathOffset>0</g_GuidePathOffset>
+          <g_ReferenceIntervalUnit>5</g_ReferenceIntervalUnit>
+          <g_UseGuidePath>true</g_UseGuidePath>
+        </Param>
+      </Common>
+      <GI-Texture>
+        <Param>
+          <MaxCreateGetDataCount>50</MaxCreateGetDataCount>
+          <g_DummyTextureTypeNotFound>5</g_DummyTextureTypeNotFound>
+          <g_DummyTextureTypeNotLoaded>5</g_DummyTextureTypeNotLoaded>
+          <g_GITextureLimitSizeDefault>25</g_GITextureLimitSizeDefault>
+          <g_GITextureLimitSizePs3>-1</g_GITextureLimitSizePs3>
+          <g_GITextureLimitSizeWii>-1</g_GITextureLimitSizeWii>
+          <g_GITextureLimitSizeWin32>-1</g_GITextureLimitSizeWin32>
+          <g_GITextureLimitSizeXbox360>-1</g_GITextureLimitSizeXbox360>
+          <g_GITextureLoadRange>1000</g_GITextureLoadRange>
+          <g_Level2Offset>1300</g_Level2Offset>
+          <g_VisualizeLoadedLevel>false</g_VisualizeLoadedLevel>
+        </Param>
+      </GI-Texture>
+      <Terrain-Model>
+        <Param>
+          <g_TerrainModelLimitSizeDefault>30</g_TerrainModelLimitSizeDefault>
+          <g_TerrainModelLimitSizePs3>-1</g_TerrainModelLimitSizePs3>
+          <g_TerrainModelLimitSizeWii>-1</g_TerrainModelLimitSizeWii>
+          <g_TerrainModelLimitSizeWin32>60</g_TerrainModelLimitSizeWin32>
+          <g_TerrainModelLimitSizeXbox360>35</g_TerrainModelLimitSizeXbox360>
+          <g_TerrainModelLoadRange>2000</g_TerrainModelLoadRange>
+        </Param>
+      </Terrain-Model>
+    </Category>
+  </DynamicLoad>
+
+  <VisibilityCulling>
+    <Category>
+      <Basic>
+        <Param>
+          <g_ExecCulling>true</g_ExecCulling>
+          <g_FrustumFarDistance>1000</g_FrustumFarDistance>
+          <g_IsDebugMode>false</g_IsDebugMode>
+          <g_IsFixedView>false</g_IsFixedView>
+          <g_RadiusLimit1>160</g_RadiusLimit1>
+          <g_RadiusLimit2>40</g_RadiusLimit2>
+          <g_Range>1</g_Range>
+          <g_SetMargin>3</g_SetMargin>
+        </Param>
+      </Basic>
+    </Category>
+  </VisibilityCulling>
+
+</Terrain.prm.xml>

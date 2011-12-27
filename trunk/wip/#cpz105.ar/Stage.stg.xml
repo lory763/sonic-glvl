@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Stage>
+  <Sonic>
+    <Position>
+      <x>436.70</x>
+      <y>-69.19</y>
+      <z>10.45</z>
+    </Position>
+    <Yaw>90</Yaw>
+    <Start>
+      <Mode>None</Mode>
+      <Speed>0</Speed>
+      <Time>0</Time>
+    </Start>
+    <DeadHeight>-160</DeadHeight>
+    <CameraView>Side</CameraView>
+  </Sonic>
+  <BGM>
+    <IsStream>true</IsStream>
+    <Container>SNG02_CPZ</Container>
+    <Name>Chemical_Plant_Classic</Name>
+  </BGM>
+  <Path>
+    <Container>cpz100</Container>
+    <Guide>
+      <Name>guidepath001</Name>
+      <ID>1</ID>
+    </Guide>
+    <Guide>
+      <Name>guidepath002</Name>
+      <ID>2</ID>
+    </Guide>
+    <IsAutoLoad>true</IsAutoLoad>
+    <IsRender>false</IsRender>
+    <IsTerrain>false</IsTerrain>
+  </Path>
+  <Path>
+    <Container>cpz100_follow</Container>
+    <IsAutoLoad>true</IsAutoLoad>
+    <IsRender>false</IsRender>
+    <IsTerrain>false</IsTerrain>
+  </Path>
+</Stage>

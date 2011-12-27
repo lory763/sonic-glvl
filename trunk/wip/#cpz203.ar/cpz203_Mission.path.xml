@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<SonicPath>
+
+  <library type="GEOMETRY">
+    <geometry id="cpz203_path_mission_00@SV-geometry" name="cpz203_path_mission_00@SV-geometry">
+      <spline count="2" width="0">
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 1.78125</outvec>
+            <point>-25 -9.15527e-006 1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 1.78125</invec>
+            <outvec>25 6.10352e-006 1.78125</outvec>
+            <point>25 6.10352e-006 1.78125</point>
+          </knot>
+        </spline3d>
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 -1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 -1.78125</outvec>
+            <point>-25 -9.15527e-006 -1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 -1.78125</invec>
+            <outvec>25 6.10352e-006 -1.78125</outvec>
+            <point>25 6.10352e-006 -1.78125</point>
+          </knot>
+        </spline3d>
+      </spline>
+    </geometry>
+    <geometry id="cpz203_path_mission_01@SV-geometry" name="cpz203_path_mission_01@SV-geometry">
+      <spline count="2" width="0">
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 1.78125</outvec>
+            <point>-25 -9.15527e-006 1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 1.78125</invec>
+            <outvec>25 6.10352e-006 1.78125</outvec>
+            <point>25 6.10352e-006 1.78125</point>
+          </knot>
+        </spline3d>
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 -1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 -1.78125</outvec>
+            <point>-25 -9.15527e-006 -1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 -1.78125</invec>
+            <outvec>25 6.10352e-006 -1.78125</outvec>
+            <point>25 6.10352e-006 -1.78125</point>
+          </knot>
+        </spline3d>
+      </spline>
+    </geometry>
+    <geometry id="cpz203_path_mission_02@SV-geometry" name="cpz203_path_mission_02@SV-geometry">
+      <spline count="2" width="0">
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 1.78125</outvec>
+            <point>-25 -9.15527e-006 1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 1.78125</invec>
+            <outvec>25 6.10352e-006 1.78125</outvec>
+            <point>25 6.10352e-006 1.78125</point>
+          </knot>
+        </spline3d>
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 -1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 -1.78125</outvec>
+            <point>-25 -9.15527e-006 -1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 -1.78125</invec>
+            <outvec>25 6.10352e-006 -1.78125</outvec>
+            <point>25 6.10352e-006 -1.78125</point>
+          </knot>
+        </spline3d>
+      </spline>
+    </geometry>
+    <geometry id="cpz203_path_mission_03@SV-geometry" name="cpz203_path_mission_03@SV-geometry">
+      <spline count="2" width="0">
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 1.78125</outvec>
+            <point>-25 -9.15527e-006 1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 1.78125</invec>
+            <outvec>25 6.10352e-006 1.78125</outvec>
+            <point>25 6.10352e-006 1.78125</point>
+          </knot>
+        </spline3d>
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 -1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 -1.78125</outvec>
+            <point>-25 -9.15527e-006 -1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 -1.78125</invec>
+            <outvec>25 6.10352e-006 -1.78125</outvec>
+            <point>25 6.10352e-006 -1.78125</point>
+          </knot>
+        </spline3d>
+      </spline>
+    </geometry>
+    <geometry id="cpz203_path_mission_04@SV-geometry" name="cpz203_path_mission_04@SV-geometry">
+      <spline count="2" width="0">
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 1.78125</outvec>
+            <point>-25 -9.15527e-006 1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 1.78125</invec>
+            <outvec>25 6.10352e-006 1.78125</outvec>
+            <point>25 6.10352e-006 1.78125</point>
+          </knot>
+        </spline3d>
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 -1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 -1.78125</outvec>
+            <point>-25 -9.15527e-006 -1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 -1.78125</invec>
+            <outvec>25 6.10352e-006 -1.78125</outvec>
+            <point>25 6.10352e-006 -1.78125</point>
+          </knot>
+        </spline3d>
+      </spline>
+    </geometry>
+    <geometry id="cpz203_path_mission_05@SV-geometry" name="cpz203_path_mission_05@SV-geometry">
+      <spline count="2" width="0">
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 1.78125</outvec>
+            <point>-25 -9.15527e-006 1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 1.78125</invec>
+            <outvec>25 6.10352e-006 1.78125</outvec>
+            <point>25 6.10352e-006 1.78125</point>
+          </knot>
+        </spline3d>
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 -1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 -1.78125</outvec>
+            <point>-25 -9.15527e-006 -1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 -1.78125</invec>
+            <outvec>25 6.10352e-006 -1.78125</outvec>
+            <point>25 6.10352e-006 -1.78125</point>
+          </knot>
+        </spline3d>
+      </spline>
+    </geometry>
+    <geometry id="cpz203_path_mission_06@SV-geometry" name="cpz203_path_mission_06@SV-geometry">
+      <spline count="2" width="0">
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 1.78125</outvec>
+            <point>-25 -9.15527e-006 1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 1.78125</invec>
+            <outvec>25 6.10352e-006 1.78125</outvec>
+            <point>25 6.10352e-006 1.78125</point>
+          </knot>
+        </spline3d>
+        <spline3d count="2">
+          <knot type="corner">
+            <invec>-25 -9.15527e-006 -1.78125</invec>
+            <outvec>-8.33333 -4.06901e-006 -1.78125</outvec>
+            <point>-25 -9.15527e-006 -1.78125</point>
+          </knot>
+          <knot type="corner">
+            <invec>8.33333 1.01725e-006 -1.78125</invec>
+            <outvec>25 6.10352e-006 -1.78125</outvec>
+            <point>25 6.10352e-006 -1.78125</point>
+          </knot>
+        </spline3d>
+      </spline>
+    </geometry>
+  </library>
+
+  <scene id="DefaultScene">
+    <node id="cpz203_path_mission_00@SV" name="cpz203_path_mission_00@SV">
+      <translate>242.4 -365.652 786.881</translate>
+      <scale>1 1 1</scale>
+      <rotate>0 0 0 1</rotate>
+      <instance url="#cpz203_path_mission_00@SV-geometry"/>
+    </node>
+    <node id="cpz203_path_mission_01@SV" name="cpz203_path_mission_01@SV">
+      <translate>241.106 -357.954 786.881</translate>
+      <scale>1 1 1</scale>
+      <rotate>0 0 0 1</rotate>
+      <instance url="#cpz203_path_mission_01@SV-geometry"/>
+    </node>
+    <node id="cpz203_path_mission_02@SV" name="cpz203_path_mission_02@SV">
+      <translate>241.106 -349.125 786.881</translate>
+      <scale>1 1 1</scale>
+      <rotate>0 0 0 1</rotate>
+      <instance url="#cpz203_path_mission_02@SV-geometry"/>
+    </node>
+    <node id="cpz203_path_mission_03@SV" name="cpz203_path_mission_03@SV">
+      <translate>253.294 -341.265 786.881</translate>
+      <scale>1 1 1</scale>
+      <rotate>0 0 0 1</rotate>
+      <instance url="#cpz203_path_mission_03@SV-geometry"/>
+    </node>
+    <node id="cpz203_path_mission_04@SV" name="cpz203_path_mission_04@SV">
+      <translate>253.294 -332.48 786.881</translate>
+      <scale>1 1 1</scale>
+      <rotate>0 0 0 1</rotate>
+      <instance url="#cpz203_path_mission_04@SV-geometry"/>
+    </node>
+    <node id="cpz203_path_mission_05@SV" name="cpz203_path_mission_05@SV">
+      <translate>253.294 -322.77 786.881</translate>
+      <scale>1 1 1</scale>
+      <rotate>0 0 0 1</rotate>
+      <instance url="#cpz203_path_mission_05@SV-geometry"/>
+    </node>
+    <node id="cpz203_path_mission_06@SV" name="cpz203_path_mission_06@SV">
+      <translate>253.294 -313.066 786.881</translate>
+      <scale>1 1 1</scale>
+      <rotate>0 0 0 1</rotate>
+      <instance url="#cpz203_path_mission_06@SV-geometry"/>
+    </node>
+  </scene>
+
+</SonicPath>

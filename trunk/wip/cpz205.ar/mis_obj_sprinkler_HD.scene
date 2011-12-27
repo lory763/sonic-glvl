@@ -1,0 +1,49 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="0.00333333" minOgreVersion="1.7" ogreMaxVersion="2.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="mis_obj_sprinkler_jewel">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="mis_obj_sprinkler_jewel" castShadows="true" receiveShadows="true" meshFile="mis_obj_sprinkler_jewel.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Standardmaterial" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="mis_obj_sprinkler_body">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="mis_obj_sprinkler_body" castShadows="true" receiveShadows="true" meshFile="mis_obj_sprinkler_body.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Standardmaterial" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="mis_obj_sprinkler_eye">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="mis_obj_sprinkler_eye" castShadows="true" receiveShadows="true" meshFile="mis_obj_sprinkler_eye.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Standardmaterial" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="mis_obj_sprinkler_glass">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="mis_obj_sprinkler_glass" castShadows="true" receiveShadows="true" meshFile="mis_obj_sprinkler_glass.mesh">
+                <subentities>
+                    <subentity index="0" materialName="Standardmaterial" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

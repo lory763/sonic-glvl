@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StageObject>
+  <CpzBigCrane />
+  <cpz_obj_roundirontower />
+  <cpz_obj_roundirontowerbrk />
+  <CpzAlarm />
+  <cpz_obj_pushbox />
+  <EnemyLander3D />
+  <EnemyGrabber3D />
+</StageObject>

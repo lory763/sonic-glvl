@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Stage xsi:noNamespaceSchemaLocation="http://web/chao/project/swa/schema/Stage.stg.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Terrain>
+    <TerrainInfoFile>terrain</TerrainInfoFile>
+    <GIAtlas>1</GIAtlas>
+      <SubsetInit>
+	<Unload>
+		<ID>10</ID>
+	</Unload>
+	<Unload>
+		<ID>17</ID>
+	</Unload>
+	<Unload>
+		<ID>25</ID>
+	</Unload>
+	<Unload>
+		<ID>30</ID>
+	</Unload>
+	<Unload>
+		<ID>40</ID>
+	</Unload>
+	<Unload>
+		<ID>102</ID>
+	</Unload>
+	<Unload>
+		<ID>101</ID>
+	</Unload>
+	<Unload>
+		<ID>105</ID>
+	</Unload>
+      </SubsetInit>
+</Terrain>
+  <Terrain>
+    <RigidBodyContainer>cpz100</RigidBodyContainer>
+    <IsCollisionRender>false</IsCollisionRender>
+  </Terrain>
+  <Terrain>
+    <RigidBodyContainer>cpz103_col</RigidBodyContainer>
+    <IsCollisionRender>false</IsCollisionRender>
+  </Terrain>
+  <Light>
+    <DataName>cpz_Direct01</DataName>
+  </Light>
+  <Sky>
+    <Model>cpz_sky0</Model>
+    <Model>cpz_sky1</Model>
+  </Sky>
+ 
+</Stage>

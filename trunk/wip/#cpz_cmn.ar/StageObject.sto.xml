@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StageObject>
+  <CpzSewageTrap />
+  <CpzRotateBlocks />
+  <ChemicalPlantFloorA_3C />
+  <ChemicalPlantFloorA_5C />
+  <ChemicalPlantFloor_3X />
+  <ChemicalPlantFloor_5X />
+  <ChemicalPlantFloor_7X />
+  <ChemicalPlantFloor_9X />
+  <ChemicalPlantFloor_3XP />
+  <ChemicalPlantFloor_5XP />
+  <ChemicalPlantFloor_7XP />
+  <ChemicalPlantFloor_9XP />
+
+  <EnemyLander2D />
+
+  <EnemyGrabber2D />
+
+
+  <cpz_obj_breakbox />
+  <cpz_obj_breakboxbrk />
+
+  <CpzWaterCollision />
+
+  <CpzPipeSwitch />
+  <CpzPipeCap />
+  <CpzPipe />
+
+  <CpzBubble />
+
+  <CpzWaterStopCollision />
+
+  <CpzSewageTrapSignal />
+  <cpz_obj_shutter />
+  <ChemicalPlantFloor />
+
+</StageObject>
