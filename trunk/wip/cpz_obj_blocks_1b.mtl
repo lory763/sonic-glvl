@@ -1,0 +1,54 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 27.12.2011 18:03:45
+
+newmtl wire_255255000
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 1.0000 1.0000 0.0000
+	Kd 1.0000 1.0000 0.0000
+	Ks 0.3500 0.3500 0.3500
+
+newmtl cpz_metal_st1_box01_cmn_dsn
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\PC\Desktop\sonic generations\disk\BB.cpk_unpacked\cpz_cmn.ar\cpz_metal_st1_box01_dif.dds
+	map_Kd C:\Users\PC\Desktop\sonic generations\disk\BB.cpk_unpacked\cpz_cmn.ar\cpz_metal_st1_box01_dif.dds
+
+newmtl cpz_etc_tn1_motionlight01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\PC\Desktop\sonic generations\disk\BB.cpk_unpacked\cpz_cmn.ar\cpz_etc_tn1_motionlight01_dif.dds
+	map_Kd C:\Users\PC\Desktop\sonic generations\disk\BB.cpk_unpacked\cpz_cmn.ar\cpz_etc_tn1_motionlight01_dif.dds
+
+newmtl cpz_wall_st1_wall07_Lumi_dpnE
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\PC\Desktop\sonic generations\disk\BB.cpk_unpacked\cpz_cmn.ar\cpz_wall_st1_wall07_dif.dds
+	map_Kd C:\Users\PC\Desktop\sonic generations\disk\BB.cpk_unpacked\cpz_cmn.ar\cpz_wall_st1_wall07_dif.dds
