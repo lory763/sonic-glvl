@@ -1,0 +1,181 @@
+material sph_st1_s_light_red_falloff
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_st1_redlight_new.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_etc_st1_redlight_alpha
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_st1_redlight_new.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_st1_wall_duct
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_st1_wall_duct_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_metal_tn1_roadpartsB
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_metal_tn1_roadpartsB_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_metal_tn1_pipeA
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_metal_tn1_pipeA_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_st1_wall_tile
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_st1_wall_tileA_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_metal_tn1_roadpartsA
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_metal_tn1_roadpartsA_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_st1_red_grow
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_st1_red_grow.dds
+			}
+		}
+
+	}
+
+}

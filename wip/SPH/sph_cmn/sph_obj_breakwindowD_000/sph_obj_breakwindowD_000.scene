@@ -1,0 +1,29 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="0.00333333" minOgreVersion="1.7" ogreMaxVersion="2.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="sph_st1_wndw_frame">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="sph_st1_wndw_frame" castShadows="true" receiveShadows="true" meshFile="sph_st1_wndw_frame.mesh">
+                <subentities>
+                    <subentity index="0" materialName="sph_st1_wndw_frame" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="sph_glass_yk1_windowA">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="sph_glass_yk1_windowA" castShadows="true" receiveShadows="true" meshFile="sph_glass_yk1_windowA.mesh">
+                <subentities>
+                    <subentity index="0" materialName="sph_glass_yk1_windowA" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>
