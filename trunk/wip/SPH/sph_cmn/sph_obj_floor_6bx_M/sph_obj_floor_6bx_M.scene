@@ -1,0 +1,79 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="0.00333333" minOgreVersion="1.7" ogreMaxVersion="2.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="sph_etc_tk1_boxfloor04">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="sph_etc_tk1_boxfloor04" castShadows="true" receiveShadows="true" meshFile="sph_etc_tk1_boxfloor04.mesh">
+                <subentities>
+                    <subentity index="0" materialName="sph_etc_tk1_boxfloor04" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="sph_etc_tk1_boxfloor02">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="sph_etc_tk1_boxfloor02" castShadows="true" receiveShadows="true" meshFile="sph_etc_tk1_boxfloor02.mesh">
+                <subentities>
+                    <subentity index="0" materialName="sph_etc_tk1_boxfloor02" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="sph_etc_tk1_boxfloor01">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="sph_etc_tk1_boxfloor01" castShadows="true" receiveShadows="true" meshFile="sph_etc_tk1_boxfloor01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="sph_etc_tk1_boxfloor01" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="sph_etc_tk1_boxfloor03">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="sph_etc_tk1_boxfloor03" castShadows="true" receiveShadows="true" meshFile="sph_etc_tk1_boxfloor03.mesh">
+                <subentities>
+                    <subentity index="0" materialName="sph_etc_tk1_boxfloor03" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="sph_etc_tk1_boxfloor06">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="sph_etc_tk1_boxfloor06" castShadows="true" receiveShadows="true" meshFile="sph_etc_tk1_boxfloor06.mesh">
+                <subentities>
+                    <subentity index="0" materialName="sph_etc_tk1_boxfloor06" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="sph_etc_tk1_boxfloor02_env">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="sph_etc_tk1_boxfloor02_env" castShadows="true" receiveShadows="true" meshFile="sph_etc_tk1_boxfloor02_env.mesh">
+                <subentities>
+                    <subentity index="0" materialName="sph_etc_tk1_boxfloor02_env" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="sph_metal_tn1_wirenet">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="sph_metal_tn1_wirenet" castShadows="true" receiveShadows="true" meshFile="sph_metal_tn1_wirenet.mesh">
+                <subentities>
+                    <subentity index="0" materialName="sph_metal_tn1_wirenet" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

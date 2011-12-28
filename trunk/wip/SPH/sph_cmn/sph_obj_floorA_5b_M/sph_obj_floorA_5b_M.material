@@ -1,0 +1,112 @@
+material sph_metal_yk1_whitered01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_metal_yk1_whitered01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_metal_yk1_yelowfloorA02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_metal_yk1_scaffold02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_metal_yk1_pointfloorB02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_metal_yk1_pointfloorb02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_metal_tn1_iron02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_metal_tn1_iron02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_metal_yk1_pointfloorA02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_metal_yk1_pointfloora02_dif.dds
+			}
+		}
+
+	}
+
+}

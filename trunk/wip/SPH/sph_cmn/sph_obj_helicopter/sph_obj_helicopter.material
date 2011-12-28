@@ -1,0 +1,158 @@
+material sph_obj_tn1_helicopter_glass
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_obj_yr1_helicopter06_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_obj_yr1_helicopter_blur02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_obj_yr1_helicopter02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_obj_yr1_helicopter_blur01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_obj_yr1_helicopter01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_obj_yr1_helicopter_searchlight
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_obj_yr1_helicopter08_ref.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_obj_yr1_helicopter_light2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_obj_yr1_helicopter05_lum.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_obj_yr1_helicopter_light
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_obj_yr1_helicopter05_lum.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sph_obj_tn1_helicopter_body01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture sph_obj_yr1_helicopter03_dif.dds
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,49 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="0.00333333" minOgreVersion="1.7" ogreMaxVersion="2.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="sph_metal_tn1_roadpartsB">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="sph_metal_tn1_roadpartsB" castShadows="true" receiveShadows="true" meshFile="sph_metal_tn1_roadpartsB.mesh">
+                <subentities>
+                    <subentity index="0" materialName="sph_metal_tn1_roadpartsB" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="sph_etc_tn1_motionlightA">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="sph_etc_tn1_motionlightA" castShadows="true" receiveShadows="true" meshFile="sph_etc_tn1_motionlightA.mesh">
+                <subentities>
+                    <subentity index="0" materialName="sph_etc_tn1_motionlightA" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="sph_metal_tn1_roadpartsA">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="sph_metal_tn1_roadpartsA" castShadows="true" receiveShadows="true" meshFile="sph_metal_tn1_roadpartsA.mesh">
+                <subentities>
+                    <subentity index="0" materialName="sph_metal_tn1_roadpartsA" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="sph_metal_tn1_wirenet">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="sph_metal_tn1_wirenet" castShadows="true" receiveShadows="true" meshFile="sph_metal_tn1_wirenet.mesh">
+                <subentities>
+                    <subentity index="0" materialName="sph_metal_tn1_wirenet" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

@@ -1,0 +1,283 @@
+material chr_cream_HD_head
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture chr_cream_HD_head_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material chr_cream_HD_eye_L
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture chr_cream_HD_eye_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material chr_cream_HD_eye_R
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture chr_cream_HD_eye_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material chr_cream_HD_head
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture chr_cream_HD_head_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material chr_cream_HD_head
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture chr_cream_HD_head_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material chr_cream_HD_cloth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture chr_cream_HD_cloth_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material chr_cream_HD_cloth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture chr_cream_HD_cloth_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material chr_cream_HD_head
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture chr_cream_HD_head_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material chr_cream_HD_cloth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture chr_cream_HD_cloth_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material chr_cream_HD_cloth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture chr_cream_HD_cloth_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material chr_cream_HD_cloth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture chr_cream_HD_cloth_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material chr_cream_HD_head
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture chr_cream_HD_head_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material chr_cream_HD_cloth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture chr_cream_HD_cloth_dif.dds
+			}
+		}
+
+	}
+
+}
