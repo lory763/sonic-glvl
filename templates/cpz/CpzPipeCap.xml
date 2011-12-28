@@ -40,5 +40,11 @@
         <y>double:0</y>
         <z>double:0</z>
     </m_MonkeyTarget>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>cpz_obj_pipelinecapA_01.mesh</Mesh>
+    <Mesh>cpz_obj_pipelinecapA_02.mesh</Mesh>
+    <Mesh>cpz_obj_pipelinecapA_03.mesh</Mesh>
+    <Mesh>cpz_obj_pipelinecapA_04.mesh</Mesh>
+    <Mesh>cpz_obj_pipelinecapA_05.mesh</Mesh>
+    <Mesh>cpz_obj_pipelinecapA_06.mesh</Mesh>
+    <Mesh>cpz_obj_pipelinecapA_07.mesh</Mesh>
 </CpzPipeCap>
