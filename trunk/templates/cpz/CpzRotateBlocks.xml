@@ -31,4 +31,25 @@
     <StartType>double:1</StartType>
     <WaitTime>double:0.3</WaitTime>
     <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>BlockSize==1</Condition>
+       <Mesh>cpz_obj_blocks_1b_00.mesh</Mesh>
+       <Mesh>cpz_obj_blocks_1b_01.mesh</Mesh>
+       <Mesh>cpz_obj_blocks_1b_02.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>BlockSize==2</Condition>
+       <Mesh>cpz_obj_blocks_2b_00.mesh</Mesh>
+       <Mesh>cpz_obj_blocks_2b_01.mesh</Mesh>
+       <Mesh>cpz_obj_blocks_2b_02.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>BlockSize==3</Condition>
+       <Mesh>cpz_obj_blocks_3b_00.mesh</Mesh>
+       <Mesh>cpz_obj_blocks_3b_01.mesh</Mesh>
+       <Mesh>cpz_obj_blocks_3b_02.mesh</Mesh>
+    </AltMesh>
 </CpzRotateBlocks>

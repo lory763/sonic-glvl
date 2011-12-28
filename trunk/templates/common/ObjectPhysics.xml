@@ -29,4 +29,15 @@
         <SetObjectID>integer</SetObjectID>
     </WrappedObjectID>
     <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+      <Condition>Type==cpz_obj_pipelinecapA</Condition>
+      <Mesh>cpz_obj_pipelinecapA_000_01.mesh</Mesh>
+      <Mesh>cpz_obj_pipelinecapA_000_02.mesh</Mesh>
+      <Mesh>cpz_obj_pipelinecapA_000_03.mesh</Mesh>
+      <Mesh>cpz_obj_pipelinecapA_000_04.mesh</Mesh>
+      <Mesh>cpz_obj_pipelinecapA_000_05.mesh</Mesh>
+      <Mesh>cpz_obj_pipelinecapA_000_06.mesh</Mesh>
+      <Mesh>cpz_obj_pipelinecapA_000_07.mesh</Mesh>
+    </AltMesh>
 </ObjectPhysics>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <CpzSewageTrap>
     <BallSpeed>double:5</BallSpeed>
-    <BallType>double:0</BallType>
+    <BallType>integer:0</BallType>
     <Distance>double:5</Distance>
     <Event0>double:13</Event0>
     <Event1>double:13</Event1>
@@ -33,4 +33,19 @@
     <ToStTime>double:0</ToStTime>
     <WaitTime>double:1.5</WaitTime>
     <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+        <Condition>BallType==0</Condition>
+        <Mesh>cpz_obj_TrapBall_A_00.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+        <Condition>BallType==1</Condition>
+        <Mesh>cpz_obj_TrapBall_B_00.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+        <Condition>BallType==2</Condition>
+        <Mesh>cpz_obj_TrapBall_C_00.mesh</Mesh>
+    </AltMesh>
 </CpzSewageTrap>
