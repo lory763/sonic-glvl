@@ -1,0 +1,89 @@
+material CylindricalFloor_metal2mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_ay3_cylindricalfloor_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CylindricalFloor_metalmat2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_ay3_cylindricalfloor_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CylindricalFloor_lightmat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_ay3_cylindricalfloor_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CylindricalFloor_metalmat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_ay3_cylindricalfloor_dif_HD.dds
+			}
+		}
+
+	}
+
+}

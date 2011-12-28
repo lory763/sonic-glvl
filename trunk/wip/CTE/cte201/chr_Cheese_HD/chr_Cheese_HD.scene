@@ -1,0 +1,169 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="0.00333333" minOgreVersion="1.7" ogreMaxVersion="2.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="chr_Cheese_HD_body">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_body" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_body.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_body" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_body_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_body_1" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_body_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_body" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_body_2">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_body_2" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_body_2.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_body" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_eyeL">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_eyeL" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_eyeL.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_eyeL" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_eyeR">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_eyeR" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_eyeR.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_eyeR" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_eyes">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_eyes" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_eyes.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_eyes" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_eyes_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_eyes_1" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_eyes_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_eyes" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_eyes_2">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_eyes_2" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_eyes_2.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_eyes" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_eyes_3">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_eyes_3" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_eyes_3.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_eyes" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_mouth">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_mouth" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_mouth.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_mouth" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_mouth_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_mouth_1" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_mouth_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_mouth" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_mouth_2">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_mouth_2" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_mouth_2.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_mouth" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_mouth_3">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_mouth_3" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_mouth_3.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_mouth" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_mouth_4">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_mouth_4" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_mouth_4.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_mouth" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_mouth_5">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_mouth_5" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_mouth_5.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_mouth" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="chr_Cheese_HD_mouth_6">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="chr_Cheese_HD_mouth_6" castShadows="true" receiveShadows="true" meshFile="chr_Cheese_HD_mouth_6.mesh">
+                <subentities>
+                    <subentity index="0" materialName="chr_Cheese_HD_mouth" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>
