@@ -17,5 +17,7 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <ThresholdStumble>double:30</ThresholdStumble>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>bomb_01.mesh</Mesh>
+    <Mesh>bomb_02.mesh</Mesh>
+    <Mesh>bomb_03.mesh</Mesh>
 </Bomb>

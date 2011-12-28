@@ -196,4 +196,178 @@
        <Mesh>ghz_gen_floor_size3_c_05.mesh</Mesh>
        <Mesh>ghz_gen_floor_size3_c_06.mesh</Mesh>
     </AltMesh>
+
+
+
+    
+
+
+
+
+
+
+
+
+    <AltMesh>
+       <Condition>FloorType == 2</Condition>
+       <Condition>FloorSize == 0</Condition>
+	 <Condition>LevelPrefix == cpz</Condition>
+       <Mesh>cpz_obj_floor_2bx_M_01.mesh</Mesh>
+       <Mesh>cpz_obj_floor_2bx_M_02.mesh</Mesh>
+       <Mesh>cpz_obj_floor_2bx_M_03.mesh</Mesh>
+       <Mesh>cpz_obj_floor_2bx_M_04.mesh</Mesh>
+       <Mesh>cpz_obj_floor_2bx_M_05.mesh</Mesh>
+       <Mesh>cpz_obj_floor_2bx_M_06.mesh</Mesh>
+       <Mesh>cpz_obj_floor_2bx_M_07.mesh</Mesh>
+    </AltMesh>
+
+
+    <AltMesh>
+       <Condition>FloorType == 2</Condition>
+       <Condition>FloorSize == 1</Condition>
+	 <Condition>LevelPrefix == cpz</Condition>
+       <Mesh>cpz_obj_floor_4bx_M_01.mesh</Mesh>
+       <Mesh>cpz_obj_floor_4bx_M_02.mesh</Mesh>
+       <Mesh>cpz_obj_floor_4bx_M_03.mesh</Mesh>
+       <Mesh>cpz_obj_floor_4bx_M_04.mesh</Mesh>
+       <Mesh>cpz_obj_floor_4bx_M_05.mesh</Mesh>
+       <Mesh>cpz_obj_floor_4bx_M_06.mesh</Mesh>
+       <Mesh>cpz_obj_floor_4bx_M_07.mesh</Mesh>
+       <Mesh>cpz_obj_floor_4bx_M_08.mesh</Mesh>
+    </AltMesh>
+
+
+    <AltMesh>
+       <Condition>FloorType == 2</Condition>
+       <Condition>FloorSize == 2</Condition>
+	 <Condition>LevelPrefix == cpz</Condition>
+       <Mesh>cpz_obj_floor_6bx_M_01.mesh</Mesh>
+       <Mesh>cpz_obj_floor_6bx_M_02.mesh</Mesh>
+       <Mesh>cpz_obj_floor_6bx_M_03.mesh</Mesh>
+       <Mesh>cpz_obj_floor_6bx_M_04.mesh</Mesh>
+       <Mesh>cpz_obj_floor_6bx_M_05.mesh</Mesh>
+       <Mesh>cpz_obj_floor_6bx_M_06.mesh</Mesh>
+       <Mesh>cpz_obj_floor_6bx_M_07.mesh</Mesh>
+    </AltMesh>
+
+
+
+    <AltMesh>
+       <Condition>FloorType == 2</Condition>
+       <Condition>FloorSize == 3</Condition>
+	 <Condition>LevelPrefix == cpz</Condition>
+       <Mesh>cpz_obj_floor_8bx_M_01.mesh</Mesh>
+       <Mesh>cpz_obj_floor_8bx_M_02.mesh</Mesh>
+       <Mesh>cpz_obj_floor_8bx_M_03.mesh</Mesh>
+       <Mesh>cpz_obj_floor_8bx_M_04.mesh</Mesh>
+       <Mesh>cpz_obj_floor_8bx_M_05.mesh</Mesh>
+       <Mesh>cpz_obj_floor_8bx_M_06.mesh</Mesh>
+       <Mesh>cpz_obj_floor_8bx_M_07.mesh</Mesh>
+    </AltMesh>
+
+
+
+    <AltMesh>
+       <Condition>FloorType == 0</Condition>
+       <Condition>FloorSize == 0</Condition>
+	 <Condition>LevelPrefix == cpz</Condition>
+       <Mesh>cpz_obj_floorA_2b_M_01.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_2b_M_02.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_2b_M_03.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_2b_M_04.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_2b_M_05.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_2b_M_06.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_2b_M_07.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_2b_M_08.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_2b_M_09.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_2b_M_10.mesh</Mesh>
+    </AltMesh>
+
+
+    <AltMesh>
+       <Condition>FloorType == 0</Condition>
+       <Condition>FloorSize == 1</Condition>
+	 <Condition>LevelPrefix == cpz</Condition>
+       <Mesh>cpz_obj_floorA_3b_M_01.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_3b_M_02.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_3b_M_03.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_3b_M_04.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_3b_M_05.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_3b_M_06.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_3b_M_07.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_3b_M_08.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_3b_M_09.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_3b_M_10.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>FloorType == 0</Condition>
+       <Condition>FloorSize == 2</Condition>
+	 <Condition>LevelPrefix == cpz</Condition>
+       <Mesh>cpz_obj_floorA_5b_M_01.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_02.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_03.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_04.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_05.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_06.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_07.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_08.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_09.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_10.mesh</Mesh>
+    </AltMesh>
+
+
+
+    <AltMesh>
+       <Condition>FloorType == 1</Condition>
+       <Condition>FloorSize == 0</Condition>
+	 <Condition>LevelPrefix == cpz</Condition>
+       <Mesh>cpz_obj_floorb_2b_M_01.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_2b_M_02.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_2b_M_03.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_2b_M_04.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_2b_M_05.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_2b_M_06.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_2b_M_07.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_2b_M_08.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_2b_M_09.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_2b_M_10.mesh</Mesh>
+    </AltMesh>
+
+
+    <AltMesh>
+       <Condition>FloorType == 1</Condition>
+       <Condition>FloorSize == 1</Condition>
+	 <Condition>LevelPrefix == cpz</Condition>
+       <Mesh>cpz_obj_floorb_3b_M_01.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_3b_M_02.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_3b_M_03.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_3b_M_04.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_3b_M_05.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_3b_M_06.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_3b_M_07.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_3b_M_08.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_3b_M_09.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_3b_M_10.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>FloorType == 1</Condition>
+       <Condition>FloorSize == 2</Condition>
+	 <Condition>LevelPrefix == cpz</Condition>
+       <Mesh>cpz_obj_floorb_5b_M_01.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_5b_M_02.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_5b_M_03.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_5b_M_04.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_5b_M_05.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_5b_M_06.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_5b_M_07.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_5b_M_08.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_5b_M_09.mesh</Mesh>
+       <Mesh>cpz_obj_floorb_5b_M_10.mesh</Mesh>
+    </AltMesh>
+
+
+
+
 </GeneralFloor>
