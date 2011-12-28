@@ -1,0 +1,89 @@
+material cpz_obj_SwitchPipe_metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_obj_SwitchPipe_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_obj_SwitchPipe_light_on
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_obj_SwitchPipe_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_obj_SwitchPipe_cap
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_obj_SwitchPipe_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_obj_SwitchPipe_light_off
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_obj_SwitchPipe_dif.dds
+			}
+		}
+
+	}
+
+}
