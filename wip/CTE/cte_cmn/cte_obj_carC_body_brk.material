@@ -1,0 +1,89 @@
+material cte_metal_ks2_wagon_com_dpne3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cte_metal_ks2_wagon_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cte_metal_ks2_wagon_com_dpne1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cte_metal_ks2_wagon_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cte_metal_kd1_engine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cte_metal_kd1_engine_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cte_metal_ks2_wagon_com_dpne2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cte_metal_ks2_wagon_dif.dds
+			}
+		}
+
+	}
+
+}
