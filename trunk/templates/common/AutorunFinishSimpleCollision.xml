@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<AutorunFinishSimpleCollision>
+    <Collision_Height>double:60</Collision_Height>
+    <Collision_Width>double:20</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:446.213</x>
+        <y>double:-16</y>
+        <z>double:-134</z>
+    </Position>
+    <Range>double:300</Range>
+    <Rotation>
+        <w>double:0.70711</w>
+        <x>double:0</x>
+        <y>double:0.707103</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</AutorunFinishSimpleCollision>

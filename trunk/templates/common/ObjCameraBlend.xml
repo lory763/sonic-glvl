@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<ObjCameraBlend>
+    <BlendBase>double:1</BlendBase>
+    <BlendSpeed>double:2</BlendSpeed>
+    <BlendType>double:1</BlendType>
+    <CameraList>
+        <SetObjectID>integer</SetObjectID>
+        <SetObjectID>integer</SetObjectID>
+    </CameraList>
+    <Ease_Time_Enter>double:0.4</Ease_Time_Enter>
+    <Ease_Time_Leave>double:2</Ease_Time_Leave>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCameraView>bool:false</IsCameraView>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsCollision>bool:false</IsCollision>
+    <Position>
+        <x>double:711.86</x>
+        <y>double:-21.8591</y>
+        <z>double:-184.183</z>
+    </Position>
+    <Range>double:10100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Target>
+        <SetObjectID>integer</SetObjectID>
+    </Target>
+    <TargetOffset_Front>double:0</TargetOffset_Front>
+    <TargetOffset_Right>double:0</TargetOffset_Right>
+    <TargetOffset_Up>double:0</TargetOffset_Up>
+    <TargetOffset_Vel>double:0</TargetOffset_Vel>
+    <TargetPositionFix>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </TargetPositionFix>
+    <Target_Type>double:2</Target_Type>
+    <VelOffsetXYZ>double:0</VelOffsetXYZ>
+    <Mesh>unknown.mesh</Mesh>
+</ObjCameraBlend>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<Switch>
+    <EventOFF>double:0</EventOFF>
+    <EventON>double:13</EventON>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsMoveCollision>bool:false</IsMoveCollision>
+    <IsPrimitiveCollision>bool:false</IsPrimitiveCollision>
+    <OffTimer>double:5</OffTimer>
+    <Position>
+        <x>double:168.239</x>
+        <y>double:-35.9859</y>
+        <z>double:10.062</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TargetListOFF />
+    <TargetListON>
+        <SetObjectID>integer</SetObjectID>
+    </TargetListON>
+    <TimerOFF>double:0</TimerOFF>
+    <TimerON>double:0</TimerON>
+    <Type>double:0</Type>
+    <Mesh>unknown.mesh</Mesh>
+</Switch>

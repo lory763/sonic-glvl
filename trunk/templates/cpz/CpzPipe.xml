@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<CpzPipe>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:167.53</x>
+        <y>double:-36.7873</y>
+        <z>double:10.4571</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>double:1</Type>
+    <Mesh>unknown.mesh</Mesh>
+</CpzPipe>

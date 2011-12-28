@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<CpzSewageTrapSignal>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:253.303</x>
+        <y>double:-36.1183</y>
+        <z>double:10.5571</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>double:0</Type>
+    <Mesh>unknown.mesh</Mesh>
+</CpzSewageTrapSignal>

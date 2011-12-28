@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<ClassicJumpBoard>
+    <ClassicJumpAngleOnBoost>double:30</ClassicJumpAngleOnBoost>
+    <ClassicJumpAngleOnNormal>double:44</ClassicJumpAngleOnNormal>
+    <GroundOffset>double:0</GroundOffset>
+    <ImpulseSpeedOnBoost>double:27</ImpulseSpeedOnBoost>
+    <ImpulseSpeedOnNormal>double:21</ImpulseSpeedOnNormal>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsTo3D>bool:false</IsTo3D>
+    <OutOfControl>double:0.909999</OutOfControl>
+    <Position>
+        <x>double:466.319</x>
+        <y>double:-65.1012</y>
+        <z>double:10.4476</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:-0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <m_ClassicSpinThreshold>double:30</m_ClassicSpinThreshold>
+    <Mesh>unknown.mesh</Mesh>
+</ClassicJumpBoard>

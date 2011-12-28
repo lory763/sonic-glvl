@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<CameraShakeCollision>
+    <Collision_Height>double:10</Collision_Height>
+    <Collision_Length>double:10</Collision_Length>
+    <Collision_Width>double:10</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <Durability>double:0</Durability>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:233.252</x>
+        <y>double:30.3432</y>
+        <z>double:-136.302</z>
+    </Position>
+    <Range>double:1000</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShakeCount>double:10</ShakeCount>
+    <ShakeSize>double:0.5</ShakeSize>
+    <ShakeTime>double:1</ShakeTime>
+    <Shape_Type>double:0</Shape_Type>
+    <SizeAttenuation>double:0.05</SizeAttenuation>
+    <Trigger>
+        <SetObjectID>integer</SetObjectID>
+    </Trigger>
+    <TriggerType>double:1</TriggerType>
+    <Mesh>unknown.mesh</Mesh>
+</CameraShakeCollision>

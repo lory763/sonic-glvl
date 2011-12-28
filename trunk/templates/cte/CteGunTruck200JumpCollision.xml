@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<CteGunTruck200JumpCollision>
+    <Collision_Height>double:12</Collision_Height>
+    <Collision_Length>double:6</Collision_Length>
+    <Collision_Width>double:7</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GravityOffset>double:0</GravityOffset>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <JumpTarget>
+        <x>double:748.546</x>
+        <y>double:-1173.81</y>
+        <z>double:14.9132</z>
+    </JumpTarget>
+    <Position>
+        <x>double:746.612</x>
+        <y>double:-1187.15</y>
+        <z>double:-90.3783</z>
+    </Position>
+    <Range>double:300</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Mesh>unknown.mesh</Mesh>
+</CteGunTruck200JumpCollision>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<EnemyGunBeetle2D>
+    <ActionRange>double:10</ActionRange>
+    <AttackRange>double:6</AttackRange>
+    <DebugPointClear>bool:false</DebugPointClear>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:false</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:true</IsDamageFromOnlyPlayer>
+    <IsPatrol>bool:true</IsPatrol>
+    <IsPlayFindMotion>bool:true</IsPlayFindMotion>
+    <IsRebirth>bool:false</IsRebirth>
+    <PathIsAccel>double:0</PathIsAccel>
+    <PathIsBezier>double:1</PathIsBezier>
+    <PathPointMoveRelative>bool:true</PathPointMoveRelative>
+    <Path_IsLoop>bool:true</Path_IsLoop>
+    <Position>
+        <x>double:226</x>
+        <y>double:19.4</y>
+        <z>double:-41.2102</z>
+    </Position>
+    <PositionList />
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShotInterval>double:3</ShotInterval>
+    <ShotReadyTime>double:2</ShotReadyTime>
+    <ShotSpeed>double:0</ShotSpeed>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
+    <ToRebirthTime>double:3</ToRebirthTime>
+    <Vel1D>double:10</Vel1D>
+    <Mesh>unknown.mesh</Mesh>
+</EnemyGunBeetle2D>
