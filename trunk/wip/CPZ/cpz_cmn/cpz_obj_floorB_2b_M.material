@@ -1,0 +1,687 @@
+material cpz_metal_yc1_light01_IgnoL_d
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yc1_light01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_tn1_footholdA_001
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_tn1_footholdA_001_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_yelow_Cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_yelow_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_yy_slop_cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_slop_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_circle_Cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_circle_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_floor4_cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_wall01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_tn1_footholdA_floor
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_tn1_footholdA_002_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_glass_fk1_glasstube
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_glass_fk1_glasstube_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_water_fk1_chemical02_Ind_doapn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_water_fk1_chemical01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_yy_slop_cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_slop_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_circle_Cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_circle_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_floor4_cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_wall01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_etc_tn1_lamp_001
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_etc_tn1_lamp_001_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_etc_yy_light01_IgnoL_d
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_light01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_tn1_footholdA_001
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_tn1_footholdA_001_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_circle_Cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_circle_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_yy_slop_cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_slop_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_tn1_footholdA_001
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_tn1_footholdA_001_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_glass_fk1_glasstube
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_glass_fk1_glasstube_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_yelow_Cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_yelow_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_tn1_footholdA_floor
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_tn1_footholdA_002_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_floor4_cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_wall01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_etc_tn1_lamp_001
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_etc_tn1_lamp_001_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_tn1_footholdA_floor
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_tn1_footholdA_002_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_yelow_Cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_yelow_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_water_fk1_chemical02_Ind_doapn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_water_fk1_chemical01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_etc_yy_light01_IgnoL_d
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_light01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_etc_tn1_lamp_001
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_etc_tn1_lamp_001_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_water_fk1_chemical05_Ind_doapn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_water_fk1_chemical02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_glass_fk1_glasstube_red
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_glass_fk1_glasstube_red_dif.dds
+			}
+		}
+
+	}
+
+}

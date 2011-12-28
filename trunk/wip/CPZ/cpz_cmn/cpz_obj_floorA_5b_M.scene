@@ -1,0 +1,209 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="0.00333333" minOgreVersion="1.7" ogreMaxVersion="2.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="cpz_metal_tn1_footholdA_floor">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cpz_metal_tn1_footholdA_floor" castShadows="true" receiveShadows="true" meshFile="cpz_metal_tn1_footholdA_floor.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cpz_metal_tn1_footholdA_floor" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ccp_metal_yy_yelow_Cmn_dpn">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ccp_metal_yy_yelow_Cmn_dpn" castShadows="true" receiveShadows="true" meshFile="ccp_metal_yy_yelow_Cmn_dpn.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ccp_metal_yy_yelow_Cmn_dpn" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cpz_metal_tn1_footholdA_001">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cpz_metal_tn1_footholdA_001" castShadows="true" receiveShadows="true" meshFile="cpz_metal_tn1_footholdA_001.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cpz_metal_tn1_footholdA_001" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ccp_etc_yy_light01_IgnoL_d">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ccp_etc_yy_light01_IgnoL_d" castShadows="true" receiveShadows="true" meshFile="ccp_etc_yy_light01_IgnoL_d.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ccp_etc_yy_light01_IgnoL_d" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cpz_etc_tn1_lamp_001">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cpz_etc_tn1_lamp_001" castShadows="true" receiveShadows="true" meshFile="cpz_etc_tn1_lamp_001.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cpz_etc_tn1_lamp_001" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ccp_metal_yy_floor4_cmn_dpn">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ccp_metal_yy_floor4_cmn_dpn" castShadows="true" receiveShadows="true" meshFile="ccp_metal_yy_floor4_cmn_dpn.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ccp_metal_yy_floor4_cmn_dpn" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ccp_metal_yy_circle_Cmn_dpn">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ccp_metal_yy_circle_Cmn_dpn" castShadows="true" receiveShadows="true" meshFile="ccp_metal_yy_circle_Cmn_dpn.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ccp_metal_yy_circle_Cmn_dpn" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cpz_metal_yy_slop_cmn_dpn">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cpz_metal_yy_slop_cmn_dpn" castShadows="true" receiveShadows="true" meshFile="cpz_metal_yy_slop_cmn_dpn.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cpz_metal_yy_slop_cmn_dpn" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cpz_water_fk1_chemical02_Ind_doapn">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cpz_water_fk1_chemical02_Ind_doapn" castShadows="true" receiveShadows="true" meshFile="cpz_water_fk1_chemical02_Ind_doapn.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cpz_water_fk1_chemical02_Ind_doapn" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cpz_glass_fk1_glasstube">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cpz_glass_fk1_glasstube" castShadows="true" receiveShadows="true" meshFile="cpz_glass_fk1_glasstube.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cpz_glass_fk1_glasstube" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cpz_metal_tn1_footholdA_floor_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cpz_metal_tn1_footholdA_floor_1" castShadows="true" receiveShadows="true" meshFile="cpz_metal_tn1_footholdA_floor_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cpz_metal_tn1_footholdA_floor" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ccp_metal_yy_yelow_Cmn_dpn_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ccp_metal_yy_yelow_Cmn_dpn_1" castShadows="true" receiveShadows="true" meshFile="ccp_metal_yy_yelow_Cmn_dpn_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ccp_metal_yy_yelow_Cmn_dpn" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cpz_metal_tn1_footholdA_001_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cpz_metal_tn1_footholdA_001_1" castShadows="true" receiveShadows="true" meshFile="cpz_metal_tn1_footholdA_001_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cpz_metal_tn1_footholdA_001" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ccp_etc_yy_light01_IgnoL_d_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ccp_etc_yy_light01_IgnoL_d_1" castShadows="true" receiveShadows="true" meshFile="ccp_etc_yy_light01_IgnoL_d_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ccp_etc_yy_light01_IgnoL_d" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cpz_etc_tn1_lamp_001_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cpz_etc_tn1_lamp_001_1" castShadows="true" receiveShadows="true" meshFile="cpz_etc_tn1_lamp_001_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cpz_etc_tn1_lamp_001" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ccp_metal_yy_floor4_cmn_dpn_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ccp_metal_yy_floor4_cmn_dpn_1" castShadows="true" receiveShadows="true" meshFile="ccp_metal_yy_floor4_cmn_dpn_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ccp_metal_yy_floor4_cmn_dpn" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ccp_metal_yy_circle_Cmn_dpn_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ccp_metal_yy_circle_Cmn_dpn_1" castShadows="true" receiveShadows="true" meshFile="ccp_metal_yy_circle_Cmn_dpn_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ccp_metal_yy_circle_Cmn_dpn" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cpz_metal_yy_slop_cmn_dpn_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cpz_metal_yy_slop_cmn_dpn_1" castShadows="true" receiveShadows="true" meshFile="cpz_metal_yy_slop_cmn_dpn_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cpz_metal_yy_slop_cmn_dpn" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cpz_water_fk1_chemical02_Ind_doapn_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cpz_water_fk1_chemical02_Ind_doapn_1" castShadows="true" receiveShadows="true" meshFile="cpz_water_fk1_chemical02_Ind_doapn_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cpz_water_fk1_chemical02_Ind_doapn" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cpz_glass_fk1_glasstube_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cpz_glass_fk1_glasstube_1" castShadows="true" receiveShadows="true" meshFile="cpz_glass_fk1_glasstube_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cpz_glass_fk1_glasstube" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>
