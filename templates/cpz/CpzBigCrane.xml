@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<CpzBigCrane>
+    <Centripetal>double:6</Centripetal>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsChangePath>bool:false</IsChangePath>
+    <IsInverse>bool:true</IsInverse>
+    <IsLaunchLow>bool:true</IsLaunchLow>
+    <IsLaunchStraight>bool:false</IsLaunchStraight>
+    <IsWalkWall>bool:false</IsWalkWall>
+    <KeepVelocityTime>double:0.8</KeepVelocityTime>
+    <LaunchEdPos>
+        <x>double:570.451</x>
+        <y>double:-317.051</y>
+        <z>double:971.763</z>
+    </LaunchEdPos>
+    <LaunchSpeed>double:40</LaunchSpeed>
+    <LaunchStPos>double:135</LaunchStPos>
+    <OutOfControl>double:1.95</OutOfControl>
+    <Position>
+        <x>double:623.648</x>
+        <y>double:-263.814</y>
+        <z>double:928.033</z>
+    </Position>
+    <Range>double:300</Range>
+    <RotVelocity>double:100</RotVelocity>
+    <Rotation>
+        <w>double:-0.654149</w>
+        <x>double:0</x>
+        <y>double:0.756363</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <WireLen>double:51</WireLen>
+    <Mesh>unknown.mesh</Mesh>
+</CpzBigCrane>

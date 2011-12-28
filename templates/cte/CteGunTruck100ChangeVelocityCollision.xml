@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<CteGunTruck100ChangeVelocityCollision>
+    <Collision_Height>double:20</Collision_Height>
+    <Collision_Length>double:32</Collision_Length>
+    <Collision_Width>double:8.1</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <EaseTime>double:1</EaseTime>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:621.03</x>
+        <y>double:-39.7761</y>
+        <z>double:-117.28</z>
+    </Position>
+    <Range>double:1000</Range>
+    <Rotation>
+        <w>double:0.989548</w>
+        <x>double:0</x>
+        <y>double:-0.144204</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <TargetVelocity>double:13</TargetVelocity>
+    <Mesh>unknown.mesh</Mesh>
+</CteGunTruck100ChangeVelocityCollision>

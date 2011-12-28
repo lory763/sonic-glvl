@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<ObjCameraFix>
+    <Ease_Time_Enter>double:0.6</Ease_Time_Enter>
+    <Ease_Time_Leave>double:0</Ease_Time_Leave>
+    <Fovy>double:30.0002</Fovy>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCameraView>bool:false</IsCameraView>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsCollision>bool:false</IsCollision>
+    <IsControllable>bool:false</IsControllable>
+    <Position>
+        <x>double:732.535</x>
+        <y>double:-77.3536</y>
+        <z>double:-1009.55</z>
+    </Position>
+    <Range>double:10030</Range>
+    <Rotation>
+        <w>double:0.0130495</w>
+        <x>double:0</x>
+        <y>double:-0.887166</y>
+        <z>double:-0.461266</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TargetPosition>
+        <x>double:709.085</x>
+        <y>double:-77.636</y>
+        <z>double:-1009.01</z>
+    </TargetPosition>
+    <ZRot>double:0</ZRot>
+    <Mesh>unknown.mesh</Mesh>
+</ObjCameraFix>

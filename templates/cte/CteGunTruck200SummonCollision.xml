@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<CteGunTruck200SummonCollision>
+    <Collision_Height>double:20</Collision_Height>
+    <Collision_Length>double:30</Collision_Length>
+    <Collision_Width>double:30</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:1321.8</x>
+        <y>double:-1247.2</y>
+        <z>double:545</z>
+    </Position>
+    <Range>double:10000</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Mesh>unknown.mesh</Mesh>
+</CteGunTruck200SummonCollision>

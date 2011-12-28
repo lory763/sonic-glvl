@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<WalkOnCeilingCollision>
+    <Collision_Height>double:4</Collision_Height>
+    <Collision_Width>double:3</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <InputControlTime>double:2</InputControlTime>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:509.15</x>
+        <y>double:-16.8668</y>
+        <z>double:10.4511</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.495601</w>
+        <x>double:-0.504327</x>
+        <y>double:0.495633</y>
+        <z>double:0.50436</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SpeedMin>double:10</SpeedMin>
+    <Mesh>unknown.mesh</Mesh>
+</WalkOnCeilingCollision>

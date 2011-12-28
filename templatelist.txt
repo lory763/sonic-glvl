@@ -3,6 +3,7 @@
 #  This way you can sort templates on folders or whatever you want.
 
 templates\common\Ring.xml
+templates\common\Item.xml
 templates\common\SuperRing.xml
 templates\common\DirectionalThorn.xml
 templates\common\GrindThorn.xml
@@ -21,12 +22,16 @@ templates\common\AirSpring.xml
 templates\common\WallJumpBlock.xml
 
 templates\common\JumpBoard.xml
+templates\common\ClassicJumpBoard.xml
+templates\common\JumpBoard3D.xml
 templates\common\AdlibTrickJump.xml
 
 templates\common\Pulley.xml
 templates\common\UpReel.xml
 
 templates\common\RainbowRing.xml
+
+templates\common\EventSetter.xml
 
 templates\common\EventCollision.xml
 templates\common\JumpCollision.xml
@@ -39,14 +44,18 @@ templates\common\ChangeSkyCollision.xml
 templates\common\StumbleCollision.xml
 templates\common\FallDeadCollision.xml
 templates\common\SlidingCollision.xml
+templates\common\WalkOnCeilingCollision.xml
 
 templates\common\ChangeToneMapVolume.xml
 templates\common\ChangeSkyProxy.xml
+templates\common\ChangeDiveBegin.xml
+templates\common\ChangeDiveEndNoEvent.xml
 
 templates\common\CameraCollisionBoard.xml
 templates\common\ChangeVolumeCamera.xml
 templates\common\ObjCameraParallel.xml
 templates\common\ObjCameraPan.xml
+templates\common\ObjCameraPanVertical.xml
 templates\common\ObjCameraPoint.xml
 templates\common\ObjCameraObjectLook.xml
 templates\common\ObjCameraPathParallel.xml
@@ -58,12 +67,14 @@ templates\common\CameraOffsetBox.xml
 
 templates\common\PointMarker.xml
 templates\common\ObjectPhysics.xml
+templates\common\Switch.xml
 
 
 templates\common\GeneralFloor.xml
 templates\common\GeneralFloorCustom.xml
 
 templates\common\DashPanel.xml
+templates\common\ClassicDashPanel.xml
 templates\common\GrindDashPanel.xml
 templates\common\DashRing.xml
 
@@ -71,6 +82,8 @@ templates\common\DashRing.xml
 templates\common\OnewayFloor.xml
 templates\common\SetRigidBody.xml
 templates\common\Grouper.xml
+templates\common\SelectCanon.xml
+
 
 
 templates\common\TerrainGroupSubsetLoadCollision2.xml
@@ -82,10 +95,33 @@ templates\common\Omochao.xml
 templates\common\SoundLine.xml
 templates\common\SoundPoint.xml
 
+templates\common\ConstantFrame.xml
+templates\common\Bomb.xml
+
 
 templates\common\ChangeMode_3Dto2D.xml
 templates\common\ChangeMode_3DtoForward.xml
 templates\common\ChangeMode_3DtoDash.xml
+
+templates\common\SetParticleVolume.xml
+templates\common\AutorunFinishSimpleCollision.xml
+templates\common\AutorunStartSimpleCollision.xml
+templates\common\BoardGetOnOffCollision.xml
+templates\common\CameraShakeCollision.xml
+templates\common\ChangeVelocityMax.xml
+templates\common\IntervalTriggerCollision.xml
+templates\common\ObjCameraBlend.xml
+templates\common\ObjCameraFix.xml
+templates\common\ObjCameraNormal.xml
+
+
+templates\common\Balloon.xml
+templates\common\ChangeBGMCollision.xml
+templates\common\ChangeNormalCameraParam.xml
+templates\common\ChangeMode_2DtoForward.xml
+templates\common\FallSignalFV.xml
+templates\common\GravityChangeCollision.xml
+templates\common\IronPole2D.xml
 
 
 templates\ghz\GhWoodBridge.xml
@@ -95,6 +131,37 @@ templates\ghz\GhzGiantBatabata_Collision.xml
 templates\ghz\GhzGiantBatabata_First.xml
 
 templates\cte\CteTrickJumpSkateBoard.xml
+templates\cte\CteGunTruck100.xml
+templates\cte\CteGunTruck100SteelFrameFallCollision.xml
+templates\cte\CteGunTruck100SendDamageCollision.xml
+templates\cte\CteGunTruck100GunHunterShotCollision.xml
+templates\cte\CteGunTruck100DriftStartCollision.xml
+templates\cte\CteGunTruck100ChangeVelocityCollision.xml
+templates\cte\CteGunTruck100ChangeApplyImplusCollision.xml
+templates\cte\CteGunTruck200.xml
+templates\cte\CteGunTruck200AttackEndCollision.xml
+templates\cte\CteGunTruck200AttackRequestCollision.xml
+templates\cte\CteGunTruck200CrashEffectCollision.xml
+templates\cte\CteGunTruck200DeathCollision.xml
+templates\cte\CteGunTruck200DriftStartCollision.xml
+templates\cte\CteGunTruck200JumpCollision.xml
+templates\cte\CteGunTruck200SummonCollision.xml
+templates\cte\CteGunTruck200WallRunStartCollision.xml
+templates\cte\CteSteelFrame.xml
+templates\cte\CtePhysicsCar.xml
+templates\cte\CteHexagonFloor.xml
+
+
+templates\cpz\CpzWaterCollision.xml
+templates\cpz\CpzBubble.xml
+templates\cpz\CpzPipe.xml
+templates\cpz\CpzPipeCap.xml
+templates\cpz\CpzPipeEnterCollision.xml
+templates\cpz\CpzRotateBlocks.xml
+templates\cpz\CpzSewageTrap.xml
+templates\cpz\CpzSewageTrapSignal.xml
+templates\cpz\CpzWaterStopCollision.xml
+templates\cpz\CpzBigCrane.xml
 
 templates\euc\EucGuillotine.xml
 
@@ -106,3 +173,14 @@ templates\enemies\EnemyGanigani2D.xml
 templates\enemies\EnemyMotora2D.xml
 templates\enemies\EnemyMotora3D.xml
 templates\enemies\EnemyGanigani3D.xml
+templates\enemies\EnemyGrabber2D.xml
+templates\enemies\EnemyGrabber3D.xml
+templates\enemies\EnemyGrabber3D.xml
+templates\enemies\EnemyLander2D.xml
+templates\enemies\EnemyLander3D.xml
+templates\enemies\EnemyMonoBeetle2D.xml
+templates\enemies\EnemyMonoBeetle3D.xml
+templates\enemies\EnemyGunHunter2D.xml
+templates\enemies\EnemyGunHunter3D.xml
+templates\enemies\EnemyGunBeetle2D.xml
+templates\enemies\EnemyGunBeetle3D.xml

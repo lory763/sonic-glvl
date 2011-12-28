@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<CteGunTruck100DriftStartCollision>
+    <Collision_Height>double:10</Collision_Height>
+    <Collision_Length>double:6</Collision_Length>
+    <Collision_Width>double:2</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <DriftType>double:3</DriftType>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:651.565</x>
+        <y>double:-75</y>
+        <z>double:-752.55</z>
+    </Position>
+    <Range>double:1000</Range>
+    <Rotation>
+        <w>double:0.993903</w>
+        <x>double:0</x>
+        <y>double:-0.110255</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:2</Shape_Type>
+    <Mesh>unknown.mesh</Mesh>
+</CteGunTruck100DriftStartCollision>
