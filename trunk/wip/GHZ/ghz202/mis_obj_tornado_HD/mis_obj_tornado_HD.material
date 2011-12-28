@@ -1,0 +1,250 @@
+material tornado_propeller2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_tornado_propeller2_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material tornado_logo1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_tornado_logo01_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material tornado_logo2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_tornado_logo02_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material tornado_body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_tornado_body_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material tornado_body2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_tornado02_body_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material tornado_light
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_tornado_light_ems_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material tornado_propeller
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_tornado_propeller_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material tornado_PDA
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_tornado_PDA_body_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material tornado_monitor
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_tornado_PDA_ems_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material tornado_handle
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_tornado_handle_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material tornado_glass
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture mis_obj_tornado02_body_dif_HD.dds
+			}
+		}
+
+	}
+
+}

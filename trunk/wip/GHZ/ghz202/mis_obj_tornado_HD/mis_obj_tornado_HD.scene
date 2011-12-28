@@ -1,0 +1,119 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="0.00333333" minOgreVersion="1.7" ogreMaxVersion="2.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="tornado_body">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="tornado_body" castShadows="true" receiveShadows="true" meshFile="tornado_body.mesh">
+                <subentities>
+                    <subentity index="0" materialName="tornado_body" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="tornado_light">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="tornado_light" castShadows="true" receiveShadows="true" meshFile="tornado_light.mesh">
+                <subentities>
+                    <subentity index="0" materialName="tornado_light" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="tornado_propeller">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="tornado_propeller" castShadows="true" receiveShadows="true" meshFile="tornado_propeller.mesh">
+                <subentities>
+                    <subentity index="0" materialName="tornado_propeller" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="tornado_body2">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="tornado_body2" castShadows="true" receiveShadows="true" meshFile="tornado_body2.mesh">
+                <subentities>
+                    <subentity index="0" materialName="tornado_body2" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="tornado_handle">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="tornado_handle" castShadows="true" receiveShadows="true" meshFile="tornado_handle.mesh">
+                <subentities>
+                    <subentity index="0" materialName="tornado_handle" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="tornado_PDA">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="tornado_PDA" castShadows="true" receiveShadows="true" meshFile="tornado_PDA.mesh">
+                <subentities>
+                    <subentity index="0" materialName="tornado_PDA" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="tornado_monitor">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="tornado_monitor" castShadows="true" receiveShadows="true" meshFile="tornado_monitor.mesh">
+                <subentities>
+                    <subentity index="0" materialName="tornado_monitor" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="tornado_glass">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="tornado_glass" castShadows="true" receiveShadows="true" meshFile="tornado_glass.mesh">
+                <subentities>
+                    <subentity index="0" materialName="tornado_glass" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="tornado_propeller2">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="tornado_propeller2" castShadows="true" receiveShadows="true" meshFile="tornado_propeller2.mesh">
+                <subentities>
+                    <subentity index="0" materialName="tornado_propeller2" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="tornado_logo2">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="tornado_logo2" castShadows="true" receiveShadows="true" meshFile="tornado_logo2.mesh">
+                <subentities>
+                    <subentity index="0" materialName="tornado_logo2" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="tornado_logo1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="tornado_logo1" castShadows="true" receiveShadows="true" meshFile="tornado_logo1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="tornado_logo1" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>
