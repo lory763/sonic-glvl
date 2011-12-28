@@ -1,0 +1,571 @@
+material cpz_obj_wall_st1_bldg05_Lumi_dpnE
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_wall_st1_bldg05_02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_etc_yy_light01_IgnoL_d
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_light01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_yy1_road_cmn_dp
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_road_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_st1_tank01_cmn_dpnE
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_st1_tank01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_wall_st1_wall04_Lumi_dpnE
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_wall_st1_wall04_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_duct_Cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture ommon_dpn.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_yy_slop_cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_slop_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_lblueright_Cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_mark_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_gray_Cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_gray_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_floor3_Cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_floor3_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_etc_tn1_towerlight_001
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_etc_tn1_towerlight_001_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_obj_wall_st1_bldg04_Lumi_dpnE
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_wall_st1_bldg04_01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_wall_st1_windw_Lumi_dpnE
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_wall_st1_windw01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_yy1_wall01_Cmn_dpne[c]
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_wall01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_gray02_Lumin_dpnE
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_gray02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_circle_Cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_circle_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_yelow02_cmn_dp
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_yelow02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_yelow_Cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_yelow_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_wall_st1_wall05_cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_wall_st1_wall05_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_yy1_belt_cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_belt_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_floor2_Cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_redpipe_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_floor4_cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_wall01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ccp_metal_yy_floor2_Lumi_dpnE
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_floor2_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_tn1_roundparts_002
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_tn1_roundparts_002_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cpz_metal_yy_cyder_cmn_dpn
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cpz_metal_yy1_cyder_dif.dds
+			}
+		}
+
+	}
+
+}
