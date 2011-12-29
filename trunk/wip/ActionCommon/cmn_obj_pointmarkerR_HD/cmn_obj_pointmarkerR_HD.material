@@ -1,0 +1,112 @@
+material cmn_obj_pointlaser_mat_laserpos_lumi
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cmn_obj_kmn_pointmarker02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cmn_obj_pointlaser_mat_star
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cmn_metal_ms_springstar_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cmn_obj_pointlaser_mat_laserpos
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cmn_obj_kmn_pointmarker02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cmn_obj_pointlaser_mat_red
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cmn_obj_kmn_pointmarker01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cmn_obj_pointlaser_mat_metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cmn_glass_km_switchnormal_dif.dds
+			}
+		}
+
+	}
+
+}

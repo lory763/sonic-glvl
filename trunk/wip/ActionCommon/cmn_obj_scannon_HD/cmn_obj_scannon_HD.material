@@ -1,0 +1,66 @@
+material cmn_obj_scannon_HD_star
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cmn_obj_scannon01_dif_SD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cmn_obj_scannon_HD_body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cmn_obj_scannon02_dif_SD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cmn_obj_scannon_HD_gauge
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cmn_obj_scannongauge_dif_SD.dds
+			}
+		}
+
+	}
+
+}
