@@ -1,0 +1,49 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="0.00333333" minOgreVersion="1.7" ogreMaxVersion="2.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="cmn_obj_ditch">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cmn_obj_ditch" castShadows="true" receiveShadows="true" meshFile="cmn_obj_ditch.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cmn_obj_ditch" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cmn_obj_ditch_wall">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cmn_obj_ditch_wall" castShadows="true" receiveShadows="true" meshFile="cmn_obj_ditch_wall.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cmn_obj_ditch_wall" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cmn_obj_ditch_top">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cmn_obj_ditch_top" castShadows="true" receiveShadows="true" meshFile="cmn_obj_ditch_top.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cmn_obj_ditch_top" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cmn_obj_ditch_light">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cmn_obj_ditch_light" castShadows="true" receiveShadows="true" meshFile="cmn_obj_ditch_light.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cmn_obj_ditch_light" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>
