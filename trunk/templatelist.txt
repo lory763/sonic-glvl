@@ -58,6 +58,7 @@ templates\common\ObjCameraPan.xml
 templates\common\ObjCameraPanVertical.xml
 templates\common\ObjCameraPoint.xml
 templates\common\ObjCameraObjectLook.xml
+templates\common\ObjCameraPathPath.xml
 templates\common\ObjCameraPathParallel.xml
 templates\common\ObjCameraVertical.xml
 templates\common\ObjCameraTube.xml
@@ -124,6 +125,12 @@ templates\common\GravityChangeCollision.xml
 templates\common\IronPole2D.xml
 
 
+templates\common\Electric.xml
+templates\common\MissionNpc_Appear.xml
+templates\common\MissionTime.xml
+templates\common\MovingThorn.xml
+
+
 templates\ghz\GhWoodBridge.xml
 templates\ghz\GhBreakCriff.xml
 templates\ghz\GhSwingFloor.xml
@@ -162,6 +169,10 @@ templates\cpz\CpzSewageTrap.xml
 templates\cpz\CpzSewageTrapSignal.xml
 templates\cpz\CpzWaterStopCollision.xml
 templates\cpz\CpzBigCrane.xml
+templates\cpz\MissionTailsDashRing.xml
+templates\cpz\MissionNpcC_Tails.xml
+templates\cpz\MissionLaserSV.xml
+templates\cpz\MissionOpenBlock.xml
 
 templates\euc\EucGuillotine.xml
 

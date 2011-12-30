@@ -28,4 +28,12 @@
     <TimerON>double:0</TimerON>
     <Type>double:0</Type>
     <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>LevelPrefix==cpz</Condition>
+       <Mesh>cpz_obj_SwitchPipe_00.mesh</Mesh>
+       <Mesh>cpz_obj_SwitchPipe_01.mesh</Mesh>
+       <Mesh>cpz_obj_SwitchPipe_02.mesh</Mesh>
+       <Mesh>cpz_obj_SwitchPipe_03.mesh</Mesh>
+    </AltMesh>
 </Switch>
