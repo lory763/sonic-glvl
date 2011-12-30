@@ -316,6 +316,22 @@
        <Mesh>cpz_obj_floorA_5b_M_10.mesh</Mesh>
     </AltMesh>
 
+    <AltMesh>
+       <Condition>FloorType == 0</Condition>
+       <Condition>FloorSize == 3</Condition>
+	 <Condition>LevelPrefix == cpz</Condition>
+       <Mesh>cpz_obj_floorA_5b_M_01.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_02.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_03.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_04.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_05.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_06.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_07.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_08.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_09.mesh</Mesh>
+       <Mesh>cpz_obj_floorA_5b_M_10.mesh</Mesh>
+    </AltMesh>
+
 
 
     <AltMesh>

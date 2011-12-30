@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<MissionOpenBlock>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:164.242</x>
+        <y>double:28.1902</y>
+        <z>double:-2.88929</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SizeD>double:2</SizeD>
+    <SizeH>double:5</SizeH>
+    <SizeW>double:2</SizeW>
+    <StartValid>bool:true</StartValid>
+    <Mesh>mis_obj_MoveFloor3_01.mesh</Mesh>
+    <Mesh>mis_obj_MoveFloor3_02.mesh</Mesh>
+    <MeshScaleX multiplier="0.5">SizeW</MeshScaleX>
+    <MeshScaleY multiplier="0.25">SizeD</MeshScaleY>
+    <MeshScaleZ multiplier="1.0">SizeH</MeshScaleZ>
+</MissionOpenBlock>

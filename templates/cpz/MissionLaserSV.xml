@@ -1,12 +1,13 @@
 <?xml version="1.0" ?>
-<RedMedal>
+<MissionLaserSV>
     <GroundOffset>double:0</GroundOffset>
     <IsCastShadow>bool:false</IsCastShadow>
-    <MedalID>double:4</MedalID>
+    <IsMessageOn>bool:false</IsMessageOn>
+    <Length>double:20</Length>
     <Position>
-        <x>double:493.994</x>
-        <y>double:59.9465</y>
-        <z>double:-541.844</z>
+        <x>double:247.249</x>
+        <y>double:4.05682</y>
+        <z>double:10.4512</z>
     </Position>
     <Range>double:30</Range>
     <Rotation>
@@ -16,6 +17,5 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <Mesh>redring_01.mesh</Mesh>
-    <Mesh>redring_02.mesh</Mesh>
-</RedMedal>
+    <Mesh>unknown.mesh</Mesh>
+</MissionLaserSV>

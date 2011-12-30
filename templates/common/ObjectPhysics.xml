@@ -40,4 +40,30 @@
       <Mesh>cpz_obj_pipelinecapA_000_06.mesh</Mesh>
       <Mesh>cpz_obj_pipelinecapA_000_07.mesh</Mesh>
     </AltMesh>
+
+
+
+    <AltMesh>
+       <Condition>Type==cpz_obj_breakbox</Condition>
+       <Mesh>cpz_obj_breakbox_000_01.mesh</Mesh>
+       <Mesh>cpz_obj_breakbox_000_02.mesh</Mesh>
+       <Mesh>cpz_obj_breakbox_000_03.mesh</Mesh>
+       <Mesh>cpz_obj_breakbox_000_04.mesh</Mesh>
+       <Mesh>cpz_obj_breakbox_000_05.mesh</Mesh>
+       <Mesh>cpz_obj_breakbox_000_06.mesh</Mesh>
+       <Mesh>cpz_obj_breakbox_000_07.mesh</Mesh>
+    </AltMesh>
+
+
+    <AltMesh>
+       <Condition>Type==cpz_obj_breakboxtall</Condition>
+       <Mesh>cpz_obj_breakboxtall_01.mesh</Mesh>
+       <Mesh>cpz_obj_breakboxtall_02.mesh</Mesh>
+       <Mesh>cpz_obj_breakboxtall_03.mesh</Mesh>
+       <Mesh>cpz_obj_breakboxtall_04.mesh</Mesh>
+       <Mesh>cpz_obj_breakboxtall_05.mesh</Mesh>
+       <Mesh>cpz_obj_breakboxtall_06.mesh</Mesh>
+       <Mesh>cpz_obj_breakboxtall_07.mesh</Mesh>
+    </AltMesh>
+
 </ObjectPhysics>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <PointMarker>
-    <DimensionType>double:0</DimensionType>
+    <DimensionType>integer:0</DimensionType>
     <GroundOffset>double:0</GroundOffset>
     <Height>double:5</Height>
     <IsCastShadow>bool:false</IsCastShadow>
@@ -20,4 +20,22 @@
     <SetObjectID>integer</SetObjectID>
     <Width>double:1.4</Width>
     <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>DimensionType==0</Condition>
+       <Mesh>cmn_obj_pointmarkerL_01.mesh</Mesh>
+       <Mesh>cmn_obj_pointmarkerL_02.mesh</Mesh>
+       <Mesh>cmn_obj_pointmarkerL_03.mesh</Mesh>
+       <Mesh>cmn_obj_pointmarkerL_04.mesh</Mesh>
+       <Mesh>cmn_obj_pointmarkerL_05.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>DimensionType==1</Condition>
+       <Mesh>cmn_obj_pointmarkerR_01.mesh</Mesh>
+       <Mesh>cmn_obj_pointmarkerR_02.mesh</Mesh>
+       <Mesh>cmn_obj_pointmarkerR_03.mesh</Mesh>
+       <Mesh>cmn_obj_pointmarkerR_04.mesh</Mesh>
+       <Mesh>cmn_obj_pointmarkerR_05.mesh</Mesh>
+    </AltMesh>
 </PointMarker>
