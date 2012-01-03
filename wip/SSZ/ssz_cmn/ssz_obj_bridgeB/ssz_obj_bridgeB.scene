@@ -1,0 +1,39 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.7" ogreMaxVersion="2.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="ssz_etc_jh1_bridge03_Luminescence_dpnE">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_etc_jh1_bridge03_Luminescence_dpnE" castShadows="true" receiveShadows="true" meshFile="ssz_etc_jh1_bridge03_Luminescence_dpnE.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_etc_jh1_bridge03_Luminescence_dpnE" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_etc_jh1_bridge01_FallOffV_dn">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_etc_jh1_bridge01_FallOffV_dn" castShadows="true" receiveShadows="true" meshFile="ssz_etc_jh1_bridge01_FallOffV_dn.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_etc_jh1_bridge01_FallOffV_dn" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_etc_jh1_bridge02_EnmEmission_dl">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_etc_jh1_bridge02_EnmEmission_dl" castShadows="true" receiveShadows="true" meshFile="ssz_etc_jh1_bridge02_EnmEmission_dl.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_etc_jh1_bridge02_EnmEmission_dl" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>
