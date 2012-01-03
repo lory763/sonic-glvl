@@ -1,0 +1,63 @@
+material cmn_obj_grindbooster_HD_body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture dbooster_HD_body-0000.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cmn_obj_grindbooster_HD_light
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture dbooster_HD_light-0000.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cmn_obj_grindbooster_HD_arrow
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture dbooster_HD_arrow-0000.dds
+			}
+		}
+
+	}
+
+}
