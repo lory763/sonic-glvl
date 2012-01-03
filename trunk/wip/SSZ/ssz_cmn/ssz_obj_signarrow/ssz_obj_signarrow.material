@@ -1,0 +1,112 @@
+material ssz_etc_tn1_LightingLineB
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_etc_tn1_LightingLineB_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_rock_km1_wall05_lim
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_rock_km1_wall05_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_rock_km1_relief01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_rock_km1_relief01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_rock_km1_wall01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_rock_km1_wall01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_rock_km1_wall03
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_rock_km1_wall03_dif.dds
+			}
+		}
+
+	}
+
+}

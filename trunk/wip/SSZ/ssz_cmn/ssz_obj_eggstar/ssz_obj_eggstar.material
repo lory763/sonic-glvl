@@ -1,0 +1,319 @@
+material ssz_metal_ym2_mplate01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_mplate01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_metal_ym2_mplate07
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_mplate07_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_metal_ym2_mplate03
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_mplate03_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_metal_ym2_mplate02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_mplate02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_metal_ym2_mplate04
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_mplate04_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_metal_ym2_mplate05
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_mplate05_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_metal_ym2_mplate06
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_mplate06_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_metal_ym2_eseye01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_eseye01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_metal_ym2_esnose01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_esnose01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_metal_ym2_hunger01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_hunger01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_metal_ym2_mplate11
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_mplate11_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_metal_ym2_mplate09
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_mplate09_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_metal_ym2_mplate08
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_mplate08_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material ssz_metal_ym2_mplate10
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture ssz_metal_ym2_mplate10_dif.dds
+			}
+		}
+
+	}
+
+}

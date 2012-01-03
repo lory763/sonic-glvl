@@ -1,0 +1,149 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.7" ogreMaxVersion="2.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="ssz_metal_ym2_mplate01">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_mplate01" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_mplate01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_mplate01" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_metal_ym2_mplate04">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_mplate04" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_mplate04.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_mplate04" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_metal_ym2_mplate03">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_mplate03" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_mplate03.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_mplate03" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_metal_ym2_mplate02">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_mplate02" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_mplate02.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_mplate02" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_metal_ym2_mplate05">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_mplate05" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_mplate05.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_mplate05" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_metal_ym2_mplate06">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_mplate06" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_mplate06.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_mplate06" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_metal_ym2_mplate07">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_mplate07" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_mplate07.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_mplate07" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_metal_ym2_hunger01">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_hunger01" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_hunger01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_hunger01" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_metal_ym2_eseye01">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_eseye01" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_eseye01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_eseye01" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_metal_ym2_esnose01">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_esnose01" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_esnose01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_esnose01" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_metal_ym2_mplate11">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_mplate11" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_mplate11.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_mplate11" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_metal_ym2_mplate09">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_mplate09" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_mplate09.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_mplate09" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_metal_ym2_mplate08">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_mplate08" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_mplate08.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_mplate08" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="ssz_metal_ym2_mplate10">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="ssz_metal_ym2_mplate10" castShadows="true" receiveShadows="true" meshFile="ssz_metal_ym2_mplate10.mesh">
+                <subentities>
+                    <subentity index="0" materialName="ssz_metal_ym2_mplate10" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>
