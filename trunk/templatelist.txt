@@ -1,6 +1,11 @@
 #  Entries that start with a # will be ignored
 #  Add an entry on each new line
 #  This way you can sort templates on folders or whatever you want.
+#  Also supports creating categories the following way
+#  category <name>, it will be automatically added to the list and the filter selector
+#  anything below the current category will be classified on it
+
+category Common
 
 templates\common\Ring.xml
 templates\common\Item.xml
@@ -12,28 +17,55 @@ templates\common\JumpPole.xml
 templates\common\GoalSignboard.xml
 templates\common\GoalRing.xml
 templates\common\ClassicItemBox.xml
-
 templates\common\SpringClassic.xml
 templates\common\SpringClassicYellow.xml
 templates\common\Spring.xml
 templates\common\WideSpring.xml
 templates\common\AirSpring.xml
-
 templates\common\WallJumpBlock.xml
-
 templates\common\JumpBoard.xml
 templates\common\ClassicJumpBoard.xml
 templates\common\JumpBoard3D.xml
 templates\common\AdlibTrickJump.xml
-
 templates\common\Pulley.xml
 templates\common\UpReel.xml
-
 templates\common\RainbowRing.xml
+templates\common\PointMarker.xml
+templates\common\ObjectPhysics.xml
+templates\common\Switch.xml
+templates\common\GeneralFloor.xml
+templates\common\GeneralFloorCustom.xml
+templates\common\DashPanel.xml
+templates\common\ClassicDashPanel.xml
+templates\common\GrindDashPanel.xml
+templates\common\DashRing.xml
+templates\common\OnewayFloor.xml
+templates\common\SetRigidBody.xml
+templates\common\Grouper.xml
+templates\common\SelectCanon.xml
+templates\common\Omochao.xml
+templates\common\Bomb.xml
+templates\common\Balloon.xml
+templates\common\FallSignalFV.xml
+templates\common\IronPole2D.xml
+templates\common\Electric.xml
+templates\common\MovingThorn.xml
+
+
+category Events
 
 templates\common\EventSetter.xml
-
 templates\common\EventCollision.xml
+
+category Collision Triggers
+
+templates\common\GravityChangeCollision.xml
+templates\common\ChangeBGMCollision.xml
+templates\common\AutorunFinishSimpleCollision.xml
+templates\common\AutorunStartSimpleCollision.xml
+templates\common\BoardGetOnOffCollision.xml
+templates\common\IntervalTriggerCollision.xml
+templates\common\CameraShakeCollision.xml
 templates\common\JumpCollision.xml
 templates\common\LaunchSpinCollision.xml
 templates\common\AutorunStartCollision.xml
@@ -45,12 +77,29 @@ templates\common\StumbleCollision.xml
 templates\common\FallDeadCollision.xml
 templates\common\SlidingCollision.xml
 templates\common\WalkOnCeilingCollision.xml
+templates\common\TerrainGroupSubsetLoadCollision2.xml
+templates\common\TerrainGroupSubsetLoadCollisionVolume.xml
 
+
+category Changers
+
+templates\common\ChangeNormalCameraParam.xml
+templates\common\ChangeMode_2DtoForward.xml
+templates\common\ChangeVelocityMax.xml
+templates\common\ChangeMode_3Dto2D.xml
+templates\common\ChangeMode_3DtoForward.xml
+templates\common\ChangeMode_3DtoDash.xml
 templates\common\ChangeToneMapVolume.xml
 templates\common\ChangeSkyProxy.xml
 templates\common\ChangeDiveBegin.xml
 templates\common\ChangeDiveEndNoEvent.xml
 
+
+category Cameras
+
+templates\common\ObjCameraBlend.xml
+templates\common\ObjCameraFix.xml
+templates\common\ObjCameraNormal.xml
 templates\common\CameraCollisionBoard.xml
 templates\common\ChangeVolumeCamera.xml
 templates\common\ObjCameraParallel.xml
@@ -66,70 +115,47 @@ templates\common\CameraOffsetBoard.xml
 templates\common\CameraOffsetReset.xml
 templates\common\CameraOffsetBox.xml
 
-templates\common\PointMarker.xml
-templates\common\ObjectPhysics.xml
-templates\common\Switch.xml
+category Enemies
+
+templates\enemies\EnemyBeeton2D.xml
+templates\enemies\EnemyBeeton3D.xml
+templates\enemies\EnemyBatabata2D.xml
+templates\enemies\EnemyGanigani2D.xml
+templates\enemies\EnemyMotora2D.xml
+templates\enemies\EnemyMotora3D.xml
+templates\enemies\EnemyGanigani3D.xml
+templates\enemies\EnemyGrabber2D.xml
+templates\enemies\EnemyGrabber3D.xml
+templates\enemies\EnemyGrabber3D.xml
+templates\enemies\EnemyLander2D.xml
+templates\enemies\EnemyLander3D.xml
+templates\enemies\EnemyMonoBeetle2D.xml
+templates\enemies\EnemyMonoBeetle3D.xml
+templates\enemies\EnemyGunHunter2D.xml
+templates\enemies\EnemyGunHunter3D.xml
+templates\enemies\EnemyGunBeetle2D.xml
+templates\enemies\EnemyGunBeetle3D.xml
 
 
-templates\common\GeneralFloor.xml
-templates\common\GeneralFloorCustom.xml
-
-templates\common\DashPanel.xml
-templates\common\ClassicDashPanel.xml
-templates\common\GrindDashPanel.xml
-templates\common\DashRing.xml
-
-
-templates\common\OnewayFloor.xml
-templates\common\SetRigidBody.xml
-templates\common\Grouper.xml
-templates\common\SelectCanon.xml
+category Missions
+templates\common\MissionNpc_Appear.xml
+templates\common\MissionTime.xml
+templates\cpz\MissionTailsDashRing.xml
+templates\cpz\MissionNpcC_Tails.xml
+templates\cpz\MissionLaserSV.xml
+templates\cpz\MissionOpenBlock.xml
 
 
-
-templates\common\TerrainGroupSubsetLoadCollision2.xml
-templates\common\TerrainGroupSubsetLoadCollisionVolume.xml
-
+category Particles & Effects
+templates\common\SetParticleVolume.xml
 templates\common\SetParticle.xml
-templates\common\Omochao.xml
 
+category Sounds
 templates\common\SoundLine.xml
 templates\common\SoundPoint.xml
 
-templates\common\ConstantFrame.xml
-templates\common\Bomb.xml
 
-
-templates\common\ChangeMode_3Dto2D.xml
-templates\common\ChangeMode_3DtoForward.xml
-templates\common\ChangeMode_3DtoDash.xml
-
-templates\common\SetParticleVolume.xml
-templates\common\AutorunFinishSimpleCollision.xml
-templates\common\AutorunStartSimpleCollision.xml
-templates\common\BoardGetOnOffCollision.xml
-templates\common\CameraShakeCollision.xml
-templates\common\ChangeVelocityMax.xml
-templates\common\IntervalTriggerCollision.xml
-templates\common\ObjCameraBlend.xml
-templates\common\ObjCameraFix.xml
-templates\common\ObjCameraNormal.xml
-
-
-templates\common\Balloon.xml
-templates\common\ChangeBGMCollision.xml
-templates\common\ChangeNormalCameraParam.xml
-templates\common\ChangeMode_2DtoForward.xml
-templates\common\FallSignalFV.xml
-templates\common\GravityChangeCollision.xml
-templates\common\IronPole2D.xml
-
-
-templates\common\Electric.xml
-templates\common\MissionNpc_Appear.xml
-templates\common\MissionTime.xml
-templates\common\MovingThorn.xml
-
+category Green Hill Zone
 
 templates\ghz\GhWoodBridge.xml
 templates\ghz\GhBreakCriff.xml
@@ -137,6 +163,25 @@ templates\ghz\GhSwingFloor.xml
 templates\ghz\GhzGiantBatabata_Collision.xml
 templates\ghz\GhzGiantBatabata_First.xml
 
+category Chemical Plant Zone
+
+templates\cpz\CpzWaterCollision.xml
+templates\cpz\CpzBubble.xml
+templates\cpz\CpzPipe.xml
+templates\cpz\CpzPipeCap.xml
+templates\cpz\CpzPipeEnterCollision.xml
+templates\cpz\CpzRotateBlocks.xml
+templates\cpz\CpzSewageTrap.xml
+templates\cpz\CpzSewageTrapSignal.xml
+templates\cpz\CpzWaterStopCollision.xml
+templates\cpz\CpzBigCrane.xml
+
+
+category Sky Sanctuary Zone
+
+category Speed Highway
+
+category City Escape
 templates\cte\CteTrickJumpSkateBoard.xml
 templates\cte\CteGunTruck100.xml
 templates\cte\CteGunTruck100SteelFrameFallCollision.xml
@@ -159,39 +204,21 @@ templates\cte\CtePhysicsCar.xml
 templates\cte\CteHexagonFloor.xml
 
 
-templates\cpz\CpzWaterCollision.xml
-templates\cpz\CpzBubble.xml
-templates\cpz\CpzPipe.xml
-templates\cpz\CpzPipeCap.xml
-templates\cpz\CpzPipeEnterCollision.xml
-templates\cpz\CpzRotateBlocks.xml
-templates\cpz\CpzSewageTrap.xml
-templates\cpz\CpzSewageTrapSignal.xml
-templates\cpz\CpzWaterStopCollision.xml
-templates\cpz\CpzBigCrane.xml
-templates\cpz\MissionTailsDashRing.xml
-templates\cpz\MissionNpcC_Tails.xml
-templates\cpz\MissionLaserSV.xml
-templates\cpz\MissionOpenBlock.xml
+category Seaside Hill
+
+category Crisis City
+
+category Rooftop Run
 
 templates\euc\EucGuillotine.xml
 
+category Planet Wisp
 
-templates\enemies\EnemyBeeton2D.xml
-templates\enemies\EnemyBeeton3D.xml
-templates\enemies\EnemyBatabata2D.xml
-templates\enemies\EnemyGanigani2D.xml
-templates\enemies\EnemyMotora2D.xml
-templates\enemies\EnemyMotora3D.xml
-templates\enemies\EnemyGanigani3D.xml
-templates\enemies\EnemyGrabber2D.xml
-templates\enemies\EnemyGrabber3D.xml
-templates\enemies\EnemyGrabber3D.xml
-templates\enemies\EnemyLander2D.xml
-templates\enemies\EnemyLander3D.xml
-templates\enemies\EnemyMonoBeetle2D.xml
-templates\enemies\EnemyMonoBeetle3D.xml
-templates\enemies\EnemyGunHunter2D.xml
-templates\enemies\EnemyGunHunter3D.xml
-templates\enemies\EnemyGunBeetle2D.xml
-templates\enemies\EnemyGunBeetle3D.xml
+
+
+
+
+
+
+
+
