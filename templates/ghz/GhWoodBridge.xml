@@ -25,4 +25,6 @@
     <ToSignTime>double:0</ToSignTime>
     <WoodType>double:0</WoodType>
     <Mesh>ghwoodbrdg_01.mesh</Mesh>
+    
+    <CopyScaleX multiplier="0.6">NumWood</CopyScaleX>
 </GhWoodBridge>

@@ -146,7 +146,7 @@ templates\cpz\MissionLaserSV.xml
 templates\cpz\MissionOpenBlock.xml
 
 
-category Particles & Effects
+category Particles and Effects
 templates\common\SetParticleVolume.xml
 templates\common\SetParticle.xml
 
