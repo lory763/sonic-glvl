@@ -1,0 +1,99 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.7" ogreMaxVersion="2.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="em_eday_ef2n_body01">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="em_eday_ef2n_body01" castShadows="true" receiveShadows="true" meshFile="em_eday_ef2n_body01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="em_eday_ef2n_body01" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="em_eday_ef2n_lens_in">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="em_eday_ef2n_lens_in" castShadows="true" receiveShadows="true" meshFile="em_eday_ef2n_lens_in.mesh">
+                <subentities>
+                    <subentity index="0" materialName="em_eday_ef2n_lens_in" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="em_eday_ef2n_eyeglow01">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="em_eday_ef2n_eyeglow01" castShadows="true" receiveShadows="true" meshFile="em_eday_ef2n_eyeglow01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="em_eday_ef2n_eyeglow01" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="em_eday_ef2n_body02">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="em_eday_ef2n_body02" castShadows="true" receiveShadows="true" meshFile="em_eday_ef2n_body02.mesh">
+                <subentities>
+                    <subentity index="0" materialName="em_eday_ef2n_body02" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="em_eday_ef2n_body02_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="em_eday_ef2n_body02_1" castShadows="true" receiveShadows="true" meshFile="em_eday_ef2n_body02_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="em_eday_ef2n_body02" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="em_eday_ef2n_lens01">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="em_eday_ef2n_lens01" castShadows="true" receiveShadows="true" meshFile="em_eday_ef2n_lens01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="em_eday_ef2n_lens01" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="em_eday_ef2n_eyeadd">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="em_eday_ef2n_eyeadd" castShadows="true" receiveShadows="true" meshFile="em_eday_ef2n_eyeadd.mesh">
+                <subentities>
+                    <subentity index="0" materialName="em_eday_ef2n_eyeadd" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="em_eday_ef2n_teethadd">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="em_eday_ef2n_teethadd" castShadows="true" receiveShadows="true" meshFile="em_eday_ef2n_teethadd.mesh">
+                <subentities>
+                    <subentity index="0" materialName="em_eday_ef2n_teethadd" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="em_eday_ef2n_teethglow01">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="em_eday_ef2n_teethglow01" castShadows="true" receiveShadows="true" meshFile="em_eday_ef2n_teethglow01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="em_eday_ef2n_teethglow01" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

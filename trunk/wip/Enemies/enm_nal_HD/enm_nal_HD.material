@@ -1,0 +1,158 @@
+material enm_nal_metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture enm_nal_body_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material enm_nal_dark
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture enm_nal_body_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material enm_nal_glass
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture enm_nal_glass_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material enm_nal_body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture enm_nal_body_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material enm_nal_light
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture enm_nal_eye_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material enm_nal_light_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture enm_nal_eye_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material enm_nal_light_uv
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture enm_nal_eye_dif_HD.dds
+			}
+		}
+
+	}
+
+}
