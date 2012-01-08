@@ -1,0 +1,158 @@
+material em_eday_chse_body02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture em_eday_chse_body02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material em_eday_chse_body01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture em_eday_chse_body01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material em_eday_chse_eye
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture em_eday_chse_eyeglow01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material em_eday_chse_eyeglow01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture em_eday_chse_eyeglow01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material em_eday_chse_teethglow01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture em_eday_chse_teethglow01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material em_eday_chse_teeth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture em_eday_chse_teethglow01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material em_eday_chse_eye_core
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture em_eday_chse_eyeglow01_dif.dds
+			}
+		}
+
+	}
+
+}
