@@ -1,0 +1,158 @@
+material cnz_obj_emerald07
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_light_ty1_emerald_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_emerald04
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_light_ty1_emerald_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_emerald03
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_light_ty1_emerald_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_emerald02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_light_ty1_emerald_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_emerald01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_light_ty1_emerald_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_emerald05
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_light_ty1_emerald_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_emerald06
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_light_ty1_emerald_dif.dds
+			}
+		}
+
+	}
+
+}

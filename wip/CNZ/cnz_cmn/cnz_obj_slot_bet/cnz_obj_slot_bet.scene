@@ -1,0 +1,119 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.7" ogreMaxVersion="2.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="cnz_obj_slot_betframe">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cnz_obj_slot_betframe" castShadows="true" receiveShadows="true" meshFile="cnz_obj_slot_betframe.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cnz_obj_slot_betframe" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cnz_obj_slot_bet5">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cnz_obj_slot_bet5" castShadows="true" receiveShadows="true" meshFile="cnz_obj_slot_bet5.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cnz_obj_slot_bet5" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cnz_obj_slot_bet2">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cnz_obj_slot_bet2" castShadows="true" receiveShadows="true" meshFile="cnz_obj_slot_bet2.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cnz_obj_slot_bet2" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cnz_obj_slot_bet1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cnz_obj_slot_bet1" castShadows="true" receiveShadows="true" meshFile="cnz_obj_slot_bet1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cnz_obj_slot_bet1" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cnz_obj_slot_bet3">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cnz_obj_slot_bet3" castShadows="true" receiveShadows="true" meshFile="cnz_obj_slot_bet3.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cnz_obj_slot_bet3" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cnz_obj_slot_bet4">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cnz_obj_slot_bet4" castShadows="true" receiveShadows="true" meshFile="cnz_obj_slot_bet4.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cnz_obj_slot_bet4" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cnz_obj_slot_betline2">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cnz_obj_slot_betline2" castShadows="true" receiveShadows="true" meshFile="cnz_obj_slot_betline2.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cnz_obj_slot_betline2" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cnz_obj_slot_betline1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cnz_obj_slot_betline1" castShadows="true" receiveShadows="true" meshFile="cnz_obj_slot_betline1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cnz_obj_slot_betline1" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cnz_obj_slot_betline3">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cnz_obj_slot_betline3" castShadows="true" receiveShadows="true" meshFile="cnz_obj_slot_betline3.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cnz_obj_slot_betline3" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cnz_obj_slot_betline5">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cnz_obj_slot_betline5" castShadows="true" receiveShadows="true" meshFile="cnz_obj_slot_betline5.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cnz_obj_slot_betline5" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="cnz_obj_slot_betline4">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="cnz_obj_slot_betline4" castShadows="true" receiveShadows="true" meshFile="cnz_obj_slot_betline4.mesh">
+                <subentities>
+                    <subentity index="0" materialName="cnz_obj_slot_betline4" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

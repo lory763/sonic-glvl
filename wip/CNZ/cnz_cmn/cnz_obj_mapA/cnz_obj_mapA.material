@@ -1,0 +1,733 @@
+material cnz_obj_mapA_main13
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main12
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main07
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main09
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_RedLine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_uni_ty1_red.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_redlight
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_wall_tk1_passage02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_arrow01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_wall_tk1_arrow03_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main08
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_arrow02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_wall_tk1_arrow03_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_mark05
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_mark03
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_mark07
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_mark02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_mark06
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_mark08
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_mark01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_mark04_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_mark04_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_mark04_3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_mark_eggman
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main02_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main00
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main11
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main03
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main16
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main06
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main14
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main05
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main15
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main04
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cnz_obj_mapA_main10
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cnz_pinball_ty1_main01_dif.dds
+			}
+		}
+
+	}
+
+}
