@@ -1,0 +1,119 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="39.3701" minOgreVersion="1.7" ogreMaxVersion="2.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="vector_skin">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="vector_skin" castShadows="true" receiveShadows="true" meshFile="vector_skin.mesh">
+                <subentities>
+                    <subentity index="0" materialName="vector_skin" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="vector_skin_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="vector_skin_1" castShadows="true" receiveShadows="true" meshFile="vector_skin_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="vector_skin" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="vector_skin_2">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="vector_skin_2" castShadows="true" receiveShadows="true" meshFile="vector_skin_2.mesh">
+                <subentities>
+                    <subentity index="0" materialName="vector_skin" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="vector_skin_3">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="vector_skin_3" castShadows="true" receiveShadows="true" meshFile="vector_skin_3.mesh">
+                <subentities>
+                    <subentity index="0" materialName="vector_skin" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="vector_leather">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="vector_leather" castShadows="true" receiveShadows="true" meshFile="vector_leather.mesh">
+                <subentities>
+                    <subentity index="0" materialName="vector_leather" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="vector_leather2">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="vector_leather2" castShadows="true" receiveShadows="true" meshFile="vector_leather2.mesh">
+                <subentities>
+                    <subentity index="0" materialName="vector_leather2" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="vector_cloth">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="vector_cloth" castShadows="true" receiveShadows="true" meshFile="vector_cloth.mesh">
+                <subentities>
+                    <subentity index="0" materialName="vector_cloth" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="vector_cloth_1">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="vector_cloth_1" castShadows="true" receiveShadows="true" meshFile="vector_cloth_1.mesh">
+                <subentities>
+                    <subentity index="0" materialName="vector_cloth" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="vector_metal">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="vector_metal" castShadows="true" receiveShadows="true" meshFile="vector_metal.mesh">
+                <subentities>
+                    <subentity index="0" materialName="vector_metal" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="vector_eyeL">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="vector_eyeL" castShadows="true" receiveShadows="true" meshFile="vector_eyeL.mesh">
+                <subentities>
+                    <subentity index="0" materialName="vector_eyeL" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="vector_eyeR">
+            <position x="0" y="0" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="vector_eyeR" castShadows="true" receiveShadows="true" meshFile="vector_eyeR.mesh">
+                <subentities>
+                    <subentity index="0" materialName="vector_eyeR" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>
