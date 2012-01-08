@@ -1,0 +1,296 @@
+material sonic_gm_eyeR
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_sonic_eye_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sonic_gm_body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_sonic_body01_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sonic_gm_body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_sonic_body01_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sonic_gm_body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_sonic_body01_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sonic_gm_body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_sonic_body01_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sonic_gm_shoes_ring
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_sonic_shoes_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sonic_gm_cloth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_sonic_cloth_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sonic_gm_cloth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_sonic_cloth_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sonic_gm_eyeL
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_sonic_eye_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sonic_gm_shoes_belt
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_sonic_shoes_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sonic_gm_shoes_red
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_sonic_shoes_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sonic_gm_mouth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_sonic_body01_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material sonic_gm_nose
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_sonic_body01_dif_HD.dds
+			}
+		}
+
+	}
+
+}

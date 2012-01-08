@@ -1,0 +1,273 @@
+material CSeyewhiteL
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_classic_sonic_eye_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CSskin
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_classic_sonic_skin_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CSmouth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_classic_sonic_skin_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CSfur
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_classic_sonic_skin_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CSeyewhiteR
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_classic_sonic_eye_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CSskin
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_classic_sonic_skin_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CSnose
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_classic_sonic_skin_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CScloth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_classic_sonic_cloth_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CSfur
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_classic_sonic_skin_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CScloth
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_classic_sonic_cloth_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CSshoes
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_classic_sonic_shoe_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material CSsole
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture chr_classic_sonic_shoe_dif_HD.dds
+			}
+		}
+
+	}
+
+}
