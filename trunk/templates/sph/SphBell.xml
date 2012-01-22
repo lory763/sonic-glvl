@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<SphBell>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:364.973</x>
+        <y>double:-29.5115</y>
+        <z>double:92.8615</z>
+    </Position>
+    <Range>double:30</Range>
+    <RingCount>double:3</RingCount>
+    <Rotation>
+        <w>double:0.707242</w>
+        <x>double:-5.79478e-011</x>
+        <y>double:0.706969</y>
+        <z>double:-1.30582e-010</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</SphBell>

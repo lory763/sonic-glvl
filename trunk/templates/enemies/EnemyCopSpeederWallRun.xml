@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<EnemyCopSpeederWallRun>
+    <CreateD>double:15</CreateD>
+    <CreateH>double:15</CreateH>
+    <CreateNum_FollowAndAttack>double:10</CreateNum_FollowAndAttack>
+    <CreateNum_FollowOnly>double:10</CreateNum_FollowOnly>
+    <CreateW>double:15</CreateW>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <PathID>double:9</PathID>
+    <Position>
+        <x>double:1618.54</x>
+        <y>double:-96.435</y>
+        <z>double:-120.062</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+
+    <Mesh>cmn_copspeeder_HD_01.mesh</Mesh>
+    <Mesh>cmn_copspeeder_HD_02.mesh</Mesh>
+    <Mesh>cmn_copspeeder_HD_03.mesh</Mesh>
+    <Mesh>cmn_copspeeder_HD_04.mesh</Mesh>
+    <Mesh>cmn_copspeeder_HD_05.mesh</Mesh>
+    <Mesh>cmn_copspeeder_HD_06.mesh</Mesh>
+    <Mesh>cmn_copspeeder_HD_07.mesh</Mesh>
+    <Mesh>cmn_copspeeder_HD_08.mesh</Mesh>
+</EnemyCopSpeederWallRun>

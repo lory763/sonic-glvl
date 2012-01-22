@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <Balloon>
-    <BalloonColor>double:1</BalloonColor>
+    <BalloonColor>integer:1</BalloonColor>
     <Dimension>double:0</Dimension>
     <GroundOffset>double:0</GroundOffset>
     <IsCastShadow>bool:true</IsCastShadow>
@@ -24,4 +24,29 @@
     <SpeedMin>double:5</SpeedMin>
     <UpSpeed>double:16.3</UpSpeed>
     <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>BalloonColor==0</Condition>
+       <Mesh>cmn_obj_balloonB_HD_body01.mesh</Mesh>
+       <Mesh>cmn_obj_balloonB_HD_body02.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>BalloonColor==1</Condition>
+       <Mesh>cmn_obj_balloonG_HD_body01.mesh</Mesh>
+       <Mesh>cmn_obj_balloonG_HD_body02.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>BalloonColor==2</Condition>
+       <Mesh>cmn_obj_balloonR_HD_body01.mesh</Mesh>
+       <Mesh>cmn_obj_balloonR_HD_body02.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>BalloonColor==3</Condition>
+       <Mesh>cmn_obj_balloonY_HD_body01.mesh</Mesh>
+       <Mesh>cmn_obj_balloonY_HD_body02.mesh</Mesh>
+    </AltMesh>
+
 </Balloon>
