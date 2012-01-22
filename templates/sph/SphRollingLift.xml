@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<SphRollingLift>
+    <AimDirection>double:1</AimDirection>
+    <ArmModelNum>double:0</ArmModelNum>
+    <DebugShotTimeLength>double:2</DebugShotTimeLength>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAir>bool:true</IsAir>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsChangeCameraWhenPathChange>bool:false</IsChangeCameraWhenPathChange>
+    <IsOneWay>bool:false</IsOneWay>
+    <IsPathChange>bool:false</IsPathChange>
+    <IsReverse>bool:false</IsReverse>
+    <IsWallWalk>bool:false</IsWallWalk>
+    <IsYawUpdate>bool:true</IsYawUpdate>
+    <KeepVelocityDistance>double:5</KeepVelocityDistance>
+    <OutOfControl>double:0.5</OutOfControl>
+    <Position>
+        <x>double:302.019</x>
+        <y>double:-97.235</y>
+        <z>double:-21.0116</z>
+    </Position>
+    <Range>double:30</Range>
+    <RotAxis>double:0</RotAxis>
+    <RotType>double:1</RotType>
+    <RotVel_Max>double:100</RotVel_Max>
+    <RotVel_Min>double:35</RotVel_Min>
+    <Rotation>
+        <w>double:-0.495615</w>
+        <x>double:0.495615</x>
+        <y>double:0.504342</y>
+        <z>double:0.504342</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShotVel>double:23</ShotVel>
+    <ViewChangeType>double:0</ViewChangeType>
+    <ViewType>double:1</ViewType>
+    <Mesh>unknown.mesh</Mesh>
+</SphRollingLift>

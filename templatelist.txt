@@ -20,6 +20,7 @@ templates\common\ClassicItemBox.xml
 templates\common\SpringClassic.xml
 templates\common\SpringClassicYellow.xml
 templates\common\Spring.xml
+templates\common\SpringFake.xml
 templates\common\WideSpring.xml
 templates\common\AirSpring.xml
 templates\common\WallJumpBlock.xml
@@ -46,10 +47,12 @@ templates\common\SelectCanon.xml
 templates\common\Omochao.xml
 templates\common\Bomb.xml
 templates\common\Balloon.xml
+templates\common\FallSignalSV.xml
 templates\common\FallSignalFV.xml
 templates\common\IronPole2D.xml
 templates\common\Electric.xml
 templates\common\MovingThorn.xml
+templates\common\RollingSaw.xml
 
 
 category Events
@@ -77,8 +80,11 @@ templates\common\StumbleCollision.xml
 templates\common\FallDeadCollision.xml
 templates\common\SlidingCollision.xml
 templates\common\WalkOnCeilingCollision.xml
+templates\common\TerrainGroupSubsetLoadCollision.xml
 templates\common\TerrainGroupSubsetLoadCollision2.xml
 templates\common\TerrainGroupSubsetLoadCollisionVolume.xml
+templates\common\LayerChangeCollisionFlat.xml
+templates\common\BeltConveyorCollision
 
 
 category Changers
@@ -135,6 +141,14 @@ templates\enemies\EnemyGunHunter2D.xml
 templates\enemies\EnemyGunHunter3D.xml
 templates\enemies\EnemyGunBeetle2D.xml
 templates\enemies\EnemyGunBeetle3D.xml
+templates\enemies\EnemyCopSpeeder2D.xml
+templates\enemies\EnemyCopSpeeder3D.xml
+templates\enemies\EnemyCopSpeeder3DCreator.xml
+templates\enemies\EnemyCopSpeederWallRun.xml
+templates\enemies\EnemySpanner2D.xml
+templates\enemies\EnemySpanner.xml
+templates\enemies\EnemySpinner2D.xml
+templates\enemies\EnemySpinner.xml
 
 
 category Missions
@@ -180,6 +194,14 @@ templates\cpz\CpzBigCrane.xml
 category Sky Sanctuary Zone
 
 category Speed Highway
+templates\sph\SphRollingLift.xml
+templates\sph\SphRocket_ReleasePlayer.xml
+templates\sph\SphBell.xml
+templates\sph\SphRocket.xml
+templates\sph\SphHelicopter.xml
+templates\sph\SphSearchLight.xml
+templates\sph\SphLightBox.xml
+templates\sph\SphRocket_ChangeSpeed.xml
 
 category City Escape
 templates\cte\CteTrickJumpSkateBoard.xml

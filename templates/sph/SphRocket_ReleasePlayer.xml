@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<SphRocket_ReleasePlayer>
+    <Collision_Height>double:8</Collision_Height>
+    <Collision_Length>double:11</Collision_Length>
+    <Collision_Width>double:5</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:499.335</x>
+        <y>double:-24.7221</y>
+        <z>double:-4.11732</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Mesh>unknown.mesh</Mesh>
+</SphRocket_ReleasePlayer>

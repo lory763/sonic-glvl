@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<EnemySpinner2D>
+    <AppearPattern>double:0</AppearPattern>
+    <AppearPoint>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </AppearPoint>
+    <AppearTime>double:3</AppearTime>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsLookPlayer>bool:true</IsLookPlayer>
+    <MovePattern>double:0</MovePattern>
+    <MoveVel>double:0.5</MoveVel>
+    <Position>
+        <x>double:1070.77</x>
+        <y>double:-107.842</y>
+        <z>double:-222.474</z>
+    </Position>
+    <Range>double:30</Range>
+    <RebirthPattern>double:1</RebirthPattern>
+    <RebirthPoint>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </RebirthPoint>
+    <RebirthTime>double:3</RebirthTime>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <WayPointA>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </WayPointA>
+    <WayPointB>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </WayPointB>
+    
+    <Mesh>enm_spina_HD_01.mesh</Mesh>
+    <Mesh>enm_spina_HD_02.mesh</Mesh>
+    <Mesh>enm_spina_HD_03.mesh</Mesh>
+    <Mesh>enm_spina_HD_04.mesh</Mesh>
+    <Mesh>enm_spina_HD_05.mesh</Mesh>
+</EnemySpinner2D>
