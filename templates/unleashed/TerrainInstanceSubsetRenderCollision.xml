@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<TerrainInstanceSubsetRenderCollision>
+    <Collision_Height>double:50</Collision_Height>
+    <Collision_Width>double:15</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <Position>
+        <x>double:-143.617</x>
+        <y>double:-5.4847</y>
+        <z>double:-986.412</z>
+    </Position>
+    <Rotation>
+        <w>double:-0.0578898</w>
+        <x>double:0</x>
+        <y>double:0.998323</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SubsetID>double:100</SubsetID>
+    <Mesh>unknown.mesh</Mesh>
+</TerrainInstanceSubsetRenderCollision>

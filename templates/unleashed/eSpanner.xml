@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<eSpanner>
+    <AttackInterval>double:2</AttackInterval>
+    <AttackTime>double:2</AttackTime>
+    <GroundOffset>double:0</GroundOffset>
+    <OnlyPlayerAttack>bool:false</OnlyPlayerAttack>
+    <PlayAppearEffect>bool:false</PlayAppearEffect>
+    <Position>
+        <x>double:-269.88</x>
+        <y>double:-78.4615</y>
+        <z>double:311.068</z>
+    </Position>
+    <Rotation>
+        <w>double:0.957161</w>
+        <x>double:0</x>
+        <y>double:0.289555</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <StartTime>double:2</StartTime>
+    <Type>double:0</Type>
+    <Mesh>unknown.mesh</Mesh>
+</eSpanner>

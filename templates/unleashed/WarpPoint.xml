@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<WarpPoint>
+    <GroundOffset>double:0</GroundOffset>
+    <Position>
+        <x>double:-116.303</x>
+        <y>double:-6.3377</y>
+        <z>double:-880.438</z>
+    </Position>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</WarpPoint>
