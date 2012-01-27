@@ -1,0 +1,14 @@
+templates\EucRollingBarrelDeleter.xml
+templates\EnemyELauncher3D.xml
+templates\EnemyELauncher2D.xml
+templates\EnemyEFighterSword2D.xml
+templates\EucPressThorn.xml
+templates\EnemyEChaserManager.xml
+templates\EnemyEFighterSword3D.xml
+templates\EucAirShipChaser.xml
+templates\EucAirShipChaserAttackCollision.xml
+templates\EnemyEFighter3D.xml
+templates\EnemyEFighter2D.xml
+templates\EucAirShipBarrel.xml
+templates\EucBird.xml
+templates\EnemyAeroCannon.xml

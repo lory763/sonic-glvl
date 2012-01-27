@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<ObjCameraPathTarget>
+    <Ease_Time_Enter>double:0</Ease_Time_Enter>
+    <Ease_Time_Leave>double:0</Ease_Time_Leave>
+    <EyePathType>double:0</EyePathType>
+    <EyeSpeed>double:5</EyeSpeed>
+    <Fovy>double:45</Fovy>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCameraView>bool:false</IsCameraView>
+    <IsCollision>bool:true</IsCollision>
+    <IsControllable>bool:false</IsControllable>
+    <OffsetOnEyePath>double:-15</OffsetOnEyePath>
+    <PanAndTangentBlend>double:1</PanAndTangentBlend>
+    <PathID>double:0</PathID>
+    <Position>
+        <x>double:74.1836</x>
+        <y>double:0.101443</y>
+        <z>double:-2021.98</z>
+    </Position>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Target>
+        <SetObjectID>integer</SetObjectID>
+    </Target>
+    <TargetOffset_Front>double:0</TargetOffset_Front>
+    <TargetOffset_Right>double:0</TargetOffset_Right>
+    <TargetOffset_Up>double:0</TargetOffset_Up>
+    <TargetPositionFix>
+        <w>double:-598.469</w>
+        <x>double:16.5092</x>
+        <y>double:11.7425</y>
+        <z>double:96.5367</z>
+    </TargetPositionFix>
+    <Target_Type>double:0</Target_Type>
+    <ZRot>double:0</ZRot>
+    <Mesh>unknown.mesh</Mesh>
+</ObjCameraPathTarget>

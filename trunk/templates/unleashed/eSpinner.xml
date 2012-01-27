@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<eSpinner>
+    <AlivePoint>
+        <w>double:1</w>
+        <x>double:-523.219</x>
+        <y>double:-6.00621</y>
+        <z>double:-3555.28</z>
+    </AlivePoint>
+    <ForSideView>bool:true</ForSideView>
+    <GroundOffset>double:0</GroundOffset>
+    <OnlyPlayerAttack>bool:false</OnlyPlayerAttack>
+    <PlayAppearEffect>bool:false</PlayAppearEffect>
+    <Position>
+        <x>double:-523.219</x>
+        <y>double:-18.7042</y>
+        <z>double:-3557.96</z>
+    </Position>
+    <Rotation>
+        <w>double:-1</w>
+        <x>double:0</x>
+        <y>double:-8.74228e-008</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>double:1</Type>
+    <RecoverSpeedMax>double:0.5</RecoverSpeedMax>
+    <Mesh>unknown.mesh</Mesh>
+</eSpinner>

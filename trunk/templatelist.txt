@@ -149,6 +149,7 @@ templates\enemies\EnemySpanner2D.xml
 templates\enemies\EnemySpanner.xml
 templates\enemies\EnemySpinner2D.xml
 templates\enemies\EnemySpinner.xml
+templates\enemies\EnemyEFighter3D.xml
 
 
 category Missions
@@ -235,6 +236,29 @@ category Rooftop Run
 templates\euc\EucGuillotine.xml
 
 category Planet Wisp
+
+category Sonic Unleashed
+templates\unleashed\JumpSelector.xml
+templates\unleashed\eSpinner.xml
+templates\unleashed\eSpanner.xml
+templates\unleashed\TrickJumper.xml
+templates\unleashed\ObjCameraPathTarget.xml
+templates\unleashed\TriangleJumpCollision.xml
+templates\unleashed\MykonosFloor.xml
+templates\unleashed\Pelican.xml
+templates\unleashed\WarpPoint.xml
+templates\unleashed\EventPathHolding.xml
+templates\unleashed\ObjCamera2D.xml
+templates\unleashed\TerrainInstanceSubsetRenderCollision.xml
+templates\unleashed\HintRing.xml
+templates\unleashed\ChangeVelocity.xml
+templates\unleashed\eFighter.xml
+templates\unleashed\RingGenerator.xml
+templates\unleashed\Seagull.xml
+templates\unleashed\IrremovableMobMykonos.xml
+templates\unleashed\ItemBox.xml
+templates\unleashed\SpeedDownCollision.xml
+
 
 
 

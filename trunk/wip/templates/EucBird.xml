@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<EucBird>
+    <AnimationSpeed>double:1.4</AnimationSpeed>
+    <ChangePitchSpeed>double:45</ChangePitchSpeed>
+    <FirstSpeed>double:10</FirstSpeed>
+    <FlyStartRange>double:25</FlyStartRange>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsChangePitch>bool:false</IsChangePitch>
+    <IsInAir>bool:false</IsInAir>
+    <MaxSpeed>double:20</MaxSpeed>
+    <MotionType>double:0</MotionType>
+    <Pitch>double:60</Pitch>
+    <Position>
+        <x>double:-151.619</x>
+        <y>double:7.35576</y>
+        <z>double:-795.15</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <Scale>double:2</Scale>
+    <SetObjectID>integer</SetObjectID>
+    <TargetPitch>double:30</TargetPitch>
+    <WalkingRadius>double:5</WalkingRadius>
+    <Mesh>unknown.mesh</Mesh>
+</EucBird>

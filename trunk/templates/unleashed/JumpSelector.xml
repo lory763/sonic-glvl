@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<JumpSelector>
+    <DownShotForce>double:10</DownShotForce>
+    <DownShotOutOfControl>double:0.3</DownShotOutOfControl>
+    <FrontJumpForce>double:24.4</FrontJumpForce>
+    <FrontJumpOutOfControl>double:0.3</FrontJumpOutOfControl>
+    <GroundOffset>double:0</GroundOffset>
+    <InputTime>double:1.5</InputTime>
+    <IsDownShot>bool:false</IsDownShot>
+    <IsPathChange>bool:false</IsPathChange>
+    <IsQuestion>bool:false</IsQuestion>
+    <Position>
+        <x>double:-523.236</x>
+        <y>double:-24.3225</y>
+        <z>double:-3252.8</z>
+    </Position>
+    <Rotation>
+        <w>double:-4.37114e-008</w>
+        <x>double:0</x>
+        <y>double:1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SuccessButton>double:2</SuccessButton>
+    <UpJumpForce>double:12</UpJumpForce>
+    <UpJumpOutOfControl>double:0.3</UpJumpOutOfControl>
+    <UpJumpPitch>double:0.07</UpJumpPitch>
+    <Mesh>unknown.mesh</Mesh>
+</JumpSelector>
