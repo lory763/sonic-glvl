@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<Hammer>
+    <GroundOffset>double:0</GroundOffset>
+    <Length>double:4</Length>
+    <ModelOffsetY>double:6</ModelOffsetY>
+    <ModelOffsetZ>double:6</ModelOffsetZ>
+    <OffsetTime>double:0</OffsetTime>
+    <Position>
+        <w>double:1</w>
+        <x>double:-365.305</x>
+        <y>double:87.4094</y>
+        <z>double:-2360.97</z>
+    </Position>
+    <RotateAngleWidth>double:70</RotateAngleWidth>
+    <Rotation>
+        <w>double:0.249301</w>
+        <x>double:0</x>
+        <y>double:0.968426</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Speed>double:20</Speed>
+    <Mesh>unknown.mesh</Mesh>
+</Hammer>

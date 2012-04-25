@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<EndDynamicPreloadingCollision>
+    <Collision_Height>double:20</Collision_Height>
+    <Collision_Width>double:20</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <Position>
+        <w>double:1</w>
+        <x>double:-1090.25</x>
+        <y>double:-48.531</y>
+        <z>double:-10571.9</z>
+    </Position>
+    <Rotation>
+        <w>double:0.72125</w>
+        <x>double:0</x>
+        <y>double:0.692674</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</EndDynamicPreloadingCollision>

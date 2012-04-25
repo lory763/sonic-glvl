@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<ThornBall>
+    <GroundOffset>double:0</GroundOffset>
+    <Position>
+        <w>double:1</w>
+        <x>double:-693.737</x>
+        <y>double:0.000400782</y>
+        <z>double:-4302.1</z>
+    </Position>
+    <Rotation>
+        <w>double:0.970408</w>
+        <x>double:0</x>
+        <y>double:0.241472</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</ThornBall>

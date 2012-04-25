@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<China_ThornBar>
+    <GroundOffset>double:0</GroundOffset>
+    <Offset>double:3</Offset>
+    <Phase>double:0.4</Phase>
+    <Position>
+        <w>double:1</w>
+        <x>double:-319.594</x>
+        <y>double:0.4</y>
+        <z>double:-100.199</z>
+    </Position>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Speed>double:-1.49012e-008</Speed>
+    <Mesh>unknown.mesh</Mesh>
+</China_ThornBar>

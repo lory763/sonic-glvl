@@ -18,5 +18,11 @@
     <SizeX>double:2</SizeX>
     <SizeY>double:5</SizeY>
     <SizeZ>double:0.1</SizeZ>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>wjblock_01.mesh</Mesh>
+    <Mesh>wjblock_02.mesh</Mesh>
+    <Mesh>wjblock_03.mesh</Mesh>
+
+    <MeshScaleX multiplier="2.0">SizeX</MeshScaleX>
+    <MeshScaleY multiplier="2.0">SizeZ</MeshScaleY>
+    <MeshScaleZ multiplier="2.0">SizeY</MeshScaleZ>
 </WallJumpBlock>

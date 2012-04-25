@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<ChangeDiveEnd>
+    <Collision_Height>double:24</Collision_Height>
+    <Collision_Width>double:27</Collision_Width>
+    <FinishEventEndPosition>
+        <w>double:-6260.59</w>
+        <x>double:-1328.62</x>
+        <y>double:-800.172</y>
+        <z>double:-726.687</z>
+    </FinishEventEndPosition>
+    <FinishEventStartPosition>
+        <w>double:-4361.2</w>
+        <x>double:-1313.16</x>
+        <y>double:-768.071</y>
+        <z>double:-726.826</z>
+    </FinishEventStartPosition>
+    <GroundOffset>double:0</GroundOffset>
+    <Position>
+        <w>double:1</w>
+        <x>double:-1313.16</x>
+        <y>double:-749.494</y>
+        <z>double:-726.734</z>
+    </Position>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0.707107</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TargetFail>
+        <SetObjectID>integer</SetObjectID>
+    </TargetFail>
+    <TargetSuccess>
+        <SetObjectID>integer</SetObjectID>
+    </TargetSuccess>
+    <m_DebugCylinderHeight>double:40</m_DebugCylinderHeight>
+    <m_Range>double:13.9</m_Range>
+    <Mesh>unknown.mesh</Mesh>
+</ChangeDiveEnd>

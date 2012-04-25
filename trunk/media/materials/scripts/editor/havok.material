@@ -1,0 +1,16 @@
+
+material havok
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1 1
+			cull_hardware none
+		}
+
+	}
+
+}
+
+

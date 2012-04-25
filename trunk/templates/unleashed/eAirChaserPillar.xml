@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<eAirChaserPillar>
+    <Collision_Height>double:15</Collision_Height>
+    <Collision_Length>double:3</Collision_Length>
+    <Collision_Width>double:4</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <Position>
+        <w>double:1</w>
+        <x>double:-1923.51</x>
+        <y>double:-795.061</y>
+        <z>double:-723.917</z>
+    </Position>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Mesh>unknown.mesh</Mesh>
+</eAirChaserPillar>

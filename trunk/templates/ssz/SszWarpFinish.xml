@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<SszWarpFinish>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsPinpoint>bool:false</IsPinpoint>
+    <Position>
+        <x>double:2413.19</x>
+        <y>double:-149.018</y>
+        <z>double:718.039</z>
+    </Position>
+    <Range>double:10000</Range>
+    <Rotation>
+        <w>double:-0.716367</w>
+        <x>double:0</x>
+        <y>double:-0.697724</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <WarpStart>
+        <SetObjectID>integer</SetObjectID>
+    </WarpStart>
+    <Mesh>unknown.mesh</Mesh>
+</SszWarpFinish>

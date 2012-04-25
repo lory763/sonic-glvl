@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<ObjWindNoiseCollision>
+    <Collision_Height>double:10</Collision_Height>
+    <Collision_Width>double:10</Collision_Width>
+    <CueName>string:objsn_whoosh2</CueName>
+    <EmitterPos>
+        <w>double:0</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </EmitterPos>
+    <FileName>string:se_object_common_sonic</FileName>
+    <GroundOffset>double:0</GroundOffset>
+    <InsideRadius>double:3</InsideRadius>
+    <Position>
+        <w>double:1</w>
+        <x>double:-1221.25</x>
+        <y>double:127.931</y>
+        <z>double:897.995</z>
+    </Position>
+    <Radius>double:10</Radius>
+    <Rotation>
+        <w>double:0.173641</w>
+        <x>double:-0.00151535</x>
+        <y>double:0.984768</y>
+        <z>double:-0.00859395</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</ObjWindNoiseCollision>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<Beach_Guillotine>
+    <Amplitude>double:0.1</Amplitude>
+    <Cycle>double:0.5</Cycle>
+    <GroundOffset>double:0</GroundOffset>
+    <Phase>double:0</Phase>
+    <Position>
+        <w>double:1</w>
+        <x>double:3.00585</x>
+        <y>double:12</y>
+        <z>double:-495.797</z>
+    </Position>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</Beach_Guillotine>
