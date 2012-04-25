@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<MovingFloor>
+    <Amplitude>double:3</Amplitude>
+    <Cycle>double:0.25</Cycle>
+    <Direction>double:1</Direction>
+    <EnableMoving>bool:true</EnableMoving>
+    <GroundOffset>double:0</GroundOffset>
+    <IsMessageON>bool:false</IsMessageON>
+    <Phase>double:0</Phase>
+    <Position>
+        <w>double:1</w>
+        <x>double:2308.39</x>
+        <y>double:-203.4</y>
+        <z>double:-1070</z>
+    </Position>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:-2.10734e-008</x>
+        <y>double:2.10734e-008</y>
+        <z>double:-0.707107</z>
+    </Rotation>
+    <ScaleX>double:10</ScaleX>
+    <ScaleY>double:2</ScaleY>
+    <ScaleZ>double:2</ScaleZ>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</MovingFloor>

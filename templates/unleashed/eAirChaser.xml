@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<eAirChaser>
+    <AirChaser_01>double:2</AirChaser_01>
+    <AirChaser_02>double:0</AirChaser_02>
+    <AirChaser_03>double:2</AirChaser_03>
+    <AppearOffset>double:5</AppearOffset>
+    <AppearVelocityL>double:8</AppearVelocityL>
+    <GroundOffset>double:0</GroundOffset>
+    <HeightFromPath>double:2</HeightFromPath>
+    <IsEndAnnihilation>bool:false</IsEndAnnihilation>
+    <IsUseCameraAppear>bool:true</IsUseCameraAppear>
+    <IsUseCameraChaser>bool:true</IsUseCameraChaser>
+    <LaserChargeTime>double:0.1</LaserChargeTime>
+    <MaxVelocity>double:50</MaxVelocity>
+    <MinVelocity>double:30</MinVelocity>
+    <NumEnemy>double:3</NumEnemy>
+    <Position>
+        <x>double:-805.068</x>
+        <y>double:-166.47</y>
+        <z>double:-2392.11</z>
+    </Position>
+    <Rotation>
+        <w>double:0.707153</w>
+        <x>double:-2.59017e-006</x>
+        <y>double:0.707061</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SnapOnPath>bool:false</SnapOnPath>
+    <WavingVelocity>double:180</WavingVelocity>
+    <Mesh>unknown.mesh</Mesh>
+</eAirChaser>

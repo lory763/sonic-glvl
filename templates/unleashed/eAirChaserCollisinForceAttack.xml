@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<eAirChaserCollisinForceAttack>
+    <AttackType>double:2</AttackType>
+    <Collision_Height>double:20</Collision_Height>
+    <Collision_Length>double:2</Collision_Length>
+    <Collision_Width>double:2</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <Position>
+        <w>double:1</w>
+        <x>double:-5672.94</x>
+        <y>double:-856.256</y>
+        <z>double:-1975.75</z>
+    </Position>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Mesh>unknown.mesh</Mesh>
+</eAirChaserCollisinForceAttack>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<WallWalkEnableCollision>
+    <Collision_Height>double:10</Collision_Height>
+    <Collision_Length>double:10</Collision_Length>
+    <Collision_Width>double:10</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <Position>
+        <x>double:677.307</x>
+        <y>double:-55.0271</y>
+        <z>double:639.545</z>
+    </Position>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <m_IsEnableWallWalk>bool:true</m_IsEnableWallWalk>
+    <Mesh>unknown.mesh</Mesh>
+</WallWalkEnableCollision>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<eShackleFView>
+    <GroundOffset>double:0</GroundOffset>
+    <IntervalDecRing>double:2</IntervalDecRing>
+    <OnlyPlayerAttack>bool:false</OnlyPlayerAttack>
+    <PlayAppearEffect>bool:false</PlayAppearEffect>
+    <Position>
+        <w>double:1</w>
+        <x>double:8.64504</x>
+        <y>double:9.71948</y>
+        <z>double:-1847.12</z>
+    </Position>
+    <RadiusActive>double:10</RadiusActive>
+    <RadiusAttack>double:5</RadiusAttack>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:1.19209e-007</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</eShackleFView>

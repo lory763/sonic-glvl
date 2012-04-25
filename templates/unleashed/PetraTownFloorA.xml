@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<PetraTownFloorA>
+    <Amplitude>double:1</Amplitude>
+    <AppearStopTime>double:0.5</AppearStopTime>
+    <AppearTime>double:0.5</AppearTime>
+    <Cycle>double:1</Cycle>
+    <DisappearStopTime>double:0.5</DisappearStopTime>
+    <DisappearTime>double:1</DisappearTime>
+    <Gravity>double:45</Gravity>
+    <GroundOffset>double:0</GroundOffset>
+    <IsMessageON>bool:false</IsMessageON>
+    <IsReverse>bool:false</IsReverse>
+    <Length>double:5</Length>
+    <MoveType>double:0</MoveType>
+    <OnFloorTime>double:3</OnFloorTime>
+    <OnShakeTime>double:0</OnShakeTime>
+    <PathReverseTime>double:2</PathReverseTime>
+    <PathSpeed>double:1</PathSpeed>
+    <Phase>double:0</Phase>
+    <Position>
+        <w>double:1</w>
+        <x>double:-727.5</x>
+        <y>double:65.8</y>
+        <z>double:50</z>
+    </Position>
+    <PressDirection>double:0</PressDirection>
+    <ResetTime>double:5</ResetTime>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <AddRange>double:0</AddRange>
+    <IsDamage>bool:true</IsDamage>
+    <IsEffect>bool:false</IsEffect>
+    <IsWallJump>bool:false</IsWallJump>
+    <LightFieldOffset>
+        <w>double:1</w>
+        <x>double:-727.5</x>
+        <y>double:65.6</y>
+        <z>double:50</z>
+    </LightFieldOffset>
+    <Mesh>unknown.mesh</Mesh>
+</PetraTownFloorA>

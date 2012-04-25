@@ -66,4 +66,15 @@
        <Mesh>cpz_obj_breakboxtall_07.mesh</Mesh>
     </AltMesh>
 
+    <AltMesh>
+       <Condition>Type==chn_thornclub_01</Condition>
+       <Mesh>chn_thornclub_01_01.mesh</Mesh>
+       <Mesh>chn_thornclub_01_02.mesh</Mesh>
+       <Mesh>chn_thornclub_01_03.mesh</Mesh>
+       <Mesh>chn_thornclub_01_04.mesh</Mesh>
+       <Mesh>chn_thornclub_01_05.mesh</Mesh>
+       <Mesh>chn_thornclub_01_06.mesh</Mesh>
+       <Mesh>chn_thornclub_01_07.mesh</Mesh>
+    </AltMesh>
+
 </ObjectPhysics>

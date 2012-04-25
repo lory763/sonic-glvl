@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<eFighterShield>
+    <AttackInterval>double:2</AttackInterval>
+    <AttackTime>double:5</AttackTime>
+    <FirstSpeed>double:10</FirstSpeed>
+    <GroundOffset>double:0</GroundOffset>
+    <Position>
+        <w>double:1</w>
+        <x>double:-5.87296</x>
+        <y>double:6.55827</y>
+        <z>double:-452.638</z>
+    </Position>
+    <RadiusActive>double:20</RadiusActive>
+    <RadiusAttack>double:4.5</RadiusAttack>
+    <Rotation>
+        <w>double:-0.999993</w>
+        <x>double:0</x>
+        <y>double:0.00355799</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShieldType>double:0</ShieldType>
+    <StartTime>double:2</StartTime>
+    <TurnPoint>
+        <w>double:0</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </TurnPoint>
+    <Type>double:0</Type>
+    <Mesh>unknown.mesh</Mesh>
+</eFighterShield>

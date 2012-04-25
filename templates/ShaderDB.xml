@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<Shader name="Common_dp">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.9" g="0.9" b="0.9" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.08" b="0.7" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Sky_d">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.898039" g="0.898039" b="0.898039" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.01" b="0" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="DummySky">
+    <Definition r="0.309804" g="0.380392" b="0.376471" a="0">diffuse</Definition>
+    <Definition r="0.309804" g="0.380392" b="0.376471" a="0">ambient</Definition>
+    <Definition r="0.898039" g="0.898039" b="0.898039" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.01" b="0" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Sky_d[v]">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.9" g="0.9" b="0.9" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.1" b="0" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Common_dpn">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.898039" g="0.898039" b="0.898039" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.35" b="0.4" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Common_dpne">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.9" g="0.9" b="0.9" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.5" b="1" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Common_dn">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.9" g="0.9" b="0.9" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.01" b="0" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Common_d">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.898039" g="0.898039" b="0.898039" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.01" b="0" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Blend_dpdp">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.9" g="0.9" b="0.9" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.2" b="0.4" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="TransThin_dt">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.9" g="0.9" b="0.9" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.1" b="0.05" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Luminescence_dE">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.9" g="0.9" b="0.9" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.5" b="0" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Luminescence_dnE">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="1" g="1" b="1" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.5" b="0.48" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Common_dp[b]">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="0.992157" g="0.992157" b="0.992157" a="0">ambient</Definition>
+    <Definition r="1" g="1" b="1" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.25" b="0.1" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="TransThin_dnt">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.9" g="0.9" b="0.9" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.27" b="0.38" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Water_Opacity[u]">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.9" g="0.9" b="0.9" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="1" b="1.2" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Common_dpn[uv]">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.9" g="0.9" b="0.9" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.5" b="1" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="TransThin_dpt">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.9" g="0.9" b="0.9" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.15" b="0.1" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Common_dpn[b]">
+    <Definition r="0.972549" g="0.972549" b="0.972549" a="0">diffuse</Definition>
+    <Definition r="0.972549" g="0.972549" b="0.972549" a="0">ambient</Definition>
+    <Definition r="0.9" g="0.9" b="0.9" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.08" b="0.05" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<Shader name="Common_dpe">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="0.9" g="0.9" b="0.9" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.5" b="1" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
+</Shader>
+<TextureUnit>diffuse</TextureUnit>
+<TextureUnit>gloss</TextureUnit>
+<TextureUnit>opacity</TextureUnit>
+<TextureUnit>normal</TextureUnit>
+<TextureUnit>reflection</TextureUnit>
+<TextureUnit>displacement</TextureUnit>
+<TextureUnit>bump</TextureUnit>

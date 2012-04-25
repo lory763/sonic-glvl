@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<StageEffect>
+    <ColorScale_A>double:1</ColorScale_A>
+    <ColorScale_B>double:1</ColorScale_B>
+    <ColorScale_G>double:1</ColorScale_G>
+    <ColorScale_R>double:1</ColorScale_R>
+    <EditColorFlag>bool:false</EditColorFlag>
+    <EffectType>string:eu_stg_fountain_water</EffectType>
+    <GroundOffset>double:0</GroundOffset>
+    <Loop>bool:true</Loop>
+    <Position>
+        <w>double:1</w>
+        <x>double:-2419.75</x>
+        <y>double:-792.944</y>
+        <z>double:-765.616</z>
+    </Position>
+    <Rotation>
+        <w>double:0.92388</w>
+        <x>double:0</x>
+        <y>double:0.382683</y>
+        <z>double:0</z>
+    </Rotation>
+    <ScaleX>double:1</ScaleX>
+    <ScaleY>double:1</ScaleY>
+    <ScaleZ>double:1</ScaleZ>
+    <SetObjectID>integer</SetObjectID>
+    <SphereRadius>double:25</SphereRadius>
+    <UserRange>double:0</UserRange>
+    <VolumeScale>double:2</VolumeScale>
+    <Mesh>unknown.mesh</Mesh>
+</StageEffect>

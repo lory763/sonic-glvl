@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<EnemyEChaserManager>
+    <AirShipID>
+        <SetObjectID>integer</SetObjectID>
+    </AirShipID>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:-399.395</x>
+        <y>double:47.7669</y>
+        <z>double:-1364.29</z>
+    </Position>
+    <Range>double:500</Range>
+    <Rotation>
+        <w>double:0.707329</w>
+        <x>double:0.706885</x>
+        <y>double:-0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <m_AttackSpanTime>double:0.1</m_AttackSpanTime>
+    <m_ChaserParam.m_UpVectorByPath>bool:true</m_ChaserParam.m_UpVectorByPath>
+    <m_ChaserParam.m_WavingVelocity>double:180</m_ChaserParam.m_WavingVelocity>
+    <m_FlyHeight>double:4</m_FlyHeight>
+    <m_NumChasers>double:3</m_NumChasers>
+    <m_NumSubChasers>double:0</m_NumSubChasers>
+    <Mesh>unknown.mesh</Mesh>
+</EnemyEChaserManager>

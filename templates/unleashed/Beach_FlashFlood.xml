@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<Beach_FlashFlood>
+    <GroundOffset>double:0</GroundOffset>
+    <HeraldTime>double:1</HeraldTime>
+    <IdleTime>double:2</IdleTime>
+    <ModelType>double:3</ModelType>
+    <Position>
+        <w>double:1</w>
+        <x>double:472.798</x>
+        <y>double:-80.8059</y>
+        <z>double:-8416.18</z>
+    </Position>
+    <Rotation>
+        <w>double:0.698115</w>
+        <x>double:0</x>
+        <y>double:0.715985</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShotTime>double:2</ShotTime>
+    <Mesh>unknown.mesh</Mesh>
+</Beach_FlashFlood>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<EU_Floor>
+    <AddRange>double:0</AddRange>
+    <Amplitude>double:1.5</Amplitude>
+    <AppearStopTime>double:0.5</AppearStopTime>
+    <AppearTime>double:0.5</AppearTime>
+    <Cycle>double:0.3</Cycle>
+    <DisappearStopTime>double:0.5</DisappearStopTime>
+    <DisappearTime>double:1</DisappearTime>
+    <Gravity>double:45</Gravity>
+    <GroundOffset>double:0</GroundOffset>
+    <IsDamage>bool:true</IsDamage>
+    <IsEffect>bool:false</IsEffect>
+    <IsMessageON>bool:true</IsMessageON>
+    <IsReverse>bool:false</IsReverse>
+    <IsWallJump>bool:false</IsWallJump>
+    <Length>double:5</Length>
+    <LightFieldOffset>
+        <w>double:0</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </LightFieldOffset>
+    <MoveType>double:1</MoveType>
+    <OnFloorTime>double:3</OnFloorTime>
+    <OnShakeTime>double:0</OnShakeTime>
+    <PathReverseTime>double:2</PathReverseTime>
+    <PathSpeed>double:1</PathSpeed>
+    <Phase>double:0.41</Phase>
+    <Position>
+        <w>double:1</w>
+        <x>double:-4159.81</x>
+        <y>double:-763.174</y>
+        <z>double:-1435.93</z>
+    </Position>
+    <PressDirection>double:0</PressDirection>
+    <ResetTime>double:5</ResetTime>
+    <Rotation>
+        <w>double:-4.37114e-008</w>
+        <x>double:0</x>
+        <y>double:1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</EU_Floor>
