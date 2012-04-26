@@ -29,7 +29,7 @@ It also reduces the amount of RAM used and CPU cycles.
 
 - Add the filter "Create World" with the default settings.
 
-- If you're using 3DS Max and your stage is aligned to the Max Z axis, you'll need to apply a transformation to the scene. 
+- If you're using 3DS Max and your stage is aligned to the Max Z axis as UP, you'll need to apply a transformation to the scene. 
 
 Add the filter "Transform Scene" with the following 3x3 Matrix:
 (1.0000   0.0000   0.0000)

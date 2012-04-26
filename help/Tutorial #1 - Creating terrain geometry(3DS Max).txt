@@ -19,7 +19,9 @@ doesn't really work in that style of grouping.
 - Expanding the point above, your models should be pretty much as how you think of objects. See a palm tree? Make a single node as a palm tree. See a mountain? Make the node a mountain. See a door? Make the node a door! You should use Mesh attach if you want meshes to be
 part of the same Node. Multi-materials are supported so you can do proper mapping if you need to.
 
-- Use DDS Textures. That's the only format supported by the game.
+=====================================================================
+- USE DDS TEXTURES. That's the only format supported by the game.   =
+=====================================================================
 
 - Don't use more than 1 UV channel if you don't need to. The second UV channel is used for GIA information later on.
 
