@@ -1,0 +1,46 @@
+1. Required tools
+=================
+- Havok Content Tools for PC(latest version, get the appropiate 64 or 32 bit version depending on your 3D editor).
+Get it from http://software.intel.com/sites/havok/en/
+
+- Either 3DS Max, Maya, or XSI, which are the only 3D editors at the moment supporting the Havok Tools plugin.
+Autodesk 3DS Max 2012 can be used with a free student license if you sign up for it.
+
+
+2. Guidelines
+=============
+
+- While it's always nice to have accurate collision, the structure of your level should 
+be as basic and bare bones as possible for it to reduce the size of the final collision file as much as possible.
+It also reduces the amount of RAM used and CPU cycles.
+
+- All Havok Shape types are supported. If you want accurate collision or need concave shapes, use the "Mesh" type. Otherwise, just use
+"Convex Hull" if you want to save up on complexity.
+
+- Collision and Terrain geometry are completely independent from each other. They don't have any sort of dependency.
+
+- Make sure the weight is set to 0 for any rigid bodies you create.
+
+
+3. Exporting to the game
+========================
+
+- Go to Havok Content Tools > Export. We'll be creating a new configuration for exporting your collision ingame.
+
+- Add the filter "Create World" with the default settings.
+
+- If you're using 3DS Max and your stage is aligned to the Max Z axis, you'll need to apply a transformation to the scene. 
+
+Add the filter "Transform Scene" with the following 3x3 Matrix:
+(1.0000   0.0000   0.0000)
+(0.0000   0.0000   -1.000)
+(0.0000   1.0000   0.0000)
+
+- Add the filter "Create Rigid Bodies" with the default settings.
+
+- Add the filter "Write to Platform" with the following settings.
+* Binary
+* Packfile
+* Win32 MSVC
+
+You should get a HKX file out of this whole process that you can just replace the collision files from any stage with it. Do note that this is an unstable process as of yet and it will make your stage crash when exitting. The reasons for it are still unknown, but fixing it will likely involve having to add a custom parser for any HKX you export. More on that later!
