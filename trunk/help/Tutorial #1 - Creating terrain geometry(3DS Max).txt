@@ -1,0 +1,46 @@
+1. Required Tools
+=================
+- 3DS Max(duh)
+- Easy Ogre Max Exporter for 3DS Max.
+
+You can get the tool from the URL in the export_scripts folder. Pick the appropiate version for your Max.
+
+
+2. Guidelines for modeling
+==========================
+
+- EOE relies on units set to Meters instead of inches if you want to export your stage in 1:1 proportion.
+
+- If you're using EOE, you should model your stage around the regular Z Axis as UP, even if the game uses the Y axis instead. It'll do the appropiate conversions on its own.
+
+- Don't use Max Groups or Mesh Linking. Those aren't useful to the Ogre Exporter at all and are likely to cause issues, since the game
+doesn't really work in that style of grouping.
+
+- Expanding the point above, your models should be pretty much as how you think of objects. See a palm tree? Make a single node as a palm tree. See a mountain? Make the node a mountain. See a door? Make the node a door! You should use Mesh attach if you want meshes to be
+part of the same Node. Multi-materials are supported so you can do proper mapping if you need to.
+
+- Use DDS Textures. That's the only format supported by the game.
+
+- Don't use more than 1 UV channel if you don't need to. The second UV channel is used for GIA information later on.
+
+- While Easy Ogre Exporter does a good job in creating materials, you can't expect it to make 1:1 representations of anything fancy you make
+in Max. It's built for a game engine after all. Keep it down to simple texture unit mapping(diffuse, bump maps, etc.) and you'll be fine.
+
+- Don't make huge objects if you don't need to, nor make your entire stage a single mesh. That's largely inefficient. To work in the same
+way the game does, nodes should be appropiately sized and diverse across the stage. If one of your objects is covering the entire world with
+the bounding box, you're likely doing it wrong.
+
+- Support for special mesh types such as transparent, water, etc., will come later on.
+
+- Make sure you at least have one directional light in the scene(you can use the 3DS Max one if needed). And keep a note of the name you give it, since you'll need it later on.
+
+
+3. Exporting your scene
+=======================
+
+- Once you're set with your stage, go to File > Export, and select the Ogre .scene format. (Not Ogre Max .scene one)
+
+- In the configuration window for the exporter, choose "Ogre 1.7" as the version to export to(support for 1.8 will likely come later),
+and clear all the sub-paths to blank. Check Build Tangents if you want but it's not technically needed if you don't have bumpy materials.
+
+- Select a simple, empty folder to export to. This should help you keep your assets organized and it'll be easier for the editor to find stuff later on when importing.

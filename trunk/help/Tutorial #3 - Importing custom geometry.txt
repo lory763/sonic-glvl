@@ -1,0 +1,33 @@
+1. Required Tools
+=================
+- SonicGLvl
+
+2. Importing
+=============
+
+Importing custom geometry is still an sketchy process due to it involving some poor stability at the moment in a particular step, but as long as you follow the steps it should work.
+
+Note that your .scene file should at least have one directional light, and it should be named the same value as in your Terrain.stg.xml <Light> node.
+
+
+- Open up in SonicGLvl the stage you wanna replace over. It will take a while to open the first time if it was never unpacked.
+It shall be stored in the cache folder so you can open it again faster next time. Note that the cache folder won't be unpacked again
+as long as the Stage.PFD isn't modified.
+
+- Once loaded, go to Terrain -> Clear all terrain geometry. The next step is very likely to crash due to some stability reasons, but
+it should do the trick of cleaning all relevant geometry files. Just wait until it's done(or crashes), and close the editor.
+
+- Now reopen the cleared level(notice that it didn't modify anything to your game files yet, it only cleared the temporary stage in the cache), and you should see nothing on it other than objects.
+
+- Go to Terrain -> Import .scene file and select your exported Ogre .scene file. Wait until it's done, you should regain control of the application once it is.
+
+- Now you need to generate the Terrain Groups. As of now there's only one type of automatic Terrain Group generation provided, which is 
+a grid along the XZ plane. The standard size of each grid cell is 60. Using the default settings should give you some good results. Simply
+press Generate and wait until it's done.
+
+- Once that's done you can proceed to repacking the terrain geometry. Go to File -> Repack Terrain Geometry... You should see many
+options and the path to repack to. Leave the default settings if you wish and press Repack. When it's done it'll ask you for confirmation
+if you wanna modify the stored hash in the cache so it doesn't unpack the stage again if you want to reopen it. Say yes.
+
+
+You can try playing around with the Material editor in the Terrain options. You can also toggle many options when Repacking Terrain geometry if you don't want to overwrite or regenerate certain stuff. For example, GIA generation.

@@ -1,0 +1,1 @@
+No instructions for Blender yet! But it should work as long as it exports in the Ogre .scene format.
