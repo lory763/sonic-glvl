@@ -1,10 +1,12 @@
 1. Required tools
 =================
-- Havok Content Tools for PC(latest version, get the appropiate 64 or 32 bit version depending on your 3D editor).
+- Havok Content Tools for PC(Havok 2010 2.0(NOT A NEWER ONE UNLESS YOU WANT THE GAME TO CRASH), get the appropiate 64 or 32 bit version depending on your 3D editor). 
+Notice that you'll need Max 2011 for using the Havok 2.0 tools, and you can use any newer Max version to save to an old Max version.
+
 Get it from http://software.intel.com/sites/havok/en/
 
 - Either 3DS Max, Maya, or XSI, which are the only 3D editors at the moment supporting the Havok Tools plugin.
-Autodesk 3DS Max 2012 can be used with a free student license if you sign up for it.
+Autodesk 3DS Max 2011/2012 can be used with a free student license if you sign up for it.
 
 
 2. Guidelines
@@ -12,7 +14,7 @@ Autodesk 3DS Max 2012 can be used with a free student license if you sign up for
 
 - While it's always nice to have accurate collision, the structure of your level should 
 be as basic and bare bones as possible for it to reduce the size of the final collision file as much as possible.
-It also reduces the amount of RAM used and CPU cycles.
+It also reduces the amount of RAM used and CPU cycles used in the game.
 
 - All Havok Shape types are supported. If you want accurate collision or need concave shapes, use the "Mesh" type. Otherwise, just use
 "Convex Hull" if you want to save up on complexity.

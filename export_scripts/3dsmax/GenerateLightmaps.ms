@@ -168,7 +168,7 @@ function calculateOptimalProportionMultiplier createUnwrap collapseAfterUnwrap h
 --	Param createUnwrap: whether to add a new unwrap modifier.
 --	Param collapseAfterUnwrap: whether to collapse the modifier-stack after adding the unwrap modifier.
 --	Param highestResolutionPower: the highest resolution lightmap a large object can get.
-function generateLightMaps proportionMultiplier forceAllToMaximumResolution createUnwrap collapseAfterUnwrap highestResolutionPower =
+function generateLightMaps proportionMultiplier forceAllToMaximumResolution createUnwrap collapseAfterUnwrap highestResolutionPower appendix_id =
 (
 	max modify mode
 	
@@ -225,9 +225,13 @@ function generateLightMaps proportionMultiplier forceAllToMaximumResolution crea
 			--map.directOn = true
 			map.elementName = "baked"
 			map.enabled = true
-			map.filename = (lightmapPath + "\\" + obj.name + "_lightmap.dds")
+			
+			if (appendix_id == 1) then appendix = "_lightmap"
+			if (appendix_id == 2) then appendix = "_shadowmap"
+			
+			map.filename = (lightmapPath + "\\" + obj.name + appendix + ".png")
 			map.filenameUnique = false
-			map.filetype = "DDS"
+			map.filetype = "PNG"
 			map.filterOn = true
 			--map.inDirectOn = true
 			map.outputSzX = resolutionInPixels
@@ -268,6 +272,7 @@ rollout lightmapGenerator "Lightmap Generator"
 	Group "Resolution:"
 	(
 		RadioButtons resolutionRadioButtons "Highest resolution:" labels:#("32", "64", "128", "256", "512", "1024", "2048", "4096") default:8
+		RadioButtons texnameRadioButtons "Texture Appendix:" labels:#("_lightmap", "_shadowmap") default:1
 		Spinner proportionMultiplier "Multiplier:" range:[0.001, 10000000, 600] type:#float
 		Button calculateGoodMultiplier "Calculate good multiplier"
 		CheckBox forceAllToMaximumResolution "Force all to maximum" checked:false
@@ -295,7 +300,8 @@ rollout lightmapGenerator "Lightmap Generator"
 						  forceAllToMaximumResolution.checked \
 						  unwrapCheckBox.checked \
 						  collapseCheckBox.checked \
-						  (resolutionRadioButtons.state + 4)
+						  (resolutionRadioButtons.state + 4) \
+						  texnameRadioButtons.state
 	)
 )
 

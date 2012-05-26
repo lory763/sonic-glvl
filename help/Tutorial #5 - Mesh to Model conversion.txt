@@ -1,0 +1,12 @@
+1. Required Tools
+=================
+- SonicGLvl
+
+2. Model conversion
+===================
+
+- Open up SonicGLvl, and on the Models menu, select "Convert Ogre .mesh to .model...". You'll be prompted a window to select your .mesh file first(if it has a .skeleton file in the same folder, it'll be automatically loaded).
+
+Later you'll be prompted where to save your .model file to. When you accept, your .model will get saved to that location, plus the .material files and the dds texture files they use(if available). It should be ready to use ingame, although you might want to tweak the materials to your liking on the material editor.
+
+Sonic Generations saves skeletons to the .model files as well, the only external skeleton file is the Havok file, which is explained how it is created on the previous tutorial. Keep in mind it also stores the skeleton inside the .model file, so both should always match for the best results.

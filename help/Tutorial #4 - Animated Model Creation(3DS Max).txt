@@ -1,0 +1,99 @@
+1. Required Tools
+=================
+- 3DS Max (2011 for Havok exporting)
+- Easy Ogre Max Exporter for 3DS Max   OR   OgreMax exporter.
+
+- Havok Content Tools for PC(Havok 2010 2.0(NOT A NEWER ONE UNLESS YOU WANT THE GAME TO CRASH), get the appropiate 64 or 32 bit version depending on your 3D editor). 
+Notice that you'll need Max 2011 for using the Havok 2.0 tools, and you can use any newer Max version to save to an old Max version.
+
+Get it from http://software.intel.com/sites/havok/en/
+
+
+2. Model creation
+=================
+
+- The editor doesn't care about any modifications you make to the nodes inside Max, since it'll read the .mesh file exported later on. So when making skeletons and your typical model, make sure your node scale is set to 100 and there's no rotation/translation applied. 
+
+This is important, because it can be quite confusing from what you see to what it really is. If you need to make your model smaller or rotate it, I recommend using the regular edit mesh modifier, and move your vertices manually to where you would want them to be.
+
+- Make sure your model is a SINGLE NODE. Different nodes get exported as different .mesh files. If you want meshes with different materials, learn how to use multi-materials and using mesh editting modifiers. If you want alternatively, you can design your whole model with different nodes, and just attach them in the end, Max will create the proper multi-material on its own.
+
+- Most of the general rules mentioned in the terrain geometry creation apply here as well.
+
+- You'll want to model and animate on the Z axis, since your exported model via Ogre Max or EOE will use the Z-Axis and convert it to the up Y-Axis so it works ingame.
+
+
+3. Skeleton creation
+====================
+
+- The exporter will detect a skeleton when your mesh uses the skin modifier and has some proper bones applied to it. Keep in mind the .skeleton file exported out will depend solely on the mesh it is attached to, and only the bones used by it will be exported(that means add it to the skin modifier, even if it doesn't touch it).
+
+- If you're gonna remodel a current character of the game, there's quite a few things to watch out for.
+  * The current version of the model importer script imports meshes as separate nodes per material, instead of a single mesh. Until this is fixed, you're on your own of re-attaching it and reskinning it properly.
+
+  * Notice that some bones are necessary, and probably hardcoded(for example, Sonic uses quite a handful of reference bones), and if they aren't present, the game might crash when loading your .model file. In that case, I suggest you to use the model importer script, and create your model with the available skeleton in there.
+
+  * There's a different version of the Model Importer script in the "export_scripts/3dsmax" folder, that it will import models from the game unscaled and using the axis as Z-UP internally so they work correctly.
+
+
+4. Material Editing
+====================
+
+- You can freely use the Material Editor inside SonicGLvl to tweak the characters to your liking, or use any kind of shaders you prefer. Notice that you might need to open some other materials so the editor effectively "learns" new shader types and adds them to its database.
+
+
+5. Exporting meshes
+===================
+
+- Use either EOE or OgreMax to export your scene. Apart from the .scene file, you'll likely get a .mesh and .skeleton file if used, that you can use
+to convert to a usable .model for the game.
+
+- Use Ogre 1.7 version whenever you're asked for exporting your mesh files. 1.8 is not supported yet.
+
+
+6. Exporting Havok Skeletons/Animations
+=======================================
+
+- Animations aren't handled by SonicGLvl, so all you'll need is the Havok Content Tools 2010 2.0.
+
+Skeleton:  * Leave your model in its original pose as it was exported on the mesh. Make sure no transformations are applied by Max(translation, scaling, rotation).
+
+           * Open up the Havok Content Tools menu and choose export. Apply the following filters. Leave the defaults unless specified otherwise.
+              - Transform Scene with the following Custom Matrix(since Max uses the Z-Axis as UP):
+                (1.0000   0.0000   0.0000)
+		(0.0000   0.0000   -1.000)
+		(0.0000   1.0000   0.0000)
+
+              - Create Skeletons
+              - Create Skins
+              - Create Animations
+              - Prune Types(Check everything but the skeletons)
+              - Write to Platform(HKX, Packfile, Win32 MSVC)
+            
+           * You now have a HKX file which can be used to replace the skeleton HKX of one of the models ingame. Notice that it might be a bit unstable if not much of the bones match with all the animation HKX that are used by the character.
+ 
+Animation: * Animate your character as whatever you want, just watch out of frame length, as it should probably match the one used in the game.
+
+           * Open up the Havok Content Tools menu and choose export. Apply the following filters. Leave the defaults unless specified otherwise.
+              - Transform Scene with the following Custom Matrix(since Max uses the Z-Axis as UP):
+                (1.0000   0.0000   0.0000)
+		(0.0000   0.0000   -1.000)
+		(0.0000   1.0000   0.0000)
+
+              - Create Skeletons
+              - Create Skins
+              - Create Animations
+              - Prune Types(Check everything but the animations and its children checkboxes)
+              - Write to Platform(HKX, Packfile, Win32 MSVC)
+
+           * You now have a HKX file which can be used to replace an animation HKX of any of the models ingame.
+
+If your skeleton doesn't originally match the orientation/scaling you want for the character to have ingame, DO NOT MODIFY THE SKELETON IF THE MESH ISN'T PROPERLY SCALED AS WELL. Instead, just export out your animations properly rescaled and rotated to whatever you need, since you can just apply it to the root bone. It should work ingame, although it'll look glitchy for whatever animations you haven't replaced yet.
+
+
+
+
+
+
+
+
