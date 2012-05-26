@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<SonicStopCollision>
+    <GroundOffset>double:0</GroundOffset>
+    <Height>double:50</Height>
+    <Length>double:2</Length>
+    <Position>
+        <w>double:1</w>
+        <x>double:20.7517</x>
+        <y>double:-50</y>
+        <z>double:-363.828</z>
+    </Position>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Width>double:60</Width>
+    <Mesh>unknown.mesh</Mesh>
+</SonicStopCollision>
