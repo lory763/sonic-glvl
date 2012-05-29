@@ -29,11 +29,10 @@ This is important, because it can be quite confusing from what you see to what i
 - The exporter will detect a skeleton when your mesh uses the skin modifier and has some proper bones applied to it. Keep in mind the .skeleton file exported out will depend solely on the mesh it is attached to, and only the bones used by it will be exported(that means add it to the skin modifier, even if it doesn't touch it).
 
 - If you're gonna remodel a current character of the game, there's quite a few things to watch out for.
-  * The current version of the model importer script imports meshes as separate nodes per material, instead of a single mesh. Until this is fixed, you're on your own of re-attaching it and reskinning it properly.
+  * The COLLADA exporter seems to have some problems when reimporting due to how 3DS Max imports the files. I'd recommend you to use the model importer script in the "export_scripts/3dsmax" folder instead(it was updated recently), as it pretty much imports the model in the perfect scale and the correct axis.
 
   * Notice that some bones are necessary, and probably hardcoded(for example, Sonic uses quite a handful of reference bones), and if they aren't present, the game might crash when loading your .model file. In that case, I suggest you to use the model importer script, and create your model with the available skeleton in there.
 
-  * There's a different version of the Model Importer script in the "export_scripts/3dsmax" folder, that it will import models from the game unscaled and using the axis as Z-UP internally so they work correctly.
 
 
 4. Material Editing
