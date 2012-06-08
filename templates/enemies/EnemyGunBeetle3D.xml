@@ -39,5 +39,5 @@
     </Target>
     <ToRebirthTime>double:3</ToRebirthTime>
     <Vel1D>double:10</Vel1D>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>enm_stinger_HD_1.mesh</Mesh>
 </EnemyGunBeetle3D>

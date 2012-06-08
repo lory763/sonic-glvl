@@ -20,12 +20,10 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <TargetList0>
-        <SetObjectID>integer</SetObjectID>
-    </TargetList0>
-    <TargetList1 />
-    <TargetList2 />
-    <TargetList3 />
+    <TargetList0>list:SetObjectID</TargetList0>
+    <TargetList1>list:SetObjectID</TargetList1>
+    <TargetList2>list:SetObjectID</TargetList2>
+    <TargetList3>list:SetObjectID</TargetList3>
     <Timer0>double:0.2</Timer0>
     <Timer1>double:0</Timer1>
     <Timer2>double:0</Timer2>

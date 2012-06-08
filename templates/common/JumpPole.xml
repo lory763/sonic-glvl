@@ -17,5 +17,5 @@
          <z>double</z>
      </Rotation>
      <SetObjectID>integer</SetObjectID>
-     <Mesh>cmn_obj_springpole_HD_body.mesh</Mesh>
+     <Mesh>cmn_obj_springpole_HD_1.mesh</Mesh>
 </JumpPole>

@@ -56,5 +56,5 @@
         <y>double:-10.6375</y>
         <z>double:-446.205</z>
     </WayPointB>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>enm_beeton_HD_1.mesh</Mesh>
 </EnemyBeeton2D>

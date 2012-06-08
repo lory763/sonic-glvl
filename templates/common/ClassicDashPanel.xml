@@ -25,8 +25,5 @@
     <Speed>double:45</Speed>
     <SpeedMax>double:38</SpeedMax>
     <SpeedMin>double:30</SpeedMin>
-    <Mesh>cmn_obj_c_dashpanel_HD_01.mesh</Mesh>
-    <Mesh>cmn_obj_c_dashpanel_HD_02.mesh</Mesh>
-    <Mesh>cmn_obj_c_dashpanel_HD_03.mesh</Mesh>
-    <Mesh>cmn_obj_c_dashpanel_HD_04.mesh</Mesh>
+    <Mesh>cmn_obj_c_dashpanel_HD_1.mesh</Mesh>
 </ClassicDashPanel>

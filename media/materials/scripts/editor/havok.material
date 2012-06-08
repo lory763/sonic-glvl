@@ -6,7 +6,11 @@ material havok
 		pass
 		{
 			diffuse 1 1 1 1
-			cull_hardware none
+ 			cull_hardware none
+			texture_unit
+			{
+				texture havok.dds
+			}
 		}
 
 	}

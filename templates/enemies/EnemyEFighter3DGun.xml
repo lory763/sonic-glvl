@@ -26,5 +26,5 @@
     <StartWayPointID>double:0</StartWayPointID>
     <Type>double:0</Type>
     <UseChibi>bool:false</UseChibi>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>enm_eggfighter_HD_1.mesh</Mesh>
 </EnemyEFighter3DGun>

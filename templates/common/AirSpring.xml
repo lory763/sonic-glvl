@@ -39,11 +39,5 @@
         <y>double:8.42136</y>
         <z>double:-2646.92</z>
     </m_MonkeyTarget>
-    <Mesh>springair_bottom_01.mesh</Mesh>
-    <Mesh>springair_bottom_02.mesh</Mesh>
-    <Mesh>springair_bottom_03.mesh</Mesh>
-    <Mesh>springair_top_01.mesh</Mesh>
-    <Mesh>springair_top_02.mesh</Mesh>
-    <Mesh>springair_top_03.mesh</Mesh>
-    <Mesh>springair_top_04.mesh</Mesh>
+    <Mesh>cmn_obj_springair_btm_HD.mesh</Mesh>
 </AirSpring>

@@ -51,7 +51,5 @@
         <y>double:73.0684</y>
         <z>double:-2786.08</z>
     </WayPointB>
-    <Mesh>enm_ganigani_HD_body.mesh</Mesh>
-    <Mesh>enm_ganigani_HD_eye.mesh</Mesh>
-    <Mesh>enm_ganigani_HD_metal.mesh</Mesh>
+    <Mesh>enm_ganigani_HD_1.mesh</Mesh>
 </EnemyGanigani3D>

@@ -22,8 +22,8 @@
     <ZOffsetEnable>bool:true</ZOffsetEnable>
 
     <MeshScaleX multiplier="2.0">Width</MeshScaleX>
-    <MeshScaleY multiplier="2.0">Depth</MeshScaleY>
-    <MeshScaleZ multiplier="2.0">Height</MeshScaleZ>
+    <MeshScaleY multiplier="2.0">Height</MeshScaleY>
+    <MeshScaleZ multiplier="2.0">Depth</MeshScaleZ>
 
     <Mesh>onewayfloor.mesh</Mesh>
 </OnewayFloor>

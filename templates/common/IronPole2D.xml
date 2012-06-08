@@ -23,5 +23,5 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>cmn_obj_pole_fvA.mesh</Mesh>
 </IronPole2D>

@@ -15,6 +15,5 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <Mesh>superring_01.mesh</Mesh>
-    <Mesh>superring_number_01.mesh</Mesh>
+    <Mesh>cmn_obj_superring_HD_1.mesh</Mesh>
 </SuperRing>

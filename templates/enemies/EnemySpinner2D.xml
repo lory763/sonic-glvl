@@ -43,9 +43,5 @@
         <z>double:0</z>
     </WayPointB>
     
-    <Mesh>enm_spina_HD_01.mesh</Mesh>
-    <Mesh>enm_spina_HD_02.mesh</Mesh>
-    <Mesh>enm_spina_HD_03.mesh</Mesh>
-    <Mesh>enm_spina_HD_04.mesh</Mesh>
-    <Mesh>enm_spina_HD_05.mesh</Mesh>
+    <Mesh>enm_spina_HD_1.mesh</Mesh>
 </EnemySpinner2D>

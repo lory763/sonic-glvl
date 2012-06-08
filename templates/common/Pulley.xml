@@ -22,5 +22,5 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <StartPosition>double:0</StartPosition>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>cmn_obj_pulley_HD_1.mesh</Mesh>
 </Pulley>

@@ -1,4 +1,3 @@
-
 material enm_batabata_HD_body
 {
 	technique
@@ -42,5 +41,3 @@ material enm_batabata_HD_eye
 	}
 
 }
-
-

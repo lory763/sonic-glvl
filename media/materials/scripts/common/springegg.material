@@ -1,4 +1,3 @@
-
 material cmn_obj_springegg_HD_body
 {
 	technique
@@ -42,5 +41,3 @@ material cmn_obj_springegg_HD_egg
 	}
 
 }
-
-

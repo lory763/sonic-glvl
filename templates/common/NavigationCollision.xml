@@ -39,4 +39,8 @@
         <SetObjectID>integer</SetObjectID>
     </TargetObject_RelationSetObject>
     <Mesh>collision.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">Collision_Length</PreviewScaleZ>
 </NavigationCollision>

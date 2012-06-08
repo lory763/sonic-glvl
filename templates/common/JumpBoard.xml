@@ -26,11 +26,7 @@
 
     <AltMesh>
        <Condition>AngleType==0</Condition>
-       <Mesh>jumppanel_15_s_01.mesh</Mesh>
-       <Mesh>jumppanel_15_s_02.mesh</Mesh>
-       <Mesh>jumppanel_15_s_03.mesh</Mesh>
-       <Mesh>jumppanel_15_s_04.mesh</Mesh>
-       <Mesh>jumppanel_15_s_05.mesh</Mesh>
+       <Mesh>cmn_obj_jumppanel15S_HD_1.mesh</Mesh>
     </AltMesh>
 
 </JumpBoard>

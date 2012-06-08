@@ -23,5 +23,5 @@
     <SetObjectID>integer</SetObjectID>
     <Type>double:0</Type>
     <UseRigidBody>bool:true</UseRigidBody>
-    <Mesh>cmn_obj_thorn_HD.mesh</Mesh>
+    <Mesh>cmn_obj_thorn_HD_1.mesh</Mesh>
 </DirectionalThorn>

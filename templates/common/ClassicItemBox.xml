@@ -22,7 +22,5 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <TreasureSearchHideType>double:0</TreasureSearchHideType>
-    <Mesh>cmn_obj_c_itembox_HD_body.mesh</Mesh>
-    <Mesh>cmn_obj_c_itembox_HD_const.mesh</Mesh>
-    <Mesh>cmn_obj_c_itembox_line.mesh</Mesh>
+    <Mesh>cmn_obj_c_itembox_HD_1.mesh</Mesh>
 </ClassicItemBox>

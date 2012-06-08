@@ -62,13 +62,5 @@
     <m_SeekSpanTime>double:3</m_SeekSpanTime>
     <m_TurnAccel>double:4</m_TurnAccel>
     <m_WaitTime>double:0.3</m_WaitTime>
-    <Mesh>enm_eggfighter_HD_01.mesh</Mesh>
-    <Mesh>enm_eggfighter_HD_02.mesh</Mesh>
-    <Mesh>enm_eggfighter_HD_03.mesh</Mesh>
-    <Mesh>enm_eggfighter_HD_04.mesh</Mesh>
-    <Mesh>enm_eggfighter_HD_05.mesh</Mesh>
-    <Mesh>enm_eggfighter_HD_06.mesh</Mesh>
-    <Mesh>enm_eggfighter_HD_07.mesh</Mesh>
-    <Mesh>enm_eggfighter_HD_08.mesh</Mesh>
-    <Mesh>enm_eggfighter_HD_09.mesh</Mesh>
+    <Mesh>enm_eggfighter_HD_1.mesh</Mesh>
 </EnemyEFighter3D>

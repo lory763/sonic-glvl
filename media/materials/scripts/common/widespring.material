@@ -1,4 +1,3 @@
-
 material cmn_obj_widespring_HD_side
 {
 	technique
@@ -65,5 +64,3 @@ material cmn_obj_widespring_HD_star
 	}
 
 }
-
-

@@ -22,7 +22,5 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <m_IsConstantPosition>bool:true</m_IsConstantPosition>
-    <Mesh>widespring_01.mesh</Mesh>
-    <Mesh>widespring_02.mesh</Mesh>
-    <Mesh>widespring_03.mesh</Mesh>
+    <Mesh>cmn_obj_widespring_HD_1.mesh</Mesh>
 </WideSpring>

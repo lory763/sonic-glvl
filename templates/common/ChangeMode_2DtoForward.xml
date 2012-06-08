@@ -35,4 +35,8 @@
     <m_PathCorrectionForce>double:0</m_PathCorrectionForce>
     <m_PathEaseTime>double:1</m_PathEaseTime>
     <Mesh>unknown.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="0.1">Collision_Length</PreviewScaleZ>
 </ChangeMode_2DtoForward>

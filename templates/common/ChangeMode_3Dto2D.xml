@@ -29,4 +29,8 @@
     <m_IsPadCorrect>bool:true</m_IsPadCorrect>
     <m_PathEaseTime>double:0.5</m_PathEaseTime>
     <Mesh>changemode.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="0.1">Collision_Length</PreviewScaleZ>
 </ChangeMode_3Dto2D>

@@ -22,4 +22,8 @@
     <Shape_Type>double:0</Shape_Type>
     <m_FPS>double:30</m_FPS>
     <Mesh>unknown.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">Collision_Length</PreviewScaleZ>
 </ConstantFrame>

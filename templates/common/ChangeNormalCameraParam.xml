@@ -28,4 +28,8 @@
     <m_Param.TargetYaw>double:0</m_Param.TargetYaw>
     <m_Param.VerticalOffset>double:2.6</m_Param.VerticalOffset>
     <Mesh>unknown.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">Collision_Length</PreviewScaleZ>
 </ChangeNormalCameraParam>

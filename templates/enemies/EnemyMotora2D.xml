@@ -39,9 +39,5 @@
         </Target>
         <TargetLostTime>double</TargetLostTime>
         <TerrainCheckHeight>double</TerrainCheckHeight>
-        <Mesh>enm_motora_body.mesh</Mesh>
-        <Mesh>enm_motora_eye.mesh</Mesh>
-        <Mesh>enm_motora_lamp.mesh</Mesh>
-        <Mesh>enm_motora_metal.mesh</Mesh>
-        <Mesh>enm_motora_tyre.mesh</Mesh>
+        <Mesh>enm_motora_HD_1.mesh</Mesh>
 </EnemyMotora2D>

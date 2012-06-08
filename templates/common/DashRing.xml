@@ -22,5 +22,5 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <Mesh>dashring_01.mesh</Mesh>
+    <Mesh>cmn_obj_dashring_HD_1.mesh</Mesh>
 </DashRing>

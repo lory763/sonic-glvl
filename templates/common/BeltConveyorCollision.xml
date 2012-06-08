@@ -24,4 +24,8 @@
     <Shape_Type>double:0</Shape_Type>
     <Speed>double:7</Speed>
     <Mesh>unknown.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">Collision_Length</PreviewScaleZ>
 </BeltConveyorCollision>

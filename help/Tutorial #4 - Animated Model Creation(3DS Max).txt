@@ -47,7 +47,7 @@ This is important, because it can be quite confusing from what you see to what i
 - Use either EOE or OgreMax to export your scene. Apart from the .scene file, you'll likely get a .mesh and .skeleton file if used, that you can use
 to convert to a usable .model for the game.
 
-- Use Ogre 1.7 version whenever you're asked for exporting your mesh files. 1.8 is not supported yet.
+- Use Ogre 1.8 version whenever you're asked for exporting your mesh files.
 
 
 6. Exporting Havok Skeletons/Animations

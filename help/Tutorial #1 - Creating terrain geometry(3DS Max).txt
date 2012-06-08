@@ -42,7 +42,7 @@ the bounding box, you're likely doing it wrong.
 
 - Once you're set with your stage, go to File > Export, and select the Ogre .scene format. (Not Ogre Max .scene one)
 
-- In the configuration window for the exporter, choose "Ogre 1.7" as the version to export to(support for 1.8 will likely come later),
+- In the configuration window for the exporter, choose "Ogre 1.8" as the version to export to,
 and clear all the sub-paths to blank. Check Build Tangents if you want but it's not technically needed if you don't have bumpy materials.
 
 - Select a simple, empty folder to export to. This should help you keep your assets organized and it'll be easier for the editor to find stuff later on when importing.

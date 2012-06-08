@@ -1,0 +1,89 @@
+material cmn_obj_c_jumppanel_HD_metal01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cmn_obj_c_jumppanel01_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cmn_obj_c_jumppanel_HD_spring
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cmn_obj_c_jumppanel02_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cmn_obj_c_jumppanel_HD_star
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cmn_metal_ms_springstar_dif.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material cmn_obj_c_jumppanel_HD_metal02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture cmn_obj_c_jumppanel02_dif_HD.dds
+			}
+		}
+
+	}
+
+}
