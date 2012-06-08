@@ -56,7 +56,5 @@
       <y>double</y>
       <z>double</z>
     </WayPointB>
-    <Mesh>enm_stinger_body.mesh</Mesh>
-    <Mesh>enm_stinger_eye.mesh</Mesh>
-    <Mesh>enm_stinger_wing.mesh</Mesh>
+    <Mesh>enm_beeton_HD_1.mesh</Mesh>
 </EnemyBeeton2D>

@@ -1,5 +1,4 @@
-
-material cmn_obj_goalring_HD_red
+material cmn_obj_goalring_HD_rainbow
 {
 	technique
 	{
@@ -12,7 +11,7 @@ material cmn_obj_goalring_HD_red
 
 			texture_unit
 			{
-				texture cmn_metal_km_goalring02_dif.dds
+				texture cmn_metal_km_goalring04_dif.dds
 			}
 		}
 
@@ -45,7 +44,7 @@ material cmn_obj_goalring_HD_metal
 
 
 
-material cmn_obj_goalring_HD_rainbow
+material cmn_obj_goalring_HD_red
 {
 	technique
 	{
@@ -58,12 +57,10 @@ material cmn_obj_goalring_HD_rainbow
 
 			texture_unit
 			{
-				texture cmn_metal_km_goalring04_dif.dds
+				texture cmn_metal_km_goalring02_dif.dds
 			}
 		}
 
 	}
 
 }
-
-

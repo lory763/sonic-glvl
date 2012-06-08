@@ -35,4 +35,8 @@
     <UseOff2>bool:false</UseOff2>
     <UseOff3>bool:false</UseOff3>
     <Mesh>unknown.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="0.1">Collision_Length</PreviewScaleZ>
 </LayerChangeCollisionFlat>

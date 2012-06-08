@@ -37,6 +37,5 @@
             <z>double</z>
         </Rotation>
         <SetObjectID>integer</SetObjectID>
-	  <Mesh>cmn_obj_goalplate_HD_back.mesh</Mesh>
-  	  <Mesh>cmn_obj_goalplate_HD_metal.mesh</Mesh>
+	  <Mesh>cmn_obj_c_goalplate_egg_HD.mesh</Mesh>
 </GoalSignboard>

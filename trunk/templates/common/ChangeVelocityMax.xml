@@ -20,4 +20,8 @@
     <m_Speed>double:34</m_Speed>
     <m_SpeedSpinDash>double:62</m_SpeedSpinDash>
     <Mesh>unknown.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="0.1">Collision_Length</PreviewScaleZ>
 </ChangeVelocityMax>

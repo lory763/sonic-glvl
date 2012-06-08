@@ -41,6 +41,5 @@
         <z>double:0</z>
     </m_MonkeyTarget>
 
-    <Mesh>spring_classic_y_01.mesh</Mesh> 
-    <Mesh>spring_classic_y_02.mesh</Mesh> 
+    <Mesh>cmn_obj_c_springY_HD_1.mesh</Mesh> 
 </SpringClassicYellow>

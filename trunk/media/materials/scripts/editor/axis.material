@@ -49,3 +49,54 @@ material xaxis
 }
 
 
+material zaxis_highlight
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1.0 0.5 1
+			diffuse 1 1.0 0.5 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material yaxis_highlight
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 1 1
+			diffuse 0.5 0.5 1 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+
+material xaxis_highlight
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0.5 0.5 1
+			diffuse 1 0.5 0.5 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+

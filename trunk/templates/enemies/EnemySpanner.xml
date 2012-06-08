@@ -47,9 +47,5 @@
         <z>double:0</z>
     </WayPointB>
 
-    <Mesh>enm_spana_HD_01.mesh</Mesh>
-    <Mesh>enm_spana_HD_02.mesh</Mesh>
-    <Mesh>enm_spana_HD_03.mesh</Mesh>
-    <Mesh>enm_spana_HD_04.mesh</Mesh>
-    <Mesh>enm_spana_HD_05.mesh</Mesh>
+    <Mesh>enm_spana_HD_1.mesh</Mesh>
 </EnemySpanner>

@@ -39,4 +39,8 @@
     <SetObjectID>integer</SetObjectID>
     <m_ValidFlag>double:0</m_ValidFlag>
     <Mesh>collision.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="0.1">Collision_Length</PreviewScaleZ>
 </CameraCollisionBoard>

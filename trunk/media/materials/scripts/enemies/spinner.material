@@ -1,0 +1,112 @@
+material enm_spina_body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture enm_spina_body_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material enm_spina_metal
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture enm_spina_body_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material enm_spina_ball
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture enm_spina_light_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material enm_spina_light
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture enm_spina_light_dif_HD.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material enm_spina_eye
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture enm_spina_eye_dif_HD.dds
+			}
+		}
+
+	}
+
+}

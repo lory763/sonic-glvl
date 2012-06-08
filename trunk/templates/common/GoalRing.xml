@@ -23,7 +23,5 @@
     </Rotation>
     <SENumber>double:6</SENumber>
     <SetObjectID>integer</SetObjectID>
-    <Mesh>goalring_01.mesh</Mesh>
-    <Mesh>goalring_02.mesh</Mesh>
-    <Mesh>goalring_03.mesh</Mesh>
+    <Mesh>cmn_obj_goalring_HD_1.mesh</Mesh>
 </GoalRing>

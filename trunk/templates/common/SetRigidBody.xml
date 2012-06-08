@@ -23,4 +23,8 @@
     <Width>double:5</Width>
     <m_IsSearchInsulateOnly>bool:false</m_IsSearchInsulateOnly>
     <Mesh>unknown.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">Depth</PreviewScaleZ>
 </SetRigidBody>

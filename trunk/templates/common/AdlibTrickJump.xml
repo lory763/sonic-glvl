@@ -24,19 +24,11 @@
 
     <AltMesh>
        <Condition>SizeType==0</Condition>
-       <Mesh>trickpanel_30_m_01.mesh</Mesh>
-       <Mesh>trickpanel_30_m_02.mesh</Mesh>
-       <Mesh>trickpanel_30_m_03.mesh</Mesh>
-       <Mesh>trickpanel_30_m_04.mesh</Mesh>
-       <Mesh>trickpanel_30_m_05.mesh</Mesh>
+       <Mesh>cmn_obj_trickpanel30M_HD_1.mesh</Mesh>
     </AltMesh>
 
     <AltMesh>
        <Condition>SizeType==1</Condition>
-       <Mesh>trickpanel_30_l_01.mesh</Mesh>
-       <Mesh>trickpanel_30_l_02.mesh</Mesh>
-       <Mesh>trickpanel_30_l_03.mesh</Mesh>
-       <Mesh>trickpanel_30_l_04.mesh</Mesh>
-       <Mesh>trickpanel_30_l_05.mesh</Mesh>
+       <Mesh>cmn_obj_trickpanel30L_HD_1.mesh</Mesh>
     </AltMesh>
 </AdlibTrickJump>

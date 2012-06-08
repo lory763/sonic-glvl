@@ -39,5 +39,5 @@
     </Target>
     <TargetLostTime>double:1.5</TargetLostTime>
     <TerrainCheckHeight>double:1</TerrainCheckHeight>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>enm_motora_HD_1.mesh</Mesh>
 </EnemyMotora2D>

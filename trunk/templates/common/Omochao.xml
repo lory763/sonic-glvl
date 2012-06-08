@@ -69,9 +69,5 @@
     <UseVoiceTimeS>bool:false</UseVoiceTimeS>
     <WaitType>double:0</WaitType>
 
-    <Mesh>chr_omochao_HD_01.mesh</Mesh>
-    <Mesh>chr_omochao_HD_02.mesh</Mesh>
-    <Mesh>chr_omochao_HD_03.mesh</Mesh>
-    <Mesh>chr_omochao_HD_04.mesh</Mesh>
-    <Mesh>chr_omochao_HD_05.mesh</Mesh>
+    <Mesh>chr_omochao_HD_1.mesh</Mesh>
 </Omochao>

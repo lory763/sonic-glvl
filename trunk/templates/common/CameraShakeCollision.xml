@@ -30,4 +30,8 @@
     </Trigger>
     <TriggerType>double:1</TriggerType>
     <Mesh>unknown.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">Collision_Length</PreviewScaleZ>
 </CameraShakeCollision>

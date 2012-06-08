@@ -25,8 +25,5 @@
     <Speed>double:100</Speed>
     <SpeedMax>double:60</SpeedMax>
     <SpeedMin>double:30</SpeedMin>
-    <Mesh>dashpanel_01.mesh</Mesh>
-    <Mesh>dashpanel_02.mesh</Mesh>
-    <Mesh>dashpanel_03.mesh</Mesh>
-    <Mesh>dashpanel_04.mesh</Mesh>
+    <Mesh>cmn_obj_dashpanel_flipped_HD.mesh</Mesh>
 </DashPanel>

@@ -22,5 +22,5 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <m_ClassicSpinThreshold>double:30</m_ClassicSpinThreshold>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>cmn_obj_c_jumppanel_HD_1.mesh</Mesh>
 </ClassicJumpBoard>

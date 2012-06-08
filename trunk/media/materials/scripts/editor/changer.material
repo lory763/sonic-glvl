@@ -1,0 +1,14 @@
+material modechange
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0705882 0 1 1
+			diffuse 0.0705882 0 1 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
