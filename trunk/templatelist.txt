@@ -54,6 +54,9 @@ templates\common\Electric.xml
 templates\common\MovingThorn.xml
 templates\common\RollingSaw.xml
 
+category SonicGLvl Helpers/Spawns
+templates\editor\SonicSpawn.xml
+
 
 category Events
 
@@ -372,3 +375,4 @@ templates\unleashed\BeachFlagA.xml
 templates\unleashed\BeachFlagB.xml
 templates\unleashed\BeachFlagC.xml
 templates\unleashed\BeachFlagD.xml
+templates\unleashed\eFighterTutorial.xml

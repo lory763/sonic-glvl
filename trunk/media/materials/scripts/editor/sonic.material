@@ -1,0 +1,308 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "sonic_gm_body"
+{
+	technique sonic_gm_body_technique
+	{
+		pass sonic_gm_body_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+
+			texture_unit sonic_gm_body_Diffuse#0
+			{
+				texture chr_sonic_body01_dif_HD.DDS
+				tex_coord_set 0
+			}
+		}
+	}
+}
+material "sonic_gm_body_1"
+{
+	technique sonic_gm_body_1_technique
+	{
+		pass sonic_gm_body_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+
+			texture_unit sonic_gm_body_1_Diffuse#0
+			{
+				texture chr_sonic_body01_dif_HD.DDS
+				tex_coord_set 0
+			}
+		}
+	}
+}
+material "sonic_gm_body_2"
+{
+	technique sonic_gm_body_2_technique
+	{
+		pass sonic_gm_body_2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+
+			texture_unit sonic_gm_body_2_Diffuse#0
+			{
+				texture chr_sonic_body01_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+}
+material "sonic_gm_body_3"
+{
+	technique sonic_gm_body_3_technique
+	{
+		pass sonic_gm_body_3_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+
+			texture_unit sonic_gm_body_3_Diffuse#0
+			{
+				texture chr_sonic_body01_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sonic_gm_mouth"
+{
+	technique sonic_gm_mouth_technique
+	{
+		pass sonic_gm_mouth_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+
+			texture_unit sonic_gm_mouth_Diffuse#0
+			{
+				texture chr_sonic_body01_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sonic_gm_nose"
+{
+	technique sonic_gm_nose_technique
+	{
+		pass sonic_gm_nose_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+
+			texture_unit sonic_gm_nose_Diffuse#0
+			{
+				texture chr_sonic_body01_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sonic_gm_shoes_red"
+{
+	technique sonic_gm_shoes_red_technique
+	{
+		pass sonic_gm_shoes_red_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sonic_gm_shoes_red_Diffuse#0
+			{
+				texture chr_sonic_shoes_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sonic_gm_shoes_belt"
+{
+	technique sonic_gm_shoes_belt_technique
+	{
+		pass sonic_gm_shoes_belt_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+
+			texture_unit sonic_gm_shoes_belt_Diffuse#0
+			{
+				texture chr_sonic_shoes_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sonic_gm_cloth"
+{
+	technique sonic_gm_cloth_technique
+	{
+		pass sonic_gm_cloth_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sonic_gm_cloth_Diffuse#0
+			{
+				texture chr_sonic_cloth_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sonic_gm_cloth_1"
+{
+	technique sonic_gm_cloth_1_technique
+	{
+		pass sonic_gm_cloth_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sonic_gm_cloth_1_Diffuse#0
+			{
+				texture chr_sonic_cloth_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sonic_gm_shoes_ring"
+{
+	technique sonic_gm_shoes_ring_technique
+	{
+		pass sonic_gm_shoes_ring_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sonic_gm_shoes_ring_Diffuse#0
+			{
+				texture chr_sonic_shoes_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sonic_gm_eyeL"
+{
+	technique sonic_gm_eyeL_technique
+	{
+		pass sonic_gm_eyeL_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sonic_gm_eyeL_Diffuse#0
+			{
+				texture chr_sonic_eye_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sonic_gm_eyeR"
+{
+	technique sonic_gm_eyeR_technique
+	{
+		pass sonic_gm_eyeR_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sonic_gm_eyeR_Diffuse#0
+			{
+				texture chr_sonic_eye_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
