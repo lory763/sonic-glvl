@@ -1007,7 +1007,7 @@ if(bone4 != 0xFF) then
 
 if(maxweight != 0) then
 	(
-		mxw = maxweight as float
+		mxw = 255.0
 		if(bone1 != 0xFF) then
 		(
 			w1 = weight1 as float
