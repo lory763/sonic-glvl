@@ -1,0 +1,35 @@
+The file "tutorial_example_vertex_blending.png" is a demonstration of the 3 most important uses of Vertex Coloring/Blending.
+
+However, this tutorial doesn't cover the basics on how to paint vertices in your favourite 3D editor, but merely describes the uses of it. If you want to learn how to, look up some tutorials online. Just remember that you might actually need to apply these effects to the "VERTEX COLOR" and the "VERTEX ALPHA" channels in most cases.
+
+Vertex Color is not actually relevant to most Rendering techniques unless the shader chooses to use it. That's what this guide describes, how the game actually uses this data in 3 of the most popular cases.
+
+From left to right on the picture:
+
+Solid Vertex Coloring:
+======================
+
+On regular solid meshes, the vertex color simply acts like a multiplier to the overall result of the material. This means you can't really make a full solid red material act as blue, since it's a multiplication of both results... It'd turn out black.
+
+However, this could be a useful feature in case you wanted to fake some lighting effects in certain areas(although GIA should do a good enough job, but the option is there if needed), or recoloring some assets without modifying the actual textures or the material.
+
+
+Blending Shaders using Vertex Color data:
+=========================================
+
+One important technique for making smooth transitions, particularly in organic stages. You can use vertex colors ranging from full black to full white to determine the intensity of two different textures. When it's full black, it'll use the first texture assigned to the blending material. When it's full white, it'll use the second texture.
+
+There's plenty of Blending shaders available on generations(they normally go by the name of Blend_dndn and similar, which requires the diffuse and normal texture for the first unit, and the diffuse and the normal texture for the second unit). Most of these behave similarly to what's described in the previous paragraph, but there might be some exceptions.
+
+Notice that most shaders just only support two different textures per submesh, so you can easily design your organic shapes around that and set the materials appropiately.
+
+
+
+Transparent Vertex Coloring:
+============================
+
+Meshes with an Opacity Map are automatically considered transparent meshes, regardless of the shader their material actually uses. This means they don't cause occlusion on the entities behind them, so they don't write to the depth buffer ingame. Add this to the fact that you can use regular vertex coloring, and even the vertex alpha channel, and you can make some really smooth objects into your scene. 
+
+Popular examples include waterfalls, lakes, dirt, etc.
+
+
