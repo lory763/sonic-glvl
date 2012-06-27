@@ -50,9 +50,15 @@ templates\common\Balloon.xml
 templates\common\FallSignalSV.xml
 templates\common\FallSignalFV.xml
 templates\common\IronPole2D.xml
+templates\common\IronPole3D.xml
 templates\common\Electric.xml
 templates\common\MovingThorn.xml
 templates\common\RollingSaw.xml
+templates\common\Fan.xml
+templates\common\Cannon.xml
+templates\common\Cannon_ChangeParam.xml
+
+
 
 category SonicGLvl Helpers/Spawns
 templates\editor\SonicSpawn.xml
@@ -88,6 +94,7 @@ templates\common\TerrainGroupSubsetLoadCollision2.xml
 templates\common\TerrainGroupSubsetLoadCollisionVolume.xml
 templates\common\LayerChangeCollisionFlat.xml
 templates\common\BeltConveyorCollision
+templates\common\LayerChangeCollision.xml
 
 
 category Changers
@@ -161,6 +168,12 @@ templates\enemies\EnemyEChaserManager.xml
 templates\enemies\EnemyEFighterSword3D.xml
 templates\enemies\EnemyEFighter3DGun.xml
 templates\enemies\EnemyAeroCannon.xml
+templates\enemies\EnemyPawn3D.xml
+templates\enemies\EnemyPawnLance3D.xml
+templates\enemies\EnemyPawnLance2D.xml
+templates\enemies\EnemyPawn2D.xml
+templates\enemies\EnemyPawnGun3D.xml
+templates\enemies\EnemyPawnGun2D.xml
 
 
 
@@ -244,6 +257,14 @@ templates\cte\CteHexagonFloor.xml
 
 
 category Seaside Hill
+templates\ssh\SshRuinFloor.xml
+templates\ssh\SshSignal.xml
+templates\ssh\SshBobsleigh_EndBox.xml
+templates\ssh\SshBobsleigh.xml
+templates\ssh\SshOrca.xml
+templates\ssh\SshRescueOrca.xml
+templates\ssh\SshDontSwimBatabata.xml
+templates\ssh\SshBubble.xml
 
 category Crisis City
 
