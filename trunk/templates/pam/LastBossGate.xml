@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<LastBossGate>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:427.141</x>
+        <y>double:38.4931</y>
+        <z>double:-1.43526</z>
+    </Position>
+    <Range>double:70</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <RotationSpeed>double:30</RotationSpeed>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</LastBossGate>

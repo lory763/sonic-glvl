@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<SoundLinePlayableMenu>
+    <BaseVolume>double:1</BaseVolume>
+    <CueName>string:4690_ghz_amb</CueName>
+    <FileName>string:40AMB_PAM</FileName>
+    <GroundOffset>double:0</GroundOffset>
+    <IntervalTime>double:5</IntervalTime>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsRegularly>bool:false</IsRegularly>
+    <Position>
+        <x>double:0.450021</x>
+        <y>double:-2.26221</y>
+        <z>double:-0.998778</z>
+    </Position>
+    <PositionList>
+        <Position0>
+            <x>double:0.450166</x>
+            <y>double:-2.26221</y>
+            <z>double:-0.998778</z>
+        </Position0>
+        <Position1>
+            <x>double:0.450166</x>
+            <y>double:22.246</y>
+            <z>double:-0.998778</z>
+        </Position1>
+    </PositionList>
+    <Radius>double:25</Radius>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.707105</w>
+        <x>double:0</x>
+        <y>double:0.707108</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <StageID>double:0</StageID>
+    <Mesh>unknown.mesh</Mesh>
+</SoundLinePlayableMenu>
