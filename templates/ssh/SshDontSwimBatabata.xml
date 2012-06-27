@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<SshDontSwimBatabata>
+    <AttackReadyTime>double:0.7</AttackReadyTime>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:1210.93</x>
+        <y>double:14.0732</y>
+        <z>double:259.325</z>
+    </Position>
+    <Range>double:20000</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</SshDontSwimBatabata>

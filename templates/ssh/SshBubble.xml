@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<SshBubble>
+    <GroundOffset>double:0</GroundOffset>
+    <Interval>double:8</Interval>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <LifeTime>double:8</LifeTime>
+    <PhaseTime>double:0</PhaseTime>
+    <Position>
+        <x>double:-641.588</x>
+        <y>double:-8.15821</y>
+        <z>double:-660.091</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.000629977</w>
+        <x>double:0</x>
+        <y>double:-1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</SshBubble>

@@ -42,6 +42,5 @@
         <y>double:-39.732</y>
         <z>double:-446.222</z>
     </m_MonkeyTarget>
-    <Mesh>springred_01.mesh</Mesh>
-    <Mesh>springred_02.mesh</Mesh>
+    <Mesh>cmn_obj_springred_HD_1.mesh</Mesh>
 </Spring>
