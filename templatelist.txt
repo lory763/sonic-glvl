@@ -274,6 +274,29 @@ templates\euc\EucGuillotine.xml
 
 category Planet Wisp
 
+category White World
+templates\pam\StageGate.xml
+templates\pam\PlayableMenuNPCUnit.xml
+templates\pam\MissionGate.xml
+templates\pam\BossGate.xml
+templates\pam\MegaDrivePlayer.xml
+templates\pam\MegaDriveController.xml
+templates\pam\InformationPod.xml
+templates\pam\PinballGate.xml
+templates\pam\BossKey.xml
+templates\pam\StageName.xml
+templates\pam\ShopGate.xml
+templates\pam\LastBossGate.xml
+templates\pam\CollectionRoomItem.xml
+templates\pam\CollectionRoomEntry.xml
+templates\pam\LastBossGear.xml
+templates\pam\ChaosEmeraldPlayableMenu.xml
+templates\pam\GeneralMessageEventCollision.xml
+templates\pam\SeamlessBGMCollision.xml
+templates\pam\ObjPamFloor.xml
+templates\pam\StageGateOrca.xml
+templates\pam\SoundLinePlayableMenu.xml
+
 category Sonic Unleashed
 templates\unleashed\JumpSelector.xml
 templates\unleashed\eSpinner.xml

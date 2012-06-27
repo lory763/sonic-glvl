@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<StageGateOrca>
+    <EffectOffsetY>double:-0.3</EffectOffsetY>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <MotionSpeed>double:1</MotionSpeed>
+    <Position>
+        <x>double:168.136</x>
+        <y>double:-0.227509</y>
+        <z>double:-9.20837</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <Scale>double:0.4</Scale>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</StageGateOrca>
