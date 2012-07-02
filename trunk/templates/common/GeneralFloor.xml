@@ -64,44 +64,28 @@
        <Condition>FloorType == 0</Condition>
        <Condition>FloorSize == 0</Condition>
 	 <Condition>LevelPrefix == ghz</Condition>
-       <Mesh>ghz_gen_floor_size0_a_01.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size0_a_02.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size0_a_03.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size0_a_04.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size0_a_05.mesh</Mesh>
+       <Mesh>ghz_obj_floorA_2b_W.mesh</Mesh>
     </AltMesh>
 
     <AltMesh>
        <Condition>FloorType == 0</Condition>
        <Condition>FloorSize == 1</Condition>
 	 <Condition>LevelPrefix == ghz</Condition>
-       <Mesh>ghz_gen_floor_size1_a_01.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size1_a_02.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size1_a_03.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size1_a_04.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size1_a_05.mesh</Mesh>
+       <Mesh>ghz_obj_floorA_3b_W.mesh</Mesh>
     </AltMesh>
 
     <AltMesh>
        <Condition>FloorType == 0</Condition>
        <Condition>FloorSize == 2</Condition>
 	 <Condition>LevelPrefix == ghz</Condition>
-       <Mesh>ghz_gen_floor_size2_a_01.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size2_a_02.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size2_a_03.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size2_a_04.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size2_a_05.mesh</Mesh>
+       <Mesh>ghz_obj_floorA_5b_W.mesh</Mesh>
     </AltMesh>
 
    <AltMesh>
        <Condition>FloorType == 0</Condition>
        <Condition>FloorSize == 3</Condition>
 	 <Condition>LevelPrefix == ghz</Condition>
-       <Mesh>ghz_gen_floor_size3_a_01.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size3_a_02.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size3_a_03.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size3_a_04.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size3_a_05.mesh</Mesh>
+       <Mesh>ghz_obj_floorA_7b_W.mesh</Mesh>
     </AltMesh>
 
 
@@ -109,92 +93,56 @@
        <Condition>FloorType == 1</Condition>
        <Condition>FloorSize == 0</Condition>
 	 <Condition>LevelPrefix == ghz</Condition>
-       <Mesh>ghz_gen_floor_size0_b_01.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size0_b_02.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size0_b_03.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size0_b_04.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size0_b_05.mesh</Mesh>
+       <Mesh>ghz_obj_floorB_2b_W.mesh</Mesh>
     </AltMesh>
 
     <AltMesh>
        <Condition>FloorType == 1</Condition>
        <Condition>FloorSize == 1</Condition>
 	 <Condition>LevelPrefix == ghz</Condition>
-       <Mesh>ghz_gen_floor_size1_b_01.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size1_b_02.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size1_b_03.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size1_b_04.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size1_b_05.mesh</Mesh>
+       <Mesh>ghz_obj_floorB_3b_W.mesh</Mesh>
     </AltMesh>
 
     <AltMesh>
        <Condition>FloorType == 1</Condition>
        <Condition>FloorSize == 2</Condition>
 	 <Condition>LevelPrefix == ghz</Condition>
-       <Mesh>ghz_gen_floor_size2_b_01.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size2_b_02.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size2_b_03.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size2_b_04.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size2_b_05.mesh</Mesh>
+       <Mesh>ghz_obj_floorB_5b_W.mesh</Mesh>
     </AltMesh>
 
     <AltMesh>
        <Condition>FloorType == 1</Condition>
        <Condition>FloorSize == 3</Condition>
 	 <Condition>LevelPrefix == ghz</Condition>
-       <Mesh>ghz_gen_floor_size3_b_01.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size3_b_02.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size3_b_03.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size3_b_04.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size3_b_05.mesh</Mesh>
+       <Mesh>ghz_obj_floorB_7b_W.mesh</Mesh>
     </AltMesh>
 
     <AltMesh>
        <Condition>FloorType == 2</Condition>
        <Condition>FloorSize == 0</Condition>
 	 <Condition>LevelPrefix == ghz</Condition>
-       <Mesh>ghz_gen_floor_size0_c_01.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size0_c_02.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size0_c_03.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size0_c_04.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size0_c_05.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size0_c_06.mesh</Mesh>
+       <Mesh>ghz_obj_floor_2bx_W.mesh</Mesh>
     </AltMesh>
 
     <AltMesh>
        <Condition>FloorType == 2</Condition>
        <Condition>FloorSize == 1</Condition>
 	 <Condition>LevelPrefix == ghz</Condition>
-       <Mesh>ghz_gen_floor_size1_c_01.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size1_c_02.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size1_c_03.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size1_c_04.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size1_c_05.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size1_c_06.mesh</Mesh>
+       <Mesh>ghz_obj_floor_4bx_W.mesh</Mesh>
     </AltMesh>
 
     <AltMesh>
        <Condition>FloorType == 2</Condition>
        <Condition>FloorSize == 2</Condition>
 	 <Condition>LevelPrefix == ghz</Condition>
-       <Mesh>ghz_gen_floor_size2_c_01.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size2_c_02.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size2_c_03.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size2_c_04.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size2_c_05.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size2_c_06.mesh</Mesh>
+       <Mesh>ghz_obj_floor_6bx_W.mesh</Mesh>
     </AltMesh>
 
     <AltMesh>
        <Condition>FloorType == 2</Condition>
        <Condition>FloorSize == 3</Condition>
 	 <Condition>LevelPrefix == ghz</Condition>
-       <Mesh>ghz_gen_floor_size3_c_01.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size3_c_02.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size3_c_03.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size3_c_04.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size3_c_05.mesh</Mesh>
-       <Mesh>ghz_gen_floor_size3_c_06.mesh</Mesh>
+       <Mesh>ghz_obj_floor_8bx_W.mesh</Mesh>
     </AltMesh>
 
 

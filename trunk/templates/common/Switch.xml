@@ -27,7 +27,7 @@
     <TimerOFF>double:0</TimerOFF>
     <TimerON>double:0</TimerON>
     <Type>double:0</Type>
-    <Mesh>unknown.mesh</Mesh>
+    <Mesh>switch.mesh</Mesh>
 
     <AltMesh>
        <Condition>LevelPrefix==cpz</Condition>
