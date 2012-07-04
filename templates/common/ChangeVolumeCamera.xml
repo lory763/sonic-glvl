@@ -27,9 +27,7 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <Shape_Type>double:0</Shape_Type>
-    <Target>
-        <SetObjectID>integer</SetObjectID>
-    </Target>
+    <Target>id</Target>
     <Mesh>camera.mesh</Mesh>
 	
     <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>

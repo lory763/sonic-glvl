@@ -2,11 +2,7 @@
 <ObjectPhysics>
     <AddRange>double:0</AddRange>
     <CullingRange>double:15</CullingRange>
-    <DebrisTarget>
-        <x>double:389.654</x>
-        <y>double:13.5666</y>
-        <z>double:-265.855</z>
-    </DebrisTarget>
+    <DebrisTarget>vector3</DebrisTarget>
     <GroundOffset>double:0</GroundOffset>
     <IsCastShadow>bool:true</IsCastShadow>
     <IsDynamic>bool:false</IsDynamic>
@@ -25,9 +21,7 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <Type>string:ghz_obj_tn1_purplerockmini</Type>
-    <WrappedObjectID>
-        <SetObjectID>integer</SetObjectID>
-    </WrappedObjectID>
+    <WrappedObjectID>id</WrappedObjectID>
     <Mesh>unknown.mesh</Mesh>
 
     <AltMesh>
