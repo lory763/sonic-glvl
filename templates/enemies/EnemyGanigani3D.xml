@@ -41,15 +41,7 @@
     <TargetLostTime>double:1</TargetLostTime>
     <TargetLostWaitTime>double:0</TargetLostWaitTime>
     <TurnTime>double:0.5</TurnTime>
-    <WayPointA>
-        <x>double:2043.74</x>
-        <y>double:73.0684</y>
-        <z>double:-2786.08</z>
-    </WayPointA>
-    <WayPointB>
-        <x>double:2051.39</x>
-        <y>double:73.0684</y>
-        <z>double:-2786.08</z>
-    </WayPointB>
+    <WayPointA>vector3</WayPointA>
+    <WayPointB>vector3</WayPointB>
     <Mesh>enm_ganigani_HD_1.mesh</Mesh>
 </EnemyGanigani3D>

@@ -8,11 +8,7 @@
     <CameraID>
         <SetObjectID>integer</SetObjectID>
     </CameraID>
-    <DstPos>
-        <x>double:671.271</x>
-        <y>double:69.7073</y>
-        <z>double:454.241</z>
-    </DstPos>
+    <DstPos>vector3</DstPos>
     <GroundOffset>double:0</GroundOffset>
     <IsCastShadow>bool:false</IsCastShadow>
     <ModeChange>double:2</ModeChange>
