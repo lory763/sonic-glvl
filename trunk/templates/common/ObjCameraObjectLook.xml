@@ -23,11 +23,9 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <Target>
-        <SetObjectID>integer</SetObjectID>
+        <SetObjectID>integer:0</SetObjectID>
     </Target>
-    <TargetObject>
-        <SetObjectID>integer</SetObjectID>
-    </TargetObject>
+    <TargetObject>id</TargetObject>
     <TargetOffset_Front>double:0</TargetOffset_Front>
     <TargetOffset_Right>double:0</TargetOffset_Right>
     <TargetOffset_Up>double:0</TargetOffset_Up>

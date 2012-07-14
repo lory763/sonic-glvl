@@ -10,11 +10,7 @@
     </Position>
     <Radius>double:4</Radius>
     <Range>double:200</Range>
-    <ResultPosition>
-        <x>double:2114.96</x>
-        <y>double:-9.8304</y>
-        <z>double:-4770.79</z>
-    </ResultPosition>
+    <ResultPosition>vector3</ResultPosition>
     <Rotation>
         <w>double:0.707107</w>
         <x>double:0</x>
