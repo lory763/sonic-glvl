@@ -23,7 +23,7 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <Target>
-        <SetObjectID>integer:0</SetObjectID>
+        <SetObjectID>id</SetObjectID>
     </Target>
     <TargetObject>id</TargetObject>
     <TargetOffset_Front>double:0</TargetOffset_Front>

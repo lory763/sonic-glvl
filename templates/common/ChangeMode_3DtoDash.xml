@@ -16,12 +16,8 @@
         <y>double:0.746689</y>
         <z>double:0</z>
     </Rotation>
-    <SetObjectID>integer</SetObjectID>
-    <TargetDirection>
-        <x>double:553.532</x>
-        <y>double:-4.61666</y>
-        <z>double:-406.697</z>
-    </TargetDirection>
+    <SetObjectID>id</SetObjectID>
+    <TargetDirection>vector3</TargetDirection>
     <Template>double:1</Template>
     <m_CurveCorrectionForce>double:0</m_CurveCorrectionForce>
     <m_IsChangeCamera>bool:true</m_IsChangeCamera>
