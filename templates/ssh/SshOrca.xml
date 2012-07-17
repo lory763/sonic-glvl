@@ -1,10 +1,6 @@
 <?xml version="1.0" ?>
 <SshOrca>
-    <DstPos>
-        <x>double:548.325</x>
-        <y>double:-1.03172</y>
-        <z>double:697.968</z>
-    </DstPos>
+    <DstPos>vector3</DstPos>
     <GroundOffset>double:0</GroundOffset>
     <IsCastShadow>bool:false</IsCastShadow>
     <MoveTime>double:2.6</MoveTime>

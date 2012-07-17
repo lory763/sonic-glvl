@@ -26,5 +26,5 @@
 
     <PreviewScaleX multiplier="1.0">Width</PreviewScaleX>
     <PreviewScaleY multiplier="1.0">Height</PreviewScaleY>
-    <PreviewScaleZ multiplier="1.0">Depth</PreviewScaleZ>
+    <PreviewScaleZ multiplier="1.0">Length</PreviewScaleZ>
 </SetRigidBody>
