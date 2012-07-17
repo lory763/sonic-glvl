@@ -29,4 +29,8 @@
     <Vel>double:100</Vel>
     <VsType>double:0</VsType>
     <Mesh>unknown.mesh</Mesh>
+	
+	<PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">Collision_Length</PreviewScaleZ>
 </GhzGiantBatabata_Collision>
