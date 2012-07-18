@@ -6,7 +6,7 @@
     <IsCastShadow>bool:true</IsCastShadow>
     <IsRevive>bool:false</IsRevive>
     <IsSideGet>bool:false</IsSideGet>
-    <ItemType>double:1</ItemType>
+    <ItemType presets="3" preset0="0(NULL)" preset1="1(Rings)" preset2="2(?)">double:1</ItemType>
     <LaunchSpeed>double:7.8</LaunchSpeed>
     <Position>
         <x>double:82.8792</x>
