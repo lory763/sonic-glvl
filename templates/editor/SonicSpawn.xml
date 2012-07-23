@@ -12,9 +12,9 @@
       <z>double</z>
     </Rotation>
     <Start>
-       <Mode>string:None</Mode>
-       <Speed>double</Speed>
-       <Time>double</Time>
+       <Mode presets="3" preset0="None" preset1="Dash" preset2="Forward">string:None</Mode>
+       <Speed>double:0</Speed>
+       <Time>double:0</Time>
     </Start>
     <Active>bool:false</Active>
     <Mesh>sonicspawn.mesh</Mesh>
