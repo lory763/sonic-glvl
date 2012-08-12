@@ -39,22 +39,10 @@
       <y>double</y>
       <z>double</z>
     </Target>
-    <TargetPosition>
-      <x>double</x>
-      <y>double</y>
-      <z>double</z>
-    </TargetPosition>
+    <TargetPosition>vector3</TargetPosition>
     <TurnTime>double</TurnTime>
     <WaitAfterShot>double</WaitAfterShot>
-    <WayPointA>
-      <x>double</x>
-      <y>double</y>
-      <z>double</z>
-    </WayPointA>
-    <WayPointB>
-      <x>double</x>
-      <y>double</y>
-      <z>double</z>
-    </WayPointB>
+    <WayPointA>vector3</WayPointA>
+    <WayPointB>vector3</WayPointB>
     <Mesh>enm_beeton_HD_1.mesh</Mesh>
 </EnemyBeeton2D>

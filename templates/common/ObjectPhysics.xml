@@ -20,7 +20,7 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <Type>string:ghz_obj_tn1_purplerockmini</Type>
+    <Type presets="3" preset0="cmn_obj_tripplate" preset1="IronBox" preset2="WoodBox">string:cmn_obj_tripplate</Type>
     <WrappedObjectID>id</WrappedObjectID>
     <Mesh>unknown.mesh</Mesh>
 
@@ -70,5 +70,20 @@
        <Mesh>chn_thornclub_01_06.mesh</Mesh>
        <Mesh>chn_thornclub_01_07.mesh</Mesh>
     </AltMesh>
+	
+	<AltMesh>
+       <Condition>Type==ghz_obj_tn1_pier</Condition>
+       <Mesh>ghz_obj_tn1_pier.mesh</Mesh>
+    </AltMesh>
+	
+	<AltMesh>
+		<Condition>Type==WoodBox</Condition>
+		<Mesh>woodbox.mesh</Mesh>
+	</AltMesh>
+	
+	<AltMesh>
+		<Condition>Type==cmn_obj_tripplate</Condition>
+		<Mesh>cmn_obj_tripplate.mesh</Mesh>
+	</AltMesh>
 
 </ObjectPhysics>

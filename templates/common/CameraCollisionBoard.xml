@@ -1,21 +1,13 @@
 <?xml version="1.0" ?>
 <CameraCollisionBoard>
-    <ACameraID>
-        <SetObjectID>integer</SetObjectID>
-    </ACameraID>
+    <ACameraID>id</ACameraID>
     <ACameraPriority>double:0</ACameraPriority>
-    <ALinkObjID>
-        <SetObjectID>integer</SetObjectID>
-    </ALinkObjID>
+    <ALinkObjID>id</ALinkObjID>
     <ALinkSide>double:0</ALinkSide>
     <AObjType>double:0</AObjType>
-    <BCameraID>
-        <SetObjectID>integer</SetObjectID>
-    </BCameraID>
+    <BCameraID>id</BCameraID>
     <BCameraPriority>double:0</BCameraPriority>
-    <BLinkObjID>
-        <SetObjectID>integer</SetObjectID>
-    </BLinkObjID>
+    <BLinkObjID>id</BLinkObjID>
     <BLinkSide>double:0</BLinkSide>
     <BObjType>double:0</BObjType>
     <Collision_Height>double:10</Collision_Height>

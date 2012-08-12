@@ -25,11 +25,7 @@
         <PreGoalCameraCollisionSizeZ>double</PreGoalCameraCollisionSizeZ>
         <Range>double</Range>
         <ResultDegree>double</ResultDegree>
-        <ResultPosition>
-            <x>double</x>
-            <y>double</y>
-            <z>double</z>
-        </ResultPosition>
+        <ResultPosition>vector3</ResultPosition>
         <Rotation>
             <w>double</w>
             <x>double</x>
