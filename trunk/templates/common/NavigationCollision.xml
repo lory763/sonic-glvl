@@ -30,14 +30,8 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <SlidingPosition>
-        <x>double:389.654</x>
-        <y>double:14.5734</y>
-        <z>double:-263.927</z>
-    </SlidingPosition>
-    <TargetObject_RelationSetObject>
-        <SetObjectID>integer</SetObjectID>
-    </TargetObject_RelationSetObject>
+    <SlidingPosition>vector3</SlidingPosition>
+    <TargetObject_RelationSetObject>id</TargetObject_RelationSetObject>
     <Mesh>collision.mesh</Mesh>
 
     <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
