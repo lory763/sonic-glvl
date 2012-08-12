@@ -3,10 +3,7 @@
     <BlendBase>double:1</BlendBase>
     <BlendSpeed>double:2</BlendSpeed>
     <BlendType>double:1</BlendType>
-    <CameraList>
-        <SetObjectID>integer</SetObjectID>
-        <SetObjectID>integer</SetObjectID>
-    </CameraList>
+    <CameraList>list</CameraList>
     <Ease_Time_Enter>double:0.4</Ease_Time_Enter>
     <Ease_Time_Leave>double:2</Ease_Time_Leave>
     <GroundOffset>double:0</GroundOffset>
