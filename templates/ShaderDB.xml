@@ -413,6 +413,17 @@
     <Definition r="1" g="0" b="1" a="3">opacity_reflection_refraction_spectype</Definition>
     <Definition r="1" g="0.5" b="0" a="0">g_WaterParam</Definition>
 </Shader>
+<<<<<<< .mine
+<Shader name="Common_dpe">
+    <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
+    <Definition r="1" g="1" b="1" a="0">ambient</Definition>
+    <Definition r="1" g="1" b="1" a="0">specular</Definition>
+    <Definition r="0" g="0" b="0" a="0">emissive</Definition>
+    <Definition r="50" g="0.3" b="0.56" a="0">power_gloss_level</Definition>
+    <Definition r="1" g="0" b="1" a="3">opacity_reflection_refraction_spectype</Definition>
+    <Definition r="0" g="0" b="0" a="0">mrgLuminanceRange</Definition>
+</Shader>
+=======
 <Shader name="Indirect_dopn">
     <Definition r="1" g="1" b="1" a="0">diffuse</Definition>
     <Definition r="1" g="1" b="1" a="0">ambient</Definition>
@@ -460,6 +471,7 @@
     <Definition r="50" g="0.01" b="0" a="0">power_gloss_level</Definition>
     <Definition r="1" g="0" b="1" a="0">opacity_reflection_refraction_spectype</Definition>
 </Shader>
+>>>>>>> .r93
 <TextureUnit>diffuse</TextureUnit>
 <TextureUnit>gloss</TextureUnit>
 <TextureUnit>normal</TextureUnit>
