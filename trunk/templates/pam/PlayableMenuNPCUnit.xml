@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<PlayableMenuNPCUnit>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <NPCList>double:9</NPCList>
+    <OffsetY>double:0</OffsetY>
+    <OffsetZ>double:-0.6</OffsetZ>
+    <Position>
+        <x>double:27.4366</x>
+        <y>double:7.69943</y>
+        <z>double:-1.01085</z>
+    </Position>
+    <Range>double:300</Range>
+    <Rotation>
+        <w>double:0.906378</w>
+        <x>double:0</x>
+        <y>double:0.422468</y>
+        <z>double:0</z>
+    </Rotation>
+    <Scale>double:0.84</Scale>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</PlayableMenuNPCUnit>

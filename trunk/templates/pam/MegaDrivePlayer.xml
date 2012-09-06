@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<MegaDrivePlayer>
+    <Collision_Height>double:1</Collision_Height>
+    <Collision_Length>double:3</Collision_Length>
+    <Collision_Width>double:1</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:3.91841</x>
+        <y>double:14.0172</y>
+        <z>double:-2.38435</z>
+    </Position>
+    <Range>double:15</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:1.85446e-006</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Mesh>unknown.mesh</Mesh>
+</MegaDrivePlayer>

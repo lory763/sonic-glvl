@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<MissionGate>
+    <DebugPointClear>bool:false</DebugPointClear>
+    <GroundOffset>double:0</GroundOffset>
+    <InvisibleTime>double:1</InvisibleTime>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <MissionID>double:4</MissionID>
+    <PathIsAccel>double:0</PathIsAccel>
+    <PathIsBezier>double:1</PathIsBezier>
+    <PathPointMoveRelative>bool:true</PathPointMoveRelative>
+    <Path_IsLoop>bool:true</Path_IsLoop>
+    <Position>vector3</Position>
+    <PositionList>list</PositionList>
+    <Range>double:60</Range>
+    <Rotation>
+        <w>double:0.999961</w>
+        <x>double:0</x>
+        <y>double:0.00872865</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <StageID>double:0</StageID>
+    <Vel1D>double:3</Vel1D>
+    <Mesh>unknown.mesh</Mesh>
+</MissionGate>
