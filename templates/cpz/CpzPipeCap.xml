@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<CpzPipeCap>
+    <AimDirection>double:2</AimDirection>
+    <DebugShotTimeLength>double:2</DebugShotTimeLength>
+    <FirstSpeed>double:24.7</FirstSpeed>
+    <GroundOffset>double:0</GroundOffset>
+    <IsBreak>bool:false</IsBreak>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsChangeCameraWhenPathChange>bool:false</IsChangeCameraWhenPathChange>
+    <IsHomingAttackEnable>bool:false</IsHomingAttackEnable>
+    <IsPathChange>bool:false</IsPathChange>
+    <IsSideSet>bool:false</IsSideSet>
+    <IsStartVelocityConstant>bool:true</IsStartVelocityConstant>
+    <IsWallWalk>bool:false</IsWallWalk>
+    <IsYawUpdate>bool:true</IsYawUpdate>
+    <KeepVelocityDistance>double:0</KeepVelocityDistance>
+    <MotionType>double:0</MotionType>
+    <OutOfControl>double:0.3</OutOfControl>
+    <Position>
+        <x>double:201.929</x>
+        <y>double:-13.0362</y>
+        <z>double:10.4571</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:-0.999984</w>
+        <x>double:-0.0038322</x>
+        <y>double:0.00325917</y>
+        <z>double:1.25233e-005</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TreasureSearchHideType>double:0</TreasureSearchHideType>
+    <m_IsConstantFrame>bool:false</m_IsConstantFrame>
+    <m_IsConstantPosition>bool:true</m_IsConstantPosition>
+    <m_IsMonkeyHunting>bool:false</m_IsMonkeyHunting>
+    <m_IsStopBoost>bool:false</m_IsStopBoost>
+    <m_IsTo3D>bool:false</m_IsTo3D>
+    <m_MonkeyTarget>vector3</m_MonkeyTarget>
+    <Mesh>cpz_obj_pipelinecapB_01.mesh</Mesh>
+    <Mesh>cpz_obj_pipelinecapB_02.mesh</Mesh>
+    <Mesh>cpz_obj_pipelinecapB_03.mesh</Mesh>
+    <Mesh>cpz_obj_pipelinecapB_04.mesh</Mesh>
+    <Mesh>cpz_obj_pipelinecapB_05.mesh</Mesh>
+    <Mesh>cpz_obj_pipelinecapB_06.mesh</Mesh>
+</CpzPipeCap>
