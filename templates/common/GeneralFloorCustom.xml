@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<GeneralFloorCustom>
+    <Amplitude>double:2</Amplitude>
+    <AttachOffsetX>double:0</AttachOffsetX>
+    <AttachOffsetY>double:0</AttachOffsetY>
+    <AttachOffsetZ>double:0</AttachOffsetZ>
+    <AttachTarget />
+    <BeginEdge>bool:false</BeginEdge>
+    <Cycle>double:0.2</Cycle>
+    <FallPointIndex>double:-1</FallPointIndex>
+    <FallPointTime>double:-0.1</FallPointTime>
+    <FallTime>double:0</FallTime>
+    <FloorSize>double:0</FloorSize>
+    <FloorType>double:2</FloorType>
+    <ForceGrid>bool:false</ForceGrid>
+    <Gravity>double:45</Gravity>
+    <GroundOffset>double:0</GroundOffset>
+    <InitOffset>double:0</InitOffset>
+    <IsBreakable>bool:false</IsBreakable>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsEnableFall>bool:false</IsEnableFall>
+    <IsMessageON>bool:false</IsMessageON>
+    <IsRelativePosition>bool:true</IsRelativePosition>
+    <IsReverse>bool:false</IsReverse>
+    <IsWallJump>bool:false</IsWallJump>
+    <LightFieldOffset>vector3</LightFieldOffset>
+    <ModelInterval>double:3</ModelInterval>
+    <ModelNum>double:1</ModelNum>
+    <MoveType>double:0</MoveType>
+    <MoveTypeGeneral>double:0</MoveTypeGeneral>
+    <MoveVel>double:5</MoveVel>
+    <OnFloorTime>double:1.5</OnFloorTime>
+    <Phase>double:0</Phase>
+    <Position>
+        <x>double:528.372</x>
+        <y>double:17.8986</y>
+        <z>double:-541.31</z>
+    </Position>
+    <PositionList />
+    <RailDir>double:0</RailDir>
+    <Range>double:40</Range>
+    <Ratio>double:0</Ratio>
+    <ResetTime>double:10</ResetTime>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <StartByNotify>bool:false</StartByNotify>
+    <UsePointFloor>bool:false</UsePointFloor>
+    <UseStartSE>bool:false</UseStartSE>
+    <VisibleRail>bool:true</VisibleRail>
+    <WaitShakeTime>double:-0.1</WaitShakeTime>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>FloorType == 2</Condition>
+       <Condition>FloorSize == 0</Condition>
+	 <Condition>LevelPrefix == ghz</Condition>
+       <Mesh>ghz_gen_floor_size0_d_01.mesh</Mesh>
+       <Mesh>ghz_gen_floor_size0_d_02.mesh</Mesh>
+       <Mesh>ghz_gen_floor_size0_d_03.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>FloorType == 2</Condition>
+       <Condition>FloorSize == 1</Condition>
+	 <Condition>LevelPrefix == ghz</Condition>
+       <Mesh>ghz_gen_floor_size1_d_01.mesh</Mesh>
+       <Mesh>ghz_gen_floor_size1_d_02.mesh</Mesh>
+       <Mesh>ghz_gen_floor_size1_d_03.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>FloorType == 2</Condition>
+       <Condition>FloorSize == 2</Condition>
+	 <Condition>LevelPrefix == ghz</Condition>
+       <Mesh>ghz_gen_floor_size2_d_01.mesh</Mesh>
+       <Mesh>ghz_gen_floor_size2_d_02.mesh</Mesh>
+       <Mesh>ghz_gen_floor_size2_d_03.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>FloorType == 2</Condition>
+       <Condition>FloorSize == 3</Condition>
+	 <Condition>LevelPrefix == ghz</Condition>
+       <Mesh>ghz_gen_floor_size3_d_01.mesh</Mesh>
+       <Mesh>ghz_gen_floor_size3_d_02.mesh</Mesh>
+       <Mesh>ghz_gen_floor_size3_d_03.mesh</Mesh>
+    </AltMesh>
+</GeneralFloorCustom>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<MissionNpc_Appear>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:204.617</x>
+        <y>double:-13.3385</y>
+        <z>double:16.8289</z>
+    </Position>
+    <Range>double:99999</Range>
+    <Rotation>
+        <w>double:0.913545</w>
+        <x>double:0</x>
+        <y>double:0.406736</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <VanishObjList />
+    <Mesh>unknown.mesh</Mesh>
+</MissionNpc_Appear>

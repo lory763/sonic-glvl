@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+  <SpringClassic>
+    <AimDirection>double</AimDirection>
+    <DebugShotTimeLength>double</DebugShotTimeLength>
+    <FirstSpeed>double</FirstSpeed>
+    <GroundOffset>double</GroundOffset>
+    <IsBreak>bool</IsBreak>
+    <IsCastShadow>bool</IsCastShadow>
+    <IsChangeCameraWhenPathChange>bool</IsChangeCameraWhenPathChange>
+    <IsHomingAttackEnable>bool</IsHomingAttackEnable>
+    <IsPathChange>bool</IsPathChange>
+    <IsSideSet>bool</IsSideSet>
+    <IsStartVelocityConstant>bool</IsStartVelocityConstant>
+    <IsWallWalk>bool</IsWallWalk>
+    <IsYawUpdate>bool</IsYawUpdate>
+    <KeepVelocityDistance>double</KeepVelocityDistance>
+    <MotionType>double</MotionType>
+    <OutOfControl>double</OutOfControl>
+    <Position>
+      <x>double</x>
+      <y>double</y>
+      <z>double</z>
+    </Position>
+    <Range>double</Range>
+    <Rotation>
+      <w>double</w>
+      <x>double</x>
+      <y>double</y>
+      <z>double</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TreasureSearchHideType>integer</TreasureSearchHideType>
+    <m_IsConstantFrame>bool</m_IsConstantFrame>
+    <m_IsConstantPosition>bool</m_IsConstantPosition>
+    <m_IsMonkeyHunting>bool</m_IsMonkeyHunting>
+    <m_IsStopBoost>bool</m_IsStopBoost>
+    <m_IsTo3D>bool</m_IsTo3D>
+    <m_MonkeyTarget>vector3</m_MonkeyTarget>
+    <Mesh>cmn_obj_c_springY_HD_1.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>FirstSpeed >= 30</Condition>
+       <Mesh>cmn_obj_c_springR_HD_1.mesh</Mesh>
+    </AltMesh>
+
+
+</SpringClassic>

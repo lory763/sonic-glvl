@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<ObjCameraNormal>
+    <Ease_Time_Enter>double:0</Ease_Time_Enter>
+    <Ease_Time_Leave>double:0</Ease_Time_Leave>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCameraView>bool:false</IsCameraView>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsCollision>bool:false</IsCollision>
+    <Position>
+        <x>double:-937.349</x>
+        <y>double:-446.147</y>
+        <z>double:-669.939</z>
+    </Position>
+    <Range>double:10100</Range>
+    <Rotation>
+        <w>double:0.707105</w>
+        <x>double:0</x>
+        <y>double:0.707108</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</ObjCameraNormal>

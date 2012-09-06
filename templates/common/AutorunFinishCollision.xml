@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<AutorunFinishCollision>
+    <Collision_Height>double:10</Collision_Height>
+    <Collision_Width>double:10</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:405.35</x>
+        <y>double:-1.41475</y>
+        <z>double:-541.873</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.711248</w>
+        <x>double:0</x>
+        <y>double:0.702942</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>collision.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="0.1">derp</PreviewScaleZ>
+</AutorunFinishCollision>

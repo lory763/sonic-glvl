@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<GoalRing>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsMessageOn>bool:false</IsMessageOn>
+    <Position>
+        <x>double:2114.95</x>
+        <y>double:-9.76432</y>
+        <z>double:-4770.83</z>
+    </Position>
+    <Radius>double:4</Radius>
+    <Range>double:200</Range>
+    <ResultPosition>vector3</ResultPosition>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SENumber>double:6</SENumber>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>cmn_obj_goalring_HD_1.mesh</Mesh>
+</GoalRing>

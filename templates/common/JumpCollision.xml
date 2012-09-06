@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<JumpCollision>
+    <Collision_Height>double:2</Collision_Height>
+    <Collision_Width>double:3</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <ImpulseSpeedOnBoost>double:49.0001</ImpulseSpeedOnBoost>
+    <ImpulseSpeedOnNormal>double:49.0001</ImpulseSpeedOnNormal>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsStartVelocityConstant>bool:true</IsStartVelocityConstant>
+    <OutOfControl>double:1.3</OutOfControl>
+    <Pitch>double:1.70998</Pitch>
+    <Position>
+        <x>double:337.296</x>
+        <y>double:-25.3363</y>
+        <z>double:0.0312465</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.527049</w>
+        <x>double:-0.442916</x>
+        <y>double:0.554125</y>
+        <z>double:0.467966</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SpeedMin>double:20</SpeedMin>
+    <TerrainIgnoreTime>double:0.25</TerrainIgnoreTime>
+    <m_ClassicSpinThreshold>double:25</m_ClassicSpinThreshold>
+    <m_IsGroundOnly>bool:false</m_IsGroundOnly>
+    <Mesh>collision.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="0.1">Collision_Length</PreviewScaleZ>
+</JumpCollision>
