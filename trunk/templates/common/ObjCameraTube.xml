@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<ObjCameraTube>
+    <Ease_Time_Enter>double:0</Ease_Time_Enter>
+    <Ease_Time_Leave>double:0</Ease_Time_Leave>
+    <EyeOffsetY>double:2</EyeOffsetY>
+    <EyeOffsetZ>double:-8</EyeOffsetZ>
+    <EyeRatio>double:0.6</EyeRatio>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCameraView>bool:true</IsCameraView>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsCollision>bool:true</IsCollision>
+    <PathID>double:3</PathID>
+    <Position>
+        <x>double:2051.03</x>
+        <y>double:-133.789</y>
+        <z>double:-500.967</z>
+    </Position>
+    <Range>double:100000</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TrgOffsetY>double:1</TrgOffsetY>
+    <TrgOffsetZ>double:15</TrgOffsetZ>
+    <TrgRatio>double:0.5</TrgRatio>
+    <Mesh>unknown.mesh</Mesh>
+</ObjCameraTube>

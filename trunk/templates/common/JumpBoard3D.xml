@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<JumpBoard3D>
+    <GroundOffset>double:0</GroundOffset>
+    <ImpulseSpeedOnBoost>double:76</ImpulseSpeedOnBoost>
+    <ImpulseSpeedOnNormal>double:76</ImpulseSpeedOnNormal>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsTo3D>bool:false</IsTo3D>
+    <LookBack>bool:false</LookBack>
+    <OutOfControl>double:2.63</OutOfControl>
+    <Position>
+        <x>double:1016.45</x>
+        <y>double:-469.713</y>
+        <z>double:1366.38</z>
+    </Position>
+    <Range>double:100</Range>
+    <RigidBody>bool:true</RigidBody>
+    <Rotation>
+        <w>double:0</w>
+        <x>double:0</x>
+        <y>double:1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SizeType>double:0</SizeType>
+    <Mesh>unknown.mesh</Mesh>
+</JumpBoard3D>

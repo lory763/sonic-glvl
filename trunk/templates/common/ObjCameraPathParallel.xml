@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<ObjCameraPathParallel>
+    <Distance>double:18</Distance>
+    <Ease_Time_Enter>double:0</Ease_Time_Enter>
+    <Ease_Time_Leave>double:0</Ease_Time_Leave>
+    <Fovy>double:45</Fovy>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCameraView>bool:true</IsCameraView>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsCollision>bool:false</IsCollision>
+    <IsControllable>bool:false</IsControllable>
+    <LerpRatio>double:0.5</LerpRatio>
+    <OffsetPitch>double:0</OffsetPitch>
+    <OffsetYaw>double:-10</OffsetYaw>
+    <Pitch>double:10</Pitch>
+    <Position>
+        <x>double:1918.86</x>
+        <y>double:-40.6668</y>
+        <z>double:-427.252</z>
+    </Position>
+    <Range>double:10100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Target>id</Target>
+    <TargetOffset_Front>double:0</TargetOffset_Front>
+    <TargetOffset_Right>double:0</TargetOffset_Right>
+    <TargetOffset_Up>double:0</TargetOffset_Up>
+    <TargetOffset_Vel>double:0.5</TargetOffset_Vel>
+    <TargetPositionFix>vector3</TargetPositionFix>
+    <Target_Type>double:0</Target_Type>
+    <VelOffsetXYZ>double:1</VelOffsetXYZ>
+    <Yaw>double:-20</Yaw>
+    <ZRot>double:0</ZRot>
+    <Mesh>unknown.mesh</Mesh>
+</ObjCameraPathParallel>

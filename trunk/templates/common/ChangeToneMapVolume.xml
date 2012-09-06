@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<ChangeToneMapVolume>
+    <Collision_Height>double:22</Collision_Height>
+    <Collision_Length>double:100</Collision_Length>
+    <Collision_Width>double:10</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <EaseTime>double:1</EaseTime>
+    <GroundOffset>double:0</GroundOffset>
+    <ID>double:0</ID>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <LuminanceHigh>double:1.74</LuminanceHigh>
+    <LuminanceLow>double:0.25</LuminanceLow>
+    <Position>
+        <x>double:527.774</x>
+        <y>double:19.2285</y>
+        <z>double:-541.311</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <ToneMapMiddleGray>double:0.47</ToneMapMiddleGray>
+    <ToneMapSimpleScale>double:1</ToneMapSimpleScale>
+    <Mesh>unknown.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">Collision_Length</PreviewScaleZ>
+</ChangeToneMapVolume>

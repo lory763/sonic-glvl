@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<EnemyBeeton2D>
+    <ActionRange>double:100</ActionRange>
+    <ActionType>double:0</ActionType>
+    <AfterMoveLength>double:1</AfterMoveLength>
+    <AttackRange>double:0</AttackRange>
+    <ChargeTime>double:0</ChargeTime>
+    <DashSpeed>double:5</DashSpeed>
+    <GroundOffset>double:0</GroundOffset>
+    <HoveringType>double:0</HoveringType>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:false</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:false</IsDamageFromOnlyPlayer>
+    <IsMessageOn>bool:false</IsMessageOn>
+    <IsOneShotOnOneWay>bool:false</IsOneShotOnOneWay>
+    <IsPlayFindMotion>bool:true</IsPlayFindMotion>
+    <IsRevive>bool:false</IsRevive>
+    <IsShotEnable>bool:false</IsShotEnable>
+    <MoveSpeed>double:0</MoveSpeed>
+    <MoveWidth>double:0</MoveWidth>
+    <Position>
+        <x>double:1642.36</x>
+        <y>double:-13.3397</y>
+        <z>double:-446.205</z>
+    </Position>
+    <Range>double:30</Range>
+    <ReviveTime>double:3</ReviveTime>
+    <Rotation>
+        <w>double:-0.713243</w>
+        <x>double:0</x>
+        <y>double:0.700914</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShotSpeed>double:0</ShotSpeed>
+    <Target>vector3</Target>
+    <TargetPosition>vector3</TargetPosition>
+    <TurnTime>double:1</TurnTime>
+    <WaitAfterShot>double:0</WaitAfterShot>
+    <WayPointA>vector3</WayPointA>
+    <WayPointB>vector3</WayPointB>
+    <Mesh>enm_beeton_HD_1.mesh</Mesh>
+</EnemyBeeton2D>

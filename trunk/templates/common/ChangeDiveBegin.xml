@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<ChangeDiveBegin>
+    <Collision_Height>double:23.1</Collision_Height>
+    <Collision_Length>double:20.1</Collision_Length>
+    <Collision_Width>double:21</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:47.9106</x>
+        <y>double:-35.5721</y>
+        <z>double:609.348</z>
+    </Position>
+    <Range>double:300</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0.707107</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <m_DebugCylinderHeight>double:280</m_DebugCylinderHeight>
+    <m_Range>double:7</m_Range>
+    <Mesh>unknown.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">Collision_Length</PreviewScaleZ>
+</ChangeDiveBegin>

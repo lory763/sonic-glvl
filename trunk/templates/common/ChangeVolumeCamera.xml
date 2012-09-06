@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<ChangeVolumeCamera>
+    <Collision_Height>double:35</Collision_Height>
+    <Collision_Length>double:72</Collision_Length>
+    <Collision_Width>double:20</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <Ease_Time_Enter>double:1.1</Ease_Time_Enter>
+    <Ease_Time_Leave>double:1.1</Ease_Time_Leave>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCameraView>bool:false</IsCameraView>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsEnableCollision>bool:false</IsEnableCollision>
+    <LineType>double:0</LineType>
+    <Position>
+        <x>double:390.133</x>
+        <y>double:11.298</y>
+        <z>double:-226.59</z>
+    </Position>
+    <PositionList />
+    <Priority>double:0</Priority>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:-0.000219403</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Target>id</Target>
+    <Mesh>camera.mesh</Mesh>
+	
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">Collision_Length</PreviewScaleZ>
+</ChangeVolumeCamera>

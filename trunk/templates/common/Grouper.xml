@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<Grouper>
+    <GroundOffset>double:0</GroundOffset>
+    <GroupMove>vector3</GroupMove>
+    <GroupRotate>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </GroupRotate>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:602.115</x>
+        <y>double:55.1598</y>
+        <z>double:-539.013</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TargetList />
+    <Mesh>unknown.mesh</Mesh>
+</Grouper>
