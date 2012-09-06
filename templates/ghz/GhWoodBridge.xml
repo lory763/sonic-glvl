@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<GhWoodBridge>
+    <FallSpeed>double:9.8</FallSpeed>
+    <Flexure>double:1</Flexure>
+    <FloorStType>double:0</FloorStType>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsNormalBreak>bool:false</IsNormalBreak>
+    <NumWood>double:20</NumWood>
+    <Position>
+        <x>double:145.357</x>
+        <y>double:4.12053</y>
+        <z>double:0.0312443</z>
+    </Position>
+    <Range>double:30</Range>
+    <ResetTime>double:0</ResetTime>
+    <Rotation>
+        <w>double:-1.60478e-007</w>
+        <x>double:0</x>
+        <y>double:1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SignTime>double:2</SignTime>
+    <ToSignTime>double:0</ToSignTime>
+    <WoodType>double:0</WoodType>
+    <Mesh>ghwoodbrdg_01.mesh</Mesh>
+    
+    <CopyScaleX multiplier="0.6">NumWood</CopyScaleX>
+</GhWoodBridge>
