@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<CteSteelFrame>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:701.5</x>
+        <y>double:-99.9997</y>
+        <z>double:-633.859</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:-0.707106</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>double:4</Type>
+    <Mesh>unknown.mesh</Mesh>
+</CteSteelFrame>
