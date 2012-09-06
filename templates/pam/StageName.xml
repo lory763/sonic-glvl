@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<StageName>
+    <BigRedStarRingOffsetY>double:1.7</BigRedStarRingOffsetY>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsUseCollision>bool:true</IsUseCollision>
+    <OnewayFloorOffsetY>double:0.15</OnewayFloorOffsetY>
+    <OnewayFloorWidth>double:4</OnewayFloorWidth>
+    <Position>
+        <x>double:0.486208</x>
+        <y>double:-0.370156</y>
+        <z>double:-1.01084</z>
+    </Position>
+    <Range>double:25</Range>
+    <RedStarRingOffsetY>double:0.8</RedStarRingOffsetY>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <Scale>double:0.5</Scale>
+    <SecondIsUseCollision>bool:false</SecondIsUseCollision>
+    <SecondOnewayFloorOffsetY>double:0.5</SecondOnewayFloorOffsetY>
+    <SecondOnewayFloorWidth>double:5</SecondOnewayFloorWidth>
+    <SetObjectID>integer</SetObjectID>
+    <StageID>double:0</StageID>
+    <Mesh>unknown.mesh</Mesh>
+</StageName>
