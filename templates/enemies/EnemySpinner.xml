@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<EnemySpinner>
+    <AppearPattern>double:0</AppearPattern>
+    <AppearPoint>vector3</AppearPoint>
+    <AppearTime>double:3</AppearTime>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsLookPlayer>bool:true</IsLookPlayer>
+    <MovePattern>double:0</MovePattern>
+    <MoveVel>double:0.5</MoveVel>
+    <Position>
+        <x>double:1452.4</x>
+        <y>double:-1271.09</y>
+        <z>double:301.455</z>
+    </Position>
+    <Range>double:30</Range>
+    <RebirthPattern>double:0</RebirthPattern>
+    <RebirthPoint>vector3</RebirthPoint>
+    <RebirthTime>double:5</RebirthTime>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:-9.91878e-005</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <WayPointA>vector3</WayPointA>
+    <WayPointB>vector3</WayPointB>
+    
+    <Mesh>enm_spina_HD_1.mesh</Mesh>
+</EnemySpinner>

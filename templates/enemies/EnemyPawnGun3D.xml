@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<EnemyPawnGun3D>
+    <ActionRange>double:20</ActionRange>
+    <AttackMoveSpeed>double:1</AttackMoveSpeed>
+    <AttackNum>double:1</AttackNum>
+    <AttackRange>double:15</AttackRange>
+    <BulletLifeTime>double:2</BulletLifeTime>
+    <BulletNum>double:1</BulletNum>
+    <BulletSpeed>double:20</BulletSpeed>
+    <ChargeTime>double:0.7</ChargeTime>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:true</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:false</IsDamageFromOnlyPlayer>
+    <IsJoy>bool:true</IsJoy>
+    <IsPlayFindMotion>bool:false</IsPlayFindMotion>
+    <MoveSearchTime>double:3</MoveSearchTime>
+    <MoveSpeed>double:1</MoveSpeed>
+    <Position>
+        <x>double:257.123</x>
+        <y>double:9.74917</y>
+        <z>double:822.61</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:-0.707107</w>
+        <x>double:0</x>
+        <y>double:-0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SearchType>double:0</SearchType>
+    <SetObjectID>integer</SetObjectID>
+    <ShotInterval>double:0.2</ShotInterval>
+    <Target>vector3</Target>
+    <WaitTime>double:3</WaitTime>
+    <WayPointA>vector3</WayPointA>
+    <WayPointB>vector3</WayPointB>
+    <fallGravRate>double:1</fallGravRate>
+    <fallSpeed>double:5</fallSpeed>
+    <isAttackMove>bool:false</isAttackMove>
+    <isFallDown>bool:false</isFallDown>
+    <Mesh>unknown.mesh</Mesh>
+</EnemyPawnGun3D>

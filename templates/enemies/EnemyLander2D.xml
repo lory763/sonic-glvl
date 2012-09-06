@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<EnemyLander2D>
+    <ActionRange>double:100</ActionRange>
+    <AttackRad>double:5</AttackRad>
+    <AttackRange>double:0</AttackRange>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAimTarget>bool:true</IsAimTarget>
+    <IsArrivalEffect>bool:false</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:true</IsDamageFromOnlyPlayer>
+    <IsMove>bool:false</IsMove>
+    <IsPlayFindMotion>bool:true</IsPlayFindMotion>
+    <MoveSpeed>double:0</MoveSpeed>
+    <MoveType>double:0</MoveType>
+    <Position>
+        <x>double:15.0192</x>
+        <y>double:-3.6355</y>
+        <z>double:159.756</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.713249</w>
+        <x>double:0</x>
+        <y>double:-0.700908</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShotAngle>double:45</ShotAngle>
+    <ShotInterval>double:2</ShotInterval>
+    <ShotRange>double:3</ShotRange>
+    <ShotReadyTime>double:1</ShotReadyTime>
+    <ShotSpeed>double:1</ShotSpeed>
+    <Target>vector3</Target>
+    <WayPointA>vector3</WayPointA>
+    <WayPointB>vector3</WayPointB>
+    <Mesh>unknown.mesh</Mesh>
+</EnemyLander2D>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<EnemyGrabber3D>
+    <ActionRange>double:100</ActionRange>
+    <ActionType>double:2</ActionType>
+    <AttackRad>double:1</AttackRad>
+    <AttackRange>double:0</AttackRange>
+    <DwVelocity>double:2</DwVelocity>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:false</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:false</IsDamageFromOnlyPlayer>
+    <IsPlayFindMotion>bool:true</IsPlayFindMotion>
+    <IsRebirth>bool:false</IsRebirth>
+    <IsUseWayPoint>bool:true</IsUseWayPoint>
+    <MoveSpeed>double:1</MoveSpeed>
+    <Position>
+        <x>double:1002.32</x>
+        <y>double:-476.899</y>
+        <z>double:1092.24</z>
+    </Position>
+    <Range>double:100</Range>
+    <RotVelocity>double:40</RotVelocity>
+    <Rotation>
+        <w>double:0.621732</w>
+        <x>double:0</x>
+        <y>double:-0.78323</y>
+        <z>double:0</z>
+    </Rotation>
+    <SearchRad>double:15</SearchRad>
+    <SetObjectID>integer</SetObjectID>
+    <ShotInterval>double:3</ShotInterval>
+    <ShotReadyTime>double:1</ShotReadyTime>
+    <ShotSpeed>double:1</ShotSpeed>
+    <Target>vector3</Target>
+    <ToBombTime>double:3</ToBombTime>
+    <ToRebirthTime>double:3</ToRebirthTime>
+    <UpVelocity>double:2</UpVelocity>
+    <WayPointA>vector3</WayPointA>
+    <WayPointB>vector3</WayPointB>
+    <WireLen>double:0</WireLen>
+    <WireLenMax>double:50</WireLenMax>
+    <Mesh>unknown.mesh</Mesh>
+</EnemyGrabber3D>
