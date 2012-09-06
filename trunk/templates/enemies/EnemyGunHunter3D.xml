@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<EnemyGunHunter3D>
+    <ActionRange>double:18</ActionRange>
+    <AppearType>double:0</AppearType>
+    <AttackRange>double:18</AttackRange>
+    <DebugPointClear>bool:false</DebugPointClear>
+    <EnableTurnSearch>bool:true</EnableTurnSearch>
+    <EventAppear>bool:false</EventAppear>
+    <FallSpeed>double:10</FallSpeed>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:false</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:false</IsDamageFromOnlyPlayer>
+    <IsPlayFindMotion>bool:false</IsPlayFindMotion>
+    <PathIsAccel>double:0</PathIsAccel>
+    <PathIsBezier>double:1</PathIsBezier>
+    <PathPointMoveRelative>bool:true</PathPointMoveRelative>
+    <Path_IsLoop>bool:false</Path_IsLoop>
+    <Position>
+        <x>double:-1399.19</x>
+        <y>double:-277.593</y>
+        <z>double:-592.184</z>
+    </Position>
+    <PositionList>list</PositionList>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.803857</w>
+        <x>double:0</x>
+        <y>double:-0.594823</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShotInterval>double:2</ShotInterval>
+    <ShotReadyTime>double:0.8</ShotReadyTime>
+    <ShotSpeed>double:0</ShotSpeed>
+    <Target>vector3</Target>
+    <Vel1D>double:10</Vel1D>
+    <Mesh>unknown.mesh</Mesh>
+</EnemyGunHunter3D>

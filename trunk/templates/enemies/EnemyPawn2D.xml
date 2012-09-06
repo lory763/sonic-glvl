@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<EnemyPawn2D>
+    <ActionRange>double:20</ActionRange>
+    <AttackMoveSpeed>double:1</AttackMoveSpeed>
+    <AttackRange>double:2.5</AttackRange>
+    <ChargeTime>double:0.3</ChargeTime>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:true</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:false</IsDamageFromOnlyPlayer>
+    <IsPlayFindMotion>bool:true</IsPlayFindMotion>
+    <MoveSearchTime>double:3</MoveSearchTime>
+    <MoveSpeed>double:1</MoveSpeed>
+    <Position>
+        <x>double:645.211</x>
+        <y>double:20.3296</y>
+        <z>double:391.802</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0</w>
+        <x>double:0</x>
+        <y>double:-1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SearchType>double:0</SearchType>
+    <SetObjectID>integer</SetObjectID>
+    <Target>vector3</Target>
+    <WaitTime>double:3</WaitTime>
+    <WayPointA>vector3</WayPointA>
+    <WayPointB>vector3</WayPointB>
+    <fallGravRate>double:1</fallGravRate>
+    <fallSpeed>double:5</fallSpeed>
+    <isAttackMove>bool:true</isAttackMove>
+    <isFallDown>bool:true</isFallDown>
+    <Mesh>unknown.mesh</Mesh>
+</EnemyPawn2D>
