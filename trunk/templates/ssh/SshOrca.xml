@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<SshOrca>
+    <DstPos>vector3</DstPos>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <MoveTime>double:2.6</MoveTime>
+    <Position>
+        <x>double:486.144</x>
+        <y>double:-3</y>
+        <z>double:664.913</z>
+    </Position>
+    <Range>double:100</Range>
+    <RelHeight>double:30.4</RelHeight>
+    <Rotation>
+        <w>double:0.866025</w>
+        <x>double:0</x>
+        <y>double:0.5</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</SshOrca>
