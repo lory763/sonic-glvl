@@ -12,7 +12,18 @@
         <y>double:-2.26221</y>
         <z>double:-0.998778</z>
     </Position>
-    <PositionList>list</PositionList>
+    <PositionList>
+        <Position0>
+            <x>double:0.450166</x>
+            <y>double:-2.26221</y>
+            <z>double:-0.998778</z>
+        </Position0>
+        <Position1>
+            <x>double:0.450166</x>
+            <y>double:22.246</y>
+            <z>double:-0.998778</z>
+        </Position1>
+    </PositionList>
     <Radius>double:25</Radius>
     <Range>double:100</Range>
     <Rotation>

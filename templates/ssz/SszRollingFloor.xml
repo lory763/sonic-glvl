@@ -4,7 +4,9 @@
     <AttachOffsetY>double:0</AttachOffsetY>
     <AttachOffsetZ>double:0</AttachOffsetZ>
     <AttachTarget />
-    <CameraID_0>id</CameraID_0>
+    <CameraID_0>
+        <SetObjectID>integer</SetObjectID>
+    </CameraID_0>
     <EnterEaseTime_0>double:0</EnterEaseTime_0>
     <FloorType>double:0</FloorType>
     <GroundOffset>double:0</GroundOffset>

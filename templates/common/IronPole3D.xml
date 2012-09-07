@@ -3,7 +3,9 @@
     <CameraEaseTimeEnter>double:0.6</CameraEaseTimeEnter>
     <CameraEaseTimeKeep>double:0</CameraEaseTimeKeep>
     <CameraEaseTimeLeave>double:1.2</CameraEaseTimeLeave>
-    <CameraID>vector3</CameraID>
+    <CameraID>
+        <SetObjectID>integer</SetObjectID>
+    </CameraID>
     <GroundOffset>double:0</GroundOffset>
     <GuideSide>double:1</GuideSide>
     <IsCastShadow>bool:true</IsCastShadow>

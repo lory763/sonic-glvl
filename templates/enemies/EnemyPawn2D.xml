@@ -26,10 +26,22 @@
     </Rotation>
     <SearchType>double:0</SearchType>
     <SetObjectID>integer</SetObjectID>
-    <Target>vector3</Target>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
     <WaitTime>double:3</WaitTime>
-    <WayPointA>vector3</WayPointA>
-    <WayPointB>vector3</WayPointB>
+    <WayPointA>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </WayPointA>
+    <WayPointB>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </WayPointB>
     <fallGravRate>double:1</fallGravRate>
     <fallSpeed>double:5</fallSpeed>
     <isAttackMove>bool:true</isAttackMove>

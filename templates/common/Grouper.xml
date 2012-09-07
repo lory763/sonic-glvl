@@ -1,7 +1,11 @@
 <?xml version="1.0" ?>
 <Grouper>
     <GroundOffset>double:0</GroundOffset>
-    <GroupMove>vector3</GroupMove>
+    <GroupMove>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </GroupMove>
     <GroupRotate>
         <w>double:1</w>
         <x>double:0</x>

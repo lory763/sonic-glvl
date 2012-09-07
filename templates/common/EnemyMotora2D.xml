@@ -32,7 +32,11 @@
     </Rotation>
     <SearchType>double:0</SearchType>
     <SetObjectID>integer</SetObjectID>
-    <Target>vector3</Target>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
     <TargetLostTime>double:1.5</TargetLostTime>
     <TerrainCheckHeight>double:1</TerrainCheckHeight>
     <Mesh>enm_motora_HD_1.mesh</Mesh>

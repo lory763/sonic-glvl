@@ -20,7 +20,23 @@
         <y>double:14.9575</y>
         <z>double:0.0100294</z>
     </Position>
-    <PositionList>list</PositionList>
+    <PositionList>
+        <Position0>
+            <x>double:701.889</x>
+            <y>double:-73.9931</y>
+            <z>double:-427.393</z>
+        </Position0>
+        <Position1>
+            <x>double:701.889</x>
+            <y>double:-77.9931</y>
+            <z>double:-427.393</z>
+        </Position1>
+        <Position2>
+            <x>double:701.389</x>
+            <y>double:-75.9931</y>
+            <z>double:-429.918</z>
+        </Position2>
+    </PositionList>
     <Range>double:30</Range>
     <Rotation>
         <w>double:0.718031</w>
@@ -29,7 +45,11 @@
         <z>double:-0.0066261</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <Target>vector3</Target>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
     <ToRebirthTime>double:3</ToRebirthTime>
     <Vel1D>double:10</Vel1D>
     <Mesh>unknown.mesh</Mesh>

@@ -4,12 +4,30 @@
     <GroundOffset>double:0</GroundOffset>
     <Hoge>bool:true</Hoge>
     <IsCastShadow>bool:false</IsCastShadow>
-    <Link0>id</Link0>
-    <Link1>id</Link1>
-    <Link2>id</Link2>
-    <ModelPos0>vector3</ModelPos0>
-    <ModelPos1>vector3</ModelPos1>
-    <ModelPos2>vector3</ModelPos2>
+    <Link0>
+        <SetObjectID>integer</SetObjectID>
+    </Link0>
+    <Link1>
+        <SetObjectID>integer</SetObjectID>
+    </Link1>
+    <Link2>
+        <SetObjectID>integer</SetObjectID>
+    </Link2>
+    <ModelPos0>
+        <x>double:-342</x>
+        <y>double:40</y>
+        <z>double:668</z>
+    </ModelPos0>
+    <ModelPos1>
+        <x>double:-334.6</x>
+        <y>double:40</y>
+        <z>double:666.8</z>
+    </ModelPos1>
+    <ModelPos2>
+        <x>double:-327</x>
+        <y>double:40</y>
+        <z>double:668</z>
+    </ModelPos2>
     <Pattern0>double:0</Pattern0>
     <Pattern1>double:1</Pattern1>
     <Pattern2>double:0</Pattern2>

@@ -39,4 +39,8 @@
     <m_IsTo3D>bool:false</m_IsTo3D>
     <m_MonkeyTarget>vector3</m_MonkeyTarget>
     <Mesh>cmn_obj_springred_HD_1.mesh</Mesh>
+	
+	<PreviewScaleX multiplier="0.1">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">FirstSpeed</PreviewScaleY>
+    <PreviewScaleZ multiplier="0.1">Collision_Length</PreviewScaleZ>
 </Spring>

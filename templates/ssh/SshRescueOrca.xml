@@ -1,7 +1,15 @@
 <?xml version="1.0" ?>
 <SshRescueOrca>
-    <DstPos>vector3</DstPos>
-    <DstPos_Success>vector3</DstPos_Success>
+    <DstPos>
+        <x>double:-681.879</x>
+        <y>double:14.6086</y>
+        <z>double:-1651.78</z>
+    </DstPos>
+    <DstPos_Success>
+        <x>double:-683.212</x>
+        <y>double:4.44818</y>
+        <z>double:-1658.49</z>
+    </DstPos_Success>
     <GroundOffset>double:0</GroundOffset>
     <HopHeight>double:5</HopHeight>
     <HudHeight>double:10</HudHeight>

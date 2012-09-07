@@ -30,8 +30,6 @@
     <Timer3>double:0</Timer3>
     <TimesType>double:1</TimesType>
     <Trigger>double:1</Trigger>
-    <TriggerList>
-        <SetObjectID>integer</SetObjectID>
-    </TriggerList>
+    <TriggerList>list</TriggerList>
     <Mesh>unknown.mesh</Mesh>
 </EventSetter>

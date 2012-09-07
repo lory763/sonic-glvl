@@ -21,7 +21,9 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <TargetListOFF />
-    <TargetListON>list</TargetListON>
+    <TargetListON>
+        <SetObjectID>integer</SetObjectID>
+    </TargetListON>
     <TimerOFF>double:0</TimerOFF>
     <TimerON>double:0</TimerON>
     <Type>double:0</Type>

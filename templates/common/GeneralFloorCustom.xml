@@ -23,7 +23,11 @@
     <IsRelativePosition>bool:true</IsRelativePosition>
     <IsReverse>bool:false</IsReverse>
     <IsWallJump>bool:false</IsWallJump>
-    <LightFieldOffset>vector3</LightFieldOffset>
+    <LightFieldOffset>
+        <x>double:528.372</x>
+        <y>double:17.8986</y>
+        <z>double:-541.31</z>
+    </LightFieldOffset>
     <ModelInterval>double:3</ModelInterval>
     <ModelNum>double:1</ModelNum>
     <MoveType>double:0</MoveType>

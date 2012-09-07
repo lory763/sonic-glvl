@@ -326,6 +326,7 @@ templates\unleashed\HangPole.xml
 templates\unleashed\WallWalkEnableCollision.xml
 templates\unleashed\eAirCannonNormal.xml
 templates\unleashed\AfricaFloorA.xml
+templates\unleashed\AfricaFloorC.xml
 templates\unleashed\Paraloop.xml
 templates\unleashed\MedalMoon.xml
 templates\unleashed\AfricaFloorB.xml

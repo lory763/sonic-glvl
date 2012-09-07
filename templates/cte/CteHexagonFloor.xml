@@ -4,7 +4,9 @@
     <AttachOffsetX>double:0</AttachOffsetX>
     <AttachOffsetY>double:0</AttachOffsetY>
     <AttachOffsetZ>double:0</AttachOffsetZ>
-    <AttachTarget>id</AttachTarget>
+    <AttachTarget>
+        <SetObjectID>integer</SetObjectID>
+    </AttachTarget>
     <GroundOffset>double:0</GroundOffset>
     <IsCastShadow>bool:false</IsCastShadow>
     <IsForwardView>bool:false</IsForwardView>

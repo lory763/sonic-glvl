@@ -34,7 +34,11 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <ShotSpeed>double</ShotSpeed>
-    <Target>vector3</Target>
+    <Target>
+      <x>double</x>
+      <y>double</y>
+      <z>double</z>
+    </Target>
     <TargetPosition>vector3</TargetPosition>
     <TurnTime>double</TurnTime>
     <WaitAfterShot>double</WaitAfterShot>

@@ -32,7 +32,11 @@
     <ShotInterval>double:3</ShotInterval>
     <ShotReadyTime>double:2</ShotReadyTime>
     <ShotSpeed>double:0</ShotSpeed>
-    <Target>vector3</Target>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
     <ToRebirthTime>double:3</ToRebirthTime>
     <Vel1D>double:10</Vel1D>
     <Mesh>enm_stinger_HD_1.mesh</Mesh>

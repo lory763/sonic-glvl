@@ -7,7 +7,11 @@
     <GravityOffset>double:0</GravityOffset>
     <GroundOffset>double:0</GroundOffset>
     <IsCastShadow>bool:false</IsCastShadow>
-    <JumpTarget>vector3</JumpTarget>
+    <JumpTarget>
+        <x>double:748.546</x>
+        <y>double:-1173.81</y>
+        <z>double:14.9132</z>
+    </JumpTarget>
     <Position>
         <x>double:746.612</x>
         <y>double:-1187.15</y>

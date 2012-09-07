@@ -22,7 +22,28 @@
         <y>double:9.34867</y>
         <z>double:-93.0574</z>
     </Position>
-    <PositionList>list</PositionList>
+    <PositionList>
+        <Position0>
+            <x>double:232.597</x>
+            <y>double:17.8615</y>
+            <z>double:-103.587</z>
+        </Position0>
+        <Position1>
+            <x>double:231.523</x>
+            <y>double:19.6662</y>
+            <z>double:-108.791</z>
+        </Position1>
+        <Position2>
+            <x>double:222.994</x>
+            <y>double:22.4449</y>
+            <z>double:-109.888</z>
+        </Position2>
+        <Position3>
+            <x>double:226</x>
+            <y>double:23.6928</y>
+            <z>double:-108.617</z>
+        </Position3>
+    </PositionList>
     <Range>double:200</Range>
     <Rotation>
         <w>double:0.999979</w>
@@ -34,7 +55,11 @@
     <ShotInterval>double:2</ShotInterval>
     <ShotReadyTime>double:1</ShotReadyTime>
     <ShotSpeed>double:0</ShotSpeed>
-    <Target>vector3</Target>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
     <Vel1D>double:20</Vel1D>
     <Mesh>unknown.mesh</Mesh>
 </EnemyGunHunter2D>

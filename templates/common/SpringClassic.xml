@@ -36,7 +36,11 @@
     <m_IsMonkeyHunting>bool</m_IsMonkeyHunting>
     <m_IsStopBoost>bool</m_IsStopBoost>
     <m_IsTo3D>bool</m_IsTo3D>
-    <m_MonkeyTarget>vector3</m_MonkeyTarget>
+    <m_MonkeyTarget>
+      <x>double</x>
+      <y>double</y>
+      <z>double</z>
+    </m_MonkeyTarget>
     <Mesh>cmn_obj_c_springY_HD_1.mesh</Mesh>
 
     <AltMesh>

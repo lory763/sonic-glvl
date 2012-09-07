@@ -34,6 +34,10 @@
     <m_IsMonkeyHunting>bool:false</m_IsMonkeyHunting>
     <m_IsStopBoost>bool:false</m_IsStopBoost>
     <m_IsTo3D>bool:false</m_IsTo3D>
-    <m_MonkeyTarget>vector3</m_MonkeyTarget>
+    <m_MonkeyTarget>
+        <x>double:1811.35</x>
+        <y>double:8.42136</y>
+        <z>double:-2646.92</z>
+    </m_MonkeyTarget>
     <Mesh>cmn_obj_springair_btm_HD.mesh</Mesh>
 </AirSpring>

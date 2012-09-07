@@ -32,12 +32,24 @@
     <ShotInterval>double:3</ShotInterval>
     <ShotReadyTime>double:1</ShotReadyTime>
     <ShotSpeed>double:1</ShotSpeed>
-    <Target>vector3</Target>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
     <ToBombTime>double:3</ToBombTime>
     <ToRebirthTime>double:3</ToRebirthTime>
     <UpVelocity>double:2</UpVelocity>
-    <WayPointA>vector3</WayPointA>
-    <WayPointB>vector3</WayPointB>
+    <WayPointA>
+        <x>double:1006.34</x>
+        <y>double:-476.899</y>
+        <z>double:1088.98</z>
+    </WayPointA>
+    <WayPointB>
+        <x>double:1001.11</x>
+        <y>double:-476.899</y>
+        <z>double:1095.29</z>
+    </WayPointB>
     <WireLen>double:0</WireLen>
     <WireLenMax>double:50</WireLenMax>
     <Mesh>unknown.mesh</Mesh>

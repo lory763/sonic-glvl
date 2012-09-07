@@ -1,10 +1,16 @@
 <?xml version="1.0" ?>
 <Cannon_ChangeParam>
     <BaseVel>double:30</BaseVel>
-    <DstPos>vector3</DstPos>
+    <DstPos>
+        <x>double:-69</x>
+        <y>double:77.2457</y>
+        <z>double:823</z>
+    </DstPos>
     <GroundOffset>double:0</GroundOffset>
     <IsCastShadow>bool:false</IsCastShadow>
-    <Link>id</Link>
+    <Link>
+        <SetObjectID>integer</SetObjectID>
+    </Link>
     <ModeChange>double:0</ModeChange>
     <Position>
         <x>double:-180.069</x>
