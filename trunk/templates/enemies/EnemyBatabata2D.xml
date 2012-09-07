@@ -25,7 +25,11 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <SideMoveSpeed>double:5</SideMoveSpeed>
-    <Target>vector3</Target>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
     <WaitTime>double:0</WaitTime>
     <ZBackOffset>double:10</ZBackOffset>
     <Mesh>enm_batabata_HD_1.mesh</Mesh>

@@ -16,7 +16,7 @@
         <y>double:-0.000173</y>
         <z>double:0</z>
     </Rotation>
-    <SetObjectID>integer</SetObjectID>
+    <SetObjectID>id</SetObjectID>
     <TargetDirection>vector3</TargetDirection>
     <m_IsAutoChange2DPath>bool:true</m_IsAutoChange2DPath>
     <m_IsChangeCamera>bool:true</m_IsChangeCamera>

@@ -34,11 +34,27 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <ShotSpeed>double:0</ShotSpeed>
-    <Target>vector3</Target>
-    <TargetPosition>vector3</TargetPosition>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
+    <TargetPosition>
+        <x>double:1642.36</x>
+        <y>double:-12.5952</y>
+        <z>double:-446.19</z>
+    </TargetPosition>
     <TurnTime>double:1</TurnTime>
     <WaitAfterShot>double:0</WaitAfterShot>
-    <WayPointA>vector3</WayPointA>
-    <WayPointB>vector3</WayPointB>
+    <WayPointA>
+        <x>double:1641.34</x>
+        <y>double:-10.6375</y>
+        <z>double:-446.205</z>
+    </WayPointA>
+    <WayPointB>
+        <x>double:1641.34</x>
+        <y>double:-10.6375</y>
+        <z>double:-446.205</z>
+    </WayPointB>
     <Mesh>enm_beeton_HD_1.mesh</Mesh>
 </EnemyBeeton2D>

@@ -25,7 +25,9 @@
     <ShakeTime>double:1</ShakeTime>
     <Shape_Type>double:0</Shape_Type>
     <SizeAttenuation>double:0.05</SizeAttenuation>
-    <Trigger>id</Trigger>
+    <Trigger>
+        <SetObjectID>integer</SetObjectID>
+    </Trigger>
     <TriggerType>double:1</TriggerType>
     <Mesh>unknown.mesh</Mesh>
 

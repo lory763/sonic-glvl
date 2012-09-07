@@ -1,7 +1,9 @@
 <?xml version="1.0" ?>
 <SszWarpStart>
     <Accel>double:300</Accel>
-    <CameraID_0>id</CameraID_0>
+    <CameraID_0>
+        <SetObjectID>integer</SetObjectID>
+    </CameraID_0>
     <Deccel>double:300</Deccel>
     <EnterEaseTime_0>double:0</EnterEaseTime_0>
     <GroundOffset>double:0</GroundOffset>

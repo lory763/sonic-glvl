@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <EnemyEChaserManager>
-    <AirShipID>id</AirShipID>
+    <AirShipID>
+        <SetObjectID>integer</SetObjectID>
+    </AirShipID>
     <GroundOffset>double:0</GroundOffset>
     <IsCastShadow>bool:false</IsCastShadow>
     <Position>

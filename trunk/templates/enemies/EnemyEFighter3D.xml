@@ -2,8 +2,12 @@
 <EnemyEFighter3D>
     <ActionRange>double:100</ActionRange>
     <AttackRange>double:4.5</AttackRange>
-    <BarrelID>id</BarrelID>
-    <ChaserManagerID>id</ChaserManagerID>
+    <BarrelID>
+        <SetObjectID>integer</SetObjectID>
+    </BarrelID>
+    <ChaserManagerID>
+        <SetObjectID>integer</SetObjectID>
+    </ChaserManagerID>
     <GroundOffset>double:0</GroundOffset>
     <IsAimTarget>bool:false</IsAimTarget>
     <IsArrivalEffect>bool:true</IsArrivalEffect>
@@ -24,9 +28,21 @@
     </Rotation>
     <SearchType>double:1</SearchType>
     <SetObjectID>integer</SetObjectID>
-    <Target>vector3</Target>
-    <WayPointA>vector3</WayPointA>
-    <WayPointB>vector3</WayPointB>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
+    <WayPointA>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </WayPointA>
+    <WayPointB>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </WayPointB>
     <m_AttackMoveSpeedRatio>double:1</m_AttackMoveSpeedRatio>
     <m_ChargeTime>double:0.5</m_ChargeTime>
     <m_ChaserModeVelocity>double:5</m_ChaserModeVelocity>

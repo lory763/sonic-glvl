@@ -19,8 +19,18 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <TargetList0>list</TargetList0>
-    <TargetList1>list</TargetList1>
+    <TargetList0>
+        <SetObjectID>integer</SetObjectID>
+        <SetObjectID>integer</SetObjectID>
+        <SetObjectID>integer</SetObjectID>
+        <SetObjectID>integer</SetObjectID>
+    </TargetList0>
+    <TargetList1>
+        <SetObjectID>integer</SetObjectID>
+        <SetObjectID>integer</SetObjectID>
+        <SetObjectID>integer</SetObjectID>
+        <SetObjectID>integer</SetObjectID>
+    </TargetList1>
     <Timer0>double:0</Timer0>
     <Timer1>double:0</Timer1>
     <door_open_dist>double:3</door_open_dist>

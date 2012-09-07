@@ -22,7 +22,9 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <Target>id</Target>
+    <Target>
+        <SetObjectID>id</SetObjectID>
+    </Target>
     <TargetObject>id</TargetObject>
     <TargetOffset_Front>double:0</TargetOffset_Front>
     <TargetOffset_Right>double:0</TargetOffset_Right>
@@ -31,7 +33,11 @@
     <TargetOffset_WorldX>double:0</TargetOffset_WorldX>
     <TargetOffset_WorldY>double:6.1</TargetOffset_WorldY>
     <TargetOffset_WorldZ>double:0</TargetOffset_WorldZ>
-    <TargetPositionFix>vector3</TargetPositionFix>
+    <TargetPositionFix>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </TargetPositionFix>
     <Target_Type>double:0</Target_Type>
     <VelOffsetXYZ>double:0</VelOffsetXYZ>
     <ZRot>double:0</ZRot>

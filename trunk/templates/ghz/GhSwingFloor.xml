@@ -9,7 +9,11 @@
     <IsShowPropeller>bool:true</IsShowPropeller>
     <IsWallJump>bool:false</IsWallJump>
     <KeepTime>double:0</KeepTime>
-    <LightFieldOffset>vector3</LightFieldOffset>
+    <LightFieldOffset>
+        <x>double:390.488</x>
+        <y>double:43.3003</y>
+        <z>double:-464.893</z>
+    </LightFieldOffset>
     <MoveSpeed>double:15</MoveSpeed>
     <PhasTimee>double:0</PhasTimee>
     <Position>

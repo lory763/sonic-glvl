@@ -33,11 +33,23 @@
     <SeekSpanTime>double:5</SeekSpanTime>
     <SetObjectID>integer</SetObjectID>
     <SpeedMissile>double:5</SpeedMissile>
-    <Target>vector3</Target>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
     <TargetLostTime>double:2</TargetLostTime>
     <TargetLostWaitTime>double:0</TargetLostWaitTime>
     <TurnTime>double:0</TurnTime>
-    <WayPointA>vector3</WayPointA>
-    <WayPointB>vector3</WayPointB>
+    <WayPointA>
+        <x>double:227.418</x>
+        <y>double:10.5316</y>
+        <z>double:0.0312465</z>
+    </WayPointA>
+    <WayPointB>
+        <x>double:227.418</x>
+        <y>double:10.5316</y>
+        <z>double:0.0312465</z>
+    </WayPointB>
     <Mesh>enm_ganigani_HD_1.mesh</Mesh>
 </EnemyGanigani2D>

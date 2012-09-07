@@ -20,7 +20,11 @@
     </Rotation>
     <SetObjectID>integer</SetObjectID>
     <Shape_Type>double:0</Shape_Type>
-    <TargetDirection>vector3</TargetDirection>
+    <TargetDirection>
+        <x>double:390.174</x>
+        <y>double:-8.93145</y>
+        <z>double:-401.876</z>
+    </TargetDirection>
     <Type>double:2</Type>
     <Mesh>collision.mesh</Mesh>
 

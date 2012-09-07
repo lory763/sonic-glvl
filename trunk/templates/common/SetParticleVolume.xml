@@ -26,8 +26,16 @@
     <EFF_COL_SCALE_R2>double:1</EFF_COL_SCALE_R2>
     <EMITTER1>double:0</EMITTER1>
     <EMITTER2>double:0</EMITTER2>
-    <EMITTER_POS1>vector3</EMITTER_POS1>
-    <EMITTER_POS2>vector3</EMITTER_POS2>
+    <EMITTER_POS1>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </EMITTER_POS1>
+    <EMITTER_POS2>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </EMITTER_POS2>
     <GroundOffset>double:0</GroundOffset>
     <IsCastShadow>bool:false</IsCastShadow>
     <NO_STOP_EVENT1>bool:true</NO_STOP_EVENT1>
@@ -50,7 +58,9 @@
     <SENAME2>string:4002_ring</SENAME2>
     <SetObjectID>integer</SetObjectID>
     <Shape_Type>double:0</Shape_Type>
-    <Trigger>id</Trigger>
+    <Trigger>
+        <SetObjectID>integer</SetObjectID>
+    </Trigger>
     <TriggerType>double:1</TriggerType>
     <USE1>bool:true</USE1>
     <USE2>bool:false</USE2>

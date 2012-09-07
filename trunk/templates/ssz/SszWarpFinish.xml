@@ -16,6 +16,8 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <WarpStart>id</WarpStart>
+    <WarpStart>
+        <SetObjectID>integer</SetObjectID>
+    </WarpStart>
     <Mesh>unknown.mesh</Mesh>
 </SszWarpFinish>

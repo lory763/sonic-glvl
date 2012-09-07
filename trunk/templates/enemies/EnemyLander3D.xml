@@ -32,8 +32,20 @@
     <ShotReadyTime>double:1</ShotReadyTime>
     <ShotRotOffset>double:30</ShotRotOffset>
     <ShotSpeed>double:2</ShotSpeed>
-    <Target>vector3</Target>
-    <WayPointA>vector3</WayPointA>
-    <WayPointB>vector3</WayPointB>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
+    <WayPointA>
+        <x>double:-435.825</x>
+        <y>double:45.9173</y>
+        <z>double:-396.477</z>
+    </WayPointA>
+    <WayPointB>
+        <x>double:-435.825</x>
+        <y>double:45.9173</y>
+        <z>double:-396.477</z>
+    </WayPointB>
     <Mesh>unknown.mesh</Mesh>
 </EnemyLander3D>

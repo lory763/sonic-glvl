@@ -33,7 +33,11 @@
     <SeekSpanTime>double:5</SeekSpanTime>
     <SetObjectID>integer</SetObjectID>
     <SpeedMissile>double:10</SpeedMissile>
-    <Target>vector3</Target>
+    <Target>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Target>
     <TargetLostTime>double:1</TargetLostTime>
     <TargetLostWaitTime>double:0</TargetLostWaitTime>
     <TurnTime>double:0.5</TurnTime>

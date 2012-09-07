@@ -1,7 +1,11 @@
 <?xml version="1.0" ?>
 <EnemySpanner2D>
     <AppearPattern>double:0</AppearPattern>
-    <AppearPoint>vector3</AppearPoint>
+    <AppearPoint>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </AppearPoint>
     <AppearTime>double:3</AppearTime>
     <ElecTime_Exec>double:1</ElecTime_Exec>
     <ElecTime_Interval>double:3</ElecTime_Interval>
@@ -19,7 +23,11 @@
     </Position>
     <Range>double:30</Range>
     <RebirthPattern>double:0</RebirthPattern>
-    <RebirthPoint>vector3</RebirthPoint>
+    <RebirthPoint>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </RebirthPoint>
     <RebirthTime>double:5</RebirthTime>
     <Rotation>
         <w>double:0.707107</w>
@@ -28,8 +36,16 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <WayPointA>vector3</WayPointA>
-    <WayPointB>vector3</WayPointB>
+    <WayPointA>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </WayPointA>
+    <WayPointB>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </WayPointB>
     
     <Mesh>enm_spana_HD_1.mesh</Mesh>
 </EnemySpanner2D>

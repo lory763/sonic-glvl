@@ -20,7 +20,11 @@
     <m_EventCameraEaseTimeNormal>double:10</m_EventCameraEaseTimeNormal>
     <m_EventCameraOffsetY>double:4.99999</m_EventCameraOffsetY>
     <m_EventCameraOffsetZ>double:25</m_EventCameraOffsetZ>
-    <m_EventTargetPosition>vector3</m_EventTargetPosition>
+    <m_EventTargetPosition>
+        <x>double:212.044</x>
+        <y>double:7.1019</y>
+        <z>double:-1.01085</z>
+    </m_EventTargetPosition>
     <m_IconOffset>double:-0.2</m_IconOffset>
     <Mesh>unknown.mesh</Mesh>
 </BossGate>

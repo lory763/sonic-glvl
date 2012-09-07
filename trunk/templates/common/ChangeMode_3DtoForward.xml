@@ -17,7 +17,11 @@
         <z>double:0</z>
     </Rotation>
     <SetObjectID>integer</SetObjectID>
-    <TargetDirection>vector3</TargetDirection>
+    <TargetDirection>
+        <x>double:2114.09</x>
+        <y>double:4.38473</y>
+        <z>double:-4118.46</z>
+    </TargetDirection>
     <Template>double:3</Template>
     <m_CurveCorrectionForce>double:1</m_CurveCorrectionForce>
     <m_DashPathSideMoveRate>double:0.6</m_DashPathSideMoveRate>
