@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<EnemyPawnPla2D>
+    <ActionRange>double:20</ActionRange>
+    <AttackMoveSpeed>double:1</AttackMoveSpeed>
+    <AttackRange>double:20</AttackRange>
+    <AttackType>double:2</AttackType>
+    <ChargeTime>double:0.5</ChargeTime>
+    <FarAttackRange>double:30</FarAttackRange>
+    <FirstState>double:0</FirstState>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:true</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:false</IsDamageFromOnlyPlayer>
+    <IsNoWait>bool:false</IsNoWait>
+    <IsPlayFindMotion>bool:false</IsPlayFindMotion>
+    <MoveSearchTime>double:3</MoveSearchTime>
+    <MoveSpeed>double:1</MoveSpeed>
+    <PickChargeTime>double:0.6</PickChargeTime>
+    <PickDistance>double:17</PickDistance>
+    <PickSwing>double:0</PickSwing>
+    <PickThrowTime>double:2</PickThrowTime>
+    <Position>
+        <x>double:-47.5377</x>
+        <y>double:-60.0301</y>
+        <z>double:-1728.23</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:-0.707106</y>
+        <z>double:0</z>
+    </Rotation>
+    <SearchType>double:0</SearchType>
+    <SetObjectID>integer</SetObjectID>
+    <Target>vector3</Target>
+    <WaitTime>double:3</WaitTime>
+    <WayPointA>vector3</WayPointA>
+    <WayPointB>vector3</WayPointB>
+    <fallGravRate>double:1</fallGravRate>
+    <fallSpeed>double:5</fallSpeed>
+    <isAttackMove>bool:false</isAttackMove>
+    <isFallDown>bool:true</isFallDown>
+    <Mesh>Root.mesh</Mesh>
+</EnemyPawnPla2D>

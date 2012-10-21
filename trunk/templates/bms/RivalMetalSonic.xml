@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<RivalMetalSonic>
+    <GroundOffset>double:0</GroundOffset>
+    <Hitpoint>double:2</Hitpoint>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsEnableAttack>bool:true</IsEnableAttack>
+    <ODStandbyTime0>double:1.4</ODStandbyTime0>
+    <ODStandbyTime1>double:1</ODStandbyTime1>
+    <ODStandbyTime2>double:0.8</ODStandbyTime2>
+    <ODStandbyTime3>double:0.6</ODStandbyTime3>
+    <Position>
+        <x>double:-222.67</x>
+        <y>double:4.9999</y>
+        <z>double:360.47</z>
+    </Position>
+    <Range>double:10000</Range>
+    <Rotation>
+        <w>double:0.707106</w>
+        <x>double:0</x>
+        <y>double:0.707108</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>chr_classic_metal_HD.mesh</Mesh>
+</RivalMetalSonic>

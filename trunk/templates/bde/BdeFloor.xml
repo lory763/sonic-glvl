@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<BdeFloor>
+    <BombPositionList>
+        <Position0>vector3</Position0>
+    </BombPositionList>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:-19.5088</x>
+        <y>double:4</y>
+        <z>double:-7.44642</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:2.3281e-007</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TimeBaseToBomb>double:8</TimeBaseToBomb>
+    <ToRebirthTime>double:5</ToRebirthTime>
+    <Type>double:0</Type>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>Type==0</Condition>
+       <Mesh>bde_obj_floorA_3b_M.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==1</Condition>
+       <Mesh>Bde_obj_bombbase_floorA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==2</Condition>
+       <Mesh>bde_obj_floorA_3b_M.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==3</Condition>
+       <Mesh>bde_obj_mainfloor.mesh</Mesh>
+    </AltMesh>
+</BdeFloor>

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<SszRollingTop>
+    <ChangeMoveTimeSpeedScale>double:0.5</ChangeMoveTimeSpeedScale>
+    <ChargeLimitTime>double:1.5</ChargeLimitTime>
+    <Friction>double:0.5</Friction>
+    <Gravity>double:0.4</Gravity>
+    <GravityOffset>double:0.1</GravityOffset>
+    <GroundOffset>double:0</GroundOffset>
+    <HSpeed>double:3</HSpeed>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <LeftRightSignType>double:0</LeftRightSignType>
+    <Position>
+        <x>double:210.543</x>
+        <y>double:67.1599</y>
+        <z>double:-243.658</z>
+    </Position>
+    <QuickTurnLimitSpeed>double:0.1</QuickTurnLimitSpeed>
+    <QuickTurnNewSpeed>double:1</QuickTurnNewSpeed>
+    <Range>double:70</Range>
+    <ReviveRange>double:15</ReviveRange>
+    <Rotation>
+        <w>double:0.382535</w>
+        <x>double:0</x>
+        <y>double:0.923941</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SupportedDownSpeed>double:1.5</SupportedDownSpeed>
+    <TimeLimit>double:13</TimeLimit>
+    <VSpeed>double:4.2</VSpeed>
+    <VelocityLimit>double:2</VelocityLimit>
+    <Mesh>ssz_obj_RollingTopparts.mesh</Mesh>
+    <Mesh>ssz_obj_RollingTop.mesh</Mesh>
+    <Mesh>ssz_obj_RollingTopballA.mesh</Mesh>
+</SszRollingTop>

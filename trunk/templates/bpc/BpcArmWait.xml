@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<BpcArmWait>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsFinalAttack>bool:false</IsFinalAttack>
+    <MotionType>double:0</MotionType>
+    <Position>
+        <x>double:-25.509</x>
+        <y>double:-0.3</y>
+        <z>double:59.476</z>
+    </Position>
+    <Range>double:10000</Range>
+    <Rotation>
+        <w>double:0.903128</w>
+        <x>double:0</x>
+        <y>double:-0.429372</y>
+        <z>double:0</z>
+    </Rotation>
+    <Scale>double:1</Scale>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</BpcArmWait>

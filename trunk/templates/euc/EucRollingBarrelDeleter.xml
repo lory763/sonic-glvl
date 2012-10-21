@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<EucRollingBarrelDeleter>
+    <Collision_Height>double:15</Collision_Height>
+    <Collision_Length>double:13</Collision_Length>
+    <Collision_Width>double:26</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:357.558</x>
+        <y>double:-20.5584</y>
+        <z>double:-285.641</z>
+    </Position>
+    <Range>double:30000</Range>
+    <Rotation>
+        <w>double:0.92388</w>
+        <x>double:0</x>
+        <y>double:0.382683</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Mesh>collision.mesh</Mesh>
+</EucRollingBarrelDeleter>

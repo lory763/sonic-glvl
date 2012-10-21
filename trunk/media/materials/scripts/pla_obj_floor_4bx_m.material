@@ -1,0 +1,2451 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "pla_metal_ay1_mecha05_Cmn_dpn"
+{
+	technique pla_metal_ay1_mecha05_Cmn_dpn_technique
+	{
+		pass pla_metal_ay1_mecha05_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_ay1_mecha05_Cmn_dpn_Diffuse#0
+			{
+				texture pla_metal_ay1_mecha05_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_ay1_mecha05_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_ay1_mecha05_Cmn_dpn_Diffuse#1
+			{
+				texture pla_metal_ay1_mecha05_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_ay1_mecha05_Cmn_dpn_Specular#2
+			{
+				texture pla_metal_ay1_mecha05_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_ay1_mecha05_Cmn_dpn_Normal#3
+			{
+				texture pla_metal_ay1_mecha05_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_ay1_mecha05_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_ay1_mecha05_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_ay1_mecha05_Cmn_dpn_Diffuse#4
+			{
+				texture pla_metal_ay1_mecha05_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_mecha14_Cmn_dpn"
+{
+	technique pla_metal_my1_mecha14_Cmn_dpn_technique
+	{
+		pass pla_metal_my1_mecha14_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_mecha14_Cmn_dpn_Diffuse#0
+			{
+				texture pla_metal_my1_mecha14_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_mecha14_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_mecha14_Cmn_dpn_Diffuse#1
+			{
+				texture pla_metal_my1_mecha14_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha14_Cmn_dpn_Specular#2
+			{
+				texture pla_metal_my1_mecha14_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha14_Cmn_dpn_Normal#3
+			{
+				texture pla_metal_my1_mecha14_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_mecha14_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_mecha14_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_mecha14_Cmn_dpn_Diffuse#4
+			{
+				texture pla_metal_my1_mecha14_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_mecha09_Cmn_dpne2"
+{
+	technique pla_metal_my1_mecha09_Cmn_dpne2_technique
+	{
+		pass pla_metal_my1_mecha09_Cmn_dpne2_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_mecha09_Cmn_dpne2_Diffuse#0
+			{
+				texture pla_metal_my1_mecha09_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_mecha09_Cmn_dpne2_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_mecha09_Cmn_dpne2_Diffuse#1
+			{
+				texture pla_metal_my1_mecha09_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha09_Cmn_dpne2_Specular#2
+			{
+				texture pla_metal_my1_mecha09_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha09_Cmn_dpne2_Normal#3
+			{
+				texture pla_metal_my1_mecha09_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_mecha09_Cmn_dpne2_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_mecha09_Cmn_dpne2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_mecha09_Cmn_dpne2_Diffuse#4
+			{
+				texture pla_metal_my1_mecha09_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_ay1_mecha01_Cmn_dpne2"
+{
+	technique pla_metal_ay1_mecha01_Cmn_dpne2_technique
+	{
+		pass pla_metal_ay1_mecha01_Cmn_dpne2_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_ay1_mecha01_Cmn_dpne2_Diffuse#0
+			{
+				texture pla_metal_ay1_mecha01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_ay1_mecha01_Cmn_dpne2_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_ay1_mecha01_Cmn_dpne2_Diffuse#1
+			{
+				texture pla_metal_ay1_mecha01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_ay1_mecha01_Cmn_dpne2_Specular#2
+			{
+				texture pla_metal_ay1_mecha01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_ay1_mecha01_Cmn_dpne2_Normal#3
+			{
+				texture pla_metal_ay1_mecha01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_ay1_mecha01_Cmn_dpne2_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_ay1_mecha01_Cmn_dpne2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_ay1_mecha01_Cmn_dpne2_Diffuse#4
+			{
+				texture pla_metal_ay1_mecha01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_mecha04_Cmn_dpn"
+{
+	technique pla_metal_my1_mecha04_Cmn_dpn_technique
+	{
+		pass pla_metal_my1_mecha04_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_mecha04_Cmn_dpn_Diffuse#0
+			{
+				texture pla_metal_my1_mecha04_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_mecha04_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_mecha04_Cmn_dpn_Diffuse#1
+			{
+				texture pla_metal_my1_mecha04_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha04_Cmn_dpn_Specular#2
+			{
+				texture pla_metal_my1_mecha04_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha04_Cmn_dpn_Normal#3
+			{
+				texture pla_metal_my1_mecha04_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_mecha04_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_mecha04_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_mecha04_Cmn_dpn_Diffuse#4
+			{
+				texture pla_metal_my1_mecha04_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_pipe02_Cmn_dpn"
+{
+	technique pla_metal_my1_pipe02_Cmn_dpn_technique
+	{
+		pass pla_metal_my1_pipe02_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_pipe02_Cmn_dpn_Diffuse#0
+			{
+				texture pla_metal_my1_pipe02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_pipe02_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_pipe02_Cmn_dpn_Diffuse#1
+			{
+				texture pla_metal_my1_pipe02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_pipe02_Cmn_dpn_Specular#2
+			{
+				texture pla_metal_my1_pipe02_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_pipe02_Cmn_dpn_Normal#3
+			{
+				texture pla_metal_my1_pipe02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_pipe02_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_pipe02_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_pipe02_Cmn_dpn_Diffuse#4
+			{
+				texture pla_metal_my1_pipe02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_mecha01_Cmn_dpn"
+{
+	technique pla_metal_my1_mecha01_Cmn_dpn_technique
+	{
+		pass pla_metal_my1_mecha01_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_mecha01_Cmn_dpn_Diffuse#0
+			{
+				texture pla_metal_my1_mecha01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_mecha01_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_mecha01_Cmn_dpn_Diffuse#1
+			{
+				texture pla_metal_my1_mecha01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha01_Cmn_dpn_Specular#2
+			{
+				texture pla_metal_my1_mecha01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha01_Cmn_dpn_Normal#3
+			{
+				texture pla_metal_my1_mecha01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_mecha01_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_mecha01_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_mecha01_Cmn_dpn_Diffuse#4
+			{
+				texture pla_metal_my1_mecha01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_steel03_Cmn_dpn"
+{
+	technique pla_metal_my1_steel03_Cmn_dpn_technique
+	{
+		pass pla_metal_my1_steel03_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_steel03_Cmn_dpn_Diffuse#0
+			{
+				texture pla_metal_my1_steel03_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_steel03_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_steel03_Cmn_dpn_Diffuse#1
+			{
+				texture pla_metal_my1_steel03_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_steel03_Cmn_dpn_Specular#2
+			{
+				texture pla_metal_my1_steel03_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_steel03_Cmn_dpn_Normal#3
+			{
+				texture pla_metal_my1_steel03_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_steel03_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_steel03_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_steel03_Cmn_dpn_Diffuse#4
+			{
+				texture pla_metal_my1_steel03_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_mecha08_Cmn_dpn"
+{
+	technique pla_metal_my1_mecha08_Cmn_dpn_technique
+	{
+		pass pla_metal_my1_mecha08_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_mecha08_Cmn_dpn_Diffuse#0
+			{
+				texture pla_metal_my1_mecha08_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_mecha08_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_mecha08_Cmn_dpn_Diffuse#1
+			{
+				texture pla_metal_my1_mecha08_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha08_Cmn_dpn_Specular#2
+			{
+				texture pla_metal_my1_mecha08_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha08_Cmn_dpn_Normal#3
+			{
+				texture pla_metal_my1_mecha08_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_mecha08_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_mecha08_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_mecha08_Cmn_dpn_Diffuse#4
+			{
+				texture pla_metal_my1_mecha08_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_ay1_mecha12_Cmn_dpn"
+{
+	technique pla_metal_ay1_mecha12_Cmn_dpn_technique
+	{
+		pass pla_metal_ay1_mecha12_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_ay1_mecha12_Cmn_dpn_Diffuse#0
+			{
+				texture pla_metal_ay1_mecha12_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_ay1_mecha12_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_ay1_mecha12_Cmn_dpn_Diffuse#1
+			{
+				texture pla_metal_ay1_mecha12_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_ay1_mecha12_Cmn_dpn_Specular#2
+			{
+				texture pla_metal_ay1_mecha12_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_ay1_mecha12_Cmn_dpn_Normal#3
+			{
+				texture pla_metal_ay1_mecha12_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_ay1_mecha12_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_ay1_mecha12_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_ay1_mecha12_Cmn_dpn_Diffuse#4
+			{
+				texture pla_metal_ay1_mecha12_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_jh1_fence10_dif_Cmn_dpn"
+{
+	technique pla_metal_jh1_fence10_dif_Cmn_dpn_technique
+	{
+		pass pla_metal_jh1_fence10_dif_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_jh1_fence10_dif_Cmn_dpn_Diffuse#0
+			{
+				texture pla_metal_jh1_fence10_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_jh1_fence10_dif_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_jh1_fence10_dif_Cmn_dpn_Diffuse#1
+			{
+				texture pla_metal_jh1_fence10_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_jh1_fence10_dif_Cmn_dpn_Specular#2
+			{
+				texture pla_metal_jh1_fence10_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_jh1_fence10_dif_Cmn_dpn_Normal#3
+			{
+				texture pla_metal_jh1_fence10_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_jh1_fence10_dif_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_jh1_fence10_dif_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_jh1_fence10_dif_Cmn_dpn_Diffuse#4
+			{
+				texture pla_metal_jh1_fence10_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_ay1_mecha05_Cmn_dpn_1"
+{
+	technique pla_metal_ay1_mecha05_Cmn_dpn_1_technique
+	{
+		pass pla_metal_ay1_mecha05_Cmn_dpn_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_ay1_mecha05_Cmn_dpn_1_Diffuse#0
+			{
+				texture pla_metal_ay1_mecha05_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_ay1_mecha05_Cmn_dpn_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_ay1_mecha05_Cmn_dpn_1_Diffuse#1
+			{
+				texture pla_metal_ay1_mecha05_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_ay1_mecha05_Cmn_dpn_1_Specular#2
+			{
+				texture pla_metal_ay1_mecha05_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_ay1_mecha05_Cmn_dpn_1_Normal#3
+			{
+				texture pla_metal_ay1_mecha05_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_ay1_mecha05_Cmn_dpn_1_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_ay1_mecha05_Cmn_dpn_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_ay1_mecha05_Cmn_dpn_1_Diffuse#4
+			{
+				texture pla_metal_ay1_mecha05_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_mecha14_Cmn_dpn_1"
+{
+	technique pla_metal_my1_mecha14_Cmn_dpn_1_technique
+	{
+		pass pla_metal_my1_mecha14_Cmn_dpn_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_mecha14_Cmn_dpn_1_Diffuse#0
+			{
+				texture pla_metal_my1_mecha14_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_mecha14_Cmn_dpn_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_mecha14_Cmn_dpn_1_Diffuse#1
+			{
+				texture pla_metal_my1_mecha14_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha14_Cmn_dpn_1_Specular#2
+			{
+				texture pla_metal_my1_mecha14_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha14_Cmn_dpn_1_Normal#3
+			{
+				texture pla_metal_my1_mecha14_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_mecha14_Cmn_dpn_1_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_mecha14_Cmn_dpn_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_mecha14_Cmn_dpn_1_Diffuse#4
+			{
+				texture pla_metal_my1_mecha14_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_mecha09_Cmn_dpne2_1"
+{
+	technique pla_metal_my1_mecha09_Cmn_dpne2_1_technique
+	{
+		pass pla_metal_my1_mecha09_Cmn_dpne2_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_mecha09_Cmn_dpne2_1_Diffuse#0
+			{
+				texture pla_metal_my1_mecha09_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_mecha09_Cmn_dpne2_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_mecha09_Cmn_dpne2_1_Diffuse#1
+			{
+				texture pla_metal_my1_mecha09_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha09_Cmn_dpne2_1_Specular#2
+			{
+				texture pla_metal_my1_mecha09_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha09_Cmn_dpne2_1_Normal#3
+			{
+				texture pla_metal_my1_mecha09_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_mecha09_Cmn_dpne2_1_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_mecha09_Cmn_dpne2_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_mecha09_Cmn_dpne2_1_Diffuse#4
+			{
+				texture pla_metal_my1_mecha09_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_pipe02_Cmn_dpn_1"
+{
+	technique pla_metal_my1_pipe02_Cmn_dpn_1_technique
+	{
+		pass pla_metal_my1_pipe02_Cmn_dpn_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_pipe02_Cmn_dpn_1_Diffuse#0
+			{
+				texture pla_metal_my1_pipe02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_pipe02_Cmn_dpn_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_pipe02_Cmn_dpn_1_Diffuse#1
+			{
+				texture pla_metal_my1_pipe02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_pipe02_Cmn_dpn_1_Specular#2
+			{
+				texture pla_metal_my1_pipe02_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_pipe02_Cmn_dpn_1_Normal#3
+			{
+				texture pla_metal_my1_pipe02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_pipe02_Cmn_dpn_1_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_pipe02_Cmn_dpn_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_pipe02_Cmn_dpn_1_Diffuse#4
+			{
+				texture pla_metal_my1_pipe02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_mecha04_Cmn_dpn_1"
+{
+	technique pla_metal_my1_mecha04_Cmn_dpn_1_technique
+	{
+		pass pla_metal_my1_mecha04_Cmn_dpn_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_mecha04_Cmn_dpn_1_Diffuse#0
+			{
+				texture pla_metal_my1_mecha04_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_mecha04_Cmn_dpn_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_mecha04_Cmn_dpn_1_Diffuse#1
+			{
+				texture pla_metal_my1_mecha04_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha04_Cmn_dpn_1_Specular#2
+			{
+				texture pla_metal_my1_mecha04_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha04_Cmn_dpn_1_Normal#3
+			{
+				texture pla_metal_my1_mecha04_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_mecha04_Cmn_dpn_1_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_mecha04_Cmn_dpn_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_mecha04_Cmn_dpn_1_Diffuse#4
+			{
+				texture pla_metal_my1_mecha04_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_mecha08_Cmn_dpn_1"
+{
+	technique pla_metal_my1_mecha08_Cmn_dpn_1_technique
+	{
+		pass pla_metal_my1_mecha08_Cmn_dpn_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_mecha08_Cmn_dpn_1_Diffuse#0
+			{
+				texture pla_metal_my1_mecha08_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_mecha08_Cmn_dpn_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_mecha08_Cmn_dpn_1_Diffuse#1
+			{
+				texture pla_metal_my1_mecha08_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha08_Cmn_dpn_1_Specular#2
+			{
+				texture pla_metal_my1_mecha08_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha08_Cmn_dpn_1_Normal#3
+			{
+				texture pla_metal_my1_mecha08_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_mecha08_Cmn_dpn_1_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_mecha08_Cmn_dpn_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_mecha08_Cmn_dpn_1_Diffuse#4
+			{
+				texture pla_metal_my1_mecha08_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_ay1_mecha12_Cmn_dpn_1"
+{
+	technique pla_metal_ay1_mecha12_Cmn_dpn_1_technique
+	{
+		pass pla_metal_ay1_mecha12_Cmn_dpn_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_ay1_mecha12_Cmn_dpn_1_Diffuse#0
+			{
+				texture pla_metal_ay1_mecha12_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_ay1_mecha12_Cmn_dpn_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_ay1_mecha12_Cmn_dpn_1_Diffuse#1
+			{
+				texture pla_metal_ay1_mecha12_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_ay1_mecha12_Cmn_dpn_1_Specular#2
+			{
+				texture pla_metal_ay1_mecha12_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_ay1_mecha12_Cmn_dpn_1_Normal#3
+			{
+				texture pla_metal_ay1_mecha12_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_ay1_mecha12_Cmn_dpn_1_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_ay1_mecha12_Cmn_dpn_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_ay1_mecha12_Cmn_dpn_1_Diffuse#4
+			{
+				texture pla_metal_ay1_mecha12_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_ay1_mecha01_Cmn_dpne2_1"
+{
+	technique pla_metal_ay1_mecha01_Cmn_dpne2_1_technique
+	{
+		pass pla_metal_ay1_mecha01_Cmn_dpne2_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_ay1_mecha01_Cmn_dpne2_1_Diffuse#0
+			{
+				texture pla_metal_ay1_mecha01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_ay1_mecha01_Cmn_dpne2_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_ay1_mecha01_Cmn_dpne2_1_Diffuse#1
+			{
+				texture pla_metal_ay1_mecha01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_ay1_mecha01_Cmn_dpne2_1_Specular#2
+			{
+				texture pla_metal_ay1_mecha01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_ay1_mecha01_Cmn_dpne2_1_Normal#3
+			{
+				texture pla_metal_ay1_mecha01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_ay1_mecha01_Cmn_dpne2_1_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_ay1_mecha01_Cmn_dpne2_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_ay1_mecha01_Cmn_dpne2_1_Diffuse#4
+			{
+				texture pla_metal_ay1_mecha01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_mecha03_Cmn_dpn"
+{
+	technique pla_metal_my1_mecha03_Cmn_dpn_technique
+	{
+		pass pla_metal_my1_mecha03_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_mecha03_Cmn_dpn_Diffuse#0
+			{
+				texture pla_metal_my1_mecha03_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_mecha03_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_mecha03_Cmn_dpn_Diffuse#1
+			{
+				texture pla_metal_my1_mecha03_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha03_Cmn_dpn_Specular#2
+			{
+				texture pla_metal_my1_mecha03_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha03_Cmn_dpn_Normal#3
+			{
+				texture pla_metal_my1_mecha03_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_mecha03_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_mecha03_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_mecha03_Cmn_dpn_Diffuse#4
+			{
+				texture pla_metal_my1_mecha03_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_mecha01_Cmn_dpn_1"
+{
+	technique pla_metal_my1_mecha01_Cmn_dpn_1_technique
+	{
+		pass pla_metal_my1_mecha01_Cmn_dpn_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_mecha01_Cmn_dpn_1_Diffuse#0
+			{
+				texture pla_metal_my1_mecha01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_mecha01_Cmn_dpn_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_mecha01_Cmn_dpn_1_Diffuse#1
+			{
+				texture pla_metal_my1_mecha01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha01_Cmn_dpn_1_Specular#2
+			{
+				texture pla_metal_my1_mecha01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_mecha01_Cmn_dpn_1_Normal#3
+			{
+				texture pla_metal_my1_mecha01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_mecha01_Cmn_dpn_1_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_mecha01_Cmn_dpn_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_mecha01_Cmn_dpn_1_Diffuse#4
+			{
+				texture pla_metal_my1_mecha01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_steel03_Cmn_dpn_1"
+{
+	technique pla_metal_my1_steel03_Cmn_dpn_1_technique
+	{
+		pass pla_metal_my1_steel03_Cmn_dpn_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_steel03_Cmn_dpn_1_Diffuse#0
+			{
+				texture pla_metal_my1_steel03_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_steel03_Cmn_dpn_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_steel03_Cmn_dpn_1_Diffuse#1
+			{
+				texture pla_metal_my1_steel03_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_steel03_Cmn_dpn_1_Specular#2
+			{
+				texture pla_metal_my1_steel03_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_steel03_Cmn_dpn_1_Normal#3
+			{
+				texture pla_metal_my1_steel03_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_steel03_Cmn_dpn_1_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_steel03_Cmn_dpn_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_steel03_Cmn_dpn_1_Diffuse#4
+			{
+				texture pla_metal_my1_steel03_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_jh1_fence10_dif_Cmn_dpn_1"
+{
+	technique pla_metal_jh1_fence10_dif_Cmn_dpn_1_technique
+	{
+		pass pla_metal_jh1_fence10_dif_Cmn_dpn_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_jh1_fence10_dif_Cmn_dpn_1_Diffuse#0
+			{
+				texture pla_metal_jh1_fence10_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_jh1_fence10_dif_Cmn_dpn_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_jh1_fence10_dif_Cmn_dpn_1_Diffuse#1
+			{
+				texture pla_metal_jh1_fence10_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_jh1_fence10_dif_Cmn_dpn_1_Specular#2
+			{
+				texture pla_metal_jh1_fence10_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_jh1_fence10_dif_Cmn_dpn_1_Normal#3
+			{
+				texture pla_metal_jh1_fence10_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_jh1_fence10_dif_Cmn_dpn_1_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_jh1_fence10_dif_Cmn_dpn_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_jh1_fence10_dif_Cmn_dpn_1_Diffuse#4
+			{
+				texture pla_metal_jh1_fence10_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

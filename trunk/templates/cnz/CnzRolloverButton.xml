@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<CnzRolloverButton>
+    <Friction>double:0</Friction>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Leader>bool:false</Leader>
+    <Position>
+        <x>double:2.23824</x>
+        <y>double:1.33762</y>
+        <z>double:-2.51354</z>
+    </Position>
+    <Range>double:50</Range>
+    <Restitution>double:1</Restitution>
+    <Rotation>
+        <w>double:0.979925</w>
+        <x>double:0.199368</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</CnzRolloverButton>

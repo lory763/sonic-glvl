@@ -1,0 +1,543 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "euc_builparts_dml_builparts_10"
+{
+	technique euc_builparts_dml_builparts_10_technique
+	{
+		pass euc_builparts_dml_builparts_10_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit euc_builparts_dml_builparts_10_Diffuse#0
+			{
+				texture euc_builparts_dml_builparts_10_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass euc_builparts_dml_builparts_10_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit euc_builparts_dml_builparts_10_Diffuse#1
+			{
+				texture euc_builparts_dml_builparts_10_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit euc_builparts_dml_builparts_10_Specular#2
+			{
+				texture euc_builparts_dml_builparts_12_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit euc_builparts_dml_builparts_10_Normal#3
+			{
+				texture euc_builparts_dml_builparts_10_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique euc_builparts_dml_builparts_10_basic_technique
+	{
+	scheme basic_mat
+		pass euc_builparts_dml_builparts_10_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit euc_builparts_dml_builparts_10_Diffuse#4
+			{
+				texture euc_builparts_dml_builparts_10_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "euc_builparts_dml_builparts_10_1"
+{
+	technique euc_builparts_dml_builparts_10_1_technique
+	{
+		pass euc_builparts_dml_builparts_10_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit euc_builparts_dml_builparts_10_1_Diffuse#0
+			{
+				texture euc_builparts_dml_builparts_10_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass euc_builparts_dml_builparts_10_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit euc_builparts_dml_builparts_10_1_Diffuse#1
+			{
+				texture euc_builparts_dml_builparts_10_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit euc_builparts_dml_builparts_10_1_Specular#2
+			{
+				texture euc_builparts_dml_builparts_12_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit euc_builparts_dml_builparts_10_1_Normal#3
+			{
+				texture euc_builparts_dml_builparts_10_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique euc_builparts_dml_builparts_10_1_basic_technique
+	{
+	scheme basic_mat
+		pass euc_builparts_dml_builparts_10_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit euc_builparts_dml_builparts_10_1_Diffuse#4
+			{
+				texture euc_builparts_dml_builparts_10_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "eucobj_airship_bodymetal"
+{
+	technique eucobj_airship_bodymetal_technique
+	{
+		pass eucobj_airship_bodymetal_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit eucobj_airship_bodymetal_Diffuse#0
+			{
+				texture euc_obj_ay3_airship_body1_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass eucobj_airship_bodymetal_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit eucobj_airship_bodymetal_Diffuse#1
+			{
+				texture euc_obj_ay3_airship_body1_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit eucobj_airship_bodymetal_Specular#2
+			{
+				texture euc_obj_ay3_airship_body1_spc_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit eucobj_airship_bodymetal_Normal#3
+			{
+				texture euc_obj_ay3_airship_body1_nrm_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique eucobj_airship_bodymetal_basic_technique
+	{
+	scheme basic_mat
+		pass eucobj_airship_bodymetal_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit eucobj_airship_bodymetal_Diffuse#4
+			{
+				texture euc_obj_ay3_airship_body1_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "eucobj_airship_topmetal"
+{
+	technique eucobj_airship_topmetal_technique
+	{
+		pass eucobj_airship_topmetal_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit eucobj_airship_topmetal_Diffuse#0
+			{
+				texture euc_obj_ay3_airship_top_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass eucobj_airship_topmetal_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit eucobj_airship_topmetal_Diffuse#1
+			{
+				texture euc_obj_ay3_airship_top_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit eucobj_airship_topmetal_Specular#2
+			{
+				texture euc_obj_ay3_airship_top_spc_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit eucobj_airship_topmetal_Normal#3
+			{
+				texture euc_obj_ay3_airship_top_nrm_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique eucobj_airship_topmetal_basic_technique
+	{
+	scheme basic_mat
+		pass eucobj_airship_topmetal_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit eucobj_airship_topmetal_Diffuse#4
+			{
+				texture euc_obj_ay3_airship_top_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "eucobj_airship_body2metal"
+{
+	technique eucobj_airship_body2metal_technique
+	{
+		pass eucobj_airship_body2metal_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit eucobj_airship_body2metal_Diffuse#0
+			{
+				texture euc_obj_ay3_airship_body2_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass eucobj_airship_body2metal_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit eucobj_airship_body2metal_Diffuse#1
+			{
+				texture euc_obj_ay3_airship_body2_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit eucobj_airship_body2metal_Specular#2
+			{
+				texture euc_obj_ay3_airship_body2_spc_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit eucobj_airship_body2metal_Normal#3
+			{
+				texture euc_obj_ay3_airship_body2_nrm_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique eucobj_airship_body2metal_basic_technique
+	{
+	scheme basic_mat
+		pass eucobj_airship_body2metal_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit eucobj_airship_body2metal_Diffuse#4
+			{
+				texture euc_obj_ay3_airship_body2_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

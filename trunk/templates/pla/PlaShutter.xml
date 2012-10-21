@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<PlaShutter>
+    <GroundOffset>double:0</GroundOffset>
+    <InitType>double:0</InitType>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:968.092</x>
+        <y>double:349.917</y>
+        <z>double:-1785.17</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SizeType>double:1</SizeType>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>SizeType==0</Condition>
+       <Mesh>pla_obj_wisp_shutter.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>SizeType==1</Condition>
+       <Mesh>pla_obj_wisp_shutter_2m.mesh</Mesh>
+    </AltMesh>
+</PlaShutter>

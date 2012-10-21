@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<CnzSpinArea>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:1.64413</x>
+        <y>double:-4.05025</y>
+        <z>double:7.34519</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.976296</w>
+        <x>double:0.21644</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SizeX>double:9</SizeX>
+    <SizeY>double:0.5</SizeY>
+    <SizeZ>double:4</SizeZ>
+    <Mesh>collision.mesh</Mesh>
+    <PreviewScaleX multiplier="1.0">SizeX</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">SizeY</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">SizeZ</PreviewScaleZ>
+</CnzSpinArea>

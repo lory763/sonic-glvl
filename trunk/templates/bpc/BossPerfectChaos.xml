@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<BossPerfectChaos>
+    <DirectionXZ>double:0</DirectionXZ>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsFinalAttackMode>bool:false</IsFinalAttackMode>
+    <IsVisible>bool:false</IsVisible>
+    <PointList>
+        <Position0>vector3</Position0>
+        <Position1>vector3</Position1>
+        <Position2>vector3</Position2>
+        <Position3>vector3</Position3>
+        <Position4>vector3</Position4>
+        <Position5>vector3</Position5>
+        <Position6>vector3</Position6>
+        <Position7>vector3</Position7>
+    </PointList>
+    <Position>
+        <x>double:0</x>
+        <y>double:0.3</y>
+        <z>double:0</z>
+    </Position>
+    <Range>double:10000</Range>
+    <ResultPosition>vector3</ResultPosition>
+    <Rotation>
+        <w>double:0.651425</w>
+        <x>double:-0</x>
+        <y>double:0.758713</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>boss_PerfectChaos_HD.mesh</Mesh>
+</BossPerfectChaos>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<CnzMapObject>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <ModelType>double:0</ModelType>
+    <Position>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</CnzMapObject>

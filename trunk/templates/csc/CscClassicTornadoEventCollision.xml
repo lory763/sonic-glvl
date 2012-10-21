@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<CscClassicTornadoEventCollision>
+    <ChangeActiveTime>double:60</ChangeActiveTime>
+    <ChangeWaitTime>double:0</ChangeWaitTime>
+    <Collision_Height>double:62</Collision_Height>
+    <Collision_Length>double:10</Collision_Length>
+    <Collision_Width>double:10</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsPlayer>bool:true</IsPlayer>
+    <Position>
+        <x>double:996.374</x>
+        <y>double:87.562</y>
+        <z>double:-146</z>
+    </Position>
+    <Range>double:200</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <TargetAccele>double:3</TargetAccele>
+    <TargetSpeed>double:0.1</TargetSpeed>
+    <TornadoID>id</TornadoID>
+    <Mesh>collision.mesh</Mesh>
+</CscClassicTornadoEventCollision>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<RivalShadowObjEnergyCoreCreateCollision>
+    <Collision_Height>double:40</Collision_Height>
+    <Collision_Width>double:22</Collision_Width>
+    <Event0>double:4</Event0>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:291.234</x>
+        <y>double:15.2735</y>
+        <z>double:0.33848</z>
+    </Position>
+    <Range>double:30000</Range>
+    <Rotation>
+        <w>double:-0.707107</w>
+        <x>double:0</x>
+        <y>double:-0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TargetList0>id</TargetList0>
+    <Timer0>double:0</Timer0>
+    <m_EnableReset>bool:true</m_EnableReset>
+    <m_InvalidTime>double:30</m_InvalidTime>
+    <m_MaxDelayTime>double:0</m_MaxDelayTime>
+    <m_MinDelayTime>double:0</m_MinDelayTime>
+    <Mesh>collision.mesh</Mesh>
+</RivalShadowObjEnergyCoreCreateCollision>

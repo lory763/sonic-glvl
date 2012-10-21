@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<SszUpDownPole>
+    <BeginBottom>bool:true</BeginBottom>
+    <Cycle>double:0.86</Cycle>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsMessageON>bool:true</IsMessageON>
+    <ModelLengthWidth>double:4</ModelLengthWidth>
+    <MoveLength>double:5</MoveLength>
+    <OffsetLength>double:0</OffsetLength>
+    <Phase>double:0</Phase>
+    <Position>
+        <x>double:1443.95</x>
+        <y>double:-221.301</y>
+        <z>double:8.22418</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:-0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>double:0</Type>
+    <Mesh>unknown.mesh</Mesh>
+</SszUpDownPole>

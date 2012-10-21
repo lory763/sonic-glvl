@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<BneShutter>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:-13</x>
+        <y>double:-1072.17</y>
+        <z>double:-7</z>
+    </Position>
+    <Range>double:3000</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ToCloseTime>double:5</ToCloseTime>
+    <Mesh>bne_obj_shutter.mesh</Mesh>
+</BneShutter>

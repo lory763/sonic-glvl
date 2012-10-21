@@ -1,0 +1,795 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "cte_metal_yc1_paperbox_Cmn_dpn"
+{
+	technique cte_metal_yc1_paperbox_Cmn_dpn_technique
+	{
+		pass cte_metal_yc1_paperbox_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit cte_metal_yc1_paperbox_Cmn_dpn_Diffuse#0
+			{
+				texture cte_metal_yc1_paperbox_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass cte_metal_yc1_paperbox_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit cte_metal_yc1_paperbox_Cmn_dpn_Diffuse#1
+			{
+				texture cte_metal_yc1_paperbox_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_metal_yc1_paperbox_Cmn_dpn_Specular#2
+			{
+				texture cte_metal_yc1_paperbox_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_metal_yc1_paperbox_Cmn_dpn_Normal#3
+			{
+				texture cte_metal_yc1_paperbox_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique cte_metal_yc1_paperbox_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass cte_metal_yc1_paperbox_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cte_metal_yc1_paperbox_Cmn_dpn_Diffuse#4
+			{
+				texture cte_metal_yc1_paperbox_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "cte_metal_yc1_paperbox_Common_d"
+{
+	technique cte_metal_yc1_paperbox_Common_d_technique
+	{
+		pass cte_metal_yc1_paperbox_Common_d_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cte_metal_yc1_paperbox_Common_d_Diffuse#0
+			{
+				texture cte_cloth_yc1_poster_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "cte_metal_yc1_paperbox_Common_dpe"
+{
+	technique cte_metal_yc1_paperbox_Common_dpe_technique
+	{
+		pass cte_metal_yc1_paperbox_Common_dpe_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGENREF0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit cte_metal_yc1_paperbox_Common_dpe_Diffuse#0
+			{
+				texture cte_metal_yc1_paperbox_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_metal_yc1_paperbox_Common_dpe_Reflect#1
+			{
+				texture cte_metal_yc1_paperbox_env.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+		pass cte_metal_yc1_paperbox_Common_dpe_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit cte_metal_yc1_paperbox_Common_dpe_Diffuse#2
+			{
+				texture cte_metal_yc1_paperbox_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_metal_yc1_paperbox_Common_dpe_Specular#3
+			{
+				texture cte_metal_yc1_paperbox_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_metal_yc1_paperbox_Common_dpe_Reflect#4
+			{
+				texture cte_metal_yc1_paperbox_env.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+	}
+	technique cte_metal_yc1_paperbox_Common_dpe_basic_technique
+	{
+	scheme basic_mat
+		pass cte_metal_yc1_paperbox_Common_dpe_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cte_metal_yc1_paperbox_Common_dpe_Diffuse#5
+			{
+				texture cte_metal_yc1_paperbox_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_metal_yc1_paperbox_Common_dpe_Reflect#6
+			{
+				texture cte_metal_yc1_paperbox_env.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+	}
+}
+material "cte_builparts_ik_parasol01"
+{
+	technique cte_builparts_ik_parasol01_technique
+	{
+		pass cte_builparts_ik_parasol01_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit cte_builparts_ik_parasol01_Diffuse#0
+			{
+				texture cte_builparts_ik_parasol01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass cte_builparts_ik_parasol01_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit cte_builparts_ik_parasol01_Diffuse#1
+			{
+				texture cte_builparts_ik_parasol01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_builparts_ik_parasol01_Specular#2
+			{
+				texture cte_builparts_ik_parasol01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_builparts_ik_parasol01_Normal#3
+			{
+				texture cte_builparts_ik_parasol01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique cte_builparts_ik_parasol01_basic_technique
+	{
+	scheme basic_mat
+		pass cte_builparts_ik_parasol01_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cte_builparts_ik_parasol01_Diffuse#4
+			{
+				texture cte_builparts_ik_parasol01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "cte_builparts_ik_parasol01_1"
+{
+	technique cte_builparts_ik_parasol01_1_technique
+	{
+		pass cte_builparts_ik_parasol01_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit cte_builparts_ik_parasol01_1_Diffuse#0
+			{
+				texture cte_builparts_ik_parasol01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass cte_builparts_ik_parasol01_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit cte_builparts_ik_parasol01_1_Diffuse#1
+			{
+				texture cte_builparts_ik_parasol01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_builparts_ik_parasol01_1_Specular#2
+			{
+				texture cte_builparts_ik_parasol01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_builparts_ik_parasol01_1_Normal#3
+			{
+				texture cte_builparts_ik_parasol01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique cte_builparts_ik_parasol01_1_basic_technique
+	{
+	scheme basic_mat
+		pass cte_builparts_ik_parasol01_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cte_builparts_ik_parasol01_1_Diffuse#4
+			{
+				texture cte_builparts_ik_parasol01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "cte_obj_parkingmeter"
+{
+	technique cte_obj_parkingmeter_technique
+	{
+		pass cte_obj_parkingmeter_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit cte_obj_parkingmeter_Diffuse#0
+			{
+				texture cte_obj_parkingmeter_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass cte_obj_parkingmeter_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit cte_obj_parkingmeter_Diffuse#1
+			{
+				texture cte_obj_parkingmeter_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_obj_parkingmeter_Specular#2
+			{
+				texture cte_obj_parkingmeter_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_obj_parkingmeter_Normal#3
+			{
+				texture cte_obj_parkingmeter_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique cte_obj_parkingmeter_basic_technique
+	{
+	scheme basic_mat
+		pass cte_obj_parkingmeter_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cte_obj_parkingmeter_Diffuse#4
+			{
+				texture cte_obj_parkingmeter_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "cte_obj_parkingsign"
+{
+	technique cte_obj_parkingsign_technique
+	{
+		pass cte_obj_parkingsign_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit cte_obj_parkingsign_Diffuse#0
+			{
+				texture cte_obj_parkingsign_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass cte_obj_parkingsign_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit cte_obj_parkingsign_Diffuse#1
+			{
+				texture cte_obj_parkingsign_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_obj_parkingsign_Specular#2
+			{
+				texture cte_obj_parkingsign_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_obj_parkingsign_Normal#3
+			{
+				texture cte_obj_parkingsign_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique cte_obj_parkingsign_basic_technique
+	{
+	scheme basic_mat
+		pass cte_obj_parkingsign_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cte_obj_parkingsign_Diffuse#4
+			{
+				texture cte_obj_parkingsign_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "cte_obj_post"
+{
+	technique cte_obj_post_technique
+	{
+		pass cte_obj_post_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit cte_obj_post_Diffuse#0
+			{
+				texture cte_obj_post_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass cte_obj_post_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit cte_obj_post_Diffuse#1
+			{
+				texture cte_obj_post_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cte_obj_post_Normal#2
+			{
+				texture cte_obj_post_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique cte_obj_post_basic_technique
+	{
+	scheme basic_mat
+		pass cte_obj_post_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cte_obj_post_Diffuse#3
+			{
+				texture cte_obj_post_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

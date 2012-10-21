@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<SonicStandSpawn>
+    <Position>
+      <x>double</x>
+      <y>double</y>
+      <z>double</z>
+    </Position>
+    <Rotation>
+      <w>double</w>
+      <x>double</x>
+      <y>double</y>
+      <z>double</z>
+    </Rotation>
+    <Start>
+       <Mode>string:Stand</Mode>
+       <Speed>double</Speed>
+       <Time>double</Time>
+    </Start>
+    <Active>bool:false</Active>
+    <Mesh>sonicspawn.mesh</Mesh>
+    <SetObjectID>integer</SetObjectID>
+</SonicStandSpawn>

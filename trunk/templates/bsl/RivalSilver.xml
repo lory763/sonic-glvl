@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<RivalSilver>
+    <ActionType>double:6</ActionType>
+    <DROP_FORE_TIME>double:0.5</DROP_FORE_TIME>
+    <DROP_SPAN_TIME>double:1</DROP_SPAN_TIME>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Position>
+    <Range>double:10000</Range>
+    <Rotation>
+        <w>double:0.70831</w>
+        <x>double:0</x>
+        <y>double:-0.705901</y>
+        <z>double:-0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <m_Hitpoint>double:3</m_Hitpoint>
+    <Mesh>chr_Silver_HD.mesh</Mesh>
+</RivalSilver>

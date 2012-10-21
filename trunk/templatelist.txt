@@ -6,7 +6,6 @@
 #  anything below the current category will be classified on it
 
 category Common
-
 templates\common\Ring.xml
 templates\common\Item.xml
 templates\common\SuperRing.xml
@@ -46,6 +45,7 @@ templates\common\Grouper.xml
 templates\common\SelectCanon.xml
 templates\common\Omochao.xml
 templates\common\Bomb.xml
+templates\common\ThornBall.xml
 templates\common\Balloon.xml
 templates\common\FallSignalSV.xml
 templates\common\FallSignalFV.xml
@@ -58,19 +58,18 @@ templates\common\Fan.xml
 templates\common\Cannon.xml
 templates\common\Cannon_ChangeParam.xml
 
-
-
-category SonicGLvl Helpers/Spawns
+category SonicGLvl Helpers
 templates\editor\SonicSpawn.xml
-
+templates\editor\SonicStandSpawn.xml
+templates\editor\SonicDashSpawn.xml
+templates\editor\SonicCrouchSpawn.xml
+templates\editor\SonicBoardSpawn.xml
 
 category Events
-
 templates\common\EventSetter.xml
 templates\common\EventCollision.xml
 
 category Collision Triggers
-
 templates\common\GravityChangeCollision.xml
 templates\common\ChangeBGMCollision.xml
 templates\common\AutorunFinishSimpleCollision.xml
@@ -96,9 +95,7 @@ templates\common\LayerChangeCollisionFlat.xml
 templates\common\BeltConveyorCollision
 templates\common\LayerChangeCollision.xml
 
-
 category Changers
-
 templates\common\ChangeNormalCameraParam.xml
 templates\common\ChangeMode_2DtoForward.xml
 templates\common\ChangeVelocityMax.xml
@@ -110,9 +107,7 @@ templates\common\ChangeSkyProxy.xml
 templates\common\ChangeDiveBegin.xml
 templates\common\ChangeDiveEndNoEvent.xml
 
-
 category Cameras
-
 templates\common\ObjCameraBlend.xml
 templates\common\ObjCameraFix.xml
 templates\common\ObjCameraNormal.xml
@@ -124,6 +119,7 @@ templates\common\ObjCameraPanVertical.xml
 templates\common\ObjCameraPoint.xml
 templates\common\ObjCameraObjectLook.xml
 templates\common\ObjCameraPathPath.xml
+templates\common\ObjCameraPathTarget.xml
 templates\common\ObjCameraPathParallel.xml
 templates\common\ObjCameraVertical.xml
 templates\common\ObjCameraTube.xml
@@ -132,7 +128,6 @@ templates\common\CameraOffsetReset.xml
 templates\common\CameraOffsetBox.xml
 
 category Enemies
-
 templates\enemies\EnemyBeeton2D.xml
 templates\enemies\EnemyBeeton3D.xml
 templates\enemies\EnemyBatabata2D.xml
@@ -145,20 +140,36 @@ templates\enemies\EnemyGrabber3D.xml
 templates\enemies\EnemyGrabber3D.xml
 templates\enemies\EnemyLander2D.xml
 templates\enemies\EnemyLander3D.xml
+templates\enemies\EnemyEggRobo2D.xml
+templates\enemies\EnemyEggRobo3D.xml
+templates\enemies\EnemySpanner2D.xml
+templates\enemies\EnemySpanner.xml
+templates\enemies\EnemySpinner2D.xml
+templates\enemies\EnemySpinner.xml
+templates\enemies\EnemyCopSpeeder2D.xml
+templates\enemies\EnemyCopSpeeder3D.xml
+templates\enemies\EnemyCopSpeeder3DCreator.xml
+templates\enemies\EnemyCopSpeederWallRun.xml
 templates\enemies\EnemyMonoBeetle2D.xml
 templates\enemies\EnemyMonoBeetle3D.xml
 templates\enemies\EnemyGunHunter2D.xml
 templates\enemies\EnemyGunHunter3D.xml
 templates\enemies\EnemyGunBeetle2D.xml
 templates\enemies\EnemyGunBeetle3D.xml
-templates\enemies\EnemyCopSpeeder2D.xml
-templates\enemies\EnemyCopSpeeder3D.xml
-templates\enemies\EnemyCopSpeeder3DCreator.xml
-templates\enemies\EnemyCopSpeederWallRun.xml
-templates\enemies\EnemySpanner2D.xml
-templates\enemies\EnemySpanner.xml
-templates\enemies\EnemySpinner2D.xml
-templates\enemies\EnemySpinner.xml
+templates\enemies\EnemyPawn2D.xml
+templates\enemies\EnemyPawn3D.xml
+templates\enemies\EnemyPawnLance2D.xml
+templates\enemies\EnemyPawnLance3D.xml
+templates\enemies\EnemyPawnGun2D.xml
+templates\enemies\EnemyPawnGun3D.xml
+templates\enemies\EnemyPawnPla2D.xml
+templates\enemies\EnemyPawnPla3D.xml
+templates\enemies\EnemyBiter2D.xml
+templates\enemies\EnemyBiter3D.xml
+templates\enemies\EnemyCrawler2D.xml
+templates\enemies\EnemyCrawler3D.xml
+templates\enemies\EnemyTaker2D.xml
+templates\enemies\EnemyTaker3D.xml
 templates\enemies\EnemyEFighter2D.xml
 templates\enemies\EnemyEFighter3D.xml
 templates\enemies\EnemyELauncher3D.xml
@@ -168,15 +179,8 @@ templates\enemies\EnemyEChaserManager.xml
 templates\enemies\EnemyEFighterSword3D.xml
 templates\enemies\EnemyEFighter3DGun.xml
 templates\enemies\EnemyAeroCannon.xml
-templates\enemies\EnemyPawn3D.xml
-templates\enemies\EnemyPawnLance3D.xml
-templates\enemies\EnemyPawnLance2D.xml
-templates\enemies\EnemyPawn2D.xml
-templates\enemies\EnemyPawnGun3D.xml
-templates\enemies\EnemyPawnGun2D.xml
-
-
-
+templates\enemies\EnemyNal2D.xml
+templates\enemies\EnemyNal3D.xml
 
 category Missions
 templates\common\MissionNpc_Appear.xml
@@ -185,7 +189,11 @@ templates\cpz\MissionTailsDashRing.xml
 templates\cpz\MissionNpcC_Tails.xml
 templates\cpz\MissionLaserSV.xml
 templates\cpz\MissionOpenBlock.xml
-
+templates\ghz\MissionBigMotora.xml
+templates\ghz\MissionBigBeeton.xml
+templates\ghz\MissionNpcC_Knuckles.xml
+templates\ghz\MissionNpcC_KnucklesDigPoint.xml
+templates\ghz\MissionNpcC_KnucklesSpeedCollision.xml
 
 category Particles and Effects
 templates\common\SetParticleVolume.xml
@@ -195,9 +203,45 @@ category Sounds
 templates\common\SoundLine.xml
 templates\common\SoundPoint.xml
 
+category Metal Sonic
+templates\bms\RivalMetalSonic.xml
+
+category Shadow The Hedgehog
+templates\bsd\RivalShadowObjEnergyCoreCreateCollision.xml
+templates\bsd\RivalShadowObjEnergyMeteor.xml
+templates\bsd\RivalShadowObjFixRoot.xml
+templates\bsd\RivalShadow.xml
+templates\bsd\RivalShadowObjAimSpot.xml
+templates\bsd\RivalShadowObjEndFinalArea.xml
+templates\bsd\RivalShadowObjEnergyCoreClearCollision.xml
+
+category Silver The Hedgehog
+templates\bsl\RivalSilverObjThrowDown.xml
+templates\bsl\RivalSilver.xml
+
+category Death Egg
+templates\bde\BdeElevatorReference.xml
+templates\bde\BossDeathEgg.xml
+templates\bde\BdeFloor.xml
+
+category Perfect Chaos
+templates\bpc\BossPerfectChaos.xml
+templates\bpc\BpcArmTest.xml
+templates\bpc\BpcArmWait.xml
+templates\bpc\BpcCameraChain.xml
+templates\bpc\BpcCameraChainTrigger.xml
+templates\bpc\BpcControlCollision.xml
+templates\bpc\BpcControlZoneCollision.xml
+templates\bpc\BpcFloor.xml
+templates\bpc\BpcSetStartPoint.xml
+templates\bpc\BpcTornade.xml
+templates\bpc\StopPeopleObject.xml
+
+category Egg Dragoon
+templates\bne\BneShutter.xml
+templates\bde\BossEggDragoon.xml
 
 category Green Hill Zone
-
 templates\ghz\GhWoodBridge.xml
 templates\ghz\GhBreakCriff.xml
 templates\ghz\GhSwingFloor.xml
@@ -205,7 +249,6 @@ templates\ghz\GhzGiantBatabata_Collision.xml
 templates\ghz\GhzGiantBatabata_First.xml
 
 category Chemical Plant Zone
-
 templates\cpz\CpzWaterCollision.xml
 templates\cpz\CpzBubble.xml
 templates\cpz\CpzPipe.xml
@@ -217,11 +260,23 @@ templates\cpz\CpzSewageTrapSignal.xml
 templates\cpz\CpzWaterStopCollision.xml
 templates\cpz\CpzBigCrane.xml
 
-
 category Sky Sanctuary Zone
 templates\ssz\SszRollingFloor.xml
 templates\ssz\SszWarpStart.xml
 templates\ssz\SszWarpFinish.xml
+templates\ssz\SszBird.xml
+templates\ssz\SszBreakFloor.xml
+templates\ssz\SszBridge.xml
+templates\ssz\SszCloud.xml
+templates\ssz\SszCollapseRoadGeneric.xml
+templates\ssz\SszCollapseTower.xml
+templates\ssz\SszUpDownPole.xml
+templates\ssz\SszUpDownPoleStand.xml
+templates\ssz\SszCollapseRoad.xml
+templates\ssz\SszRollingFloorClassic.xml
+templates\ssz\SszRollingTop.xml
+templates\ssz\SszCameraShaker.xml
+templates\ssz\SszCollapseDashPanelClassic.xml
 
 category Speed Highway
 templates\sph\SphRollingLift.xml
@@ -255,7 +310,6 @@ templates\cte\CteSteelFrame.xml
 templates\cte\CtePhysicsCar.xml
 templates\cte\CteHexagonFloor.xml
 
-
 category Seaside Hill
 templates\ssh\SshRuinFloor.xml
 templates\ssh\SshSignal.xml
@@ -267,14 +321,46 @@ templates\ssh\SshDontSwimBatabata.xml
 templates\ssh\SshBubble.xml
 
 category Crisis City
+templates\csc\CscBreakRoad.xml
+templates\csc\CscChangeSpeedCollision.xml
+templates\csc\CscFloatFloor.xml
+templates\csc\CscIgnition.xml
+templates\csc\CscLavaRide.xml
+templates\csc\CscWindow.xml
+templates\csc\CscClassicTornadoEventCollision.xml
+templates\csc\CscClassicTornado.xml
 
 category Rooftop Run
-
 templates\euc\EucGuillotine.xml
+templates\euc\EucRollingBarrelDeleter.xml
+templates\euc\EucAirShipBarrel.xml
+templates\euc\EucPressThorn.xml
+templates\euc\EucAirShipChaser.xml
+templates\euc\EucAirShipChaserAttackCollision.xml
+templates\euc\EucBird.xml
+templates\euc\EucAirShip.xml
+templates\euc\EucAirShipBG.xml
+templates\euc\EucBigBarrel.xml
+templates\euc\EucBigBarrelDeleter.xml
+templates\euc\EucBigBarrelEffecter.xml
+templates\euc\Gondola.xml
 
 category Planet Wisp
+templates\pla\PlaBigPressCeling.xml
+templates\pla\PlaBigPressCoordinator.xml
+templates\pla\PlaBrokenCeling.xml
+templates\pla\PlaCutterArm.xml
+templates\pla\PlaHideFloor.xml
+templates\pla\PlaMissile.xml
+templates\pla\PlaPhantomCancelVolume.xml
+templates\pla\PlaReleaseBox.xml
+templates\pla\PlaShutter.xml
+templates\pla\PlaTramCarJumpCollision.xml
+templates\pla\GearSwitch.xml
+templates\pla\PlaRotTerrain.xml
+templates\pla\PlaGearFloor.xml
 
-category White World
+category White Space
 templates\pam\StageGate.xml
 templates\pam\PlayableMenuNPCUnit.xml
 templates\pam\MissionGate.xml
@@ -297,12 +383,40 @@ templates\pam\ObjPamFloor.xml
 templates\pam\StageGateOrca.xml
 templates\pam\SoundLinePlayableMenu.xml
 
+category Casino Night Zone
+templates\cnz\CnzFlipper.xml
+templates\cnz\CnzBumper.xml
+templates\cnz\CnzSlingshot.xml
+templates\cnz\CnzPlunger.xml
+templates\cnz\CnzSpotTarget.xml
+templates\cnz\CnzKickBack.xml
+templates\cnz\CnzKickBackSwitch.xml
+templates\cnz\CnzLoopGate.xml
+templates\cnz\CnzRolloverButton.xml
+templates\cnz\CnzPopupBumper.xml
+templates\cnz\CnzJumpPoint.xml
+templates\cnz\CnzJackpotMedal.xml
+templates\cnz\CnzSlot.xml
+templates\cnz\CnzJackpot.xml
+templates\cnz\CnzLane.xml
+templates\cnz\CnzGetupLoop.xml
+templates\cnz\CnzKeepSpeed.xml
+templates\cnz\CnzDiceBridge.xml
+templates\cnz\CnzValve.xml
+templates\cnz\CnzDropTarget.xml
+templates\cnz\CnzScore.xml
+templates\cnz\CnzSpeedDown.xml
+templates\cnz\CnzEmerald.xml
+templates\cnz\CnzSpinArea.xml
+templates\cnz\CnzMapObject.xml
+templates\cnz\CnzBall.xml
+templates\cnz\CnzForceGlass.xml
+
 category Sonic Unleashed
 templates\unleashed\JumpSelector.xml
 templates\unleashed\eSpinner.xml
 templates\unleashed\eSpanner.xml
 templates\unleashed\TrickJumper.xml
-templates\unleashed\ObjCameraPathTarget.xml
 templates\unleashed\TriangleJumpCollision.xml
 templates\unleashed\MykonosFloor.xml
 templates\unleashed\Pelican.xml
@@ -326,7 +440,6 @@ templates\unleashed\HangPole.xml
 templates\unleashed\WallWalkEnableCollision.xml
 templates\unleashed\eAirCannonNormal.xml
 templates\unleashed\AfricaFloorA.xml
-templates\unleashed\AfricaFloorC.xml
 templates\unleashed\Paraloop.xml
 templates\unleashed\MedalMoon.xml
 templates\unleashed\AfricaFloorB.xml
@@ -341,7 +454,6 @@ templates\unleashed\eFighterGun.xml
 templates\unleashed\eFighterMissile.xml
 templates\unleashed\eFighterSword.xml
 templates\unleashed\Flame.xml
-templates\unleashed\ThornBall.xml
 templates\unleashed\Hammer.xml
 templates\unleashed\WoodBox.xml
 templates\unleashed\Beach_Guillotine.xml

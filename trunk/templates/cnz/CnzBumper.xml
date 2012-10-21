@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<CnzBumper>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:-0.312927</x>
+        <y>double:3.87245</y>
+        <z>double:-11.4979</z>
+    </Position>
+    <Power>double:1.1</Power>
+    <Range>double:50</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:-2.90286e-009</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</CnzBumper>

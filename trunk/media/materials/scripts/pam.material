@@ -1,0 +1,1895 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "cmn_obj_specialring_HD_ring"
+{
+	technique cmn_obj_specialring_HD_ring_technique
+	{
+		pass cmn_obj_specialring_HD_ring_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGENREF0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit cmn_obj_specialring_HD_ring_Diffuse#0
+			{
+				texture cmn_obj_specialring_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cmn_obj_specialring_HD_ring_Reflect#1
+			{
+				texture cmn_obj_specialring_ref_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+		pass cmn_obj_specialring_HD_ring_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit cmn_obj_specialring_HD_ring_Diffuse#2
+			{
+				texture cmn_obj_specialring_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cmn_obj_specialring_HD_ring_Specular#3
+			{
+				texture cmn_obj_specialring_spc_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cmn_obj_specialring_HD_ring_Reflect#4
+			{
+				texture cmn_obj_specialring_ref_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+	}
+	technique cmn_obj_specialring_HD_ring_basic_technique
+	{
+	scheme basic_mat
+		pass cmn_obj_specialring_HD_ring_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cmn_obj_specialring_HD_ring_Diffuse#5
+			{
+				texture cmn_obj_specialring_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cmn_obj_specialring_HD_ring_Reflect#6
+			{
+				texture cmn_obj_specialring_ref_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+	}
+}
+material "cmn_obj_specialring_HD_star"
+{
+	technique cmn_obj_specialring_HD_star_technique
+	{
+		pass cmn_obj_specialring_HD_star_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGENREF0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit cmn_obj_specialring_HD_star_Diffuse#0
+			{
+				texture cmn_obj_specialring_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cmn_obj_specialring_HD_star_Reflect#1
+			{
+				texture cmn_obj_specialring_ref_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+		pass cmn_obj_specialring_HD_star_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit cmn_obj_specialring_HD_star_Diffuse#2
+			{
+				texture cmn_obj_specialring_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cmn_obj_specialring_HD_star_Specular#3
+			{
+				texture cmn_obj_specialring_spc_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cmn_obj_specialring_HD_star_Reflect#4
+			{
+				texture cmn_obj_specialring_ref_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+	}
+	technique cmn_obj_specialring_HD_star_basic_technique
+	{
+	scheme basic_mat
+		pass cmn_obj_specialring_HD_star_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cmn_obj_specialring_HD_star_Diffuse#5
+			{
+				texture cmn_obj_specialring_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cmn_obj_specialring_HD_star_Reflect#6
+			{
+				texture cmn_obj_specialring_ref_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+	}
+}
+material "soundbell"
+{
+	technique soundbell_technique
+	{
+		pass soundbell_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit soundbell_Diffuse#0
+			{
+				texture pam_obj_nh1_soundbell02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass soundbell_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit soundbell_Diffuse#1
+			{
+				texture pam_obj_nh1_soundbell02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit soundbell_Specular#2
+			{
+				texture pam_obj_nh1_soundbell01_spc.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique soundbell_basic_technique
+	{
+	scheme basic_mat
+		pass soundbell_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit soundbell_Diffuse#3
+			{
+				texture pam_obj_nh1_soundbell02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bossgate_wheel"
+{
+	technique bossgate_wheel_technique
+	{
+		pass bossgate_wheel_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bossgate_wheel_Diffuse#0
+			{
+				texture pam_obj_nh1_bossgate01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bossgate_wheel_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bossgate_wheel_Diffuse#1
+			{
+				texture pam_obj_nh1_bossgate01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bossgate_wheel_Specular#2
+			{
+				texture pam_obj_nh1_bossgate01_spc.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bossgate_wheel_Normal#3
+			{
+				texture pam_obj_nh1_bossgate01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bossgate_wheel_basic_technique
+	{
+	scheme basic_mat
+		pass bossgate_wheel_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bossgate_wheel_Diffuse#4
+			{
+				texture pam_obj_nh1_bossgate01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bossgate_dial"
+{
+	technique bossgate_dial_technique
+	{
+		pass bossgate_dial_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bossgate_dial_Diffuse#0
+			{
+				texture pam_obj_nh1_bossgate02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bossgate_dial_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bossgate_dial_Diffuse#1
+			{
+				texture pam_obj_nh1_bossgate02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bossgate_dial_Normal#2
+			{
+				texture pam_obj_nh1_bossgate02_ems.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bossgate_dial_basic_technique
+	{
+	scheme basic_mat
+		pass bossgate_dial_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bossgate_dial_Diffuse#3
+			{
+				texture pam_obj_nh1_bossgate02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bossgate_cover"
+{
+	technique bossgate_cover_technique
+	{
+		pass bossgate_cover_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bossgate_cover_Diffuse#0
+			{
+				texture pam_obj_nh1_bossgate02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bossgate_cover_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bossgate_cover_Diffuse#1
+			{
+				texture pam_obj_nh1_bossgate02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bossgate_cover_Normal#2
+			{
+				texture pam_obj_nh1_bossgate02_ems.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bossgate_cover_basic_technique
+	{
+	scheme basic_mat
+		pass bossgate_cover_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bossgate_cover_Diffuse#3
+			{
+				texture pam_obj_nh1_bossgate02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bossgate_covergold"
+{
+	technique bossgate_covergold_technique
+	{
+		pass bossgate_covergold_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bossgate_covergold_Diffuse#0
+			{
+				texture pam_obj_nh1_bossgate03_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bossgate_covergold_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bossgate_covergold_Diffuse#1
+			{
+				texture pam_obj_nh1_bossgate03_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bossgate_covergold_Specular#2
+			{
+				texture pam_obj_nh1_bossgate03_spc.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bossgate_covergold_Normal#3
+			{
+				texture pam_obj_nh1_bossgate03_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bossgate_covergold_basic_technique
+	{
+	scheme basic_mat
+		pass bossgate_covergold_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bossgate_covergold_Diffuse#4
+			{
+				texture pam_obj_nh1_bossgate03_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pam_metal_gart_gold02"
+{
+	technique pam_metal_gart_gold02_technique
+	{
+		pass pam_metal_gart_gold02_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pam_metal_gart_gold02_Diffuse#0
+			{
+				texture pam_metal_gart_gold02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pam_metal_gart_gold02_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pam_metal_gart_gold02_Diffuse#1
+			{
+				texture pam_metal_gart_gold02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_metal_gart_gold02_Specular#2
+			{
+				texture pam_metal_gart_gold02_spc.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_metal_gart_gold02_Normal#3
+			{
+				texture pam_metal_gart_gold02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pam_metal_gart_gold02_basic_technique
+	{
+	scheme basic_mat
+		pass pam_metal_gart_gold02_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pam_metal_gart_gold02_Diffuse#4
+			{
+				texture pam_metal_gart_gold02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pam_metal_gart_ashiba02"
+{
+	technique pam_metal_gart_ashiba02_technique
+	{
+		pass pam_metal_gart_ashiba02_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pam_metal_gart_ashiba02_Diffuse#0
+			{
+				texture pam_metal_ashiba02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pam_metal_gart_ashiba02_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pam_metal_gart_ashiba02_Diffuse#1
+			{
+				texture pam_metal_ashiba02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_metal_gart_ashiba02_Specular#2
+			{
+				texture pam_metal_ashiba02_spc.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_metal_gart_ashiba02_Normal#3
+			{
+				texture pam_metal_ashiba02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pam_metal_gart_ashiba02_basic_technique
+	{
+	scheme basic_mat
+		pass pam_metal_gart_ashiba02_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pam_metal_gart_ashiba02_Diffuse#4
+			{
+				texture pam_metal_ashiba02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pam_obj_bosskey"
+{
+	technique pam_obj_bosskey_technique
+	{
+		pass pam_obj_bosskey_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pam_obj_bosskey_Diffuse#0
+			{
+				texture pam_obj_nh1_bosskey01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pam_obj_bosskey_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pam_obj_bosskey_Diffuse#1
+			{
+				texture pam_obj_nh1_bosskey01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_bosskey_Specular#2
+			{
+				texture pam_obj_nh1_bosskey01_spc.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_bosskey_Normal#3
+			{
+				texture pam_obj_nh1_bosskey01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pam_obj_bosskey_basic_technique
+	{
+	scheme basic_mat
+		pass pam_obj_bosskey_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pam_obj_bosskey_Diffuse#4
+			{
+				texture pam_obj_nh1_bosskey01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pam_obj_ipod_frp"
+{
+	technique pam_obj_ipod_frp_technique
+	{
+		pass pam_obj_ipod_frp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGENREF0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit pam_obj_ipod_frp_Diffuse#0
+			{
+				texture pam_obj_ipod_body_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_ipod_frp_Reflect#1
+			{
+				texture pam_obj_ipod_body_ref.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+		pass pam_obj_ipod_frp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit pam_obj_ipod_frp_Diffuse#2
+			{
+				texture pam_obj_ipod_body_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_ipod_frp_Specular#3
+			{
+				texture pam_obj_ipod_body_spc.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_ipod_frp_Reflect#4
+			{
+				texture pam_obj_ipod_body_ref.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+	}
+	technique pam_obj_ipod_frp_basic_technique
+	{
+	scheme basic_mat
+		pass pam_obj_ipod_frp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pam_obj_ipod_frp_Diffuse#5
+			{
+				texture pam_obj_ipod_body_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_ipod_frp_Reflect#6
+			{
+				texture pam_obj_ipod_body_ref.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+	}
+}
+material "pam_obj_ipod_metal"
+{
+	technique pam_obj_ipod_metal_technique
+	{
+		pass pam_obj_ipod_metal_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGENREF0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit pam_obj_ipod_metal_Diffuse#0
+			{
+				texture pam_obj_ipod_body_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_ipod_metal_Reflect#1
+			{
+				texture pam_obj_ipod_metal_ref.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+		pass pam_obj_ipod_metal_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit pam_obj_ipod_metal_Diffuse#2
+			{
+				texture pam_obj_ipod_body_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_ipod_metal_Specular#3
+			{
+				texture pam_obj_ipod_body_spc.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_ipod_metal_Reflect#4
+			{
+				texture pam_obj_ipod_metal_ref.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+	}
+	technique pam_obj_ipod_metal_basic_technique
+	{
+	scheme basic_mat
+		pass pam_obj_ipod_metal_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pam_obj_ipod_metal_Diffuse#5
+			{
+				texture pam_obj_ipod_body_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_ipod_metal_Reflect#6
+			{
+				texture pam_obj_ipod_metal_ref.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+	}
+}
+material "pam_obj_ipod_light"
+{
+	technique pam_obj_ipod_light_technique
+	{
+		pass pam_obj_ipod_light_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pam_obj_ipod_light_Diffuse#0
+			{
+				texture pam_obj_ipod_screen_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pam_obj_ipod_light_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pam_obj_ipod_light_Diffuse#1
+			{
+				texture pam_obj_ipod_screen_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_ipod_light_Normal#2
+			{
+				texture pam_obj_ipod_screen_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pam_obj_ipod_light_basic_technique
+	{
+	scheme basic_mat
+		pass pam_obj_ipod_light_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pam_obj_ipod_light_Diffuse#3
+			{
+				texture pam_obj_ipod_screen_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pam_obj_ipod_electric"
+{
+	technique pam_obj_ipod_electric_technique
+	{
+		pass pam_obj_ipod_electric_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pam_obj_ipod_electric_Diffuse#0
+			{
+				texture pam_obj_ipod_electric_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pam_obj_ipod_electric_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pam_obj_ipod_electric_Diffuse#1
+			{
+				texture pam_obj_ipod_electric_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_ipod_electric_Specular#2
+			{
+				texture pam_obj_ipod_electric_spc.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_ipod_electric_Normal#3
+			{
+				texture pam_obj_ipod_electric_ems.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pam_obj_ipod_electric_basic_technique
+	{
+	scheme basic_mat
+		pass pam_obj_ipod_electric_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pam_obj_ipod_electric_Diffuse#4
+			{
+				texture pam_obj_ipod_electric_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pam_obj_ipod_monitor"
+{
+	technique pam_obj_ipod_monitor_technique
+	{
+		pass pam_obj_ipod_monitor_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pam_obj_ipod_monitor_Diffuse#0
+			{
+				texture pam_obj_ipod_sline_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pam_obj_ipod_monitor_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pam_obj_ipod_monitor_Diffuse#1
+			{
+				texture pam_obj_ipod_sline_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pam_obj_ipod_monitor_Normal#2
+			{
+				texture pam_obj_ipod_sline_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pam_obj_ipod_monitor_basic_technique
+	{
+	scheme basic_mat
+		pass pam_obj_ipod_monitor_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pam_obj_ipod_monitor_Diffuse#3
+			{
+				texture pam_obj_ipod_sline_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pam_obj_ipod_glass"
+{
+	technique pam_obj_ipod_glass_technique
+	{
+		pass pam_obj_ipod_glass_standard
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pam_obj_ipod_glass_Reflect#0
+			{
+				texture pam_obj_ipod_glass_ref.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map planar
+			}
+		}
+	}
+}
+material "missiongate"
+{
+	technique missiongate_technique
+	{
+		pass missiongate_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit missiongate_Diffuse#0
+			{
+				texture pam_obj_nh1_soundbell01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass missiongate_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit missiongate_Diffuse#1
+			{
+				texture pam_obj_nh1_soundbell01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit missiongate_Specular#2
+			{
+				texture pam_obj_nh1_soundbell01_spc.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit missiongate_Normal#3
+			{
+				texture pam_obj_nh1_soundbell01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique missiongate_basic_technique
+	{
+	scheme basic_mat
+		pass missiongate_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit missiongate_Diffuse#4
+			{
+				texture pam_obj_nh1_soundbell01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "missiongate_1"
+{
+	technique missiongate_1_technique
+	{
+		pass missiongate_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit missiongate_1_Diffuse#0
+			{
+				texture pam_obj_nh1_soundbell01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass missiongate_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit missiongate_1_Diffuse#1
+			{
+				texture pam_obj_nh1_soundbell01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit missiongate_1_Specular#2
+			{
+				texture pam_obj_nh1_soundbell01_spc.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit missiongate_1_Normal#3
+			{
+				texture pam_obj_nh1_soundbell01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique missiongate_1_basic_technique
+	{
+	scheme basic_mat
+		pass missiongate_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit missiongate_1_Diffuse#4
+			{
+				texture pam_obj_nh1_soundbell01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

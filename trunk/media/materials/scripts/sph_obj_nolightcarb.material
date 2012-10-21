@@ -1,0 +1,867 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "sph_obj_yr1_beetle01"
+{
+	technique sph_obj_yr1_beetle01_technique
+	{
+		pass sph_obj_yr1_beetle01_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit sph_obj_yr1_beetle01_Diffuse#0
+			{
+				texture sph_obj_yr1_beetle01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass sph_obj_yr1_beetle01_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit sph_obj_yr1_beetle01_Diffuse#1
+			{
+				texture sph_obj_yr1_beetle01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit sph_obj_yr1_beetle01_Specular#2
+			{
+				texture sph_obj_yr1_beetle01_spc.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit sph_obj_yr1_beetle01_Normal#3
+			{
+				texture sph_obj_yr1_beetle01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique sph_obj_yr1_beetle01_basic_technique
+	{
+	scheme basic_mat
+		pass sph_obj_yr1_beetle01_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sph_obj_yr1_beetle01_Diffuse#4
+			{
+				texture sph_obj_yr1_beetle01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sph_obj_yr1_chassis"
+{
+	technique sph_obj_yr1_chassis_technique
+	{
+		pass sph_obj_yr1_chassis_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sph_obj_yr1_chassis_Diffuse#0
+			{
+				texture sph_metal_km1_chassis_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sph_obj_yr1_beetle01_backlight"
+{
+	technique sph_obj_yr1_beetle01_backlight_technique
+	{
+		pass sph_obj_yr1_beetle01_backlight_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit sph_obj_yr1_beetle01_backlight_Diffuse#0
+			{
+				texture sph_obj_yr1_beetle01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass sph_obj_yr1_beetle01_backlight_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit sph_obj_yr1_beetle01_backlight_Diffuse#1
+			{
+				texture sph_obj_yr1_beetle01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit sph_obj_yr1_beetle01_backlight_Normal#2
+			{
+				texture sph_obj_yr1_beetle01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique sph_obj_yr1_beetle01_backlight_basic_technique
+	{
+	scheme basic_mat
+		pass sph_obj_yr1_beetle01_backlight_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sph_obj_yr1_beetle01_backlight_Diffuse#3
+			{
+				texture sph_obj_yr1_beetle01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sph_obj_yr1_wheel01"
+{
+	technique sph_obj_yr1_wheel01_technique
+	{
+		pass sph_obj_yr1_wheel01_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit sph_obj_yr1_wheel01_Diffuse#0
+			{
+				texture sph_metal_km1_wheel01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass sph_obj_yr1_wheel01_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit sph_obj_yr1_wheel01_Diffuse#1
+			{
+				texture sph_metal_km1_wheel01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit sph_obj_yr1_wheel01_Normal#2
+			{
+				texture sph_metal_km1_wheel01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique sph_obj_yr1_wheel01_basic_technique
+	{
+	scheme basic_mat
+		pass sph_obj_yr1_wheel01_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sph_obj_yr1_wheel01_Diffuse#3
+			{
+				texture sph_metal_km1_wheel01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sph_obj_yr1_wheel02"
+{
+	technique sph_obj_yr1_wheel02_technique
+	{
+		pass sph_obj_yr1_wheel02_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit sph_obj_yr1_wheel02_Diffuse#0
+			{
+				texture sph_metal_km1_wheel02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass sph_obj_yr1_wheel02_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit sph_obj_yr1_wheel02_Diffuse#1
+			{
+				texture sph_metal_km1_wheel02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit sph_obj_yr1_wheel02_Specular#2
+			{
+				texture sph_metal_km1_wheel02_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit sph_obj_yr1_wheel02_Normal#3
+			{
+				texture sph_metal_km1_wheel02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique sph_obj_yr1_wheel02_basic_technique
+	{
+	scheme basic_mat
+		pass sph_obj_yr1_wheel02_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sph_obj_yr1_wheel02_Diffuse#4
+			{
+				texture sph_metal_km1_wheel02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sph_obj_yr1_publica01"
+{
+	technique sph_obj_yr1_publica01_technique
+	{
+		pass sph_obj_yr1_publica01_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit sph_obj_yr1_publica01_Diffuse#0
+			{
+				texture sph_obj_yr1_publica01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass sph_obj_yr1_publica01_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit sph_obj_yr1_publica01_Diffuse#1
+			{
+				texture sph_obj_yr1_publica01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit sph_obj_yr1_publica01_Specular#2
+			{
+				texture sph_obj_yr1_publica01_spc.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit sph_obj_yr1_publica01_Normal#3
+			{
+				texture sph_obj_yr1_publica01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique sph_obj_yr1_publica01_basic_technique
+	{
+	scheme basic_mat
+		pass sph_obj_yr1_publica01_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sph_obj_yr1_publica01_Diffuse#4
+			{
+				texture sph_obj_yr1_publica01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sph_obj_yr1_chassis_1"
+{
+	technique sph_obj_yr1_chassis_1_technique
+	{
+		pass sph_obj_yr1_chassis_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sph_obj_yr1_chassis_1_Diffuse#0
+			{
+				texture sph_metal_km1_chassis_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sph_obj_yr1_publica01_backlight"
+{
+	technique sph_obj_yr1_publica01_backlight_technique
+	{
+		pass sph_obj_yr1_publica01_backlight_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit sph_obj_yr1_publica01_backlight_Diffuse#0
+			{
+				texture sph_obj_yr1_publica01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass sph_obj_yr1_publica01_backlight_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit sph_obj_yr1_publica01_backlight_Diffuse#1
+			{
+				texture sph_obj_yr1_publica01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit sph_obj_yr1_publica01_backlight_Normal#2
+			{
+				texture sph_obj_yr1_publica01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique sph_obj_yr1_publica01_backlight_basic_technique
+	{
+	scheme basic_mat
+		pass sph_obj_yr1_publica01_backlight_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sph_obj_yr1_publica01_backlight_Diffuse#3
+			{
+				texture sph_obj_yr1_publica01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sph_obj_yr1_wheel01_1"
+{
+	technique sph_obj_yr1_wheel01_1_technique
+	{
+		pass sph_obj_yr1_wheel01_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit sph_obj_yr1_wheel01_1_Diffuse#0
+			{
+				texture sph_metal_km1_wheel01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass sph_obj_yr1_wheel01_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit sph_obj_yr1_wheel01_1_Diffuse#1
+			{
+				texture sph_metal_km1_wheel01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit sph_obj_yr1_wheel01_1_Normal#2
+			{
+				texture sph_metal_km1_wheel01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique sph_obj_yr1_wheel01_1_basic_technique
+	{
+	scheme basic_mat
+		pass sph_obj_yr1_wheel01_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sph_obj_yr1_wheel01_1_Diffuse#3
+			{
+				texture sph_metal_km1_wheel01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "sph_obj_yr1_wheel02_1"
+{
+	technique sph_obj_yr1_wheel02_1_technique
+	{
+		pass sph_obj_yr1_wheel02_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit sph_obj_yr1_wheel02_1_Diffuse#0
+			{
+				texture sph_metal_km1_wheel02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass sph_obj_yr1_wheel02_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit sph_obj_yr1_wheel02_1_Diffuse#1
+			{
+				texture sph_metal_km1_wheel02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit sph_obj_yr1_wheel02_1_Specular#2
+			{
+				texture sph_metal_km1_wheel02_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit sph_obj_yr1_wheel02_1_Normal#3
+			{
+				texture sph_metal_km1_wheel02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique sph_obj_yr1_wheel02_1_basic_technique
+	{
+	scheme basic_mat
+		pass sph_obj_yr1_wheel02_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sph_obj_yr1_wheel02_1_Diffuse#4
+			{
+				texture sph_metal_km1_wheel02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

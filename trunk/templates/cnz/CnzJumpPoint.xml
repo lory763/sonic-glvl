@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<CnzJumpPoint>
+    <AimDirection>double:0</AimDirection>
+    <DebugShotTimeLength>double:2</DebugShotTimeLength>
+    <FirstSpeed>double:13.4</FirstSpeed>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsChangeCameraWhenPathChange>bool:false</IsChangeCameraWhenPathChange>
+    <IsPathChange>bool:false</IsPathChange>
+    <IsStartVelocityConstant>bool:true</IsStartVelocityConstant>
+    <IsWallWalk>bool:false</IsWallWalk>
+    <IsYawUpdate>bool:false</IsYawUpdate>
+    <KeepVelocityDistance>double:4.2</KeepVelocityDistance>
+    <OutOfControl>double:1.32</OutOfControl>
+    <Position>
+        <x>double:-9.48771</x>
+        <y>double:14.1474</y>
+        <z>double:-9.79351</z>
+    </Position>
+    <Range>double:50</Range>
+    <Rotation>
+        <w>double:0.992328</w>
+        <x>double:-0.078098</x>
+        <y>double:-0.01085</y>
+        <z>double:-0.09523</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <m_FlipperJumpCollisionSize>double:1</m_FlipperJumpCollisionSize>
+    <m_IsConstantFrame>bool:false</m_IsConstantFrame>
+    <m_IsConstantPosition>bool:true</m_IsConstantPosition>
+    <m_IsFlipperJump>bool:false</m_IsFlipperJump>
+    <m_IsHideSpring>bool:false</m_IsHideSpring>
+    <m_IsMonkeyHunting>bool:false</m_IsMonkeyHunting>
+    <m_IsStopBoost>bool:false</m_IsStopBoost>
+    <m_IsTo3D>bool:false</m_IsTo3D>
+    <m_MonkeyTarget>vector3</m_MonkeyTarget>
+    <Mesh>collision.mesh</Mesh>
+</CnzJumpPoint>

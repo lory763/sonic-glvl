@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<CnzBall>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Mass>double:50</Mass>
+    <Position>
+        <x>double:6.95</x>
+        <y>double:17.8261</y>
+        <z>double:9.65</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SpinDashSpeed>double:65</SpinDashSpeed>
+    <TiltSpeed>double:0.1</TiltSpeed>
+    <Mesh>unknown.mesh</Mesh>
+</CnzBall>

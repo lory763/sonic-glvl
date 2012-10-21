@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<SszRollingFloorClassic>
+    <AttachOffsetX>double:0</AttachOffsetX>
+    <AttachOffsetY>double:0</AttachOffsetY>
+    <AttachOffsetZ>double:0</AttachOffsetZ>
+    <AttachTarget>list</AttachTarget>
+    <CameraID_0>id</CameraID_0>
+    <EnterEaseTime_0>double:0</EnterEaseTime_0>
+    <FloorType>double:0</FloorType>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsMessageOn>bool:false</IsMessageOn>
+    <LeaveEaseTime_0>double:0</LeaveEaseTime_0>
+    <Phase>double:0</Phase>
+    <PoleType>double:2</PoleType>
+    <Position>
+        <x>double:121.682</x>
+        <y>double:-31.1394</y>
+        <z>double:-137.016</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.923865</w>
+        <x>double:0</x>
+        <y>double:0.382718</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Speed>double:0.6</Speed>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>FloorType==0</Condition>
+       <Mesh>ssz_obj_rollingfloor_floorA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>FloorType==1</Condition>
+       <Mesh>ssz_obj_rollingfloor_floorB.mesh</Mesh>
+    </AltMesh>
+</SszRollingFloorClassic>

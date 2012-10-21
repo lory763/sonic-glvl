@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<BpcArmTest>
+    <DebugPointClear>bool:false</DebugPointClear>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <MoveTotalTime>double:3</MoveTotalTime>
+    <PathIsAccel>double:0</PathIsAccel>
+    <PathIsBezier>double:1</PathIsBezier>
+    <PathPointMoveRelative>bool:true</PathPointMoveRelative>
+    <Path_IsLoop>bool:false</Path_IsLoop>
+    <Position>
+        <x>double:-89.6736</x>
+        <y>double:-1.96886</y>
+        <z>double:-9.12957</z>
+    </Position>
+    <PositionList>
+        <Position0>vector3</Position0>
+        <Position1>vector3</Position1>
+        <Position2>vector3</Position2>
+        <Position3>vector3</Position3>
+        <Position4>vector3</Position4>
+        <Position5>vector3</Position5>
+        <Position6>vector3</Position6>
+        <Position7>vector3</Position7>
+        <Position8>vector3</Position8>
+        <Position10>vector3</Position10>
+        <Position11>vector3</Position11>
+        <Position9>vector3</Position9>
+        <Position12>vector3</Position12>
+        <Position13>vector3</Position13>
+        <Position14>vector3</Position14>
+        <Position15>vector3</Position15>
+        <Position16>vector3</Position16>
+        <Position17>vector3</Position17>
+    </PositionList>
+    <Range>double:1000</Range>
+    <ReductionScale>double:0.01</ReductionScale>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Vel1D>double:10</Vel1D>
+    <Mesh>unknown.mesh</Mesh>
+</BpcArmTest>

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<BpcFloor>
+    <Amplitude>double:0</Amplitude>
+    <AttachOffsetX>double:0</AttachOffsetX>
+    <AttachOffsetY>double:0</AttachOffsetY>
+    <AttachOffsetZ>double:0</AttachOffsetZ>
+    <AttachTarget>id</AttachTarget>
+    <BeginEdge>bool:false</BeginEdge>
+    <Cycle>double:0</Cycle>
+    <DebrisTarget>vector3</DebrisTarget>
+    <DelayUpNotify>double:0</DelayUpNotify>
+    <FloorType>double:2</FloorType>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAlreadyUp>bool:false</IsAlreadyUp>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsIgnoreStageEvent>bool:false</IsIgnoreStageEvent>
+    <IsUseWaterPillar>bool:false</IsUseWaterPillar>
+    <Phase>double:0</Phase>
+    <Position>
+        <x>double:237.632</x>
+        <y>double:-2.2</y>
+        <z>double:305.968</z>
+    </Position>
+    <Range>double:100</Range>
+    <Ratio>double:0</Ratio>
+    <RecoveryTime>double:3</RecoveryTime>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <WaterEffectSurfaceOffset>double:-1.2</WaterEffectSurfaceOffset>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>FloorType==0</Condition>
+       <Mesh>bpc_obj_roadA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>FloorType==1</Condition>
+       <Mesh>bpc_obj_roadB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>FloorType==2</Condition>
+       <Mesh>bpc_obj_roadC.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>FloorType==3</Condition>
+       <Mesh>bpc_obj_roadC.mesh</Mesh>
+    </AltMesh>
+</BpcFloor>

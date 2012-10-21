@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<RivalShadow>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:-10.2738</x>
+        <y>double:0</y>
+        <z>double:1.90415</z>
+    </Position>
+    <Range>double:100000</Range>
+    <Rotation>
+        <w>double:-0.707107</w>
+        <x>double:0</x>
+        <y>double:-0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>chr_Shadow_HD.mesh</Mesh>
+</RivalShadow>

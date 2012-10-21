@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<BpcControlCollision>
+    <BeamTarget>vector3</BeamTarget>
+    <Collision_Height>double:24</Collision_Height>
+    <Collision_Width>double:24</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsForce>bool:true</IsForce>
+    <IsOnce>bool:false</IsOnce>
+    <Position>
+        <x>double:-219.899</x>
+        <y>double:14.9878</y>
+        <z>double:-83.2788</z>
+    </Position>
+    <Range>double:100</Range>
+    <RotValue>double:260</RotValue>
+    <Rotation>
+        <w>double:0.540107</w>
+        <x>double:-0.55285</x>
+        <y>double:0.443426</y>
+        <z>double:0.453888</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>double:0</Type>
+    <Mesh>collision.mesh</Mesh>
+</BpcControlCollision>

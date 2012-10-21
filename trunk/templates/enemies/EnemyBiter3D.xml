@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<EnemyBiter3D>
+    <ActionRange>double:100</ActionRange>
+    <AttackRange>double:10</AttackRange>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:false</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:false</IsDamageFromOnlyPlayer>
+    <IsMessageOn>bool:false</IsMessageOn>
+    <IsPlayFindMotion>bool:true</IsPlayFindMotion>
+    <MoveSpeed>double:5</MoveSpeed>
+    <MoveType>double:0</MoveType>
+    <Position>
+        <x>double:-308.1</x>
+        <y>double:163.5</y>
+        <z>double:464.8</z>
+    </Position>
+    <Range>double:100</Range>
+    <ReadyTime>double:1</ReadyTime>
+    <Rotation>
+        <w>double:0.984808</w>
+        <x>double:0</x>
+        <y>double:-0.173648</y>
+        <z>double:0</z>
+    </Rotation>
+    <SearchType>double:0</SearchType>
+    <SetObjectID>integer</SetObjectID>
+    <Target>vector3</Target>
+    <WayPointA>vector3</WayPointA>
+    <WayPointB>vector3</WayPointB>
+    <Mesh>enm_biter_HD.mesh</Mesh>
+</EnemyBiter3D>

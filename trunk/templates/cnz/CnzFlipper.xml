@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<CnzFlipper>
+    <FlipAngleRate>double:0.8</FlipAngleRate>
+    <FlipperType>double:0</FlipperType>
+    <Friction>double:250</Friction>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:-1.93776</x>
+        <y>double:-5.44451</y>
+        <z>double:10.479</z>
+    </Position>
+    <Range>double:50</Range>
+    <RelatedJumper_RelationSetObject>
+        <SetObjectID>integer</SetObjectID>
+    </RelatedJumper_RelationSetObject>
+    <Restitution>double:1.4</Restitution>
+    <Rotation>
+        <w>double:0.964276</w>
+        <x>double:0.213775</x>
+        <y>double:-0.152726</y>
+        <z>double:-0.033859</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SignOffsetInX>double:0</SignOffsetInX>
+    <SignOffsetInY>double:0</SignOffsetInY>
+    <SignOffsetInZ>double:0</SignOffsetInZ>
+    <SignRadiusInX>double:0</SignRadiusInX>
+    <SignRadiusInY>double:0</SignRadiusInY>
+    <SignRadiusInZ>double:0</SignRadiusInZ>
+    <m_IsBaseFlipper>bool:false</m_IsBaseFlipper>
+    <Mesh>unknown.mesh</Mesh>
+</CnzFlipper>

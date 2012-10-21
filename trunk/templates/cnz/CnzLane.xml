@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<CnzLane>
+    <Friction>double:0</Friction>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:6.81556</x>
+        <y>double:0.271376</y>
+        <z>double:0.801035</z>
+    </Position>
+    <Range>double:50</Range>
+    <Restitution>double:1</Restitution>
+    <Rotation>
+        <w>double:0.979925</w>
+        <x>double:0.199368</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Speed>double:1</Speed>
+    <Mesh>unknown.mesh</Mesh>
+</CnzLane>

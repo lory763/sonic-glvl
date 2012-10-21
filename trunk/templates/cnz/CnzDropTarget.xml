@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<CnzDropTarget>
+    <Friction>double:0</Friction>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Length>double:1</Length>
+    <Position>
+        <x>double:-5.10228</x>
+        <y>double:-4.14119</y>
+        <z>double:6.48302</z>
+    </Position>
+    <Range>double:100</Range>
+    <Restitution>double:1</Restitution>
+    <Rotation>
+        <w>double:-0.692911</w>
+        <x>double:-0.140974</x>
+        <y>double:-0.692911</y>
+        <z>double:-0.140974</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>collision.mesh</Mesh>
+</CnzDropTarget>

@@ -1,0 +1,1073 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "bne_metal_nl5_hole2k_Lum"
+{
+	technique bne_metal_nl5_hole2k_Lum_technique
+	{
+		pass bne_metal_nl5_hole2k_Lum_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bne_metal_nl5_hole2k_Lum_Diffuse#0
+			{
+				texture Bne_metal_nl5_hole2K_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bne_metal_nl5_hole2k_Lum_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bne_metal_nl5_hole2k_Lum_Diffuse#1
+			{
+				texture Bne_metal_nl5_hole2K_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_hole2k_Lum_Specular#2
+			{
+				texture Bne_metal_nl5_hole2K_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_hole2k_Lum_Normal#3
+			{
+				texture Bne_metal_nl5_hole2K_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bne_metal_nl5_hole2k_Lum_basic_technique
+	{
+	scheme basic_mat
+		pass bne_metal_nl5_hole2k_Lum_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bne_metal_nl5_hole2k_Lum_Diffuse#4
+			{
+				texture Bne_metal_nl5_hole2K_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "Bne_metal_nl5_pillarA04_Lum"
+{
+	technique Bne_metal_nl5_pillarA04_Lum_technique
+	{
+		pass Bne_metal_nl5_pillarA04_Lum_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit Bne_metal_nl5_pillarA04_Lum_Diffuse#0
+			{
+				texture Bne_metal_nl5_pillarA04_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass Bne_metal_nl5_pillarA04_Lum_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit Bne_metal_nl5_pillarA04_Lum_Diffuse#1
+			{
+				texture Bne_metal_nl5_pillarA04_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit Bne_metal_nl5_pillarA04_Lum_Specular#2
+			{
+				texture Bne_metal_nl5_pillarA04_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit Bne_metal_nl5_pillarA04_Lum_Normal#3
+			{
+				texture Bne_metal_nl5_pillarA04_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique Bne_metal_nl5_pillarA04_Lum_basic_technique
+	{
+	scheme basic_mat
+		pass Bne_metal_nl5_pillarA04_Lum_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit Bne_metal_nl5_pillarA04_Lum_Diffuse#4
+			{
+				texture Bne_metal_nl5_pillarA04_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bne_metal_nl5_hole2g_Com"
+{
+	technique bne_metal_nl5_hole2g_Com_technique
+	{
+		pass bne_metal_nl5_hole2g_Com_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bne_metal_nl5_hole2g_Com_Diffuse#0
+			{
+				texture Bne_metal_nl5_hole2G_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bne_metal_nl5_hole2g_Com_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bne_metal_nl5_hole2g_Com_Diffuse#1
+			{
+				texture Bne_metal_nl5_hole2G_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_hole2g_Com_Specular#2
+			{
+				texture Bne_metal_nl5_hole2G_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_hole2g_Com_Normal#3
+			{
+				texture Bne_metal_nl5_hole2G_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bne_metal_nl5_hole2g_Com_basic_technique
+	{
+	scheme basic_mat
+		pass bne_metal_nl5_hole2g_Com_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bne_metal_nl5_hole2g_Com_Diffuse#4
+			{
+				texture Bne_metal_nl5_hole2G_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bne_metal_nl5_hole2f_Com"
+{
+	technique bne_metal_nl5_hole2f_Com_technique
+	{
+		pass bne_metal_nl5_hole2f_Com_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bne_metal_nl5_hole2f_Com_Diffuse#0
+			{
+				texture Bne_metal_nl5_hole2F_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bne_metal_nl5_hole2f_Com_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bne_metal_nl5_hole2f_Com_Diffuse#1
+			{
+				texture Bne_metal_nl5_hole2F_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_hole2f_Com_Specular#2
+			{
+				texture Bne_metal_nl5_hole2F_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_hole2f_Com_Normal#3
+			{
+				texture Bne_metal_nl5_hole2F_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bne_metal_nl5_hole2f_Com_basic_technique
+	{
+	scheme basic_mat
+		pass bne_metal_nl5_hole2f_Com_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bne_metal_nl5_hole2f_Com_Diffuse#4
+			{
+				texture Bne_metal_nl5_hole2F_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bne_metal_nl5_hole2a_Com"
+{
+	technique bne_metal_nl5_hole2a_Com_technique
+	{
+		pass bne_metal_nl5_hole2a_Com_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bne_metal_nl5_hole2a_Com_Diffuse#0
+			{
+				texture Bne_metal_nl5_hole2A_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bne_metal_nl5_hole2a_Com_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bne_metal_nl5_hole2a_Com_Diffuse#1
+			{
+				texture Bne_metal_nl5_hole2A_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_hole2a_Com_Specular#2
+			{
+				texture Bne_metal_nl5_hole2A_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_hole2a_Com_Normal#3
+			{
+				texture Bne_metal_nl5_hole2A_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bne_metal_nl5_hole2a_Com_basic_technique
+	{
+	scheme basic_mat
+		pass bne_metal_nl5_hole2a_Com_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bne_metal_nl5_hole2a_Com_Diffuse#4
+			{
+				texture Bne_metal_nl5_hole2A_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bne_metal_nl2_lightwall01_Lum"
+{
+	technique bne_metal_nl2_lightwall01_Lum_technique
+	{
+		pass bne_metal_nl2_lightwall01_Lum_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bne_metal_nl2_lightwall01_Lum_Diffuse#0
+			{
+				texture bne_metal_nl2_lightwall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bne_metal_nl2_lightwall01_Lum_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bne_metal_nl2_lightwall01_Lum_Diffuse#1
+			{
+				texture bne_metal_nl2_lightwall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl2_lightwall01_Lum_Specular#2
+			{
+				texture bne_metal_nl2_lightwall01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl2_lightwall01_Lum_Normal#3
+			{
+				texture bne_metal_nl2_lightwall01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bne_metal_nl2_lightwall01_Lum_basic_technique
+	{
+	scheme basic_mat
+		pass bne_metal_nl2_lightwall01_Lum_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bne_metal_nl2_lightwall01_Lum_Diffuse#4
+			{
+				texture bne_metal_nl2_lightwall01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bne_metal_nl5_hole2d_Lum"
+{
+	technique bne_metal_nl5_hole2d_Lum_technique
+	{
+		pass bne_metal_nl5_hole2d_Lum_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bne_metal_nl5_hole2d_Lum_Diffuse#0
+			{
+				texture bne_metal_nl5_hole2d_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bne_metal_nl5_hole2d_Lum_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bne_metal_nl5_hole2d_Lum_Diffuse#1
+			{
+				texture bne_metal_nl5_hole2d_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_hole2d_Lum_Specular#2
+			{
+				texture Bne_metal_nl5_hole2D_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_hole2d_Lum_Normal#3
+			{
+				texture Bne_metal_nl5_hole2D_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bne_metal_nl5_hole2d_Lum_basic_technique
+	{
+	scheme basic_mat
+		pass bne_metal_nl5_hole2d_Lum_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bne_metal_nl5_hole2d_Lum_Diffuse#4
+			{
+				texture bne_metal_nl5_hole2d_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bne_metal_nl5_pillara03_Com"
+{
+	technique bne_metal_nl5_pillara03_Com_technique
+	{
+		pass bne_metal_nl5_pillara03_Com_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bne_metal_nl5_pillara03_Com_Diffuse#0
+			{
+				texture Bne_metal_nl5_pillarA03_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bne_metal_nl5_pillara03_Com_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bne_metal_nl5_pillara03_Com_Diffuse#1
+			{
+				texture Bne_metal_nl5_pillarA03_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_pillara03_Com_Specular#2
+			{
+				texture Bne_metal_nl5_pillarA03_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_pillara03_Com_Normal#3
+			{
+				texture Bne_metal_nl5_pillarA03_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bne_metal_nl5_pillara03_Com_basic_technique
+	{
+	scheme basic_mat
+		pass bne_metal_nl5_pillara03_Com_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bne_metal_nl5_pillara03_Com_Diffuse#4
+			{
+				texture Bne_metal_nl5_pillarA03_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bne_metal_nl5_hole2j_Com"
+{
+	technique bne_metal_nl5_hole2j_Com_technique
+	{
+		pass bne_metal_nl5_hole2j_Com_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bne_metal_nl5_hole2j_Com_Diffuse#0
+			{
+				texture bne_metal_nl5_hole2j_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bne_metal_nl5_hole2j_Com_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bne_metal_nl5_hole2j_Com_Diffuse#1
+			{
+				texture bne_metal_nl5_hole2j_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_hole2j_Com_Specular#2
+			{
+				texture Bne_metal_nl5_hole2J_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bne_metal_nl5_hole2j_Com_Normal#3
+			{
+				texture Bne_metal_nl5_hole2J_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bne_metal_nl5_hole2j_Com_basic_technique
+	{
+	scheme basic_mat
+		pass bne_metal_nl5_hole2j_Com_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bne_metal_nl5_hole2j_Com_Diffuse#4
+			{
+				texture bne_metal_nl5_hole2j_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "Bne_metal_nl4_fanB_dif_Com"
+{
+	technique Bne_metal_nl4_fanB_dif_Com_technique
+	{
+		pass Bne_metal_nl4_fanB_dif_Com_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit Bne_metal_nl4_fanB_dif_Com_Diffuse#0
+			{
+				texture bne_metal_nl4_fanB_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass Bne_metal_nl4_fanB_dif_Com_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit Bne_metal_nl4_fanB_dif_Com_Diffuse#1
+			{
+				texture bne_metal_nl4_fanB_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit Bne_metal_nl4_fanB_dif_Com_Specular#2
+			{
+				texture bne_metal_nl4_fanB_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit Bne_metal_nl4_fanB_dif_Com_Normal#3
+			{
+				texture bne_metal_nl4_fanB_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique Bne_metal_nl4_fanB_dif_Com_basic_technique
+	{
+	scheme basic_mat
+		pass Bne_metal_nl4_fanB_dif_Com_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit Bne_metal_nl4_fanB_dif_Com_Diffuse#4
+			{
+				texture bne_metal_nl4_fanB_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<RivalShadowObjEnergyCoreClearCollision>
+    <Collision_Height>double:30</Collision_Height>
+    <Collision_Width>double:42</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:-119.317</x>
+        <y>double:10.6377</y>
+        <z>double:2.58651</z>
+    </Position>
+    <Range>double:30000</Range>
+    <Rotation>
+        <w>double:0.69811</w>
+        <x>double:-0.00154498</x>
+        <y>double:0.715989</y>
+        <z>double:0.000202388</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>collision.mesh</Mesh>
+</RivalShadowObjEnergyCoreClearCollision>

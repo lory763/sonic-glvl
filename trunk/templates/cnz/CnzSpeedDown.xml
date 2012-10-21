@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<CnzSpeedDown>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <MinSpeed>double:4</MinSpeed>
+    <Position>
+        <x>double:3.31764</x>
+        <y>double:-5.17225</y>
+        <z>double:9.48532</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.953974</w>
+        <x>double:0.211421</x>
+        <y>double:0.208689</y>
+        <z>double:0.041007</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SizeX>double:1.7</SizeX>
+    <SizeY>double:0.5</SizeY>
+    <SizeZ>double:0.2</SizeZ>
+    <SpeedDownRate>double:0.970999</SpeedDownRate>
+    <Mesh>collision.mesh</Mesh>
+    <PreviewScaleX multiplier="1.0">SizeX</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">SizeY</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">SizeZ</PreviewScaleZ>
+</CnzSpeedDown>

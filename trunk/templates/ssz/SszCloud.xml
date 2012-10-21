@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<SszCloud>
+    <AimDirection>double:0</AimDirection>
+    <Attenuation>double:0.5</Attenuation>
+    <CatchTime>double:0.2</CatchTime>
+    <FirstSpeed>double:24</FirstSpeed>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsVisible>bool:true</IsVisible>
+    <IsYawUpdate>bool:false</IsYawUpdate>
+    <KeepVelocityDistance>double:0</KeepVelocityDistance>
+    <LifeTime>double:0</LifeTime>
+    <OutOfControl>double:0</OutOfControl>
+    <Position>
+        <x>double:559.249</x>
+        <y>double:-278.057</y>
+        <z>double:8.70382</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Size>double:2</Size>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>Size==0</Condition>
+       <Mesh>ssz_obj_cloudA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Size==1</Condition>
+       <Mesh>ssz_obj_cloudB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Size==2</Condition>
+       <Mesh>ssz_obj_cloudC.mesh</Mesh>
+    </AltMesh>
+
+</SszCloud>

@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<CscFloatFloor>
+    <Accele>double:0</Accele>
+    <Amplitude>double:1.5</Amplitude>
+    <AmplitudeAngle>double:3</AmplitudeAngle>
+    <AmplitudeTime>double:5</AmplitudeTime>
+    <AttachOffsetX>double:0</AttachOffsetX>
+    <AttachOffsetY>double:0</AttachOffsetY>
+    <AttachOffsetZ>double:0</AttachOffsetZ>
+    <AttachTarget />
+    <BeginEdge>bool:false</BeginEdge>
+    <BootType>double:0</BootType>
+    <Cycle>double:0.2</Cycle>
+    <DebugPointClear>bool:false</DebugPointClear>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <ModelType>double:5</ModelType>
+    <MoveType>double:0</MoveType>
+    <PathIsAccel>double:0</PathIsAccel>
+    <PathIsBezier>double:1</PathIsBezier>
+    <PathMoveType>double:0</PathMoveType>
+    <PathPointMoveRelative>bool:true</PathPointMoveRelative>
+    <Path_IsLoop>bool:false</Path_IsLoop>
+    <Phase>double:0</Phase>
+    <PillarType>double:0</PillarType>
+    <Position>
+        <x>double:1423</x>
+        <y>double:302</y>
+        <z>double:202</z>
+    </Position>
+    <PositionList />
+    <Range>double:100</Range>
+    <Ratio>double:0</Ratio>
+    <Rotation>
+        <w>double:0.199368</w>
+        <x>double:2.17305e-011</x>
+        <y>double:-0.979924</y>
+        <z>double:-1.06809e-010</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Vel1D>double:10</Vel1D>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>ModelType==0</Condition>
+       <Mesh>csc_obj_floar_floorA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>ModelType==1</Condition>
+       <Mesh>csc_obj_floar_floorB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>ModelType==2</Condition>
+       <Mesh>csc_obj_floar_floorC.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>ModelType==3</Condition>
+       <Mesh>csc_obj_floar_floorD.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>ModelType==4</Condition>
+       <Mesh>csc_obj_floar_floorE.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>ModelType==5</Condition>
+       <Mesh>csc_obj_floar_floorF.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>ModelType==6</Condition>
+       <Mesh>csc_obj_floar_floorG.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>ModelType==7</Condition>
+       <Mesh>csc_obj_floar_floorH.mesh</Mesh>
+    </AltMesh>
+</CscFloatFloor>

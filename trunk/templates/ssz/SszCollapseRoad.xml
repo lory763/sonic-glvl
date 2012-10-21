@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<SszCollapseRoad>
+    <CollapseTimeSpan>double:0.14</CollapseTimeSpan>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:128.675</x>
+        <y>double:92.9009</y>
+        <z>double:-522.14</z>
+    </Position>
+    <Range>double:100</Range>
+    <RigidBodyCollapseWaitTime>double:0.3</RigidBodyCollapseWaitTime>
+    <RoadType>double:1</RoadType>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</SszCollapseRoad>

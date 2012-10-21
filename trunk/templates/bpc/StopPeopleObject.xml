@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<StopPeopleObject>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsStopEnemy>bool:false</IsStopEnemy>
+    <IsStopPlayer>bool:true</IsStopPlayer>
+    <Position>
+        <x>double:2004.21</x>
+        <y>double:13.4</y>
+        <z>double:282.215</z>
+    </Position>
+    <Range>double:1000</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <StopTime>double:1</StopTime>
+    <Mesh>collision.mesh</Mesh>
+</StopPeopleObject>

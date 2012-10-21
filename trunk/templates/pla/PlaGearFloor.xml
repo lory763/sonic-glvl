@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<PlaGearFloor>
+    <Accel0>double:1</Accel0>
+    <Accel1>double:5</Accel1>
+    <Accel2>double:1</Accel2>
+    <AccelEnd0>double:0.1</AccelEnd0>
+    <AccelEnd1>double:3.2</AccelEnd1>
+    <AccelEnd2>double:0.1</AccelEnd2>
+    <AccelStart0>double:0</AccelStart0>
+    <AccelStart1>double:9</AccelStart1>
+    <AccelStart2>double:0</AccelStart2>
+    <AccelType0>double:0</AccelType0>
+    <AccelType1>double:0</AccelType1>
+    <AccelType2>double:0</AccelType2>
+    <EndStoper>bool:true</EndStoper>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <LeftRight>double:0</LeftRight>
+    <Position>
+        <x>double:381.485</x>
+        <y>double:-7.98892</y>
+        <z>double:-1.5</z>
+    </Position>
+    <Range>double:30</Range>
+    <ReverseStart>bool:true</ReverseStart>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:-0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SizeType>double:0</SizeType>
+    <StartPos>double:17.5044</StartPos>
+    <StartStoper>bool:true</StartStoper>
+    <endAddVel>double:5</endAddVel>
+    <pathID>double:6</pathID>
+    <startAddVel>double:5</startAddVel>
+    <Mesh>unknown.mesh</Mesh>
+</PlaGearFloor>

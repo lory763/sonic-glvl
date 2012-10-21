@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<CnzScore>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:3.927</x>
+        <y>double:5.72079</y>
+        <z>double:-2.1937</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.919638</w>
+        <x>double:0.380889</x>
+        <y>double:0.0892899</y>
+        <z>double:0.034847</z>
+    </Rotation>
+    <Score>double:200</Score>
+    <SetObjectID>integer</SetObjectID>
+    <SizeX>double:1.5</SizeX>
+    <SizeY>double:1.4</SizeY>
+    <SizeZ>double:0.3</SizeZ>
+    <Mesh>collision.mesh</Mesh>
+    <PreviewScaleX multiplier="1.0">SizeX</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">SizeY</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">SizeZ</PreviewScaleZ>
+</CnzScore>

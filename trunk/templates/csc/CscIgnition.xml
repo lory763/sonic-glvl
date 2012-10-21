@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<CscIgnition>
+    <FirstWaitTime>double:0</FirstWaitTime>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsMessageOn>bool:false</IsMessageOn>
+    <ModelType>double:0</ModelType>
+    <Position>
+        <x>double:-217.092</x>
+        <y>double:400</y>
+        <z>double:398.006</z>
+    </Position>
+    <Range>double:30</Range>
+    <ReadyTime>double:2</ReadyTime>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <WaitTime>double:2</WaitTime>
+    <Mesh>csc_obj_ignitionB.mesh</Mesh>
+</CscIgnition>

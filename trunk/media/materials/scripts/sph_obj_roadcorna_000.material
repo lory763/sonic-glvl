@@ -1,0 +1,36 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "sph_etc_yk1_roadcornA"
+{
+	technique sph_etc_yk1_roadcornA_technique
+	{
+		pass sph_etc_yk1_roadcornA_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit sph_etc_yk1_roadcornA_Diffuse#0
+			{
+				texture sph_etc_yk1_roadcornA_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

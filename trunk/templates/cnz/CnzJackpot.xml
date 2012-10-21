@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<CnzJackpot>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <PayOnceRing>double:20</PayOnceRing>
+    <Position>
+        <x>double:-28.7932</x>
+        <y>double:26.4861</y>
+        <z>double:-19.157</z>
+    </Position>
+    <Range>double:100</Range>
+    <Reflection>double:1.11</Reflection>
+    <RelayTime>double:0.1</RelayTime>
+    <RingSpeedY>double:0.1</RingSpeedY>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Sub_RelationSetObject>id</Sub_RelationSetObject>
+    <Mesh>unknown.mesh</Mesh>
+</CnzJackpot>

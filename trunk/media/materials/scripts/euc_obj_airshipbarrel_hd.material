@@ -1,0 +1,142 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "eucobj_airship_barrelmetal"
+{
+	technique eucobj_airship_barrelmetal_technique
+	{
+		pass eucobj_airship_barrelmetal_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit eucobj_airship_barrelmetal_Diffuse#0
+			{
+				texture euc_obj_ay3_airship_barrel_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass eucobj_airship_barrelmetal_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit eucobj_airship_barrelmetal_Diffuse#1
+			{
+				texture euc_obj_ay3_airship_barrel_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit eucobj_airship_barrelmetal_Specular#2
+			{
+				texture euc_obj_ay3_airship_barrel_spc_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit eucobj_airship_barrelmetal_Normal#3
+			{
+				texture euc_obj_ay3_airship_barrel_nrm_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique eucobj_airship_barrelmetal_basic_technique
+	{
+	scheme basic_mat
+		pass eucobj_airship_barrelmetal_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit eucobj_airship_barrelmetal_Diffuse#4
+			{
+				texture euc_obj_ay3_airship_barrel_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "eucobj_airshipbarrel_light"
+{
+	technique eucobj_airshipbarrel_light_technique
+	{
+		pass eucobj_airshipbarrel_light_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit eucobj_airshipbarrel_light_Diffuse#0
+			{
+				texture euc_obj_ay3_airship_barrel_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

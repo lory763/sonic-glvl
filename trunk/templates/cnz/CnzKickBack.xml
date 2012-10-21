@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<CnzKickBack>
+    <CollisionOffsetX>double:0</CollisionOffsetX>
+    <CollisionOffsetY>double:0</CollisionOffsetY>
+    <CollisionOffsetZ>double:0</CollisionOffsetZ>
+    <Friction>double:0</Friction>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Length>double:2</Length>
+    <Position>
+        <x>double:5.09912</x>
+        <y>double:-5.69694</y>
+        <z>double:10.6451</z>
+    </Position>
+    <Range>double:50</Range>
+    <RelatedJumper_RelationSetObject>id</RelatedJumper_RelationSetObject>
+    <Restitution>double:1</Restitution>
+    <Rotation>
+        <w>double:0.949321</w>
+        <x>double:0.210459</x>
+        <y>double:0.227912</y>
+        <z>double:0.050527</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ToLeft>bool:true</ToLeft>
+    <TouchRad>double:1</TouchRad>
+    <Mesh>unknown.mesh</Mesh>
+</CnzKickBack>

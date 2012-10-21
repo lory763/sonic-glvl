@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<BpcCameraChainTrigger>
+    <Collision_Height>double:159</Collision_Height>
+    <Collision_Width>double:214</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <IsActive>bool:true</IsActive>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:-45.8111</x>
+        <y>double:224.121</y>
+        <z>double:-55.1007</z>
+    </Position>
+    <Range>double:10000</Range>
+    <Rotation>
+        <w>double:-0.544618</w>
+        <x>double:-0.00475281</x>
+        <y>double:0.838638</y>
+        <z>double:0.00731869</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <State>double:1</State>
+    <Mesh>collision.mesh</Mesh>
+</BpcCameraChainTrigger>

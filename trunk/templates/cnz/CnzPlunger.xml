@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<CnzPlunger>
+    <Dumping>double:0.8</Dumping>
+    <Friction>double:0.2</Friction>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Length>double:0.9</Length>
+    <Position>
+        <x>double:6.83664</x>
+        <y>double:-6.26145</y>
+        <z>double:11.8717</z>
+    </Position>
+    <PullSpeed>double:0.1</PullSpeed>
+    <Range>double:50</Range>
+    <Restitution>double:1</Restitution>
+    <Rotation>
+        <w>double:0.833886</w>
+        <x>double:-0.551937</x>
+        <y>double:-0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Speed>double:70</Speed>
+    <Mesh>unknown.mesh</Mesh>
+</CnzPlunger>

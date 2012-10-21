@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<CscChangeSpeedCollision>
+    <Collision_Height>double:6</Collision_Height>
+    <Collision_Width>double:4</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:-321</x>
+        <y>double:169</y>
+        <z>double:487</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:-1.33616e-008</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TargetAccele>double:20</TargetAccele>
+    <TargetSpeed>double:22</TargetSpeed>
+    <Mesh>collision.mesh</Mesh>
+</CscChangeSpeedCollision>

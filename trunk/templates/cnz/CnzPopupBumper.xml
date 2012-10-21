@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<CnzPopupBumper>
+    <AttachOffsetX>double:0</AttachOffsetX>
+    <AttachOffsetY>double:0</AttachOffsetY>
+    <AttachOffsetZ>double:0</AttachOffsetZ>
+    <AttachTarget>id</AttachTarget>
+    <Friction>double:0</Friction>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:-0.305275</x>
+        <y>double:4.03051</y>
+        <z>double:-11.5932</z>
+    </Position>
+    <Range>double:100</Range>
+    <Restitution>double:1.1</Restitution>
+    <Rotation>
+        <w>double:0.920505</w>
+        <x>double:0</x>
+        <y>double:-0.390731</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</CnzPopupBumper>

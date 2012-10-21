@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<CnzLoopGate>
+    <Friction>double:0</Friction>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:-5.93268</x>
+        <y>double:-0.0148712</y>
+        <z>double:-0.152723</z>
+    </Position>
+    <Range>double:50</Range>
+    <Restitution>double:1</Restitution>
+    <Rotation>
+        <w>double:0.0708752</w>
+        <x>double:-0.00559303</x>
+        <y>double:-0.960986</y>
+        <z>double:-0.2673</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TriggerCount>double:3</TriggerCount>
+    <Mesh>unknown.mesh</Mesh>
+</CnzLoopGate>

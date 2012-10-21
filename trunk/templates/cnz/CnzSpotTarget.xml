@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<CnzSpotTarget>
+    <Friction>double:0.1</Friction>
+    <Gimmic>bool:true</Gimmic>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsDisplayModel>bool:true</IsDisplayModel>
+    <Leader>bool:false</Leader>
+    <Position>
+        <x>double:1.50223</x>
+        <y>double:4.62299</y>
+        <z>double:-13.0324</z>
+    </Position>
+    <Range>double:100</Range>
+    <Restitution>double:1.98</Restitution>
+    <Rotation>
+        <w>double:0.961262</w>
+        <x>double:0</x>
+        <y>double:-0.275638</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>collision.mesh</Mesh>
+</CnzSpotTarget>

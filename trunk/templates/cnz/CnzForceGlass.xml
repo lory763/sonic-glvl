@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<CnzForceGlass>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:3.78029</x>
+        <y>double:2.63249</y>
+        <z>double:-1.3933</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SizeX>double:3.8</SizeX>
+    <SizeY>double:3.9</SizeY>
+    <SizeZ>double:3.4</SizeZ>
+    <Mesh>unknown.mesh</Mesh>
+</CnzForceGlass>

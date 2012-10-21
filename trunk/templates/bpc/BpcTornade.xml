@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<BpcTornade>
+    <DebugPointClear>bool:false</DebugPointClear>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsMessageOn>bool:false</IsMessageOn>
+    <PathIsAccel>double:0</PathIsAccel>
+    <PathIsBezier>double:1</PathIsBezier>
+    <PathPointMoveRelative>bool:true</PathPointMoveRelative>
+    <Path_IsLoop>bool:true</Path_IsLoop>
+    <Position>
+        <x>double:-10.1519</x>
+        <y>double:-6.98566e-005</y>
+        <z>double:394.987</z>
+    </Position>
+    <PositionList>
+        <Position0>vector3</Position0>
+        <Position1>vector3</Position1>
+        <Position2>vector3</Position2>
+        <Position3>vector3</Position3>
+        <Position4>vector3</Position4>
+        <Position5>vector3</Position5>
+        <Position6>vector3</Position6>
+        <Position7>vector3</Position7>
+        <Position8>vector3</Position8>
+        <Position9>vector3</Position9>
+    </PositionList>
+    <Range>double:200</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Vel1D>double:10</Vel1D>
+    <Mesh>Bpc_obj_tornado.mesh</Mesh>
+</BpcTornade>

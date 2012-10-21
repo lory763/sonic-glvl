@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<EucPressThorn>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:-278.375</x>
+        <y>double:78.3162</y>
+        <z>double:-1603.58</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.00969951</w>
+        <x>double:0</x>
+        <y>double:0.999953</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Size>double:0</Size>
+    <m_BottomStopTime>double:0.3</m_BottomStopTime>
+    <m_DownTime>double:0.2</m_DownTime>
+    <m_IsBottomStart>bool:false</m_IsBottomStart>
+    <m_IsDropSELater>bool:false</m_IsDropSELater>
+    <m_IsIgnoreCameraCollision>bool:false</m_IsIgnoreCameraCollision>
+    <m_IsMessageOn>bool:true</m_IsMessageOn>
+    <m_IsNoPress>bool:true</m_IsNoPress>
+    <m_IsNotUp>bool:false</m_IsNotUp>
+    <m_MessageOnDelayTime>double:0</m_MessageOnDelayTime>
+    <m_Phase>double:0</m_Phase>
+    <m_TopStopTime>double:1.5</m_TopStopTime>
+    <m_UpDownWidth>double:3.5</m_UpDownWidth>
+    <m_UpTime>double:1</m_UpTime>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>Size==0</Condition>
+       <Mesh>euc_obj_Thorn_press_3M.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Size==1</Condition>
+       <Mesh>euc_obj_Thorn_press_5M.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Size==2</Condition>
+       <Mesh>euc_obj_Thorn_press_7M.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Size==3</Condition>
+       <Mesh>euc_obj_Thorn_press_7M.mesh</Mesh>
+    </AltMesh>
+</EucPressThorn>
