@@ -1,0 +1,309 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "pla_rock_in1_cliff01_Common_dpn"
+{
+	technique pla_rock_in1_cliff01_Common_dpn_technique
+	{
+		pass pla_rock_in1_cliff01_Common_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_rock_in1_cliff01_Common_dpn_Diffuse#0
+			{
+				texture pla_rock_in1_cliff01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_rock_in1_cliff01_Common_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_rock_in1_cliff01_Common_dpn_Diffuse#1
+			{
+				texture pla_rock_in1_cliff01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_rock_in1_cliff01_Common_dpn_Specular#2
+			{
+				texture pla_rock_in1_cliff01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_rock_in1_cliff01_Common_dpn_Normal#3
+			{
+				texture pla_rock_in1_cliff01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_rock_in1_cliff01_Common_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_rock_in1_cliff01_Common_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_rock_in1_cliff01_Common_dpn_Diffuse#4
+			{
+				texture pla_rock_in1_cliff01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_grass_in1_grass01_Common_dp"
+{
+	technique pla_grass_in1_grass01_Common_dp_technique
+	{
+		pass pla_grass_in1_grass01_Common_dp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_grass_in1_grass01_Common_dp_Diffuse#0
+			{
+				texture pla_grass_in1_grass01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_grass_in1_grass01_Common_dp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit pla_grass_in1_grass01_Common_dp_Diffuse#1
+			{
+				texture pla_grass_in1_grass01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_grass_in1_grass01_Common_dp_Specular#2
+			{
+				texture pla_grass_in1_grass01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_grass_in1_grass01_Common_dp_basic_technique
+	{
+	scheme basic_mat
+		pass pla_grass_in1_grass01_Common_dp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_grass_in1_grass01_Common_dp_Diffuse#3
+			{
+				texture pla_grass_in1_grass01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_plant_in1_leaf01_punch_LuminescenceV_d"
+{
+	technique pla_plant_in1_leaf01_punch_LuminescenceV_d_technique
+	{
+		pass pla_plant_in1_leaf01_punch_LuminescenceV_d_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_plant_in1_leaf01_punch_LuminescenceV_d_Diffuse#0
+			{
+				texture pla_plant_in1_leaf01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_plant_in1_leaf01_punch_LuminescenceV_d_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_plant_in1_leaf01_punch_LuminescenceV_d_Diffuse#1
+			{
+				texture pla_plant_in1_leaf01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_plant_in1_leaf01_punch_LuminescenceV_d_Normal#2
+			{
+				texture pla_plant_in1_leaf01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_plant_in1_leaf01_punch_LuminescenceV_d_basic_technique
+	{
+	scheme basic_mat
+		pass pla_plant_in1_leaf01_punch_LuminescenceV_d_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_plant_in1_leaf01_punch_LuminescenceV_d_Diffuse#3
+			{
+				texture pla_plant_in1_leaf01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

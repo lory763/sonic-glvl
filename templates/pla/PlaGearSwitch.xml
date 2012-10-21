@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<PlaGearSwitch>
+    <EventOFF>double:0</EventOFF>
+    <EventON>double:6</EventON>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:266.132</x>
+        <y>double:-21.1166</y>
+        <z>double:-1.48714</z>
+    </Position>
+    <Range>double:30</Range>
+    <ReverseTime>double:4</ReverseTime>
+    <Rotation>
+        <w>double:-0.707107</w>
+        <x>double:0</x>
+        <y>double:-0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <StopTime>double:0.1</StopTime>
+    <TargetListOFF />
+    <TargetListON>list</TargetListON>
+    <TimerOFF>double:0</TimerOFF>
+    <TimerON>double:0</TimerON>
+    <Mesh>unknown.mesh</Mesh>
+</PlaGearSwitch>

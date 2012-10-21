@@ -1,0 +1,36 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "ssz_obj_in1_parrots01_Common_d"
+{
+	technique ssz_obj_in1_parrots01_Common_d_technique
+	{
+		pass ssz_obj_in1_parrots01_Common_d_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_obj_in1_parrots01_Common_d_Diffuse#0
+			{
+				texture ssz_obj_in1_parrots01.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

@@ -1,0 +1,238 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "csc_obj_glass01"
+{
+	technique csc_obj_glass01_technique
+	{
+		pass csc_obj_glass01_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGENREF0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit csc_obj_glass01_Diffuse#0
+			{
+				texture csc_glass_ty1_glass02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit csc_obj_glass01_Reflect#1
+			{
+				texture csc_metal_ty1_envmap_cube01.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+		pass csc_obj_glass01_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit csc_obj_glass01_Diffuse#2
+			{
+				texture csc_glass_ty1_glass02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit csc_obj_glass01_Specular#3
+			{
+				texture csc_glass_ty1_glass02_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit csc_obj_glass01_Reflect#4
+			{
+				texture csc_metal_ty1_envmap_cube01.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+	}
+	technique csc_obj_glass01_basic_technique
+	{
+	scheme basic_mat
+		pass csc_obj_glass01_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit csc_obj_glass01_Diffuse#5
+			{
+				texture csc_glass_ty1_glass02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit csc_obj_glass01_Reflect#6
+			{
+				texture csc_metal_ty1_envmap_cube01.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+	}
+}
+material "csc_obj_roadcorn01"
+{
+	technique csc_obj_roadcorn01_technique
+	{
+		pass csc_obj_roadcorn01_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit csc_obj_roadcorn01_Diffuse#0
+			{
+				texture csc_etc_yr1_roadcornA_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "csc_obj_roadcorn01_1"
+{
+	technique csc_obj_roadcorn01_1_technique
+	{
+		pass csc_obj_roadcorn01_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit csc_obj_roadcorn01_1_Diffuse#0
+			{
+				texture csc_etc_yr1_roadcornA_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "csc_obj_roadcorn02"
+{
+	technique csc_obj_roadcorn02_technique
+	{
+		pass csc_obj_roadcorn02_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit csc_obj_roadcorn02_Diffuse#0
+			{
+				texture csc_etc_yr1_roadcornB_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "csc_obj_roadcorn02_1"
+{
+	technique csc_obj_roadcorn02_1_technique
+	{
+		pass csc_obj_roadcorn02_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit csc_obj_roadcorn02_1_Diffuse#0
+			{
+				texture csc_etc_yr1_roadcornB_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

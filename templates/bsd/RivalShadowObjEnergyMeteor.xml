@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<RivalShadowObjEnergyMeteor>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:294.767</x>
+        <y>double:1.5</y>
+        <z>double:-1.26186</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <m_TypeIndexForEdit>double:0</m_TypeIndexForEdit>
+    <Mesh>Bsd_obj_floatrockA.mesh</Mesh>
+</RivalShadowObjEnergyMeteor>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<SszCollapseDashPanelClassic>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsChangeCameraWhenChangePath>bool:false</IsChangeCameraWhenChangePath>
+    <IsChangePath>bool:false</IsChangePath>
+    <IsConstantStartVelocity>bool:false</IsConstantStartVelocity>
+    <IsInvisible>bool:false</IsInvisible>
+    <IsTo3D>bool:false</IsTo3D>
+    <IsUseDelayCamera>bool:false</IsUseDelayCamera>
+    <OutOfControl>double:0.5</OutOfControl>
+    <Position>
+        <x>double:81.7475</x>
+        <y>double:106.822</y>
+        <z>double:-522.193</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.808204</w>
+        <x>double:-0.0819678</x>
+        <y>double:-0.577983</y>
+        <z>double:-0.0775513</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Speed>double:45</Speed>
+    <SpeedMax>double:35</SpeedMax>
+    <SpeedMin>double:35</SpeedMin>
+    <Mesh>unknown.mesh</Mesh>
+</SszCollapseDashPanelClassic>

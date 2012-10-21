@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<CscWindow>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:-208.6</x>
+        <y>double:394.128</y>
+        <z>double:493</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:-0.258819</w>
+        <x>double:0</x>
+        <y>double:-0.965925</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</CscWindow>

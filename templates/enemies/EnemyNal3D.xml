@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<EnemyNal3D>
+    <ActionRange>double:20</ActionRange>
+    <AttackNum>double:1</AttackNum>
+    <AttackRange>double:20</AttackRange>
+    <AttackType>double:0</AttackType>
+    <BulletLifeTime>double:2</BulletLifeTime>
+    <BulletNum>double:1</BulletNum>
+    <BulletSpeed>double:10</BulletSpeed>
+    <ChargeTime>double:1.2</ChargeTime>
+    <CoolDwonTime>double:1</CoolDwonTime>
+    <GroundOffset>double:0</GroundOffset>
+    <HideTime>double:3</HideTime>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:true</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:false</IsDamageFromOnlyPlayer>
+    <IsHideAfterShot>bool:true</IsHideAfterShot>
+    <IsPlayFindMotion>bool:true</IsPlayFindMotion>
+    <Position>
+        <x>double:51.0855</x>
+        <y>double:19.2823</y>
+        <z>double:-284.78</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.956304</w>
+        <x>double:-5.13387e-010</x>
+        <y>double:0.292372</y>
+        <z>double:2.72973e-010</z>
+    </Rotation>
+    <Scale>double:0</Scale>
+    <SetObjectID>integer</SetObjectID>
+    <ShotInterval>double:0.3</ShotInterval>
+    <Target>vector3</Target>
+    <Type>double:0</Type>
+    <offsetRot>double:0</offsetRot>
+    <Mesh>enm_nal_HD.mesh</Mesh>
+</EnemyNal3D>

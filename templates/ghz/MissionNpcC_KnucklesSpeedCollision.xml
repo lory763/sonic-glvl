@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<MissionNpcC_KnucklesSpeedCollision>
+    <Acc1D>double:30</Acc1D>
+    <Collision_Height>double:10</Collision_Height>
+    <Collision_Length>double:1</Collision_Length>
+    <Collision_Width>double:4</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:395</x>
+        <y>double:0</y>
+        <z>double:-219</z>
+    </Position>
+    <Range>double:99999</Range>
+    <Rotation>
+        <w>double:0.00105186</w>
+        <x>double:0</x>
+        <y>double:0.999999</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Vel1D>double:30</Vel1D>
+    <Mesh>collision.mesh</Mesh>
+</MissionNpcC_KnucklesSpeedCollision>

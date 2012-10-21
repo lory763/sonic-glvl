@@ -1,0 +1,1893 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "bpc_wall_tk1_window01i_Blend_dpdp"
+{
+	technique bpc_wall_tk1_window01i_Blend_dpdp_technique
+	{
+		pass bpc_wall_tk1_window01i_Blend_dpdp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_window01i_Blend_dpdp_Diffuse#0
+			{
+				texture bpc_wall_tk1_window01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_tk1_window01i_Blend_dpdp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_window01i_Blend_dpdp_Diffuse#1
+			{
+				texture bpc_wall_tk1_window01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_window01i_Blend_dpdp_Specular#2
+			{
+				texture bpc_wall_fy1_debris01t_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_tk1_window01i_Blend_dpdp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_tk1_window01i_Blend_dpdp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_tk1_window01i_Blend_dpdp_Diffuse#3
+			{
+				texture bpc_wall_tk1_window01i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_builparts_tk1_scrap01iB_Blend_dpdp"
+{
+	technique bpc_builparts_tk1_scrap01iB_Blend_dpdp_technique
+	{
+		pass bpc_builparts_tk1_scrap01iB_Blend_dpdp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_scrap01iB_Blend_dpdp_Diffuse#0
+			{
+				texture bpc_builparts_tk1_scrap01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_builparts_tk1_scrap01iB_Blend_dpdp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_scrap01iB_Blend_dpdp_Diffuse#1
+			{
+				texture bpc_builparts_tk1_scrap01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_builparts_tk1_scrap01iB_Blend_dpdp_Specular#2
+			{
+				texture bpc_wall_fy1_debris01t_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_builparts_tk1_scrap01iB_Blend_dpdp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_builparts_tk1_scrap01iB_Blend_dpdp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_builparts_tk1_scrap01iB_Blend_dpdp_Diffuse#3
+			{
+				texture bpc_builparts_tk1_scrap01i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_tk1_concrete01iB_Blend_dpdp"
+{
+	technique bpc_wall_tk1_concrete01iB_Blend_dpdp_technique
+	{
+		pass bpc_wall_tk1_concrete01iB_Blend_dpdp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_concrete01iB_Blend_dpdp_Diffuse#0
+			{
+				texture bpc_wall_tk1_concrete01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_tk1_concrete01iB_Blend_dpdp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_concrete01iB_Blend_dpdp_Diffuse#1
+			{
+				texture bpc_wall_tk1_concrete01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_concrete01iB_Blend_dpdp_Specular#2
+			{
+				texture bpc_builparts_tk1_scrap01t_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_tk1_concrete01iB_Blend_dpdp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_tk1_concrete01iB_Blend_dpdp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_tk1_concrete01iB_Blend_dpdp_Diffuse#3
+			{
+				texture bpc_wall_tk1_concrete01i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_tk1_window02i_Blend_dpdp"
+{
+	technique bpc_wall_tk1_window02i_Blend_dpdp_technique
+	{
+		pass bpc_wall_tk1_window02i_Blend_dpdp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_window02i_Blend_dpdp_Diffuse#0
+			{
+				texture bpc_wall_tk1_window02i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_tk1_window02i_Blend_dpdp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_window02i_Blend_dpdp_Diffuse#1
+			{
+				texture bpc_wall_tk1_window02i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_window02i_Blend_dpdp_Specular#2
+			{
+				texture bpc_wall_fy1_debris01t_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_tk1_window02i_Blend_dpdp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_tk1_window02i_Blend_dpdp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_tk1_window02i_Blend_dpdp_Diffuse#3
+			{
+				texture bpc_wall_tk1_window02i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_builparts_tk1_entrance02iA_Blend_dpdp"
+{
+	technique bpc_builparts_tk1_entrance02iA_Blend_dpdp_technique
+	{
+		pass bpc_builparts_tk1_entrance02iA_Blend_dpdp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_entrance02iA_Blend_dpdp_Diffuse#0
+			{
+				texture bpc_builparts_tk1_entrance02i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_builparts_tk1_entrance02iA_Blend_dpdp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_entrance02iA_Blend_dpdp_Diffuse#1
+			{
+				texture bpc_builparts_tk1_entrance02i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_builparts_tk1_entrance02iA_Blend_dpdp_Specular#2
+			{
+				texture bpc_wall_fy1_debris03_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_builparts_tk1_entrance02iA_Blend_dpdp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_builparts_tk1_entrance02iA_Blend_dpdp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_builparts_tk1_entrance02iA_Blend_dpdp_Diffuse#3
+			{
+				texture bpc_builparts_tk1_entrance02i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_st1_roof01_Cmn_dp"
+{
+	technique bpc_wall_st1_roof01_Cmn_dp_technique
+	{
+		pass bpc_wall_st1_roof01_Cmn_dp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_st1_roof01_Cmn_dp_Diffuse#0
+			{
+				texture bpc_wall_st1_roof01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_st1_roof01_Cmn_dp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_wall_st1_roof01_Cmn_dp_Diffuse#1
+			{
+				texture bpc_wall_st1_roof01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_st1_roof01_Cmn_dp_Specular#2
+			{
+				texture bpc_wall_st1_roof01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_st1_roof01_Cmn_dp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_st1_roof01_Cmn_dp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_st1_roof01_Cmn_dp_Diffuse#3
+			{
+				texture bpc_wall_st1_roof01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_builparts_tk1_decoration01iB_Blend_dpdp"
+{
+	technique bpc_builparts_tk1_decoration01iB_Blend_dpdp_technique
+	{
+		pass bpc_builparts_tk1_decoration01iB_Blend_dpdp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_decoration01iB_Blend_dpdp_Diffuse#0
+			{
+				texture bpc_builparts_tk1_decoration01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_builparts_tk1_decoration01iB_Blend_dpdp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_decoration01iB_Blend_dpdp_Diffuse#1
+			{
+				texture bpc_builparts_tk1_decoration01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_builparts_tk1_decoration01iB_Blend_dpdp_Specular#2
+			{
+				texture bpc_wall_tk1_wall06i_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_builparts_tk1_decoration01iB_Blend_dpdp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_builparts_tk1_decoration01iB_Blend_dpdp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_builparts_tk1_decoration01iB_Blend_dpdp_Diffuse#3
+			{
+				texture bpc_builparts_tk1_decoration01i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_st1_wall01_Blend_dpdp"
+{
+	technique bpc_wall_st1_wall01_Blend_dpdp_technique
+	{
+		pass bpc_wall_st1_wall01_Blend_dpdp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_st1_wall01_Blend_dpdp_Diffuse#0
+			{
+				texture bpc_wall_st1_wall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_st1_wall01_Blend_dpdp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_wall_st1_wall01_Blend_dpdp_Diffuse#1
+			{
+				texture bpc_wall_st1_wall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_st1_wall01_Blend_dpdp_Specular#2
+			{
+				texture bpc_builparts_tk1_scrap01i_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_st1_wall01_Blend_dpdp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_st1_wall01_Blend_dpdp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_st1_wall01_Blend_dpdp_Diffuse#3
+			{
+				texture bpc_wall_st1_wall01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_tk1_window05i_Blend_dpdp"
+{
+	technique bpc_wall_tk1_window05i_Blend_dpdp_technique
+	{
+		pass bpc_wall_tk1_window05i_Blend_dpdp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_window05i_Blend_dpdp_Diffuse#0
+			{
+				texture bpc_wall_tk1_window05i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_tk1_window05i_Blend_dpdp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_window05i_Blend_dpdp_Diffuse#1
+			{
+				texture bpc_wall_tk1_window05i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_window05i_Blend_dpdp_Specular#2
+			{
+				texture bpc_wall_tk1_debris01i_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_tk1_window05i_Blend_dpdp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_tk1_window05i_Blend_dpdp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_tk1_window05i_Blend_dpdp_Diffuse#3
+			{
+				texture bpc_wall_tk1_window05i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_tk1_concrete01iB_Blend_dpdp_1"
+{
+	technique bpc_wall_tk1_concrete01iB_Blend_dpdp_1_technique
+	{
+		pass bpc_wall_tk1_concrete01iB_Blend_dpdp_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_concrete01iB_Blend_dpdp_1_Diffuse#0
+			{
+				texture bpc_wall_tk1_concrete01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_tk1_concrete01iB_Blend_dpdp_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_concrete01iB_Blend_dpdp_1_Diffuse#1
+			{
+				texture bpc_wall_tk1_concrete01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_concrete01iB_Blend_dpdp_1_Specular#2
+			{
+				texture bpc_builparts_tk1_scrap01t_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_tk1_concrete01iB_Blend_dpdp_1_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_tk1_concrete01iB_Blend_dpdp_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_tk1_concrete01iB_Blend_dpdp_1_Diffuse#3
+			{
+				texture bpc_wall_tk1_concrete01i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_tk1_wall03i_Blend_dpdp"
+{
+	technique bpc_wall_tk1_wall03i_Blend_dpdp_technique
+	{
+		pass bpc_wall_tk1_wall03i_Blend_dpdp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_wall03i_Blend_dpdp_Diffuse#0
+			{
+				texture bpc_wall_tk1_wall03i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_tk1_wall03i_Blend_dpdp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_wall03i_Blend_dpdp_Diffuse#1
+			{
+				texture bpc_wall_tk1_wall03i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_wall03i_Blend_dpdp_Specular#2
+			{
+				texture bpc_builparts_tk1_scrap01t_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_tk1_wall03i_Blend_dpdp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_tk1_wall03i_Blend_dpdp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_tk1_wall03i_Blend_dpdp_Diffuse#3
+			{
+				texture bpc_wall_tk1_wall03i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_builparts_tk1_scrap01iA_Blend_dpdp"
+{
+	technique bpc_builparts_tk1_scrap01iA_Blend_dpdp_technique
+	{
+		pass bpc_builparts_tk1_scrap01iA_Blend_dpdp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_scrap01iA_Blend_dpdp_Diffuse#0
+			{
+				texture bpc_builparts_tk1_scrap01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_builparts_tk1_scrap01iA_Blend_dpdp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_scrap01iA_Blend_dpdp_Diffuse#1
+			{
+				texture bpc_builparts_tk1_scrap01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_builparts_tk1_scrap01iA_Blend_dpdp_Specular#2
+			{
+				texture bpc_wall_tk1_debris01i_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_builparts_tk1_scrap01iA_Blend_dpdp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_builparts_tk1_scrap01iA_Blend_dpdp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_builparts_tk1_scrap01iA_Blend_dpdp_Diffuse#3
+			{
+				texture bpc_builparts_tk1_scrap01i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_metal_tk1_rust01i_Cmn_dp"
+{
+	technique bpc_metal_tk1_rust01i_Cmn_dp_technique
+	{
+		pass bpc_metal_tk1_rust01i_Cmn_dp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_metal_tk1_rust01i_Cmn_dp_Diffuse#0
+			{
+				texture bpc_metal_tk1_rust01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_metal_tk1_rust01i_Cmn_dp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_metal_tk1_rust01i_Cmn_dp_Diffuse#1
+			{
+				texture bpc_metal_tk1_rust01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_metal_tk1_rust01i_Cmn_dp_Specular#2
+			{
+				texture bpc_metal_tk1_rust01i_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_metal_tk1_rust01i_Cmn_dp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_metal_tk1_rust01i_Cmn_dp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_metal_tk1_rust01i_Cmn_dp_Diffuse#3
+			{
+				texture bpc_metal_tk1_rust01i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_st1_wall01_Blend_dpdp_1"
+{
+	technique bpc_wall_st1_wall01_Blend_dpdp_1_technique
+	{
+		pass bpc_wall_st1_wall01_Blend_dpdp_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_st1_wall01_Blend_dpdp_1_Diffuse#0
+			{
+				texture bpc_wall_st1_wall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_st1_wall01_Blend_dpdp_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_wall_st1_wall01_Blend_dpdp_1_Diffuse#1
+			{
+				texture bpc_wall_st1_wall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_st1_wall01_Blend_dpdp_1_Specular#2
+			{
+				texture bpc_builparts_tk1_scrap01i_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_st1_wall01_Blend_dpdp_1_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_st1_wall01_Blend_dpdp_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_st1_wall01_Blend_dpdp_1_Diffuse#3
+			{
+				texture bpc_wall_st1_wall01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_builparts_tk1_decoration01iB_Blend_dpdp_1"
+{
+	technique bpc_builparts_tk1_decoration01iB_Blend_dpdp_1_technique
+	{
+		pass bpc_builparts_tk1_decoration01iB_Blend_dpdp_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_decoration01iB_Blend_dpdp_1_Diffuse#0
+			{
+				texture bpc_builparts_tk1_decoration01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_builparts_tk1_decoration01iB_Blend_dpdp_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_decoration01iB_Blend_dpdp_1_Diffuse#1
+			{
+				texture bpc_builparts_tk1_decoration01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_builparts_tk1_decoration01iB_Blend_dpdp_1_Specular#2
+			{
+				texture bpc_wall_tk1_wall06i_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_builparts_tk1_decoration01iB_Blend_dpdp_1_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_builparts_tk1_decoration01iB_Blend_dpdp_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_builparts_tk1_decoration01iB_Blend_dpdp_1_Diffuse#3
+			{
+				texture bpc_builparts_tk1_decoration01i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_builparts_tk1_entrance02iA_Blend_dpdp_1"
+{
+	technique bpc_builparts_tk1_entrance02iA_Blend_dpdp_1_technique
+	{
+		pass bpc_builparts_tk1_entrance02iA_Blend_dpdp_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_entrance02iA_Blend_dpdp_1_Diffuse#0
+			{
+				texture bpc_builparts_tk1_entrance02i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_builparts_tk1_entrance02iA_Blend_dpdp_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_entrance02iA_Blend_dpdp_1_Diffuse#1
+			{
+				texture bpc_builparts_tk1_entrance02i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_builparts_tk1_entrance02iA_Blend_dpdp_1_Specular#2
+			{
+				texture bpc_wall_fy1_debris03_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_builparts_tk1_entrance02iA_Blend_dpdp_1_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_builparts_tk1_entrance02iA_Blend_dpdp_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_builparts_tk1_entrance02iA_Blend_dpdp_1_Diffuse#3
+			{
+				texture bpc_builparts_tk1_entrance02i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_tk1_window06i_Blend_dpdp"
+{
+	technique bpc_wall_tk1_window06i_Blend_dpdp_technique
+	{
+		pass bpc_wall_tk1_window06i_Blend_dpdp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_window06i_Blend_dpdp_Diffuse#0
+			{
+				texture bpc_wall_tk1_window06i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_tk1_window06i_Blend_dpdp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_window06i_Blend_dpdp_Diffuse#1
+			{
+				texture bpc_wall_tk1_window06i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_window06i_Blend_dpdp_Specular#2
+			{
+				texture bpc_wall_tk1_debris01i_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_tk1_window06i_Blend_dpdp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_tk1_window06i_Blend_dpdp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_tk1_window06i_Blend_dpdp_Diffuse#3
+			{
+				texture bpc_wall_tk1_window06i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_st1_window01_Blend_dpdp"
+{
+	technique bpc_wall_st1_window01_Blend_dpdp_technique
+	{
+		pass bpc_wall_st1_window01_Blend_dpdp_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_st1_window01_Blend_dpdp_Diffuse#0
+			{
+				texture bpc_wall_st1_window01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_st1_window01_Blend_dpdp_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_wall_st1_window01_Blend_dpdp_Diffuse#1
+			{
+				texture bpc_wall_st1_window01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_st1_window01_Blend_dpdp_Specular#2
+			{
+				texture bpc_wall_tk1_debris01i_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_st1_window01_Blend_dpdp_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_st1_window01_Blend_dpdp_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_st1_window01_Blend_dpdp_Diffuse#3
+			{
+				texture bpc_wall_st1_window01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_builparts_tk1_scrap01iA_Blend_dpdp_1"
+{
+	technique bpc_builparts_tk1_scrap01iA_Blend_dpdp_1_technique
+	{
+		pass bpc_builparts_tk1_scrap01iA_Blend_dpdp_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_scrap01iA_Blend_dpdp_1_Diffuse#0
+			{
+				texture bpc_builparts_tk1_scrap01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_builparts_tk1_scrap01iA_Blend_dpdp_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_builparts_tk1_scrap01iA_Blend_dpdp_1_Diffuse#1
+			{
+				texture bpc_builparts_tk1_scrap01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_builparts_tk1_scrap01iA_Blend_dpdp_1_Specular#2
+			{
+				texture bpc_wall_tk1_debris01i_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_builparts_tk1_scrap01iA_Blend_dpdp_1_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_builparts_tk1_scrap01iA_Blend_dpdp_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_builparts_tk1_scrap01iA_Blend_dpdp_1_Diffuse#3
+			{
+				texture bpc_builparts_tk1_scrap01i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_tk1_concrete01iB_Blend_dpdp_2"
+{
+	technique bpc_wall_tk1_concrete01iB_Blend_dpdp_2_technique
+	{
+		pass bpc_wall_tk1_concrete01iB_Blend_dpdp_2_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_concrete01iB_Blend_dpdp_2_Diffuse#0
+			{
+				texture bpc_wall_tk1_concrete01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_tk1_concrete01iB_Blend_dpdp_2_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_concrete01iB_Blend_dpdp_2_Diffuse#1
+			{
+				texture bpc_wall_tk1_concrete01i_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_concrete01iB_Blend_dpdp_2_Specular#2
+			{
+				texture bpc_builparts_tk1_scrap01t_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_tk1_concrete01iB_Blend_dpdp_2_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_tk1_concrete01iB_Blend_dpdp_2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_tk1_concrete01iB_Blend_dpdp_2_Diffuse#3
+			{
+				texture bpc_wall_tk1_concrete01i_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

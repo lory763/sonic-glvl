@@ -1,0 +1,225 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "eu_metal_ma_ironarch01_cmn_dpn"
+{
+	technique eu_metal_ma_ironarch01_cmn_dpn_technique
+	{
+		pass eu_metal_ma_ironarch01_cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit eu_metal_ma_ironarch01_cmn_dpn_Diffuse#0
+			{
+				texture euc_metal_ma_ironarch01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass eu_metal_ma_ironarch01_cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit eu_metal_ma_ironarch01_cmn_dpn_Diffuse#1
+			{
+				texture euc_metal_ma_ironarch01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit eu_metal_ma_ironarch01_cmn_dpn_Specular#2
+			{
+				texture euc_metal_ma_ironarch01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit eu_metal_ma_ironarch01_cmn_dpn_Normal#3
+			{
+				texture euc_metal_ma_ironarch01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique eu_metal_ma_ironarch01_cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass eu_metal_ma_ironarch01_cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit eu_metal_ma_ironarch01_cmn_dpn_Diffuse#4
+			{
+				texture euc_metal_ma_ironarch01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "euc_ma_ironarch02__cmn_dpn"
+{
+	technique euc_ma_ironarch02__cmn_dpn_technique
+	{
+		pass euc_ma_ironarch02__cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit euc_ma_ironarch02__cmn_dpn_Diffuse#0
+			{
+				texture euc_metal_ma_ironarch02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass euc_ma_ironarch02__cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit euc_ma_ironarch02__cmn_dpn_Diffuse#1
+			{
+				texture euc_metal_ma_ironarch02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit euc_ma_ironarch02__cmn_dpn_Specular#2
+			{
+				texture euc_metal_ma_ironarch02_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit euc_ma_ironarch02__cmn_dpn_Normal#3
+			{
+				texture euc_metal_ma_ironarch02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique euc_ma_ironarch02__cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass euc_ma_ironarch02__cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit euc_ma_ironarch02__cmn_dpn_Diffuse#4
+			{
+				texture euc_metal_ma_ironarch02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

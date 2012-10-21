@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<SszBridge>
+    <BlockCount>double:10</BlockCount>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:1875.19</x>
+        <y>double:-513.558</y>
+        <z>double:418.152</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>ssz_obj_bridgeA.mesh</Mesh>
+    <CopyScaleX multiplier="2.0">BlockCount</CopyScaleX>
+</SszBridge>

@@ -1,0 +1,427 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "pla_metal_fy1_barricade_Cmn_dpn"
+{
+	technique pla_metal_fy1_barricade_Cmn_dpn_technique
+	{
+		pass pla_metal_fy1_barricade_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_fy1_barricade_Cmn_dpn_Diffuse#0
+			{
+				texture pla_metal_fy1_barricade_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_fy1_barricade_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_fy1_barricade_Cmn_dpn_Diffuse#1
+			{
+				texture pla_metal_fy1_barricade_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_fy1_barricade_Cmn_dpn_Specular#2
+			{
+				texture pla_metal_fy1_barricade_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_fy1_barricade_Cmn_dpn_Normal#3
+			{
+				texture pla_metal_fy1_barricade_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_fy1_barricade_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_fy1_barricade_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_fy1_barricade_Cmn_dpn_Diffuse#4
+			{
+				texture pla_metal_fy1_barricade_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_my1_bright01_Ign_dE"
+{
+	technique pla_metal_my1_bright01_Ign_dE_technique
+	{
+		pass pla_metal_my1_bright01_Ign_dE_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_my1_bright01_Ign_dE_Diffuse#0
+			{
+				texture pla_light_my1_bright01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_my1_bright01_Ign_dE_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_my1_bright01_Ign_dE_Diffuse#1
+			{
+				texture pla_light_my1_bright01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_my1_bright01_Ign_dE_Normal#2
+			{
+				texture pla_light_my1_bright01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_my1_bright01_Ign_dE_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_my1_bright01_Ign_dE_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_my1_bright01_Ign_dE_Diffuse#3
+			{
+				texture pla_light_my1_bright01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_fy1_drum_Cmn_dpn"
+{
+	technique pla_metal_fy1_drum_Cmn_dpn_technique
+	{
+		pass pla_metal_fy1_drum_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_fy1_drum_Cmn_dpn_Diffuse#0
+			{
+				texture pla_metal_fy1_drum_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_fy1_drum_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_fy1_drum_Cmn_dpn_Diffuse#1
+			{
+				texture pla_metal_fy1_drum_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_fy1_drum_Cmn_dpn_Specular#2
+			{
+				texture pla_metal_fy1_drum_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_fy1_drum_Cmn_dpn_Normal#3
+			{
+				texture pla_metal_fy1_drum_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_fy1_drum_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_fy1_drum_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_fy1_drum_Cmn_dpn_Diffuse#4
+			{
+				texture pla_metal_fy1_drum_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "pla_metal_fy1_oildrum_Cmn_dpn"
+{
+	technique pla_metal_fy1_oildrum_Cmn_dpn_technique
+	{
+		pass pla_metal_fy1_oildrum_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit pla_metal_fy1_oildrum_Cmn_dpn_Diffuse#0
+			{
+				texture pla_metal_fy1_oildrum_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass pla_metal_fy1_oildrum_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit pla_metal_fy1_oildrum_Cmn_dpn_Diffuse#1
+			{
+				texture pla_metal_fy1_oildrum_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_fy1_oildrum_Cmn_dpn_Specular#2
+			{
+				texture pla_metal_fy1_oildrum_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit pla_metal_fy1_oildrum_Cmn_dpn_Normal#3
+			{
+				texture pla_metal_fy1_oildrum_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique pla_metal_fy1_oildrum_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass pla_metal_fy1_oildrum_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit pla_metal_fy1_oildrum_Cmn_dpn_Diffuse#4
+			{
+				texture pla_metal_fy1_oildrum_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

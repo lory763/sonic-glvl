@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<BossDeathEgg>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <JumpTarget>
+        <Position0>vector3</Position0>
+        <Position1>vector3</Position1>
+    </JumpTarget>
+    <Position>
+        <x>double:14.0158</x>
+        <y>double:-30.0221</y>
+        <z>double:0</z>
+    </Position>
+    <Range>double:10000</Range>
+    <ResultPlayerDirection>vector3</ResultPlayerDirection>
+    <ResultPlayerPosition>vector3</ResultPlayerPosition>
+    <Rotation>
+        <w>double:-0.707079</w>
+        <x>double:0.00617061</x>
+        <y>double:0.707079</y>
+        <z>double:-0.00617061</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>Boss_DeathEgg_HD.mesh</Mesh>
+</BossDeathEgg>

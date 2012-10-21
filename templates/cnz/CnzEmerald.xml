@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<CnzEmerald>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:0</x>
+        <y>double:-2.3</y>
+        <z>double:2.5</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.976296</w>
+        <x>double:0.21644</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <WaitSuccessEventTime>double:3</WaitSuccessEventTime>
+    <Mesh>unknown.mesh</Mesh>
+</CnzEmerald>

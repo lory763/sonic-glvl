@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<RivalShadowObjAimSpot>
+    <Collision_Height>double:10</Collision_Height>
+    <Collision_Width>double:10</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:191.019</x>
+        <y>double:-0.130416</y>
+        <z>double:6.26672</z>
+    </Position>
+    <PositionList>
+        <Position0>vector3</Position0>
+        <Position1>vector3</Position1>
+        <Position2>vector3</Position2>
+        <Position3>vector3</Position3>
+        <Position4>vector3</Position4>
+        <Position5>vector3</Position5>
+    </PositionList>
+    <Range>double:10000</Range>
+    <Rotation>
+        <w>double:-0.707107</w>
+        <x>double:0</x>
+        <y>double:-0.707106</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <m_IsEnableTriggerAR>bool:false</m_IsEnableTriggerAR>
+    <m_IsEnableTriggerBG>bool:false</m_IsEnableTriggerBG>
+    <m_IsEnableTriggerHP>bool:false</m_IsEnableTriggerHP>
+    <m_TriggerMaxAR>double:1</m_TriggerMaxAR>
+    <m_TriggerMaxBG>double:100</m_TriggerMaxBG>
+    <m_TriggerMaxHP>double:100</m_TriggerMaxHP>
+    <m_TriggerMinAR>double:0</m_TriggerMinAR>
+    <m_TriggerMinBG>double:0</m_TriggerMinBG>
+    <m_TriggerMinHP>double:0</m_TriggerMinHP>
+    <Mesh>collision.mesh</Mesh>
+</RivalShadowObjAimSpot>

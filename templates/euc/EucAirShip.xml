@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<EucAirShip>
+    <DebugPointClear>bool:false</DebugPointClear>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <OptionType>double:0</OptionType>
+    <PathIsAccel>double:0</PathIsAccel>
+    <PathIsBezier>double:1</PathIsBezier>
+    <PathPointMoveRelative>bool:true</PathPointMoveRelative>
+    <Path_IsLoop>bool:true</Path_IsLoop>
+    <Position>
+        <x>double:630.686</x>
+        <y>double:23.6479</y>
+        <z>double:-160.719</z>
+    </Position>
+    <PositionList>
+        <Position0>vector3</Position0>
+        <Position1>vector3</Position1>
+        <Position2>vector3</Position2>
+    </PositionList>
+    <Range>double:10000</Range>
+    <Rotation>
+        <w>double:0.90593</w>
+        <x>double:0</x>
+        <y>double:0.423427</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Vel1D>double:3</Vel1D>
+    <m_IsFixRotate>bool:true</m_IsFixRotate>
+    <m_IsMove>bool:false</m_IsMove>
+    <m_IsVisible>bool:false</m_IsVisible>
+    <m_NumChaser>double:4</m_NumChaser>
+    <m_Scale>double:1.5</m_Scale>
+    <Mesh>euc_obj_airship_HD.mesh</Mesh>
+</EucAirShip>

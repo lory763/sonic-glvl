@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<CnzDiceBridge>
+    <Friction>double:0.2</Friction>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Mass>double:1</Mass>
+    <Position>
+        <x>double:-20.1222</x>
+        <y>double:18.8986</y>
+        <z>double:-7.68859</z>
+    </Position>
+    <Range>double:50</Range>
+    <Restitution>double:1</Restitution>
+    <Rotation>
+        <w>double:0.939692</w>
+        <x>double:0</x>
+        <y>double:0.34202</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</CnzDiceBridge>

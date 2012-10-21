@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<CnzKeepSpeed>
+    <ForBreakObj>bool:false</ForBreakObj>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <KeepSpeed>double:12.1</KeepSpeed>
+    <MinSpeed>double:7.09999</MinSpeed>
+    <Position>
+        <x>double:-3.9973</x>
+        <y>double:2.70042</y>
+        <z>double:-2.79521</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.779408</w>
+        <x>double:0.212317</x>
+        <y>double:-0.569976</y>
+        <z>double:-0.150226</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SizeX>double:0.5</SizeX>
+    <SizeY>double:0.4</SizeY>
+    <SizeZ>double:1.7</SizeZ>
+    <Mesh>collision.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">SizeX</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">SizeY</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">SizeZ</PreviewScaleZ>
+</CnzKeepSpeed>

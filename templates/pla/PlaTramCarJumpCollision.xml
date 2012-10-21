@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<PlaTramCarJumpCollision>
+    <ChangeDeadType>bool:true</ChangeDeadType>
+    <DeadPos>double:20.1</DeadPos>
+    <DeadType>double:2</DeadType>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <JumpTime>double:0.400001</JumpTime>
+    <Path>string:pla200_track09</Path>
+    <PathPosition>double:2.1</PathPosition>
+    <PlaneVel>double:8.89998</PlaneVel>
+    <Position>
+        <x>double:972.69</x>
+        <y>double:166.472</y>
+        <z>double:-1785.12</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:-0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <UpVel>double:0</UpVel>
+    <_SetPath>string:pla200_track01</_SetPath>
+    <_SetPathPosition>double:0</_SetPathPosition>
+    <Mesh>collision.mesh</Mesh>
+</PlaTramCarJumpCollision>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<CscLavaRide>
+    <ActiveHeight>double:10</ActiveHeight>
+    <ActiveInterval>double:10</ActiveInterval>
+    <CollisionLength>double:0</CollisionLength>
+    <DownTime>double:1</DownTime>
+    <DownWaitTime>double:0</DownWaitTime>
+    <GroundOffset>double:0</GroundOffset>
+    <IsActive>bool:false</IsActive>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsMessageOn>bool:false</IsMessageOn>
+    <LavaLength>double:12</LavaLength>
+    <ModelType>double:1</ModelType>
+    <MoveLength>double:0</MoveLength>
+    <PillarRadiusScale>double:2.1</PillarRadiusScale>
+    <Position>
+        <x>double:-172.1</x>
+        <y>double:405</y>
+        <z>double:320.4</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.866025</w>
+        <x>double:0</x>
+        <y>double:0.5</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <UpTime>double:1</UpTime>
+    <UpWaitTime>double:0</UpWaitTime>
+    <Mesh>unknown.mesh</Mesh>
+</CscLavaRide>

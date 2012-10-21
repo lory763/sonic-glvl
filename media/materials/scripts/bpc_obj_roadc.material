@@ -1,0 +1,1391 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "bpc_ground_tk1_asphalt01br_Cmn_dpn"
+{
+	technique bpc_ground_tk1_asphalt01br_Cmn_dpn_technique
+	{
+		pass bpc_ground_tk1_asphalt01br_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_ground_tk1_asphalt01br_Cmn_dpn_Diffuse#0
+			{
+				texture bpc_ground_tk1_asphalt01br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_ground_tk1_asphalt01br_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bpc_ground_tk1_asphalt01br_Cmn_dpn_Diffuse#1
+			{
+				texture bpc_ground_tk1_asphalt01br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_asphalt01br_Cmn_dpn_Specular#2
+			{
+				texture bpc_ground_tk1_asphalt01br_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_asphalt01br_Cmn_dpn_Normal#3
+			{
+				texture bpc_ground_tk1_asphalt01br_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_ground_tk1_asphalt01br_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_ground_tk1_asphalt01br_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_ground_tk1_asphalt01br_Cmn_dpn_Diffuse#4
+			{
+				texture bpc_ground_tk1_asphalt01br_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_ground_tk1_road01-br"
+{
+	technique bpc_ground_tk1_road01-br_technique
+	{
+		pass bpc_ground_tk1_road01-br_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_ground_tk1_road01-br_Diffuse#0
+			{
+				texture bpc_ground_tk1_road01br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_ground_tk1_road01-br_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bpc_ground_tk1_road01-br_Diffuse#1
+			{
+				texture bpc_ground_tk1_road01br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_road01-br_Specular#2
+			{
+				texture bpc_ground_tk1_road01br_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_road01-br_Normal#3
+			{
+				texture bpc_ground_tk1_road01br_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_ground_tk1_road01-br_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_ground_tk1_road01-br_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_ground_tk1_road01-br_Diffuse#4
+			{
+				texture bpc_ground_tk1_road01br_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_ground_tk1_road04"
+{
+	technique bpc_ground_tk1_road04_technique
+	{
+		pass bpc_ground_tk1_road04_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_ground_tk1_road04_Diffuse#0
+			{
+				texture bpc_ground_tk1_road04w_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_ground_tk1_road04_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bpc_ground_tk1_road04_Diffuse#1
+			{
+				texture bpc_ground_tk1_road04w_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_road04_Specular#2
+			{
+				texture bpc_ground_tk1_road04w_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_road04_Normal#3
+			{
+				texture bpc_ground_tk1_road04w_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_ground_tk1_road04_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_ground_tk1_road04_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_ground_tk1_road04_Diffuse#4
+			{
+				texture bpc_ground_tk1_road04w_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_ground_tk1_road01-w"
+{
+	technique bpc_ground_tk1_road01-w_technique
+	{
+		pass bpc_ground_tk1_road01-w_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_ground_tk1_road01-w_Diffuse#0
+			{
+				texture bpc_ground_tk1_road01w_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_ground_tk1_road01-w_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bpc_ground_tk1_road01-w_Diffuse#1
+			{
+				texture bpc_ground_tk1_road01w_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_road01-w_Specular#2
+			{
+				texture bpc_ground_tk1_road01w_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_road01-w_Normal#3
+			{
+				texture bpc_ground_tk1_road01w_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_ground_tk1_road01-w_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_ground_tk1_road01-w_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_ground_tk1_road01-w_Diffuse#4
+			{
+				texture bpc_ground_tk1_road01w_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_tk1_concrete02br_Blend_bpndpn"
+{
+	technique bpc_wall_tk1_concrete02br_Blend_bpndpn_technique
+	{
+		pass bpc_wall_tk1_concrete02br_Blend_bpndpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_concrete02br_Blend_bpndpn_Diffuse#0
+			{
+				texture bpc_wall_tk1_concrete03br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_tk1_concrete02br_Blend_bpndpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bpc_wall_tk1_concrete02br_Blend_bpndpn_Diffuse#1
+			{
+				texture bpc_wall_tk1_concrete03br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_concrete02br_Blend_bpndpn_Specular#2
+			{
+				texture bpc_wall_tk1_concrete03br_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_concrete02br_Blend_bpndpn_Normal#3
+			{
+				texture bpc_wall_tk1_concrete03br_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_tk1_concrete02br_Blend_bpndpn_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_tk1_concrete02br_Blend_bpndpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_tk1_concrete02br_Blend_bpndpn_Diffuse#4
+			{
+				texture bpc_wall_tk1_concrete03br_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_metal_tk1_roadparts01"
+{
+	technique bpc_metal_tk1_roadparts01_technique
+	{
+		pass bpc_metal_tk1_roadparts01_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_metal_tk1_roadparts01_Diffuse#0
+			{
+				texture bpc_metal_tk1_roadparts01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_metal_tk1_roadparts01_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bpc_metal_tk1_roadparts01_Diffuse#1
+			{
+				texture bpc_metal_tk1_roadparts01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_metal_tk1_roadparts01_Specular#2
+			{
+				texture bpc_metal_tk1_roadparts01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_metal_tk1_roadparts01_Normal#3
+			{
+				texture bpc_metal_tk1_roadparts01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_metal_tk1_roadparts01_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_metal_tk1_roadparts01_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_metal_tk1_roadparts01_Diffuse#4
+			{
+				texture bpc_metal_tk1_roadparts01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_tk1_concrete02_Blend_bpndpn"
+{
+	technique bpc_wall_tk1_concrete02_Blend_bpndpn_technique
+	{
+		pass bpc_wall_tk1_concrete02_Blend_bpndpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_concrete02_Blend_bpndpn_Diffuse#0
+			{
+				texture bpc_wall_tk1_concrete01br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_tk1_concrete02_Blend_bpndpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bpc_wall_tk1_concrete02_Blend_bpndpn_Diffuse#1
+			{
+				texture bpc_wall_tk1_concrete01br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_concrete02_Blend_bpndpn_Specular#2
+			{
+				texture bpc_wall_tk1_concrete01br_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_concrete02_Blend_bpndpn_Normal#3
+			{
+				texture bpc_wall_tk1_concrete01br_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_tk1_concrete02_Blend_bpndpn_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_tk1_concrete02_Blend_bpndpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_tk1_concrete02_Blend_bpndpn_Diffuse#4
+			{
+				texture bpc_wall_tk1_concrete01br_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_wall_tk1_concrete01_Blend_bpndpn"
+{
+	technique bpc_wall_tk1_concrete01_Blend_bpndpn_technique
+	{
+		pass bpc_wall_tk1_concrete01_Blend_bpndpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_wall_tk1_concrete01_Blend_bpndpn_Diffuse#0
+			{
+				texture bpc_wall_tk1_concrete01br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_wall_tk1_concrete01_Blend_bpndpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bpc_wall_tk1_concrete01_Blend_bpndpn_Diffuse#1
+			{
+				texture bpc_wall_tk1_concrete01br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_concrete01_Blend_bpndpn_Specular#2
+			{
+				texture bpc_wall_tk1_concrete01br_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_wall_tk1_concrete01_Blend_bpndpn_Normal#3
+			{
+				texture bpc_wall_tk1_concrete01br_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_wall_tk1_concrete01_Blend_bpndpn_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_wall_tk1_concrete01_Blend_bpndpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_wall_tk1_concrete01_Blend_bpndpn_Diffuse#4
+			{
+				texture bpc_wall_tk1_concrete01br_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_metal_tk1_rust03_dif_Cmn_dpn"
+{
+	technique bpc_metal_tk1_rust03_dif_Cmn_dpn_technique
+	{
+		pass bpc_metal_tk1_rust03_dif_Cmn_dpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_metal_tk1_rust03_dif_Cmn_dpn_Diffuse#0
+			{
+				texture bpc_metal_tk1_rust03_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_metal_tk1_rust03_dif_Cmn_dpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bpc_metal_tk1_rust03_dif_Cmn_dpn_Diffuse#1
+			{
+				texture bpc_metal_tk1_rust03_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_metal_tk1_rust03_dif_Cmn_dpn_Specular#2
+			{
+				texture bpc_metal_tk1_rust03_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_metal_tk1_rust03_dif_Cmn_dpn_Normal#3
+			{
+				texture bpc_metal_tk1_rust03_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_metal_tk1_rust03_dif_Cmn_dpn_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_metal_tk1_rust03_dif_Cmn_dpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_metal_tk1_rust03_dif_Cmn_dpn_Diffuse#4
+			{
+				texture bpc_metal_tk1_rust03_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_metal_tk1_roadparts02"
+{
+	technique bpc_metal_tk1_roadparts02_technique
+	{
+		pass bpc_metal_tk1_roadparts02_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_metal_tk1_roadparts02_Diffuse#0
+			{
+				texture bpc_metal_tk1_roadparts02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_metal_tk1_roadparts02_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bpc_metal_tk1_roadparts02_Diffuse#1
+			{
+				texture bpc_metal_tk1_roadparts02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_metal_tk1_roadparts02_Specular#2
+			{
+				texture bpc_metal_tk1_roadparts02_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_metal_tk1_roadparts02_Normal#3
+			{
+				texture bpc_metal_tk1_roadparts02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_metal_tk1_roadparts02_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_metal_tk1_roadparts02_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_metal_tk1_roadparts02_Diffuse#4
+			{
+				texture bpc_metal_tk1_roadparts02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_ground_tk1_line01_Blend_bpndpn"
+{
+	technique bpc_ground_tk1_line01_Blend_bpndpn_technique
+	{
+		pass bpc_ground_tk1_line01_Blend_bpndpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_ground_tk1_line01_Blend_bpndpn_Diffuse#0
+			{
+				texture bpc_ground_tk1_line01br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_ground_tk1_line01_Blend_bpndpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bpc_ground_tk1_line01_Blend_bpndpn_Diffuse#1
+			{
+				texture bpc_ground_tk1_line01br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_line01_Blend_bpndpn_Specular#2
+			{
+				texture bpc_ground_tk1_line01br_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_line01_Blend_bpndpn_Normal#3
+			{
+				texture bpc_ground_tk1_line01br_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_ground_tk1_line01_Blend_bpndpn_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_ground_tk1_line01_Blend_bpndpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_ground_tk1_line01_Blend_bpndpn_Diffuse#4
+			{
+				texture bpc_ground_tk1_line01br_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_ground_tk1_line02_Blend_bpndpn"
+{
+	technique bpc_ground_tk1_line02_Blend_bpndpn_technique
+	{
+		pass bpc_ground_tk1_line02_Blend_bpndpn_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_ground_tk1_line02_Blend_bpndpn_Diffuse#0
+			{
+				texture bpc_ground_tk1_line02br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_ground_tk1_line02_Blend_bpndpn_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bpc_ground_tk1_line02_Blend_bpndpn_Diffuse#1
+			{
+				texture bpc_ground_tk1_line02br_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_line02_Blend_bpndpn_Specular#2
+			{
+				texture bpc_ground_tk1_line02br_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_line02_Blend_bpndpn_Normal#3
+			{
+				texture bpc_ground_tk1_line02br_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_ground_tk1_line02_Blend_bpndpn_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_ground_tk1_line02_Blend_bpndpn_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_ground_tk1_line02_Blend_bpndpn_Diffuse#4
+			{
+				texture bpc_ground_tk1_line02br_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "bpc_ground_tk1_road01p"
+{
+	technique bpc_ground_tk1_road01p_technique
+	{
+		pass bpc_ground_tk1_road01p_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit bpc_ground_tk1_road01p_Diffuse#0
+			{
+				texture bpc_ground_tk1_road01pw_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass bpc_ground_tk1_road01p_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit bpc_ground_tk1_road01p_Diffuse#1
+			{
+				texture bpc_ground_tk1_road01pw_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_road01p_Specular#2
+			{
+				texture bpc_ground_tk1_road01pw_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit bpc_ground_tk1_road01p_Normal#3
+			{
+				texture bpc_ground_tk1_road01pw_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique bpc_ground_tk1_road01p_basic_technique
+	{
+	scheme basic_mat
+		pass bpc_ground_tk1_road01p_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit bpc_ground_tk1_road01p_Diffuse#4
+			{
+				texture bpc_ground_tk1_road01pw_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<PlaMissile>
+    <Accel>double:10</Accel>
+    <ChargeTime>double:2</ChargeTime>
+    <DebugPointClear_Way>bool:false</DebugPointClear_Way>
+    <GroundOffset>double:0</GroundOffset>
+    <Interval>double:2</Interval>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsMessageBoot>bool:true</IsMessageBoot>
+    <IsOnlyOneShot>bool:false</IsOnlyOneShot>
+    <LifeTime>double:-0.1</LifeTime>
+    <MaxSpeed>double:20</MaxSpeed>
+    <MinSpeed>double:3.6</MinSpeed>
+    <MisRangeOut>double:-0.1</MisRangeOut>
+    <PathIsAccel_Way>double:0</PathIsAccel_Way>
+    <PathIsBezier_Way>double:1</PathIsBezier_Way>
+    <PathPointMoveRelative_Way>bool:true</PathPointMoveRelative_Way>
+    <Path_IsLoop_Way>bool:false</Path_IsLoop_Way>
+    <Position>
+        <x>double:77.4194</x>
+        <y>double:25.4243</y>
+        <z>double:-1765.48</z>
+    </Position>
+    <PositionList_Way />
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:-0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>double:0</Type>
+    <Vel1D_Way>double:10</Vel1D_Way>
+    <Mesh>unknown.mesh</Mesh>
+</PlaMissile>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<MissionBigMotora>
+    <AttachOffsetX>double:0</AttachOffsetX>
+    <AttachOffsetY>double:0</AttachOffsetY>
+    <AttachOffsetZ>double:0</AttachOffsetZ>
+    <AttachTarget>id</AttachTarget>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:390.472</x>
+        <y>double:-1.96117</y>
+        <z>double:-518.004</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SearchType>double:1</SearchType>
+    <SetObjectID>integer</SetObjectID>
+    <WayPointA>vector3</WayPointA>
+    <WayPointB>vector3</WayPointB>
+    <m_BlowSpeed>double:10</m_BlowSpeed>
+    <m_FaintTime>double:2</m_FaintTime>
+    <m_MoveSpeed>double:2</m_MoveSpeed>
+    <Mesh>mis_obj_BigMotora.mesh</Mesh>
+</MissionBigMotora>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<CnzSlot>
+    <BonusRing>double:1500</BonusRing>
+    <Emerald_RelationSetObject>id</Emerald_RelationSetObject>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <JackpotMedal_RelationSetObject>id</JackpotMedal_RelationSetObject>
+    <JackpotPay_RelationSetObject>id</JackpotPay_RelationSetObject>
+    <Payout>double:0.92</Payout>
+    <Position>
+        <x>double:-31.5884</x>
+        <y>double:31.7521</y>
+        <z>double:-21.1211</z>
+    </Position>
+    <Range>double:1000</Range>
+    <Rotation>
+        <w>double:0.88701</w>
+        <x>double:0</x>
+        <y>double:0.461748</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Win_Bar>double:120</Win_Bar>
+    <Win_Eggman>double:0</Win_Eggman>
+    <Win_Jackpot>double:600</Win_Jackpot>
+    <Win_Ring>double:60</Win_Ring>
+    <Win_Sonic>double:400</Win_Sonic>
+    <Win_Tails>double:250</Win_Tails>
+    <Mesh>unknown.mesh</Mesh>
+</CnzSlot>

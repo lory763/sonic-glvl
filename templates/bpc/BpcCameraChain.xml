@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<BpcCameraChain>
+    <Camera00CameraTime>double:0.5</Camera00CameraTime>
+    <Camera00EnterEaseTime>double:0</Camera00EnterEaseTime>
+    <Camera00ID>id</Camera00ID>
+    <Camera01CameraTime>double:1.2</Camera01CameraTime>
+    <Camera01EnterEaseTime>double:0.8</Camera01EnterEaseTime>
+    <Camera01ID>id</Camera01ID>
+    <Camera02CameraTime>double:0</Camera02CameraTime>
+    <Camera02EnterEaseTime>double:0</Camera02EnterEaseTime>
+    <Camera02ID>id</Camera02ID>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <LastEaseTime>double:0</LastEaseTime>
+    <Position>
+        <x>double:-268.606</x>
+        <y>double:22.357</y>
+        <z>double:-322.583</z>
+    </Position>
+    <Range>double:10000</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>double:1</Type>
+    <Mesh>camera.mesh</Mesh>
+</BpcCameraChain>

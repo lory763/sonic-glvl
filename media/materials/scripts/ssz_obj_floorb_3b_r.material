@@ -1,0 +1,2645 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "ssz_rock_km1_relief01"
+{
+	technique ssz_rock_km1_relief01_technique
+	{
+		pass ssz_rock_km1_relief01_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_relief01_Diffuse#0
+			{
+				texture ssz_rock_km1_relief01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_relief01_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_relief01_Diffuse#1
+			{
+				texture ssz_rock_km1_relief01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_relief01_Normal#2
+			{
+				texture ssz_rock_km1_relief01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_relief01_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_relief01_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_relief01_Diffuse#3
+			{
+				texture ssz_rock_km1_relief01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_wall01"
+{
+	technique ssz_rock_km1_wall01_technique
+	{
+		pass ssz_rock_km1_wall01_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_wall01_Diffuse#0
+			{
+				texture ssz_rock_km1_wall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_wall01_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_wall01_Diffuse#1
+			{
+				texture ssz_rock_km1_wall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_wall01_Specular#2
+			{
+				texture ssz_rock_km1_wall01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_wall01_Normal#3
+			{
+				texture ssz_rock_km1_wall01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_wall01_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_wall01_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_wall01_Diffuse#4
+			{
+				texture ssz_rock_km1_wall01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_normalpillar01"
+{
+	technique ssz_rock_km1_normalpillar01_technique
+	{
+		pass ssz_rock_km1_normalpillar01_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_Diffuse#0
+			{
+				texture ssz_rock_km1_normalpillar01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_normalpillar01_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_Diffuse#1
+			{
+				texture ssz_rock_km1_normalpillar01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_Specular#2
+			{
+				texture ssz_rock_km1_normalpillar01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_Normal#3
+			{
+				texture ssz_rock_km1_normalpillar01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_normalpillar01_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_normalpillar01_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_normalpillar01_Diffuse#4
+			{
+				texture ssz_rock_km1_normalpillar01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_relief02"
+{
+	technique ssz_rock_km1_relief02_technique
+	{
+		pass ssz_rock_km1_relief02_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_relief02_Diffuse#0
+			{
+				texture ssz_rock_km1_relief02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_relief02_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_relief02_Diffuse#1
+			{
+				texture ssz_rock_km1_relief02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_relief02_Normal#2
+			{
+				texture ssz_rock_km1_relief02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_relief02_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_relief02_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_relief02_Diffuse#3
+			{
+				texture ssz_rock_km1_relief02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_in1_rollingfloor01_Common_dne2"
+{
+	technique ssz_rock_in1_rollingfloor01_Common_dne2_technique
+	{
+		pass ssz_rock_in1_rollingfloor01_Common_dne2_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGENREF0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_Diffuse#0
+			{
+				texture ssz_rock_in1_rollingfloor01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_Reflect#1
+			{
+				texture ssz_rock_km1_envmap_cube.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+		pass ssz_rock_in1_rollingfloor01_Common_dne2_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0REF
+			{
+				param_named normalMul float 0.4
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_Diffuse#2
+			{
+				texture ssz_rock_in1_rollingfloor01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_Normal#3
+			{
+				texture ssz_rock_in1_rollingfloor01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_Reflect#4
+			{
+				texture ssz_rock_km1_envmap_cube.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+	}
+	technique ssz_rock_in1_rollingfloor01_Common_dne2_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_in1_rollingfloor01_Common_dne2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_Diffuse#5
+			{
+				texture ssz_rock_in1_rollingfloor01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_Reflect#6
+			{
+				texture ssz_rock_km1_envmap_cube.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+	}
+}
+material "ssz_rock_in1_rollingfloor03_Luminescence_d"
+{
+	technique ssz_rock_in1_rollingfloor03_Luminescence_d_technique
+	{
+		pass ssz_rock_in1_rollingfloor03_Luminescence_d_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_in1_rollingfloor03_Luminescence_d_Diffuse#0
+			{
+				texture ssz_rock_in1_rollingfloor03_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_in1_rollingfloor04_Common_dne2"
+{
+	technique ssz_rock_in1_rollingfloor04_Common_dne2_technique
+	{
+		pass ssz_rock_in1_rollingfloor04_Common_dne2_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor04_Common_dne2_Diffuse#0
+			{
+				texture ssz_rock_in1_rollingfloor04_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_in1_rollingfloor04_Common_dne2_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor04_Common_dne2_Diffuse#1
+			{
+				texture ssz_rock_in1_rollingfloor04_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor04_Common_dne2_Normal#2
+			{
+				texture ssz_rock_in1_rollingfloor04_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_in1_rollingfloor04_Common_dne2_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_in1_rollingfloor04_Common_dne2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_in1_rollingfloor04_Common_dne2_Diffuse#3
+			{
+				texture ssz_rock_in1_rollingfloor04_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_relief01_1"
+{
+	technique ssz_rock_km1_relief01_1_technique
+	{
+		pass ssz_rock_km1_relief01_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_relief01_1_Diffuse#0
+			{
+				texture ssz_rock_km1_relief01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_relief01_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_relief01_1_Diffuse#1
+			{
+				texture ssz_rock_km1_relief01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_relief01_1_Normal#2
+			{
+				texture ssz_rock_km1_relief01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_relief01_1_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_relief01_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_relief01_1_Diffuse#3
+			{
+				texture ssz_rock_km1_relief01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_wall01_1"
+{
+	technique ssz_rock_km1_wall01_1_technique
+	{
+		pass ssz_rock_km1_wall01_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_wall01_1_Diffuse#0
+			{
+				texture ssz_rock_km1_wall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_wall01_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_wall01_1_Diffuse#1
+			{
+				texture ssz_rock_km1_wall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_wall01_1_Specular#2
+			{
+				texture ssz_rock_km1_wall01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_wall01_1_Normal#3
+			{
+				texture ssz_rock_km1_wall01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_wall01_1_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_wall01_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_wall01_1_Diffuse#4
+			{
+				texture ssz_rock_km1_wall01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_normalpillar01_1"
+{
+	technique ssz_rock_km1_normalpillar01_1_technique
+	{
+		pass ssz_rock_km1_normalpillar01_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_1_Diffuse#0
+			{
+				texture ssz_rock_km1_normalpillar01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_normalpillar01_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_1_Diffuse#1
+			{
+				texture ssz_rock_km1_normalpillar01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_1_Specular#2
+			{
+				texture ssz_rock_km1_normalpillar01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_1_Normal#3
+			{
+				texture ssz_rock_km1_normalpillar01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_normalpillar01_1_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_normalpillar01_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_normalpillar01_1_Diffuse#4
+			{
+				texture ssz_rock_km1_normalpillar01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_relief02_1"
+{
+	technique ssz_rock_km1_relief02_1_technique
+	{
+		pass ssz_rock_km1_relief02_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_relief02_1_Diffuse#0
+			{
+				texture ssz_rock_km1_relief02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_relief02_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_relief02_1_Diffuse#1
+			{
+				texture ssz_rock_km1_relief02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_relief02_1_Normal#2
+			{
+				texture ssz_rock_km1_relief02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_relief02_1_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_relief02_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_relief02_1_Diffuse#3
+			{
+				texture ssz_rock_km1_relief02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_in1_rollingfloor01_Common_dne2_1"
+{
+	technique ssz_rock_in1_rollingfloor01_Common_dne2_1_technique
+	{
+		pass ssz_rock_in1_rollingfloor01_Common_dne2_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGENREF0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_1_Diffuse#0
+			{
+				texture ssz_rock_in1_rollingfloor01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_1_Reflect#1
+			{
+				texture ssz_rock_km1_envmap_cube.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+		pass ssz_rock_in1_rollingfloor01_Common_dne2_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0REF
+			{
+				param_named normalMul float 0.4
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_1_Diffuse#2
+			{
+				texture ssz_rock_in1_rollingfloor01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_1_Normal#3
+			{
+				texture ssz_rock_in1_rollingfloor01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_1_Reflect#4
+			{
+				texture ssz_rock_km1_envmap_cube.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+	}
+	technique ssz_rock_in1_rollingfloor01_Common_dne2_1_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_in1_rollingfloor01_Common_dne2_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_1_Diffuse#5
+			{
+				texture ssz_rock_in1_rollingfloor01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor01_Common_dne2_1_Reflect#6
+			{
+				texture ssz_rock_km1_envmap_cube.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+	}
+}
+material "ssz_rock_in1_rollingfloor03_Luminescence_d_1"
+{
+	technique ssz_rock_in1_rollingfloor03_Luminescence_d_1_technique
+	{
+		pass ssz_rock_in1_rollingfloor03_Luminescence_d_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_in1_rollingfloor03_Luminescence_d_1_Diffuse#0
+			{
+				texture ssz_rock_in1_rollingfloor03_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_in1_rollingfloor04_Common_dne2_1"
+{
+	technique ssz_rock_in1_rollingfloor04_Common_dne2_1_technique
+	{
+		pass ssz_rock_in1_rollingfloor04_Common_dne2_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor04_Common_dne2_1_Diffuse#0
+			{
+				texture ssz_rock_in1_rollingfloor04_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_in1_rollingfloor04_Common_dne2_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor04_Common_dne2_1_Diffuse#1
+			{
+				texture ssz_rock_in1_rollingfloor04_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_in1_rollingfloor04_Common_dne2_1_Normal#2
+			{
+				texture ssz_rock_in1_rollingfloor04_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_in1_rollingfloor04_Common_dne2_1_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_in1_rollingfloor04_Common_dne2_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_in1_rollingfloor04_Common_dne2_1_Diffuse#3
+			{
+				texture ssz_rock_in1_rollingfloor04_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_wall01_2"
+{
+	technique ssz_rock_km1_wall01_2_technique
+	{
+		pass ssz_rock_km1_wall01_2_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_wall01_2_Diffuse#0
+			{
+				texture ssz_rock_km1_wall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_wall01_2_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_wall01_2_Diffuse#1
+			{
+				texture ssz_rock_km1_wall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_wall01_2_Specular#2
+			{
+				texture ssz_rock_km1_wall01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_wall01_2_Normal#3
+			{
+				texture ssz_rock_km1_wall01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_wall01_2_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_wall01_2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_wall01_2_Diffuse#4
+			{
+				texture ssz_rock_km1_wall01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_relief01_2"
+{
+	technique ssz_rock_km1_relief01_2_technique
+	{
+		pass ssz_rock_km1_relief01_2_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_relief01_2_Diffuse#0
+			{
+				texture ssz_rock_km1_relief01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_relief01_2_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_relief01_2_Diffuse#1
+			{
+				texture ssz_rock_km1_relief01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_relief01_2_Normal#2
+			{
+				texture ssz_rock_km1_relief01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_relief01_2_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_relief01_2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_relief01_2_Diffuse#3
+			{
+				texture ssz_rock_km1_relief01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_relief02_2"
+{
+	technique ssz_rock_km1_relief02_2_technique
+	{
+		pass ssz_rock_km1_relief02_2_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_relief02_2_Diffuse#0
+			{
+				texture ssz_rock_km1_relief02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_relief02_2_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_relief02_2_Diffuse#1
+			{
+				texture ssz_rock_km1_relief02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_relief02_2_Normal#2
+			{
+				texture ssz_rock_km1_relief02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_relief02_2_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_relief02_2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_relief02_2_Diffuse#3
+			{
+				texture ssz_rock_km1_relief02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_normalpillar01_2"
+{
+	technique ssz_rock_km1_normalpillar01_2_technique
+	{
+		pass ssz_rock_km1_normalpillar01_2_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_2_Diffuse#0
+			{
+				texture ssz_rock_km1_normalpillar01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_normalpillar01_2_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_2_Diffuse#1
+			{
+				texture ssz_rock_km1_normalpillar01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_2_Specular#2
+			{
+				texture ssz_rock_km1_normalpillar01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_2_Normal#3
+			{
+				texture ssz_rock_km1_normalpillar01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_normalpillar01_2_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_normalpillar01_2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_normalpillar01_2_Diffuse#4
+			{
+				texture ssz_rock_km1_normalpillar01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_jh1_floor01_Common_dne2"
+{
+	technique ssz_rock_jh1_floor01_Common_dne2_technique
+	{
+		pass ssz_rock_jh1_floor01_Common_dne2_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGENREF0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_Diffuse#0
+			{
+				texture ssz_rock_jh1_floor01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_Reflect#1
+			{
+				texture ssz_rock_km1_envmap_cube.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+		pass ssz_rock_jh1_floor01_Common_dne2_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0REF
+			{
+				param_named normalMul float 0.4
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_Diffuse#2
+			{
+				texture ssz_rock_jh1_floor01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_Normal#3
+			{
+				texture ssz_rock_jh1_floor01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_Reflect#4
+			{
+				texture ssz_rock_km1_envmap_cube.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+	}
+	technique ssz_rock_jh1_floor01_Common_dne2_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_jh1_floor01_Common_dne2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_Diffuse#5
+			{
+				texture ssz_rock_jh1_floor01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_Reflect#6
+			{
+				texture ssz_rock_km1_envmap_cube.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+	}
+}
+material "ssz_rock_in1_rollingfloor03_Luminescence_d_2"
+{
+	technique ssz_rock_in1_rollingfloor03_Luminescence_d_2_technique
+	{
+		pass ssz_rock_in1_rollingfloor03_Luminescence_d_2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_in1_rollingfloor03_Luminescence_d_2_Diffuse#0
+			{
+				texture ssz_rock_in1_rollingfloor03_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_jh1_floor02_Common_dne2"
+{
+	technique ssz_rock_jh1_floor02_Common_dne2_technique
+	{
+		pass ssz_rock_jh1_floor02_Common_dne2_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_jh1_floor02_Common_dne2_Diffuse#0
+			{
+				texture ssz_rock_jh1_floor02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_jh1_floor02_Common_dne2_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_jh1_floor02_Common_dne2_Diffuse#1
+			{
+				texture ssz_rock_jh1_floor02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_jh1_floor02_Common_dne2_Normal#2
+			{
+				texture ssz_rock_jh1_floor02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_jh1_floor02_Common_dne2_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_jh1_floor02_Common_dne2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_jh1_floor02_Common_dne2_Diffuse#3
+			{
+				texture ssz_rock_jh1_floor02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_relief01_3"
+{
+	technique ssz_rock_km1_relief01_3_technique
+	{
+		pass ssz_rock_km1_relief01_3_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_relief01_3_Diffuse#0
+			{
+				texture ssz_rock_km1_relief01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_relief01_3_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_relief01_3_Diffuse#1
+			{
+				texture ssz_rock_km1_relief01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_relief01_3_Normal#2
+			{
+				texture ssz_rock_km1_relief01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_relief01_3_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_relief01_3_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_relief01_3_Diffuse#3
+			{
+				texture ssz_rock_km1_relief01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_wall01_3"
+{
+	technique ssz_rock_km1_wall01_3_technique
+	{
+		pass ssz_rock_km1_wall01_3_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_wall01_3_Diffuse#0
+			{
+				texture ssz_rock_km1_wall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_wall01_3_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_wall01_3_Diffuse#1
+			{
+				texture ssz_rock_km1_wall01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_wall01_3_Specular#2
+			{
+				texture ssz_rock_km1_wall01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_wall01_3_Normal#3
+			{
+				texture ssz_rock_km1_wall01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_wall01_3_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_wall01_3_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_wall01_3_Diffuse#4
+			{
+				texture ssz_rock_km1_wall01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_normalpillar01_3"
+{
+	technique ssz_rock_km1_normalpillar01_3_technique
+	{
+		pass ssz_rock_km1_normalpillar01_3_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_3_Diffuse#0
+			{
+				texture ssz_rock_km1_normalpillar01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_normalpillar01_3_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_3_Diffuse#1
+			{
+				texture ssz_rock_km1_normalpillar01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_3_Specular#2
+			{
+				texture ssz_rock_km1_normalpillar01_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_normalpillar01_3_Normal#3
+			{
+				texture ssz_rock_km1_normalpillar01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_normalpillar01_3_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_normalpillar01_3_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_normalpillar01_3_Diffuse#4
+			{
+				texture ssz_rock_km1_normalpillar01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_km1_relief02_3"
+{
+	technique ssz_rock_km1_relief02_3_technique
+	{
+		pass ssz_rock_km1_relief02_3_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_km1_relief02_3_Diffuse#0
+			{
+				texture ssz_rock_km1_relief02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_km1_relief02_3_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_km1_relief02_3_Diffuse#1
+			{
+				texture ssz_rock_km1_relief02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_km1_relief02_3_Normal#2
+			{
+				texture ssz_rock_km1_relief02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_km1_relief02_3_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_km1_relief02_3_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_km1_relief02_3_Diffuse#3
+			{
+				texture ssz_rock_km1_relief02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_jh1_floor01_Common_dne2_1"
+{
+	technique ssz_rock_jh1_floor01_Common_dne2_1_technique
+	{
+		pass ssz_rock_jh1_floor01_Common_dne2_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGENREF0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0REF
+			{
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_1_Diffuse#0
+			{
+				texture ssz_rock_jh1_floor01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_1_Reflect#1
+			{
+				texture ssz_rock_km1_envmap_cube.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+		pass ssz_rock_jh1_floor01_Common_dne2_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0REF
+			{
+				param_named normalMul float 0.4
+				param_named reflectivity float 1
+				param_named fresnelMul float 4.0
+				param_named fresnelPow float 5.0
+			}
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_1_Diffuse#2
+			{
+				texture ssz_rock_jh1_floor01_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_1_Normal#3
+			{
+				texture ssz_rock_jh1_floor01_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_1_Reflect#4
+			{
+				texture ssz_rock_km1_envmap_cube.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+	}
+	technique ssz_rock_jh1_floor01_Common_dne2_1_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_jh1_floor01_Common_dne2_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_1_Diffuse#5
+			{
+				texture ssz_rock_jh1_floor01_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_jh1_floor01_Common_dne2_1_Reflect#6
+			{
+				texture ssz_rock_km1_envmap_cube.DDS cubic
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+				env_map cubic_reflection
+			}
+		}
+	}
+}
+material "ssz_rock_in1_rollingfloor03_Luminescence_d_3"
+{
+	technique ssz_rock_in1_rollingfloor03_Luminescence_d_3_technique
+	{
+		pass ssz_rock_in1_rollingfloor03_Luminescence_d_3_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_in1_rollingfloor03_Luminescence_d_3_Diffuse#0
+			{
+				texture ssz_rock_in1_rollingfloor03_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "ssz_rock_jh1_floor02_Common_dne2_1"
+{
+	technique ssz_rock_jh1_floor02_Common_dne2_1_technique
+	{
+		pass ssz_rock_jh1_floor02_Common_dne2_1_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit ssz_rock_jh1_floor02_Common_dne2_1_Diffuse#0
+			{
+				texture ssz_rock_jh1_floor02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass ssz_rock_jh1_floor02_Common_dne2_1_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGENNORM0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0NORM0
+			{
+				param_named normalMul float 0.4
+			}
+
+			texture_unit ssz_rock_jh1_floor02_Common_dne2_1_Diffuse#1
+			{
+				texture ssz_rock_jh1_floor02_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit ssz_rock_jh1_floor02_Common_dne2_1_Normal#2
+			{
+				texture ssz_rock_jh1_floor02_nrm.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique ssz_rock_jh1_floor02_Common_dne2_1_basic_technique
+	{
+	scheme basic_mat
+		pass ssz_rock_jh1_floor02_Common_dne2_1_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit ssz_rock_jh1_floor02_Common_dne2_1_Diffuse#3
+			{
+				texture ssz_rock_jh1_floor02_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

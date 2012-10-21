@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<EucBigBarrel>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Path>string:euc02_path_01</Path>
+    <Position>
+        <x>double:256.837</x>
+        <y>double:15.03</y>
+        <z>double:-87.9998</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.00374934</w>
+        <x>double:0</x>
+        <y>double:-0.999993</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <m_AutoStart>bool:false</m_AutoStart>
+    <m_CreateParam.Accele>double:1</m_CreateParam.Accele>
+    <m_CreateParam.FitInPath>bool:true</m_CreateParam.FitInPath>
+    <m_CreateParam.Friction>double:100</m_CreateParam.Friction>
+    <m_CreateParam.InitialSpeed>double:8</m_CreateParam.InitialSpeed>
+    <m_CreateParam.IsDamage>bool:true</m_CreateParam.IsDamage>
+    <m_CreateParam.Mass>double:10000</m_CreateParam.Mass>
+    <m_CreateParam.MoveByPath>bool:false</m_CreateParam.MoveByPath>
+    <m_CreateParam.ObjectBreakSpeed>double:0</m_CreateParam.ObjectBreakSpeed>
+    <m_CreateParam.PathEndByDynamic>bool:false</m_CreateParam.PathEndByDynamic>
+    <m_CreateParam.Restitution>double:0.1</m_CreateParam.Restitution>
+    <m_CreateParam.TurnParam.m_TurnAccel>double:2</m_CreateParam.TurnParam.m_TurnAccel>
+    <m_CreateParam.TurnParam.m_TurnDecel>double:1</m_CreateParam.TurnParam.m_TurnDecel>
+    <m_CreateParam.TurnParam.m_TurnVelocityMax>double:5</m_CreateParam.TurnParam.m_TurnVelocityMax>
+    <m_CreateParam.VelocityMax>double:10</m_CreateParam.VelocityMax>
+    <m_CreateSpanTime>double:5</m_CreateSpanTime>
+    <m_IsMessageOn>bool:true</m_IsMessageOn>
+    <m_IsOnceActive>bool:true</m_IsOnceActive>
+    <m_LeftInNext>bool:true</m_LeftInNext>
+    <Mesh>euc_obj_barrel.mesh</Mesh>
+</EucBigBarrel>

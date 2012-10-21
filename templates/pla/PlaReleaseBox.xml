@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<PlaReleaseBox>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsMsgBoot>bool:false</IsMsgBoot>
+    <IsMsgHide>bool:false</IsMsgHide>
+    <IsRevive>bool:false</IsRevive>
+    <Position>
+        <x>double:80.3239</x>
+        <y>double:49.2722</y>
+        <z>double:-1765.48</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:-0.707107</w>
+        <x>double:0</x>
+        <y>double:-0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type presets="2" preset0="6(Rocket)" preset1="7(Spikes)">double:6</Type>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>Type==6</Condition>
+       <Mesh>chr_pha_Rocket_HD.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==7</Condition>
+       <Mesh>chr_Spike_HD.mesh</Mesh>
+    </AltMesh>
+
+</PlaReleaseBox>

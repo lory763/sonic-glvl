@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<PlaRotTerrain>
+    <AngleRate>double:2.3</AngleRate>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <LockType>double:2</LockType>
+    <MaxAngle>double:0</MaxAngle>
+    <MaxAngleR>double:90</MaxAngleR>
+    <Position>
+        <x>double:371</x>
+        <y>double:-14.9</y>
+        <z>double:-1.5</z>
+    </Position>
+    <Range>double:200</Range>
+    <Rotation>
+        <w>double:-0.999999</w>
+        <x>double:-8.11258e-007</x>
+        <y>double:2.03463e-005</y>
+        <z>double:1.60309e-006</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>double:2</Type>
+    <Mesh>unknown.mesh</Mesh>
+</PlaRotTerrain>

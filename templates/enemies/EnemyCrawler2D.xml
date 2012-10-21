@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<EnemyCrawler2D>
+    <ActionRange>double:100</ActionRange>
+    <ActionType>double:0</ActionType>
+    <AppearType>double:0</AppearType>
+    <AttackInterval>double:3</AttackInterval>
+    <AttackRange>double:10</AttackRange>
+    <AttackSpeed>double:20</AttackSpeed>
+    <GroundOffset>double:0</GroundOffset>
+    <HideOmenTime>double:1.5</HideOmenTime>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:false</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:true</IsDamageFromOnlyPlayer>
+    <IsJumpFront>bool:false</IsJumpFront>
+    <IsMessageAction>bool:false</IsMessageAction>
+    <IsMessageOn>bool:false</IsMessageOn>
+    <IsPlayFindMotion>bool:true</IsPlayFindMotion>
+    <IsRollAttack>bool:false</IsRollAttack>
+    <IsUpSideDown>bool:false</IsUpSideDown>
+    <JumpDis>double:7</JumpDis>
+    <Position>
+        <x>double:-43</x>
+        <y>double:425</y>
+        <z>double:217</z>
+    </Position>
+    <Range>double:30</Range>
+    <ReadyTime>double:0.8</ReadyTime>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:-0.707106</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Target>vector3</Target>
+    <TurnToPlayerAccel>double:4</TurnToPlayerAccel>
+    <Mesh>enm_Crawler_HD.mesh</Mesh>
+</EnemyCrawler2D>

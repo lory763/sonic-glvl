@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<EucGondola>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:114.346</x>
+        <y>double:31</y>
+        <z>double:-1.52555</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:-1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <WayPointA>vector3</WayPointA>
+    <m_AcceleSpped>double:7</m_AcceleSpped>
+    <m_EndOffset>double:0</m_EndOffset>
+    <m_IsFall>bool:true</m_IsFall>
+    <m_MaxSpeed>double:8</m_MaxSpeed>
+    <m_StartOffset>double:0</m_StartOffset>
+    <Mesh>unknown.mesh</Mesh>
+</EucGondola>

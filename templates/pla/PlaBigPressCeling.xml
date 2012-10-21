@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<PlaBigPressCeling>
+    <Block01>bool:true</Block01>
+    <Block02>bool:true</Block02>
+    <Block03>bool:true</Block03>
+    <Block04>bool:true</Block04>
+    <Block05>bool:false</Block05>
+    <DownHeight>double:38.9</DownHeight>
+    <GroundOffset>double:0</GroundOffset>
+    <GuideHeight>double:2</GuideHeight>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <LanchHeight>double:5</LanchHeight>
+    <Position>
+        <x>double:938.063</x>
+        <y>double:397</y>
+        <z>double:-1785.17</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</PlaBigPressCeling>

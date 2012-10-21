@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<SszCollapseTower>
+    <CameraDistanceFromPlayer>double:15</CameraDistanceFromPlayer>
+    <CameraOffsetBinormal>double:-3</CameraOffsetBinormal>
+    <CameraOffsetHeight>double:3</CameraOffsetHeight>
+    <CollapseTimeSpan>double:0.03</CollapseTimeSpan>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <PieceCount>double:23</PieceCount>
+    <Position>
+        <x>double:3363.43</x>
+        <y>double:-281.967</y>
+        <z>double:823.564</z>
+    </Position>
+    <Range>double:300</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</SszCollapseTower>

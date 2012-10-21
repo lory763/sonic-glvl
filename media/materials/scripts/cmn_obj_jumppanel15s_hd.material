@@ -1,0 +1,341 @@
+material "defaultLambert"
+{
+	technique defaultLambert_technique
+	{
+		pass defaultLambert_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 0
+			emissive 0 0 0 1
+		}
+	}
+}
+material "cmn_obj_jumppanel_HD_body02"
+{
+	technique cmn_obj_jumppanel_HD_body02_technique
+	{
+		pass cmn_obj_jumppanel_HD_body02_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit cmn_obj_jumppanel_HD_body02_Diffuse#0
+			{
+				texture cmn_metal_ms_jumppanel2_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass cmn_obj_jumppanel_HD_body02_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit cmn_obj_jumppanel_HD_body02_Diffuse#1
+			{
+				texture cmn_metal_ms_jumppanel2_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cmn_obj_jumppanel_HD_body02_Specular#2
+			{
+				texture cmn_metal_ms_jumppanel2_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique cmn_obj_jumppanel_HD_body02_basic_technique
+	{
+	scheme basic_mat
+		pass cmn_obj_jumppanel_HD_body02_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cmn_obj_jumppanel_HD_body02_Diffuse#3
+			{
+				texture cmn_metal_ms_jumppanel2_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "cmn_obj_jumppanel_HD_body01"
+{
+	technique cmn_obj_jumppanel_HD_body01_technique
+	{
+		pass cmn_obj_jumppanel_HD_body01_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit cmn_obj_jumppanel_HD_body01_Diffuse#0
+			{
+				texture cmn_obj_jumpall_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass cmn_obj_jumppanel_HD_body01_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit cmn_obj_jumppanel_HD_body01_Diffuse#1
+			{
+				texture cmn_obj_jumpall_dif_HD.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cmn_obj_jumppanel_HD_body01_Specular#2
+			{
+				texture cmn_obj_jumpall_pow_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique cmn_obj_jumppanel_HD_body01_basic_technique
+	{
+	scheme basic_mat
+		pass cmn_obj_jumppanel_HD_body01_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cmn_obj_jumppanel_HD_body01_Diffuse#3
+			{
+				texture cmn_obj_jumpall_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "cmn_obj_jumppanel_HD_shadow"
+{
+	technique cmn_obj_jumppanel_HD_shadow_technique
+	{
+		pass cmn_obj_jumppanel_HD_shadow_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cmn_obj_jumppanel_HD_shadow_Diffuse#0
+			{
+				texture cmn_ms_shadow_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "cmn_obj_jumppanel_HD_belt"
+{
+	technique cmn_obj_jumppanel_HD_belt_technique
+	{
+		pass cmn_obj_jumppanel_HD_belt_Ambient
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			illumination_stage ambient
+			vertex_program_ref vsAmbGEN0
+			{
+			}
+			fragment_program_ref fpAmbGENDIFF0
+			{
+			}
+
+			texture_unit cmn_obj_jumppanel_HD_belt_Diffuse#0
+			{
+				texture cmn_metal_ms_panelbelt_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		pass cmn_obj_jumppanel_HD_belt_Light
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend add
+
+			iteration once_per_light
+
+			illumination_stage per_light
+			depth_write off
+			vertex_program_ref vsLightGEN0
+			{
+			}
+			fragment_program_ref fpLightGENDIFF0SPEC0
+			{
+			}
+
+			texture_unit cmn_obj_jumppanel_HD_belt_Diffuse#1
+			{
+				texture cmn_metal_ms_panelbelt_dif.DDS
+				tex_coord_set 0
+				mipmap_bias -1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+			texture_unit cmn_obj_jumppanel_HD_belt_Specular#2
+			{
+				texture cmn_metal_ms_panelbelt_pow.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	technique cmn_obj_jumppanel_HD_belt_basic_technique
+	{
+	scheme basic_mat
+		pass cmn_obj_jumppanel_HD_belt_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 1 1 1 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cmn_obj_jumppanel_HD_belt_Diffuse#3
+			{
+				texture cmn_metal_ms_panelbelt_dif.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material "cmn_obj_jumppanel_HD_arrow"
+{
+	technique cmn_obj_jumppanel_HD_arrow_technique
+	{
+		pass cmn_obj_jumppanel_HD_arrow_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit cmn_obj_jumppanel_HD_arrow_Diffuse#0
+			{
+				texture cmn_obj_panelarrow01_dif_HD.DDS
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

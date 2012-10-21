@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<SszUpDownPoleStand>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsOnAir>bool:true</IsOnAir>
+    <ModelLengthHeight>double:8</ModelLengthHeight>
+    <Position>
+        <x>double:1844.83</x>
+        <y>double:-515.536</y>
+        <z>double:334.384</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</SszUpDownPoleStand>

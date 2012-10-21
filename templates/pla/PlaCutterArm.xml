@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<PlaCutterArm>
+    <GroundOffset>double:0</GroundOffset>
+    <Interval>double:0.1</Interval>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:229.078</x>
+        <y>double:113.737</y>
+        <z>double:-1765.48</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <Scale>double:1</Scale>
+    <SetObjectID>integer</SetObjectID>
+    <Size>double:1</Size>
+    <Speed>double:1</Speed>
+    <Type>double:0</Type>
+    <useStop>bool:false</useStop>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>Size==0</Condition>
+       <Mesh>pla_obj_cutter_arm_s.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Size==1</Condition>
+       <Mesh>pla_obj_cutter_arm_l.mesh</Mesh>
+    </AltMesh>
+</PlaCutterArm>

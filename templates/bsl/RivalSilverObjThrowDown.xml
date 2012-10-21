@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<RivalSilverObjThrowDown>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:281.666</x>
+        <y>double:0.676848</y>
+        <z>double:-7.56751</z>
+    </Position>
+    <Range>double:500</Range>
+    <Rotation>
+        <w>double:0.713227</w>
+        <x>double:0.132189</x>
+        <y>double:-0.676827</y>
+        <z>double:0.125442</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>double:0</Type>
+    <Mesh>unknown.mesh</Mesh>
+</RivalSilverObjThrowDown>

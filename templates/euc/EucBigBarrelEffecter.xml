@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<EucBigBarrelEffecter>
+    <Collision_Height>double:1.1</Collision_Height>
+    <Collision_Length>double:10</Collision_Length>
+    <Collision_Width>double:10</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:296.311</x>
+        <y>double:-11.4714</y>
+        <z>double:-87.9575</z>
+    </Position>
+    <Range>double:200</Range>
+    <Rotation>
+        <w>double:0.987688</w>
+        <x>double:6.43172e-011</x>
+        <y>double:4.06083e-010</y>
+        <z>double:0.156434</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShakeDir>double:0</ShakeDir>
+    <Shape_Type>double:0</Shape_Type>
+    <m_EnableShake>bool:true</m_EnableShake>
+    <m_EnableSound>bool:false</m_EnableSound>
+    <m_IgnoreTime>double:1</m_IgnoreTime>
+    <m_ShakeAttenuation>double:0.1</m_ShakeAttenuation>
+    <m_ShakeNum>double:3</m_ShakeNum>
+    <m_ShakeSize>double:0.3</m_ShakeSize>
+    <m_ShakeSizeDistance>double:10</m_ShakeSizeDistance>
+    <m_ShakeTime>double:0.6</m_ShakeTime>
+    <Mesh>collision.mesh</Mesh>
+</EucBigBarrelEffecter>

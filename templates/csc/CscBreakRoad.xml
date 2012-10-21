@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<CscBreakRoad>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <ModelType>double:0</ModelType>
+    <Position>
+        <x>double:-734.7</x>
+        <y>double:5</y>
+        <z>double:-10.6</z>
+    </Position>
+    <Range>double:500</Range>
+    <Rotation>
+        <w>double:-0.866025</w>
+        <x>double:0</x>
+        <y>double:0.5</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>ModelType==0</Condition>
+       <Mesh>csc_obj_breakroadA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>ModelType==1</Condition>
+       <Mesh>csc_obj_breakroadB.mesh</Mesh>
+    </AltMesh>
+</CscBreakRoad>

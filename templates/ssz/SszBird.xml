@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<SszBird>
+    <AnimationSpeed>double:0.8227</AnimationSpeed>
+    <ChangePitchSpeed>double:45</ChangePitchSpeed>
+    <FirstSpeed>double:10</FirstSpeed>
+    <FlyStartRange>double:21.5</FlyStartRange>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsChangePitch>bool:false</IsChangePitch>
+    <IsInAir>bool:false</IsInAir>
+    <MaxSpeed>double:20</MaxSpeed>
+    <MotionType>double:2</MotionType>
+    <Pitch>double:60</Pitch>
+    <Position>
+        <x>double:2528.68</x>
+        <y>double:-187.192</y>
+        <z>double:729.813</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.507538</w>
+        <x>double:0</x>
+        <y>double:-0.861628</y>
+        <z>double:0</z>
+    </Rotation>
+    <Scale>double:1.81</Scale>
+    <SetObjectID>integer</SetObjectID>
+    <TargetPitch>double:30</TargetPitch>
+    <Type>double:0</Type>
+    <WalkingRadius>double:0</WalkingRadius>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>Type==0</Condition>
+       <Mesh>ssz_obj_parrotsA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==1</Condition>
+       <Mesh>ssz_obj_parrotsB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==2</Condition>
+       <Mesh>ssz_obj_parrotsB.mesh</Mesh>
+    </AltMesh>
+</SszBird>
