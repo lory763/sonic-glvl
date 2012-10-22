@@ -60,10 +60,6 @@ templates\common\Cannon_ChangeParam.xml
 
 category SonicGLvl Helpers
 templates\editor\SonicSpawn.xml
-templates\editor\SonicStandSpawn.xml
-templates\editor\SonicDashSpawn.xml
-templates\editor\SonicCrouchSpawn.xml
-templates\editor\SonicBoardSpawn.xml
 
 category Events
 templates\common\EventSetter.xml
