@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<BoardGetOnOffCollision>
+    <Collision_Height>double:10</Collision_Height>
+    <Collision_Width>double:10</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:701.5</x>
+        <y>double:-80.6085</y>
+        <z>double:-652.887</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:-3.4508e-008</w>
+        <x>double:2.68306e-008</x>
+        <y>double:0.789452</y>
+        <z>double:0.613813</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>double:1</Type>
+    <Velocity>double:5</Velocity>
+    <Mesh>collision.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="0.1">Collision_Length</PreviewScaleZ>
+</BoardGetOnOffCollision>

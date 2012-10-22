@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<EnemySpanner2D>
+    <AppearPattern>double:0</AppearPattern>
+    <AppearPoint>vector3</AppearPoint>
+    <AppearTime>double:3</AppearTime>
+    <ElecTime_Exec>double:1</ElecTime_Exec>
+    <ElecTime_Interval>double:3</ElecTime_Interval>
+    <ElecTime_Pre>double:1.5</ElecTime_Pre>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsLookPlayer>bool:true</IsLookPlayer>
+    <IsWaitElec>bool:false</IsWaitElec>
+    <MovePattern>double:0</MovePattern>
+    <MoveVel>double:0.5</MoveVel>
+    <Position>
+        <x>double:1010.2</x>
+        <y>double:-81.7869</y>
+        <z>double:11.8673</z>
+    </Position>
+    <Range>double:30</Range>
+    <RebirthPattern>double:0</RebirthPattern>
+    <RebirthPoint>vector3</RebirthPoint>
+    <RebirthTime>double:5</RebirthTime>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <WayPointA>vector3</WayPointA>
+    <WayPointB>vector3</WayPointB>
+    
+    <Mesh>enm_spana_HD_1.mesh</Mesh>
+</EnemySpanner2D>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<MedalMoon>
+    <GroundOffset>double:0</GroundOffset>
+    <Index>double:0</Index>
+    <Position>
+        <x>double:683.544</x>
+        <y>double:-101.286</y>
+        <z>double:1239.85</z>
+    </Position>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:-9.67275e-007</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</MedalMoon>

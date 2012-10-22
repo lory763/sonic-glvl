@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<Beach_MotionDoor>
+    <GroundOffset>double:0</GroundOffset>
+    <Position>
+        <w>double:1</w>
+        <x>double:476.218</x>
+        <y>double:-80.5718</y>
+        <z>double:-8173.33</z>
+    </Position>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</Beach_MotionDoor>

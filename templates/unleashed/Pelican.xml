@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<Pelican>
+    <GroundOffset>double:0</GroundOffset>
+    <IsRight>bool:false</IsRight>
+    <Position>
+        <x>double:70.8825</x>
+        <y>double:-18.0882</y>
+        <z>double:-879.245</z>
+    </Position>
+    <Rotation>
+        <w>double:-0.0862391</w>
+        <x>double:-0.00547532</x>
+        <y>double:0.99626</y>
+        <z>double:0.000519878</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</Pelican>

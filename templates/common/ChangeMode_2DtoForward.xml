@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<ChangeMode_2DtoForward>
+    <Collision_Height>double:65</Collision_Height>
+    <Collision_Width>double:49</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:561.242</x>
+        <y>double:-789.958</y>
+        <z>double:-565.133</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TargetDirection>vector3</TargetDirection>
+    <Template>double:0</Template>
+    <m_CurveCorrectionForce>double:1</m_CurveCorrectionForce>
+    <m_DashPathSideMoveRate>double:0.6</m_DashPathSideMoveRate>
+    <m_IsAutoChange2DPath>bool:true</m_IsAutoChange2DPath>
+    <m_IsChangeCamera>bool:true</m_IsChangeCamera>
+    <m_IsEnableFromBack>bool:true</m_IsEnableFromBack>
+    <m_IsEnableFromFront>bool:true</m_IsEnableFromFront>
+    <m_IsLimitEdge>bool:true</m_IsLimitEdge>
+    <m_IsPadCorrect>bool:true</m_IsPadCorrect>
+    <m_IsReverseCameraEnable>bool:false</m_IsReverseCameraEnable>
+    <m_PathCorrectionForce>double:0</m_PathCorrectionForce>
+    <m_PathEaseTime>double:1</m_PathEaseTime>
+    <Mesh>changemode.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="0.1">Collision_Length</PreviewScaleZ>
+</ChangeMode_2DtoForward>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<eAirCannonNormal>
+    <GroundOffset>double:0</GroundOffset>
+    <Interval>double:0.4</Interval>
+    <MoveType>double:0</MoveType>
+    <NumBullet>double:10</NumBullet>
+    <NumShotOneTime>double:1</NumShotOneTime>
+    <OnlyPlayerAttack>bool:false</OnlyPlayerAttack>
+    <Position>
+        <x>double:671.272</x>
+        <y>double:-112.273</y>
+        <z>double:1408.99</z>
+    </Position>
+    <RadiusAction>double:30</RadiusAction>
+    <RadiusSearch>double:50</RadiusSearch>
+    <Rotation>
+        <w>double:-4.37114e-008</w>
+        <x>double:0</x>
+        <y>double:1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShotType>double:2</ShotType>
+    <Type>double:2</Type>
+    <ViewAngleTate>double:30</ViewAngleTate>
+    <ViewAngleYoko>double:30</ViewAngleYoko>
+    <Mesh>unknown.mesh</Mesh>
+</eAirCannonNormal>

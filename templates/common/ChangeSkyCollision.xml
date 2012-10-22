@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<ChangeSkyCollision>
+    <Collision_Height>double:30</Collision_Height>
+    <Collision_Width>double:10</Collision_Width>
+    <FollowUpRatioYBack>double:0</FollowUpRatioYBack>
+    <FollowUpRatioYFront>double:0</FollowUpRatioYFront>
+    <GroundOffset>double:0</GroundOffset>
+    <IntensityBack>double:1</IntensityBack>
+    <IntensityFront>double:1.1</IntensityFront>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <ModelTailNumberBack>double:0</ModelTailNumberBack>
+    <ModelTailNumberFront>double:1</ModelTailNumberFront>
+    <Position>
+        <x>double:389.624</x>
+        <y>double:10.4171</y>
+        <z>double:-212.292</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.000233368</w>
+        <x>double:0</x>
+        <y>double:1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>collision.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="0.1">Collision_Length</PreviewScaleZ>
+</ChangeSkyCollision>

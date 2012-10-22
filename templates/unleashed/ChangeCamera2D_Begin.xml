@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<ChangeCamera2D_Begin>
+    <BaseSpacePathPosition>double:50.964</BaseSpacePathPosition>
+    <Collision_Height>double:6</Collision_Height>
+    <Collision_Width>double:8</Collision_Width>
+    <Distance>double:10.9</Distance>
+    <Ease_Time>double:0.5</Ease_Time>
+    <GroundOffset>double:0</GroundOffset>
+    <ID>double:2</ID>
+    <IsBaseSpacePlayer>bool:true</IsBaseSpacePlayer>
+    <IsCameraView>bool:false</IsCameraView>
+    <IsPositionBasePlayer>bool:true</IsPositionBasePlayer>
+    <Position>
+        <x>double:482.398</x>
+        <y>double:-160.649</y>
+        <z>double:1252.5</z>
+    </Position>
+    <Rotation>
+        <w>double:0.942963</w>
+        <x>double:0.0427782</x>
+        <y>double:-0.330078</y>
+        <z>double:0.00622966</z>
+    </Rotation>
+    <Rotation_Y>double:-0.7</Rotation_Y>
+    <Rotation_Z>double:-0.2014</Rotation_Z>
+    <SetObjectID>integer</SetObjectID>
+    <Target_Front_Offset_Bias>double:2.8</Target_Front_Offset_Bias>
+    <Target_Front_Offset_Max>double:5</Target_Front_Offset_Max>
+    <Target_Front_Offset_Speed_Scale>double:0.1</Target_Front_Offset_Speed_Scale>
+    <Target_Up_Offset>double:0.3</Target_Up_Offset>
+    <Mesh>unknown.mesh</Mesh>
+</ChangeCamera2D_Begin>

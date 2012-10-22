@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<Beach_BreakBridge>
+    <GroundOffset>double:0</GroundOffset>
+    <Position>
+        <w>double:1</w>
+        <x>double:-2.83153</x>
+        <y>double:-0.339402</y>
+        <z>double:-868.547</z>
+    </Position>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShakeTime>double:0.1</ShakeTime>
+    <Mesh>unknown.mesh</Mesh>
+</Beach_BreakBridge>

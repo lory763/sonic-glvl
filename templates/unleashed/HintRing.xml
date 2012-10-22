@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<HintRing>
+    <Category>double:0</Category>
+    <CharaType>double:1</CharaType>
+    <EventOff>double:0</EventOff>
+    <EventOff2>double:0</EventOff2>
+    <EventOn>double:0</EventOn>
+    <EventOn2>double:0</EventOn2>
+    <ExistPlatform>bool:false</ExistPlatform>
+    <GroundOffset>double:0</GroundOffset>
+    <GroupID>string:WhiteIsland_ACT2_001</GroupID>
+    <NeedInput>bool:true</NeedInput>
+    <PlayerStop>bool:true</PlayerStop>
+    <Position>
+        <x>double:-523.236</x>
+        <y>double:-20.7412</y>
+        <z>double:-3249.24</z>
+    </Position>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TargetListOff />
+    <TargetListOff2 />
+    <TargetListOn />
+    <TargetListOn2 />
+    <TimerOff>double:0</TimerOff>
+    <TimerOff2>double:0</TimerOff2>
+    <TimerOn>double:0</TimerOn>
+    <TimerOn2>double:0</TimerOn2>
+    <UsePicture>bool:true</UsePicture>
+    <WaitEvent>bool:false</WaitEvent>
+    <Mesh>unknown.mesh</Mesh>
+</HintRing>

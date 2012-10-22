@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<CteGunTruck100ChangeApplyImplusCollision>
+    <ApplyImplusType>double:2</ApplyImplusType>
+    <Collision_Height>double:6</Collision_Height>
+    <Collision_Length>double:6</Collision_Length>
+    <Collision_Width>double:2</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:477.723</x>
+        <y>double:-43.1722</y>
+        <z>double:-154.491</z>
+    </Position>
+    <Range>double:10030</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:-0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Mesh>collision.mesh</Mesh>
+</CteGunTruck100ChangeApplyImplusCollision>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<PressThorn>
+    <BottomStopTime>double:0.3</BottomStopTime>
+    <DownTime>double:5</DownTime>
+    <GroundOffset>double:0</GroundOffset>
+    <IsMessageOn>bool:true</IsMessageOn>
+    <IsMoveable>bool:true</IsMoveable>
+    <IsTopThorn>bool:true</IsTopThorn>
+    <Phase>double:0</Phase>
+    <Position>
+        <w>double:1</w>
+        <x>double:269.089</x>
+        <y>double:-19.4733</y>
+        <z>double:-8786.72</z>
+    </Position>
+    <Rotation>
+        <w>double:0</w>
+        <x>double:0</x>
+        <y>double:1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TopStoptime>double:1.7</TopStoptime>
+    <UpDownWidth>double:8</UpDownWidth>
+    <UpTime>double:2</UpTime>
+    <Mesh>unknown.mesh</Mesh>
+</PressThorn>

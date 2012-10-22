@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<ObjCamera2D>
+    <BaseSpacePathPosition>double:45.5257</BaseSpacePathPosition>
+    <Distance>double:28.2</Distance>
+    <Ease_Time_Enter>double:0</Ease_Time_Enter>
+    <Ease_Time_Leave>double:0</Ease_Time_Leave>
+    <Fovy>double:45</Fovy>
+    <GroundOffset>double:0</GroundOffset>
+    <IsBaseSpacePlayer>bool:true</IsBaseSpacePlayer>
+    <IsCameraView>bool:true</IsCameraView>
+    <IsCollision>bool:false</IsCollision>
+    <IsPositionBasePlayer>bool:true</IsPositionBasePlayer>
+    <Position>
+        <x>double:-513.831</x>
+        <y>double:-31.0424</y>
+        <z>double:-3666.69</z>
+    </Position>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <Rotation_Y>double:-0.47</Rotation_Y>
+    <Rotation_Z>double:-0.34</Rotation_Z>
+    <SetObjectID>integer</SetObjectID>
+    <Target_Front_Offset_Bias>double:1.8</Target_Front_Offset_Bias>
+    <Target_Front_Offset_Max>double:4</Target_Front_Offset_Max>
+    <Target_Front_Offset_Speed_Scale>double:0.1</Target_Front_Offset_Speed_Scale>
+    <Target_Up_Offset>double:2</Target_Up_Offset>
+    <Mesh>unknown.mesh</Mesh>
+</ObjCamera2D>

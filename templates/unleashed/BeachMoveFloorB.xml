@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<BeachMoveFloorB>
+    <Amplitude>double:10.1</Amplitude>
+    <AppearStopTime>double:0.5</AppearStopTime>
+    <AppearTime>double:0.5</AppearTime>
+    <Cycle>double:0.1</Cycle>
+    <DisappearStopTime>double:0.5</DisappearStopTime>
+    <DisappearTime>double:1</DisappearTime>
+    <Gravity>double:45</Gravity>
+    <GroundOffset>double:0</GroundOffset>
+    <IsMessageON>bool:false</IsMessageON>
+    <IsReverse>bool:false</IsReverse>
+    <Length>double:5</Length>
+    <MoveType>double:2</MoveType>
+    <OnFloorTime>double:3</OnFloorTime>
+    <OnShakeTime>double:0</OnShakeTime>
+    <PathReverseTime>double:2</PathReverseTime>
+    <PathSpeed>double:1</PathSpeed>
+    <Phase>double:0</Phase>
+    <Position>
+        <w>double:1</w>
+        <x>double:-189.843</x>
+        <y>double:-33.13</y>
+        <z>double:-10691.7</z>
+    </Position>
+    <PressDirection>double:0</PressDirection>
+    <ResetTime>double:5</ResetTime>
+    <Rotation>
+        <w>double:0.70076</w>
+        <x>double:0</x>
+        <y>double:-0.713396</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</BeachMoveFloorB>

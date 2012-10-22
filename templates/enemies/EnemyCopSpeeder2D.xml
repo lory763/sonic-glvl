@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<EnemyCopSpeeder2D>
+    <FindConeLen>double:10</FindConeLen>
+    <FindNoLostTime>double:7</FindNoLostTime>
+    <FindSphereRad>double:5</FindSphereRad>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:1494.91</x>
+        <y>double:-1311.19</y>
+        <z>double:246.976</z>
+    </Position>
+    <Range>double:30</Range>
+    <ReadyTime>double:1</ReadyTime>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <VelMax>double:60</VelMax>
+    <Mesh>cmn_copspeeder_HD.mesh</Mesh>
+</EnemyCopSpeeder2D>

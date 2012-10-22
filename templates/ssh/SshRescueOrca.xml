@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<SshRescueOrca>
+    <DstPos>vector3</DstPos>
+    <DstPos_Success>vector3</DstPos_Success>
+    <GroundOffset>double:0</GroundOffset>
+    <HopHeight>double:5</HopHeight>
+    <HudHeight>double:10</HudHeight>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:-681.895</x>
+        <y>double:-7.30835</y>
+        <z>double:-1615.11</z>
+    </Position>
+    <Range>double:300</Range>
+    <RangeX>double:20</RangeX>
+    <RangeY>double:34</RangeY>
+    <RangeZ>double:25</RangeZ>
+    <RelTouchHeight>double:8</RelTouchHeight>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <UseSuccess>bool:false</UseSuccess>
+    <VelXZ>double:40</VelXZ>
+    <Mesh>ssh_obj_orca_HD.mesh</Mesh>
+</SshRescueOrca>

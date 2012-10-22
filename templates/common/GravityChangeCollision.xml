@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<GravityChangeCollision>
+    <Collision_Height>double:40</Collision_Height>
+    <Collision_Length>double:100</Collision_Length>
+    <Collision_Width>double:20</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <EnteringLimitTime>double:-1</EnteringLimitTime>
+    <Gravity>double:120</Gravity>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:-2118.31</x>
+        <y>double:71.7023</y>
+        <z>double:-393.132</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.448403</w>
+        <x>double:0.107652</x>
+        <y>double:0.862808</y>
+        <z>double:-0.207142</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Mesh>collision.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">Collision_Length</PreviewScaleZ>
+</GravityChangeCollision>

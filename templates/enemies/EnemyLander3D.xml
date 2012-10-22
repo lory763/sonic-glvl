@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<EnemyLander3D>
+    <ActionRange>double:100</ActionRange>
+    <AttackRad>double:10</AttackRad>
+    <AttackRange>double:0</AttackRange>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:false</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:true</IsDamageFromOnlyPlayer>
+    <IsMove>bool:false</IsMove>
+    <IsPlayFindMotion>bool:true</IsPlayFindMotion>
+    <MoveSpeed>double:2</MoveSpeed>
+    <MoveType>double:0</MoveType>
+    <Position>
+        <x>double:-438.562</x>
+        <y>double:45.9173</y>
+        <z>double:-413.505</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:6.06274e-008</w>
+        <x>double:0</x>
+        <y>double:-0.999998</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShotAngle>double:45</ShotAngle>
+    <ShotInterval>double:2</ShotInterval>
+    <ShotNum>double:1</ShotNum>
+    <ShotRange>double:5</ShotRange>
+    <ShotReadyTime>double:1</ShotReadyTime>
+    <ShotRotOffset>double:30</ShotRotOffset>
+    <ShotSpeed>double:2</ShotSpeed>
+    <Target>vector3</Target>
+    <WayPointA>vector3</WayPointA>
+    <WayPointB>vector3</WayPointB>
+    <Mesh>enm_lander_HD.mesh</Mesh>
+</EnemyLander3D>

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<SshRuinFloor>
+    <CenterNum>double:2</CenterNum>
+    <EffectType>double:0</EffectType>
+    <FallingPosY>double:0</FallingPosY>
+    <FrameNumX>double:0</FrameNumX>
+    <FrameNumZ>double:0</FrameNumZ>
+    <FrameOffsetY>double:0</FrameOffsetY>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsFallingPosConst>bool:false</IsFallingPosConst>
+    <MoveDistance>double:26.4001</MoveDistance>
+    <Phase>double:0</Phase>
+    <Position>
+        <x>double:1013.43</x>
+        <y>double:10.1862</y>
+        <z>double:282.874</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.999962</w>
+        <x>double:0</x>
+        <y>double:0.008726</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Size>double:15</Size>
+    <StartMove>bool:false</StartMove>
+    <UseBottomModel>bool:false</UseBottomModel>
+    <VelDown>double:-0.1</VelDown>
+    <VelUp>double:5</VelUp>
+    <WaitTime_Down>double:0</WaitTime_Down>
+    <WaitTime_Up>double:10</WaitTime_Up>
+    <WallJump_Bottom>bool:false</WallJump_Bottom>
+    <WallJump_Side>bool:false</WallJump_Side>
+    <WallJump_Top>bool:false</WallJump_Top>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>Size==3</Condition>
+       <Mesh>ssh_obj_ruinfloor_3b_R.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Size==5</Condition>
+       <Mesh>ssh_obj_ruinfloor_5b_R.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Size==15</Condition>
+       <Mesh>ssh_obj_ruinfloor_15b_R.mesh</Mesh>
+    </AltMesh>
+</SshRuinFloor>

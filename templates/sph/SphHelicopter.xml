@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<SphHelicopter>
+    <Accel>double:20</Accel>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsKazari>bool:false</IsKazari>
+    <IsVanishEnd>bool:true</IsVanishEnd>
+    <OutOfControll>double:7</OutOfControll>
+    <PathID>double:2</PathID>
+    <Position>
+        <x>double:257.901</x>
+        <y>double:48.5695</y>
+        <z>double:53.613</z>
+    </Position>
+    <PositionList />
+    <Range>double:100</Range>
+    <ReleaseTime>double:4.3</ReleaseTime>
+    <ReleaseVel>double:10</ReleaseVel>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <VelInit>double:70</VelInit>
+    <VelMax>double:70</VelMax>
+    <Mesh>sph_obj_helicopter.mesh</Mesh>
+</SphHelicopter>

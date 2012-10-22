@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<eFighterSword>
+    <AttackInterval>double:2</AttackInterval>
+    <AttackTime>double:5</AttackTime>
+    <FirstSpeed>double:10</FirstSpeed>
+    <GroundOffset>double:0</GroundOffset>
+    <IsUseFootIK>bool:false</IsUseFootIK>
+    <MoveTypeSideView>bool:false</MoveTypeSideView>
+    <OnlyPlayerAttack>bool:false</OnlyPlayerAttack>
+    <PlayAppearEffect>bool:false</PlayAppearEffect>
+    <Position>
+        <w>double:1</w>
+        <x>double:-349.229</x>
+        <y>double:-192.87</y>
+        <z>double:372.762</z>
+    </Position>
+    <RadiusActive>double:20</RadiusActive>
+    <RadiusAttack>double:5</RadiusAttack>
+    <Rotation>
+        <w>double:0.258819</w>
+        <x>double:0</x>
+        <y>double:0.965925</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShieldType>double:0</ShieldType>
+    <StartTime>double:2</StartTime>
+    <StartWayPointID>double:0</StartWayPointID>
+    <Type>double:0</Type>
+    <Mesh>unknown.mesh</Mesh>
+</eFighterSword>

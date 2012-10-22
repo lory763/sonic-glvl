@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<SpringFake>
+    <AimDirection>double:0</AimDirection>
+    <DebugShotTimeLength>double:2</DebugShotTimeLength>
+    <FirstSpeed>double:25</FirstSpeed>
+    <GroundOffset>double:0</GroundOffset>
+    <IsBreak>bool:false</IsBreak>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsChangeCameraWhenPathChange>bool:false</IsChangeCameraWhenPathChange>
+    <IsHomingAttackEnable>bool:false</IsHomingAttackEnable>
+    <IsPathChange>bool:false</IsPathChange>
+    <IsSideSet>bool:false</IsSideSet>
+    <IsStartVelocityConstant>bool:true</IsStartVelocityConstant>
+    <IsWallWalk>bool:false</IsWallWalk>
+    <IsYawUpdate>bool:false</IsYawUpdate>
+    <KeepVelocityDistance>double:5</KeepVelocityDistance>
+    <MotionType presets=6 preset0="0(Normal Animation)" preset1="2(Instant Falling Animation)" preset2="3(06 Style Animation)" preset3="4" preset4="5(Frontflip Animation)" preset5="6(Balloon Animation)">double:0</MotionType>
+    <OutOfControl>double:1.1</OutOfControl>
+    <Position>
+        <x>double:951.253</x>
+        <y>double:-103</y>
+        <z>double:11.9038</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.508725</w>
+        <x>double:0.491273</x>
+        <y>double:-0.499923</y>
+        <z>double:0.499923</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <m_IsConstantFrame>bool:false</m_IsConstantFrame>
+    <m_IsConstantPosition>bool:true</m_IsConstantPosition>
+    <m_IsMonkeyHunting>bool:false</m_IsMonkeyHunting>
+    <m_IsStopBoost>bool:false</m_IsStopBoost>
+    <m_IsTo3D>bool:false</m_IsTo3D>
+    <m_MonkeyTarget>vector3</m_MonkeyTarget>
+    <Mesh>cmn_obj_springegg_HD.mesh</Mesh>
+</SpringFake>

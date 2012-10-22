@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<SeamlessBGMCollision>
+    <Collision_Height>double:3</Collision_Height>
+    <Collision_Length>double:5</Collision_Length>
+    <Collision_Width>double:4</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:3.62756</x>
+        <y>double:14.5837</y>
+        <z>double:-1.01085</z>
+    </Position>
+    <Range>double:10</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707106</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Stage>double:3</Stage>
+    <Mesh>collision.mesh</Mesh>
+</SeamlessBGMCollision>

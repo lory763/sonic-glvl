@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<eFighter>
+    <GroundOffset>double:0</GroundOffset>
+    <IsUseFootIK>bool:false</IsUseFootIK>
+    <MoveTypeSideView>bool:false</MoveTypeSideView>
+    <OnlyPlayerAttack>bool:false</OnlyPlayerAttack>
+    <PlayAppearEffect>bool:false</PlayAppearEffect>
+    <Position>
+        <x>double:-140.544</x>
+        <y>double:-16.4266</y>
+        <z>double:-879.27</z>
+    </Position>
+    <RadiusActive>double:20</RadiusActive>
+    <RadiusAttack>double:4.5</RadiusAttack>
+    <Rotation>
+        <w>double:-0.704802</w>
+        <x>double:-0.00248285</x>
+        <y>double:0.709394</y>
+        <z>double:-0.00289241</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <StartWayPointID>double:0</StartWayPointID>
+    <Type>double:2</Type>
+    <TurnPoint>
+        <w>double:0</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </TurnPoint>
+    <Mesh>unknown.mesh</Mesh>
+</eFighter>

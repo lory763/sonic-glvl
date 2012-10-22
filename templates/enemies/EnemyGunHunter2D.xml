@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<EnemyGunHunter2D>
+    <ActionRange>double:100</ActionRange>
+    <AppearType>double:2</AppearType>
+    <AttackRange>double:5</AttackRange>
+    <DebugPointClear>bool:false</DebugPointClear>
+    <EnableTurnSearch>bool:true</EnableTurnSearch>
+    <EventAppear>bool:true</EventAppear>
+    <FallSpeed>double:20</FallSpeed>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:false</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:true</IsDamageFromOnlyPlayer>
+    <IsPlayFindMotion>bool:true</IsPlayFindMotion>
+    <PathIsAccel>double:0</PathIsAccel>
+    <PathIsBezier>double:1</PathIsBezier>
+    <PathPointMoveRelative>bool:true</PathPointMoveRelative>
+    <Path_IsLoop>bool:false</Path_IsLoop>
+    <Position>
+        <x>double:234.542</x>
+        <y>double:9.34867</y>
+        <z>double:-93.0574</z>
+    </Position>
+    <PositionList>
+        <Position0>vector3</Position0>
+        <Position1>vector3</Position1>
+        <Position2>vector3</Position2>
+        <Position3>vector3</Position3>
+    </PositionList>
+    <Range>double:200</Range>
+    <Rotation>
+        <w>double:0.999979</w>
+        <x>double:0</x>
+        <y>double:-0.006553</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <ShotInterval>double:2</ShotInterval>
+    <ShotReadyTime>double:1</ShotReadyTime>
+    <ShotSpeed>double:0</ShotSpeed>
+    <Target>vector3</Target>
+    <Vel1D>double:20</Vel1D>
+    <Mesh>enm_gunhunter_HD.mesh</Mesh>
+</EnemyGunHunter2D>

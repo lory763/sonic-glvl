@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<EU_BreakManhole>
+    <GroundOffset>double:0</GroundOffset>
+    <Position>
+        <w>double:1</w>
+        <x>double:-1313.84</x>
+        <y>double:-361.916</y>
+        <z>double:-726.855</z>
+    </Position>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</EU_BreakManhole>
