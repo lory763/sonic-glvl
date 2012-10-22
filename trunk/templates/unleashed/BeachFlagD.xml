@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<BeachFlagD>
+    <GroundOffset>double:0</GroundOffset>
+    <Position>
+        <w>double:1</w>
+        <x>double:-974.779</x>
+        <y>double:6.97451</y>
+        <z>double:-4842.74</z>
+    </Position>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</BeachFlagD>

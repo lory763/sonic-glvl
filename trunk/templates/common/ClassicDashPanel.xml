@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<ClassicDashPanel>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsChangeCameraWhenChangePath>bool:false</IsChangeCameraWhenChangePath>
+    <IsChangePath>bool:false</IsChangePath>
+    <IsConstantStartVelocity>bool:false</IsConstantStartVelocity>
+    <IsInvisible>bool:false</IsInvisible>
+    <IsTo3D>bool:false</IsTo3D>
+    <IsUseDelayCamera>bool:true</IsUseDelayCamera>
+    <OutOfControl>double:0.25</OutOfControl>
+    <Position>
+        <x>double:207.844</x>
+        <y>double:-13.0384</y>
+        <z>double:10.4571</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Speed>double:45</Speed>
+    <SpeedMax>double:38</SpeedMax>
+    <SpeedMin>double:30</SpeedMin>
+    <Mesh>cmn_obj_c_dashpanel_HD.mesh</Mesh>
+</ClassicDashPanel>

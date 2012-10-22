@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<BossKey>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:-3.41497</x>
+        <y>double:12.0272</y>
+        <z>double:-1.01083</z>
+    </Position>
+    <Range>double:20</Range>
+    <Rotation>
+        <w>double:0.00149983</w>
+        <x>double:-0.00818452</x>
+        <y>double:0.999961</y>
+        <z>double:-0.00282855</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <StageID>double:0</StageID>
+    <Mesh>pam_obj_bosskey.mesh</Mesh>
+</BossKey>

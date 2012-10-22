@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<EnemyMonoBeetle2D>
+    <ActionRange>double:100</ActionRange>
+    <AttackRange>double:0</AttackRange>
+    <DebugPointClear>bool:false</DebugPointClear>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:false</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:true</IsDamageFromOnlyPlayer>
+    <IsPatrol>bool:false</IsPatrol>
+    <IsPlayFindMotion>bool:true</IsPlayFindMotion>
+    <IsRebirth>bool:false</IsRebirth>
+    <PathIsAccel>double:0</PathIsAccel>
+    <PathIsBezier>double:1</PathIsBezier>
+    <PathPointMoveRelative>bool:true</PathPointMoveRelative>
+    <Path_IsLoop>bool:true</Path_IsLoop>
+    <Position>
+        <x>double:96.0842</x>
+        <y>double:14.9575</y>
+        <z>double:0.0100294</z>
+    </Position>
+    <PositionList>
+        <Position0>vector3</Position0>
+        <Position1>vector3</Position1>
+        <Position2>vector3</Position2>
+    </PositionList>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.718031</w>
+        <x>double:-0.0331266</x>
+        <y>double:-0.695189</y>
+        <z>double:-0.0066261</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Target>vector3</Target>
+    <ToRebirthTime>double:3</ToRebirthTime>
+    <Vel1D>double:10</Vel1D>
+    <Mesh>enm_monobeetle_HD.mesh</Mesh>
+</EnemyMonoBeetle2D>

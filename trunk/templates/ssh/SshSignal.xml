@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<SshSignal>
+    <Cycle>double:1</Cycle>
+    <GroundOffset>double:0</GroundOffset>
+    <Hoge>bool:true</Hoge>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Link0>id</Link0>
+    <Link1>id</Link1>
+    <Link2>id</Link2>
+    <ModelPos0>vector3</ModelPos0>
+    <ModelPos1>vector3</ModelPos1>
+    <ModelPos2>vector3</ModelPos2>
+    <Pattern0>double:0</Pattern0>
+    <Pattern1>double:1</Pattern1>
+    <Pattern2>double:0</Pattern2>
+    <Position>
+        <x>double:-335.007</x>
+        <y>double:36.1373</y>
+        <z>double:688.899</z>
+    </Position>
+    <Range>double:200</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>ssh_obj_signal.mesh</Mesh>
+</SshSignal>

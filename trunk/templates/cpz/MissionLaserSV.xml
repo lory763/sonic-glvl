@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<MissionLaserSV>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsMessageOn>bool:false</IsMessageOn>
+    <Length>double:20</Length>
+    <Position>
+        <x>double:247.249</x>
+        <y>double:4.05682</y>
+        <z>double:10.4512</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</MissionLaserSV>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<SoundLine>
+    <BaseVolume>double:0.75</BaseVolume>
+    <CueName>string:4511_waterfall02</CueName>
+    <FileName>string:41AMB_GHZ</FileName>
+    <GroundOffset>double:0</GroundOffset>
+    <IntervalTime>double:5</IntervalTime>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsRegularly>bool:false</IsRegularly>
+    <Position>
+        <x>double:275.431</x>
+        <y>double:10.9255</y>
+        <z>double:-6.53943</z>
+    </Position>
+    <PositionList>
+        <Position0>vector3</Position0>
+        <Position1>vector3</Position1>
+    </PositionList>
+    <Radius>double:26</Radius>
+    <Range>double:50</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>sound.mesh</Mesh>
+</SoundLine>

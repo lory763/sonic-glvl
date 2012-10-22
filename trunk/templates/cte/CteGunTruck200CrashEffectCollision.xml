@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<CteGunTruck200CrashEffectCollision>
+    <Collision_Height>double:22</Collision_Height>
+    <Collision_Length>double:10</Collision_Length>
+    <Collision_Width>double:220</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:2292.38</x>
+        <y>double:-1269.94</y>
+        <z>double:529.359</z>
+    </Position>
+    <Range>double:10100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Mesh>collision.mesh</Mesh>
+</CteGunTruck200CrashEffectCollision>

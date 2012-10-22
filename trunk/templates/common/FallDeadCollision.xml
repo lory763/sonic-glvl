@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<FallDeadCollision>
+    <Collision_Height>double:48</Collision_Height>
+    <Collision_Width>double:56</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:2046.84</x>
+        <y>double:-136.992</y>
+        <z>double:-432.373</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0.707107</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>collision.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="0.1">Collision_Length</PreviewScaleZ>
+</FallDeadCollision>

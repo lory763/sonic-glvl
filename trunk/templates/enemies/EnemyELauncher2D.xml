@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<EnemyELauncher2D>
+    <ActionRange>double:50</ActionRange>
+    <AttackRange>double:30</AttackRange>
+    <EquipType>double:2</EquipType>
+    <GroundOffset>double:0</GroundOffset>
+    <IsAimTarget>bool:false</IsAimTarget>
+    <IsArrivalEffect>bool:true</IsArrivalEffect>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDamageFromOnlyPlayer>bool:false</IsDamageFromOnlyPlayer>
+    <IsPlayFindMotion>bool:true</IsPlayFindMotion>
+    <Position>
+        <x>double:-432.897</x>
+        <y>double:16.7079</y>
+        <z>double:-1216.86</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Target>vector3</Target>
+    <m_ChargeTime>double:1</m_ChargeTime>
+    <m_IsFixRotate>bool:true</m_IsFixRotate>
+    <m_NearAttackRange>double:2</m_NearAttackRange>
+    <Mesh>enm_egglauncher_HD.mesh</Mesh>
+</EnemyELauncher2D>

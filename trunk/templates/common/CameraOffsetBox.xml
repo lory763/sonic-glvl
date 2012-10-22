@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<CameraOffsetBox>
+    <Collision_Height>double:20</Collision_Height>
+    <Collision_Length>double:35</Collision_Length>
+    <Collision_Width>double:15</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <EaseTimeIn>double:1.5</EaseTimeIn>
+    <EaseTimeOut>double:1.5</EaseTimeOut>
+    <FollowRatio>double:1</FollowRatio>
+    <FollowRatioCam>double:1</FollowRatioCam>
+    <FollowRatioTrg>double:1</FollowRatioTrg>
+    <FollowXYZ>double:4</FollowXYZ>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCameraView>bool:false</IsCameraView>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <OffsetPosX>double:1</OffsetPosX>
+    <OffsetPosY>double:1</OffsetPosY>
+    <OffsetPosZ>double:0</OffsetPosZ>
+    <OffsetTrgX>double:0</OffsetTrgX>
+    <OffsetTrgY>double:0</OffsetTrgY>
+    <OffsetTrgZ>double:0</OffsetTrgZ>
+    <Position>
+        <x>double:2085.9</x>
+        <y>double:41.4968</y>
+        <z>double:-3586.22</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.990496</w>
+        <x>double:0</x>
+        <y>double:-0.137542</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Mesh>collision.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">Collision_Length</PreviewScaleZ>
+</CameraOffsetBox>

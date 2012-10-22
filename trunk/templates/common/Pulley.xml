@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<Pulley>
+    <EndPosition>double:3</EndPosition>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsJumpCancel>bool:true</IsJumpCancel>
+    <IsPoleAttackInvSide>bool:false</IsPoleAttackInvSide>
+    <Length>double:1</Length>
+    <MinInitVel>double:0</MinInitVel>
+    <PathID>double:1</PathID>
+    <Position>
+        <x>double:2047.75</x>
+        <y>double:48.5066</y>
+        <z>double:-2141.05</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0</w>
+        <x>double:0</x>
+        <y>double:1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <StartPosition>double:0</StartPosition>
+    <Mesh>cmn_obj_pulley_HD_1.mesh</Mesh>
+</Pulley>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<ChinaFloorC>
+    <AddRange>double:100</AddRange>
+    <Amplitude>double:1</Amplitude>
+    <AppearStopTime>double:0.5</AppearStopTime>
+    <AppearTime>double:0.5</AppearTime>
+    <Cycle>double:1</Cycle>
+    <DisappearStopTime>double:0.5</DisappearStopTime>
+    <DisappearTime>double:1</DisappearTime>
+    <Gravity>double:45</Gravity>
+    <GroundOffset>double:0</GroundOffset>
+    <IsDamage>bool:true</IsDamage>
+    <IsEffect>bool:false</IsEffect>
+    <IsMessageON>bool:false</IsMessageON>
+    <IsReverse>bool:false</IsReverse>
+    <IsWallJump>bool:false</IsWallJump>
+    <Length>double:5</Length>
+    <LightFieldOffset>
+        <w>double:0</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </LightFieldOffset>
+    <MoveType>double:3</MoveType>
+    <OnFloorTime>double:0.8</OnFloorTime>
+    <OnShakeTime>double:0.4</OnShakeTime>
+    <PathReverseTime>double:2</PathReverseTime>
+    <PathSpeed>double:1</PathSpeed>
+    <Phase>double:0</Phase>
+    <Position>
+        <w>double:1</w>
+        <x>double:712.403</x>
+        <y>double:-4.8</y>
+        <z>double:-1460</z>
+    </Position>
+    <PressDirection>double:0</PressDirection>
+    <ResetTime>double:5</ResetTime>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</ChinaFloorC>

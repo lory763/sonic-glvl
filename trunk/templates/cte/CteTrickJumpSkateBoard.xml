@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<CteTrickJumpSkateBoard>
+    <Angle>double:2</Angle>
+    <ApplyVelocity>double:41.9999</ApplyVelocity>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <LaunchAngle>double:30</LaunchAngle>
+    <OutOfControl>double:0.25</OutOfControl>
+    <Position>
+        <x>double:-2427.83</x>
+        <y>double:411.875</y>
+        <z>double:81.799</z>
+    </Position>
+    <Range>double:150</Range>
+    <Rotation>
+        <w>double:0.970296</w>
+        <x>double:-0.241922</x>
+        <y>double:-0.000104</y>
+        <z>double:-0.000168</z>
+    </Rotation>
+    <Scale>double:1</Scale>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>trickskateboard_01.mesh</Mesh>
+    <Mesh>trickskateboard_02.mesh</Mesh>
+    <Mesh>trickskateboard_03.mesh</Mesh>
+</CteTrickJumpSkateBoard>

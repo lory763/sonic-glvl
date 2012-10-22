@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<RedMedal>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <MedalID>double:4</MedalID>
+    <Position>
+        <x>double:493.994</x>
+        <y>double:59.9465</y>
+        <z>double:-541.844</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>cmn_obj_spcialring_HD.mesh</Mesh>
+</RedMedal>

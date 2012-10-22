@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<Balloon>
+    <BalloonColor presets=4 preset0="0" preset1="1" preset2="2" preset3="3">integer:1</BalloonColor>
+    <Dimension>double:0</Dimension>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDefaultPositionRecover>bool:true</IsDefaultPositionRecover>
+    <IsGroup>bool:true</IsGroup>
+    <Position>
+        <x>double:-676.452</x>
+        <y>double:-462.151</y>
+        <z>double:-675.823</z>
+    </Position>
+    <Range>double:30</Range>
+    <ReviveTime>double:5</ReviveTime>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:0.707107</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <SpeedMax>double:12.7098</SpeedMax>
+    <SpeedMin>double:5</SpeedMin>
+    <UpSpeed>double:16.3</UpSpeed>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>BalloonColor==0</Condition>
+       <Mesh>cmn_obj_balloonB_HD_body01.mesh</Mesh>
+       <Mesh>cmn_obj_balloonB_HD_body02.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>BalloonColor==1</Condition>
+       <Mesh>cmn_obj_balloonG_HD_body01.mesh</Mesh>
+       <Mesh>cmn_obj_balloonG_HD_body02.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>BalloonColor==2</Condition>
+       <Mesh>cmn_obj_balloonR_HD_body01.mesh</Mesh>
+       <Mesh>cmn_obj_balloonR_HD_body02.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>BalloonColor==3</Condition>
+       <Mesh>cmn_obj_balloonY_HD_body01.mesh</Mesh>
+       <Mesh>cmn_obj_balloonY_HD_body02.mesh</Mesh>
+    </AltMesh>
+
+</Balloon>

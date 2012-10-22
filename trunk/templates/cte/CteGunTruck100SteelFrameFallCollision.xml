@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<CteGunTruck100SteelFrameFallCollision>
+    <Collision_Height>double:24</Collision_Height>
+    <Collision_Length>double:21</Collision_Length>
+    <Collision_Width>double:10</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <Event0>double:5</Event0>
+    <Event1>double:0</Event1>
+    <Event2>double:0</Event2>
+    <Event3>double:0</Event3>
+    <Event4>double:0</Event4>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:701.506</x>
+        <y>double:-92.6876</y>
+        <z>double:-629.212</z>
+    </Position>
+    <Range>double:10000</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <TargetList0>list</TargetList0>
+    <TargetList1>id</TargetList1>
+    <TargetList2 />
+    <TargetList3 />
+    <TargetList4 />
+    <Timer0>double:0</Timer0>
+    <Timer1>double:0</Timer1>
+    <Timer2>double:0</Timer2>
+    <Timer3>double:0</Timer3>
+    <Timer4>double:0</Timer4>
+    <Mesh>collision.mesh</Mesh>
+</CteGunTruck100SteelFrameFallCollision>

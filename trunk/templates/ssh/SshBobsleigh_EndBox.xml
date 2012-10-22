@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<SshBobsleigh_EndBox>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Num>double:14</Num>
+    <Position>
+        <x>double:-510.331</x>
+        <y>double:28.533</y>
+        <z>double:-157.925</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.707104</w>
+        <x>double:0.00191449</x>
+        <y>double:-0.707104</y>
+        <z>double:-0.00191471</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>ssh_obj_bobsleigh_gate.mesh</Mesh>
+</SshBobsleigh_EndBox>

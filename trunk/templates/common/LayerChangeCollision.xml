@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<LayerChangeCollision>
+    <Collision_Height>double:10</Collision_Height>
+    <Collision_Length>double:10</Collision_Length>
+    <Collision_Width>double:10</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsInitAll>bool:false</IsInitAll>
+    <ONLayerIndex>string:plan_ly03</ONLayerIndex>
+    <ONLayerIndex1>string:base</ONLayerIndex1>
+    <ONLayerIndex2>string:base</ONLayerIndex2>
+    <ONLayerIndex3>string:base</ONLayerIndex3>
+    <OffLayerIndex>string:base</OffLayerIndex>
+    <OffLayerIndex1>string:base</OffLayerIndex1>
+    <OffLayerIndex2>string:base</OffLayerIndex2>
+    <OffLayerIndex3>string:base</OffLayerIndex3>
+    <Position>
+        <x>double:-532.35</x>
+        <y>double:2.25969</y>
+        <z>double:-32.3267</z>
+    </Position>
+    <Range>double:10100</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <UseON>bool:true</UseON>
+    <UseON1>bool:false</UseON1>
+    <UseON2>bool:false</UseON2>
+    <UseON3>bool:false</UseON3>
+    <UseOff>bool:false</UseOff>
+    <UseOff1>bool:false</UseOff1>
+    <UseOff2>bool:false</UseOff2>
+    <UseOff3>bool:false</UseOff3>
+    <Mesh>collision.mesh</Mesh>
+</LayerChangeCollision>

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<CpzSewageTrapSignal>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:253.303</x>
+        <y>double:-36.1183</y>
+        <z>double:10.5571</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>integer:0</Type>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>Type==0</Condition>
+       <Mesh>cpz_obj_pipemarkR_01.mesh</Mesh>
+       <Mesh>cpz_obj_pipemarkR_02.mesh</Mesh>
+       <Mesh>cpz_obj_pipemarkR_03.mesh</Mesh>
+       <Mesh>cpz_obj_pipemarkR_04.mesh</Mesh>
+       <Mesh>cpz_obj_pipemarkR_05.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==1</Condition>
+       <Mesh>cpz01_pipemarkL_01.mesh</Mesh>
+       <Mesh>cpz01_pipemarkL_02.mesh</Mesh>
+       <Mesh>cpz01_pipemarkL_03.mesh</Mesh>
+       <Mesh>cpz01_pipemarkL_04.mesh</Mesh>
+       <Mesh>cpz01_pipemarkL_05.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==2</Condition>
+       <Mesh>cpz01_pipemarkS_01.mesh</Mesh>
+       <Mesh>cpz01_pipemarkS_02.mesh</Mesh>
+       <Mesh>cpz01_pipemarkS_03.mesh</Mesh>
+       <Mesh>cpz01_pipemarkS_04.mesh</Mesh>
+       <Mesh>cpz01_pipemarkS_05.mesh</Mesh>
+    </AltMesh>
+</CpzSewageTrapSignal>

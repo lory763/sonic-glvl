@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<ObjCameraPoint>
+    <Distance>double:5</Distance>
+    <Ease_Time_Enter>double:0</Ease_Time_Enter>
+    <Ease_Time_Leave>double:0</Ease_Time_Leave>
+    <Fovy>double:80</Fovy>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCameraView>bool:false</IsCameraView>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsCollision>bool:false</IsCollision>
+    <IsControllable>bool:false</IsControllable>
+    <Position>
+        <x>double:2049.1</x>
+        <y>double:-129.606</y>
+        <z>double:-468.719</z>
+    </Position>
+    <Range>double:100000</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Target>id</Target>
+    <TargetOffset_Front>double:1</TargetOffset_Front>
+    <TargetOffset_Right>double:0</TargetOffset_Right>
+    <TargetOffset_Up>double:-1</TargetOffset_Up>
+    <TargetOffset_Vel>double:0</TargetOffset_Vel>
+    <TargetPositionFix>vector3</TargetPositionFix>
+    <Target_Type>double:0</Target_Type>
+    <VelOffsetXYZ>double:0</VelOffsetXYZ>
+    <ZRot>double:0</ZRot>
+    <Mesh>camera.mesh</Mesh>
+</ObjCameraPoint>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<CteGunTruck200WallRunStartCollision>
+    <Collision_Height>double:15</Collision_Height>
+    <Collision_Length>double:10</Collision_Length>
+    <Collision_Width>double:11</Collision_Width>
+    <DebugPointClear>bool:false</DebugPointClear>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <PathIsAccel>double:1</PathIsAccel>
+    <PathIsBezier>double:1</PathIsBezier>
+    <PathPointMoveRelative>bool:true</PathPointMoveRelative>
+    <Path_IsLoop>bool:false</Path_IsLoop>
+    <Position>
+        <x>double:1507.84</x>
+        <y>double:-1251.06</y>
+        <z>double:546.428</z>
+    </Position>
+    <PositionList>
+        <Position0>vector3</Position0>
+        <Position1>vector3</Position1>
+        <Position2>vector3</Position2>
+        <Position3>vector3</Position3>
+        <Position4>vector3</Position4>
+        <Position5>vector3</Position5>
+    </PositionList>
+    <Range>double:5000</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Vel1D>double:40</Vel1D>
+    <Mesh>collision.mesh</Mesh>
+</CteGunTruck200WallRunStartCollision>

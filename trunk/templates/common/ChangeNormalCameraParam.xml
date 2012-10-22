@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<ChangeNormalCameraParam>
+    <Collision_Height>double:40</Collision_Height>
+    <Collision_Length>double:320</Collision_Length>
+    <Collision_Width>double:260</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <EaseTime>double:1</EaseTime>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCameraView>bool:true</IsCameraView>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:-1068.47</x>
+        <y>double:-277</y>
+        <z>double:-516.759</z>
+    </Position>
+    <Range>double:1000</Range>
+    <Rotation>
+        <w>double:0.999969</w>
+        <x>double:0</x>
+        <y>double:-0.00785919</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <m_Param.Distance>double:8.6</m_Param.Distance>
+    <m_Param.Fovy>double:50</m_Param.Fovy>
+    <m_Param.TargetPitch>double:0</m_Param.TargetPitch>
+    <m_Param.TargetYaw>double:0</m_Param.TargetYaw>
+    <m_Param.VerticalOffset>double:2.6</m_Param.VerticalOffset>
+    <Mesh>camera.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="1.0">Collision_Length</PreviewScaleZ>
+</ChangeNormalCameraParam>

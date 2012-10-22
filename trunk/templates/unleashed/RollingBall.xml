@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<RollingBall>
+    <BallNum>double:1</BallNum>
+    <Cycle>double:-0.33</Cycle>
+    <GroundOffset>double:0</GroundOffset>
+    <Phase>double:0</Phase>
+    <Position>
+        <w>double:1</w>
+        <x>double:-542.743</x>
+        <y>double:-38.9301</y>
+        <z>double:-10654.7</z>
+    </Position>
+    <Radius>double:1</Radius>
+    <Rotation>
+        <w>double:-4.37114e-008</w>
+        <x>double:0</x>
+        <y>double:1</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+</RollingBall>

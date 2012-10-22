@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<CtePhysicsCar>
+    <Color>double:245</Color>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <IsRigidBodyHigh>bool:false</IsRigidBodyHigh>
+    <ModelType>double:1</ModelType>
+    <Position>
+        <x>double:346.7</x>
+        <y>double:-1.51379</y>
+        <z>double:-138.5</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:0.701084</w>
+        <x>double:0.0920902</x>
+        <y>double:0.701084</y>
+        <z>double:-0.0920899</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>ModelType==0</Condition>
+       <Mesh>cte_obj_carA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>ModelType==1</Condition>
+       <Mesh>cte_obj_carB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>ModelType==2</Condition>
+       <Mesh>cte_obj_carC.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>ModelType==3</Condition>
+       <Mesh>cte_obj_carD.mesh</Mesh>
+    </AltMesh>
+</CtePhysicsCar>

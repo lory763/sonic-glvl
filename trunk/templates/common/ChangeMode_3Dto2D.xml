@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<ChangeMode_3Dto2D>
+    <Collision_Height>double:40</Collision_Height>
+    <Collision_Width>double:25</Collision_Width>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <Position>
+        <x>double:2048.43</x>
+        <y>double:91.5105</y>
+        <z>double:-2670.9</z>
+    </Position>
+    <Range>double:100</Range>
+    <Rotation>
+        <w>double:0.707107</w>
+        <x>double:0</x>
+        <y>double:-0.000173</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <TargetDirection>vector3</TargetDirection>
+    <m_IsAutoChange2DPath>bool:true</m_IsAutoChange2DPath>
+    <m_IsChangeCamera>bool:true</m_IsChangeCamera>
+    <m_IsEnableFromBack>bool:true</m_IsEnableFromBack>
+    <m_IsEnableFromFront>bool:true</m_IsEnableFromFront>
+    <m_IsPadCorrect>bool:true</m_IsPadCorrect>
+    <m_PathEaseTime>double:0.5</m_PathEaseTime>
+    <Mesh>changemode.mesh</Mesh>
+
+    <PreviewScaleX multiplier="1.0">Collision_Width</PreviewScaleX>
+    <PreviewScaleY multiplier="1.0">Collision_Height</PreviewScaleY>
+    <PreviewScaleZ multiplier="0.1">Collision_Length</PreviewScaleZ>
+</ChangeMode_3Dto2D>

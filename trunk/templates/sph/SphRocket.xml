@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<SphRocket>
+    <Accel>double:4.5</Accel>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <NoCatchTime>double:-0.1</NoCatchTime>
+    <OutOfControllTime>double:0</OutOfControllTime>
+    <PathID>double:1</PathID>
+    <Position>
+        <x>double:443.393</x>
+        <y>double:-46.997</y>
+        <z>double:-40.3048</z>
+    </Position>
+    <PositionList />
+    <Range>double:30</Range>
+    <ReleaseTime>double:1.3</ReleaseTime>
+    <Rotation>
+        <w>double:0.999999</w>
+        <x>double:0</x>
+        <y>double:0.000566306</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <VelInit>double:48.0001</VelInit>
+    <VelMax>double:70</VelMax>
+    <Mesh>sph_obj_rocket.mesh</Mesh>
+</SphRocket>

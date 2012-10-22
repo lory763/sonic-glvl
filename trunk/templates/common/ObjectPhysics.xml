@@ -1,0 +1,835 @@
+<?xml version="1.0" ?>
+<ObjectPhysics>
+    <AddRange>double:0</AddRange>
+    <CullingRange>double:15</CullingRange>
+    <DebrisTarget>vector3</DebrisTarget>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:true</IsCastShadow>
+    <IsDynamic>bool:false</IsDynamic>
+    <IsReset>bool:false</IsReset>
+    <Position>
+        <x>double:389.654</x>
+        <y>double:13.5666</y>
+        <z>double:-265.855</z>
+    </Position>
+    <Range>double:30</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Type>string:cte_obj_woodboxA</Type>
+    <WrappedObjectID>id</WrappedObjectID>
+    <Mesh>unknown.mesh</Mesh>
+
+    <AltMesh>
+       <Condition>Type==cmn_obj_tripplate</Condition>
+       <Mesh>cmn_obj_tripplate.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==bpc_obj_debrisA</Condition>
+       <Mesh>bpc_obj_debrisA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==bpc_obj_debrisB</Condition>
+       <Mesh>bpc_obj_debrisB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==bpc_obj_debrisC</Condition>
+       <Mesh>bpc_obj_debrisC.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==bpc_obj_debrisDa</Condition>
+       <Mesh>bpc_obj_debrisDa.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==bpc_obj_debrisDb</Condition>
+       <Mesh>bpc_obj_debrisDb.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==bpc_obj_footholdA</Condition>
+       <Mesh>bpc_obj_footholdA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==bpc_obj_footholdB</Condition>
+       <Mesh>bpc_obj_footholdB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==Bpc_obj_redcar</Condition>
+       <Mesh>bpc_obj_redcar.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==Bpc_obj_taxi</Condition>
+       <Mesh>bpc_obj_taxi.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==bpc_obj_tornado</Condition>
+       <Mesh>bpc_obj_tornado.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+      <Condition>Type==cpz_obj_pipelinecapA</Condition>
+      <Mesh>cpz_obj_pipelinecapA_01.mesh</Mesh>
+      <Mesh>cpz_obj_pipelinecapA_02.mesh</Mesh>
+      <Mesh>cpz_obj_pipelinecapA_03.mesh</Mesh>
+      <Mesh>cpz_obj_pipelinecapA_04.mesh</Mesh>
+      <Mesh>cpz_obj_pipelinecapA_05.mesh</Mesh>
+      <Mesh>cpz_obj_pipelinecapA_06.mesh</Mesh>
+      <Mesh>cpz_obj_pipelinecapA_07.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cpz_obj_breakbox</Condition>
+       <Mesh>cpz_obj_breakbox_01.mesh</Mesh>
+       <Mesh>cpz_obj_breakbox_02.mesh</Mesh>
+       <Mesh>cpz_obj_breakbox_03.mesh</Mesh>
+       <Mesh>cpz_obj_breakbox_04.mesh</Mesh>
+       <Mesh>cpz_obj_breakbox_05.mesh</Mesh>
+       <Mesh>cpz_obj_breakbox_06.mesh</Mesh>
+       <Mesh>cpz_obj_breakbox_07.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cpz_obj_breakboxtall</Condition>
+       <Mesh>cpz_obj_breakboxtall_01.mesh</Mesh>
+       <Mesh>cpz_obj_breakboxtall_02.mesh</Mesh>
+       <Mesh>cpz_obj_breakboxtall_03.mesh</Mesh>
+       <Mesh>cpz_obj_breakboxtall_04.mesh</Mesh>
+       <Mesh>cpz_obj_breakboxtall_05.mesh</Mesh>
+       <Mesh>cpz_obj_breakboxtall_06.mesh</Mesh>
+       <Mesh>cpz_obj_breakboxtall_07.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==chn_thornclub_01</Condition>
+       <Mesh>chn_thornclub_01_01.mesh</Mesh>
+       <Mesh>chn_thornclub_01_02.mesh</Mesh>
+       <Mesh>chn_thornclub_01_03.mesh</Mesh>
+       <Mesh>chn_thornclub_01_04.mesh</Mesh>
+       <Mesh>chn_thornclub_01_05.mesh</Mesh>
+       <Mesh>chn_thornclub_01_06.mesh</Mesh>
+       <Mesh>chn_thornclub_01_07.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_barricadeA</Condition>
+       <Mesh>cte_obj_barricadeA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_bench</Condition>
+       <Mesh>cte_obj_bench.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_boadtrickjump</Condition>
+       <Mesh>cte_obj_boadtrickjump.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_cablecar</Condition>
+       <Mesh>cte_obj_cablecar.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_carA</Condition>
+       <Mesh>cte_obj_carA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_carB</Condition>
+       <Mesh>cte_obj_carB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_carC</Condition>
+       <Mesh>cte_obj_carC.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_carD</Condition>
+       <Mesh>cte_obj_carD.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_chairA</Condition>
+       <Mesh>cte_obj_chairA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_HexagonFloar</Condition>
+       <Mesh>cte_obj_HexagonFloar.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_house02</Condition>
+       <Mesh>cte_obj_house02.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_paperbox</Condition>
+       <Mesh>cte_obj_paperbox.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_parasolA</Condition>
+       <Mesh>cte_obj_parasolA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_parasolB</Condition>
+       <Mesh>cte_obj_parasolB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_parkingmeter</Condition>
+       <Mesh>cte_obj_parkingmeter.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_parkingsign</Condition>
+       <Mesh>cte_obj_parkingsign.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_post</Condition>
+       <Mesh>cte_obj_post.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_tableA</Condition>
+       <Mesh>cte_obj_tableA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_signal</Condition>
+       <Mesh>cte_obj_signal.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_telbox</Condition>
+       <Mesh>cte_obj_telbox.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_trashbox</Condition>
+       <Mesh>cte_obj_trashbox.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_tree</Condition>
+       <Mesh>cte_obj_tree.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==objcte_obj_post</Condition>
+       <Mesh>objcte_obj_post.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==cte_obj_woodboxA</Condition>
+       <Mesh>cte_obj_woodboxA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==WoodBox</Condition>
+       <Mesh>cte_obj_woodboxA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==epm_st_ssz_yh1_eggdeathstar1</Condition>
+       <Mesh>epm_st_ssz_yh1_eggdeathstar1.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_breakfloorA</Condition>
+       <Mesh>ssz_obj_breakfloorA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_breakfloorB</Condition>
+       <Mesh>ssz_obj_breakfloorB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_breakfloorC</Condition>
+       <Mesh>ssz_obj_breakfloorC.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_breakwindowA</Condition>
+       <Mesh>ssz_obj_breakwindowA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_breakwindowB</Condition>
+       <Mesh>ssz_obj_breakwindowB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_breakwindowC</Condition>
+       <Mesh>ssz_obj_breakwindowC.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_breakwindowD</Condition>
+       <Mesh>ssz_obj_breakwindowD.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_debrisA</Condition>
+       <Mesh>ssz_obj_debrisA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_dropbridgeA</Condition>
+       <Mesh>ssz_obj_dropbridgeA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_droptowerA</Condition>
+       <Mesh>ssz_obj_droptowerA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_droptowerB</Condition>
+       <Mesh>ssz_obj_droptowerB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_droptowerC</Condition>
+       <Mesh>ssz_obj_droptowerC.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_droptowerD</Condition>
+       <Mesh>ssz_obj_droptowerD.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_eggstar</Condition>
+       <Mesh>ssz_obj_eggstar.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_fallingdebris</Condition>
+       <Mesh>ssz_obj_fallingdebris.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_GoldBall</Condition>
+       <Mesh>ssz_obj_GoldBall.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_GoldBall_night</Condition>
+       <Mesh>ssz_obj_GoldBall_night.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_MetalPillar</Condition>
+       <Mesh>ssz_obj_MetalPillar.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_RollingTop</Condition>
+       <Mesh>ssz_obj_RollingTop.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_signarrow</Condition>
+       <Mesh>ssz_obj_signarrow.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_slope</Condition>
+       <Mesh>ssz_obj_slope.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_Stick</Condition>
+       <Mesh>ssz_obj_Stick.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_StoneBaseA</Condition>
+       <Mesh>ssz_obj_StoneBaseA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_StoneBaseB</Condition>
+       <Mesh>ssz_obj_StoneBaseB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_brkwinAnoBound</Condition>
+       <Mesh>ssz_obj_breakwindowA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_guidestick_7M</Condition>
+       <Mesh>ssz_obj_GuideStick_7M.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssz_obj_guidestick_20M</Condition>
+       <Mesh>ssz_obj_GuideStick_20M.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_barricadeA</Condition>
+       <Mesh>sph_obj_barricadeA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_breakwindowB</Condition>
+       <Mesh>sph_obj_breakwindowB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_breakwindowC</Condition>
+       <Mesh>sph_obj_breakwindowC.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_breakwindowD</Condition>
+       <Mesh>sph_obj_breakwindowD.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_breakwindowA</Condition>
+       <Mesh>sph_obj_breakwindowA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_cartA</Condition>
+       <Mesh>sph_obj_cartA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_chairA</Condition>
+       <Mesh>sph_obj_chairA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_doorA</Condition>
+       <Mesh>sph_obj_doorA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_drumA</Condition>
+       <Mesh>sph_obj_drumA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_drumsetA</Condition>
+       <Mesh>sph_obj_drumsetA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_exhaustportA</Condition>
+       <Mesh>sph_obj_exhaustportA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_extensionpoleA</Condition>
+       <Mesh>sph_obj_extensionpoleA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_glassgroundA</Condition>
+       <Mesh>sph_obj_glassgroundA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_glassgroundA_001</Condition>
+       <Mesh>sph_obj_glassgroundA_001.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_glasspiller</Condition>
+       <Mesh>sph_obj_glasspiller.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_guardrailA</Condition>
+       <Mesh>sph_obj_guardrailA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_hoteltableA</Condition>
+       <Mesh>sph_obj_hoteltableA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_liftarmFV_hor</Condition>
+       <Mesh>sph_obj_liftarmFV_hor.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_liftarmFV_ver</Condition>
+       <Mesh>sph_obj_liftarmFV_ver.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_liftarmSV</Condition>
+       <Mesh>sph_obj_liftarmSV.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_liftpole</Condition>
+       <Mesh>sph_obj_liftpole.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_nolightcarA</Condition>
+       <Mesh>sph_obj_nolightcarA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_nolightcarB</Condition>
+       <Mesh>sph_obj_nolightcarB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_nolightcarC</Condition>
+       <Mesh>sph_obj_nolightcarC.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_nolightcarD</Condition>
+       <Mesh>sph_obj_nolightcarD.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_potplantB</Condition>
+       <Mesh>sph_obj_potplantB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_roadcornA</Condition>
+       <Mesh>sph_obj_roadcornA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_roadcornB</Condition>
+       <Mesh>sph_obj_roadcornB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_searchramp</Condition>
+       <Mesh>sph_obj_searchramp.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_sofaA</Condition>
+       <Mesh>sph_obj_sofaA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_tableA</Condition>
+       <Mesh>sph_obj_tableA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_yr1_carA</Condition>
+       <Mesh>sph_obj_yr1_carA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_yr1_carB</Condition>
+       <Mesh>sph_obj_yr1_carB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_yr1_carC</Condition>
+       <Mesh>sph_obj_yr1_carC.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==sph_obj_yr1_carD</Condition>
+       <Mesh>sph_obj_yr1_carD.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==pla_ks2_barricade</Condition>
+       <Mesh>pla_ks2_barricade.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==pla_ks2_oildrum</Condition>
+       <Mesh>pla_ks2_oildrum.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==pla_ks2_plabox</Condition>
+       <Mesh>pla_ks2_plabox.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==pla_ks2_safetydrum</Condition>
+       <Mesh>pla_ks2_safetydrum.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==pla_obj_Redlight</Condition>
+       <Mesh>pla_obj_Redlight.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==pla_obj_signarrowA</Condition>
+       <Mesh>pla_obj_signarrowA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==csc_obj_barricadeA</Condition>
+       <Mesh>csc_obj_barricadeA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==csc_obj_barricadeB</Condition>
+       <Mesh>csc_obj_barricadeB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==csc_obj_glass</Condition>
+       <Mesh>csc_obj_glass.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==csc_obj_glass_remains</Condition>
+       <Mesh>csc_obj_glass_remains.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==csc_obj_roadconeA</Condition>
+       <Mesh>csc_obj_roadconeA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==csc_obj_roadconeB</Condition>
+       <Mesh>csc_obj_roadconeB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==csc_obj_roadconeC</Condition>
+       <Mesh>csc_obj_roadconeC.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==csc_obj_roadconeD</Condition>
+       <Mesh>csc_obj_roadconeD.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_barrel</Condition>
+       <Mesh>euc_obj_barrel.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_barrelgold</Condition>
+       <Mesh>euc_obj_barrelgold.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_board</Condition>
+       <Mesh>euc_obj_board.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_boardA</Condition>
+       <Mesh>euc_obj_boardA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_boardB</Condition>
+       <Mesh>euc_obj_boardB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_breakirongate</Condition>
+       <Mesh>euc_obj_breakirongate.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_breakirongates</Condition>
+       <Mesh>euc_obj_breakirongates.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_chain</Condition>
+       <Mesh>euc_obj_chain.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_chair01</Condition>
+       <Mesh>euc_obj_chair01.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_chair02</Condition>
+       <Mesh>euc_obj_chair02.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_fence</Condition>
+       <Mesh>euc_obj_fence.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_flagA</Condition>
+       <Mesh>euc_obj_flagA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_hook</Condition>
+       <Mesh>euc_obj_hook.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_librarydoor</Condition>
+       <Mesh>euc_obj_librarydoor.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_librarydoorside</Condition>
+       <Mesh>euc_obj_librarydoorside.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_lid</Condition>
+       <Mesh>euc_obj_lid.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_manyflagA</Condition>
+       <Mesh>euc_obj_manyflagA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_ObstructwindowB</Condition>
+       <Mesh>euc_obj_ObstructwindowB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_parasol01</Condition>
+       <Mesh>euc_obj_parasol01.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_pole</Condition>
+       <Mesh>euc_obj_pole.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_polebase</Condition>
+       <Mesh>euc_obj_polebase.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_potplant_benjaminJ</Condition>
+       <Mesh>euc_obj_potplant_benjaminJ.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_potplant_dracaenaH</Condition>
+       <Mesh>euc_obj_potplant_dracaenaH.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_potplant_green</Condition>
+       <Mesh>euc_obj_potplant_green.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_potplant_ivyH</Condition>
+       <Mesh>euc_obj_potplant_ivyH.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_potplant_mixFF</Condition>
+       <Mesh>euc_obj_potplant_mixFF.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_pushbox</Condition>
+       <Mesh>euc_obj_pushbox.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_smallbarrel</Condition>
+       <Mesh>euc_obj_smallbarrel.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_tableA</Condition>
+       <Mesh>euc_obj_tableA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==euc_obj_tableB</Condition>
+       <Mesh>euc_obj_tableB.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==csc_obj_wind</Condition>
+       <Mesh>csc_obj_wind.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssh_obj_broken-door</Condition>
+       <Mesh>ssh_obj_broken-door.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssh_obj_buoy</Condition>
+       <Mesh>ssh_obj_buoy.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssh_obj_flagA</Condition>
+       <Mesh>ssh_obj_flagA.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssh_obj_giant-rock-FV</Condition>
+       <Mesh>ssh_obj_giant-rock-FV.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssh_obj_giant-rock-SV</Condition>
+       <Mesh>ssh_obj_giant-rock-SV.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssh_obj_pot</Condition>
+       <Mesh>ssh_obj_pot.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssh_obj_pushbox</Condition>
+       <Mesh>ssh_obj_pushbox.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==ssh_obj_turtle_S_HD</Condition>
+       <Mesh>ssh_obj_turtle_S_HD.mesh</Mesh>
+    </AltMesh>
+
+    <AltMesh>
+       <Condition>Type==pam_obj_soundbell</Condition>
+       <Mesh>pam_obj_soundbell.mesh</Mesh>
+    </AltMesh>
+</ObjectPhysics>

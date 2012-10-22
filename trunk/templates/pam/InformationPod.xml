@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<InformationPod>
+    <Collision_Height>double:1</Collision_Height>
+    <Collision_Length>double:1</Collision_Length>
+    <Collision_Width>double:1</Collision_Width>
+    <DefaultStatus>double:0</DefaultStatus>
+    <GroundOffset>double:0</GroundOffset>
+    <IsCastShadow>bool:false</IsCastShadow>
+    <Position>
+        <x>double:-48.3619</x>
+        <y>double:0.0011992</y>
+        <z>double:-1.01085</z>
+    </Position>
+    <Range>double:10000</Range>
+    <Rotation>
+        <w>double:1</w>
+        <x>double:0</x>
+        <y>double:0</y>
+        <z>double:0.000244141</z>
+    </Rotation>
+    <SetObjectID>integer</SetObjectID>
+    <Shape_Type>double:0</Shape_Type>
+    <Mesh>pam_obj_ipod.mesh</Mesh>
+</InformationPod>
